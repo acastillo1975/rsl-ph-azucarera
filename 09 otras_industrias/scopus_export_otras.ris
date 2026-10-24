@@ -1,0 +1,2773 @@
+TY  - CONF
+AU  - Patel, A.K.
+AU  - Prasad, M.P.R.
+TI  - Implementation of Intelligent Control for pH Neutralization Process
+PY  - 2023
+T2  - Lecture Notes in Mechanical Engineering
+SP  - 789
+EP  - 800
+DO  - 10.1007/978-981-19-2188-9_71
+UR  - https://www.scopus.com/pages/publications/85138792592?origin=resultslist
+AD  - Department of Electrical Engineering, National Institute of Technology, Kurukshetra, 136119, India
+AB  - One of the most crucial controls applied in chemical process industries is the pH neutralization process control. In various chemical industries such as pharmaceuticals, purification industries, waste vascular plant, biotechnology, organic chemistry processes, and mechanical engine's cooling system, pH control are extremely tough because due to the high nonlinearity and time varied of pH scale of the plant dynamics, pH control is the key challenge of the pH scale management systems. The pH neutralization process control cannot be effectively controlled using a conventional linear P + I + D controller. Ultimately, paper presents the comparative analysis of the control performance of advanced approaches, namely conventional PID controller, Smith predictor controller, fuzzy logic controller, and internal model control (IMC). The fuzzy logic controller has found the best control alternative among the applied control strategy for the unsteady-state pH process. The pH process is performed in a continuous-stirred tank reactor (CSTR), and its real-time implementation is performed in Simulink using MATLAB. © 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.
+KW  - Control strategy
+KW  - CSTR
+KW  - Fuzzy logic controller
+KW  - Internal model control (IMC)
+KW  - pH process
+KW  - PID controller
+KW  - Smith predictor controller
+KW  - Chemical industry
+KW  - Computer circuits
+KW  - Electric control equipment
+KW  - Fuzzy logic
+KW  - Model predictive control
+KW  - pH
+KW  - Proportional control systems
+KW  - Real time control
+KW  - Three term control systems
+KW  - Continuous stirred tank reactor
+KW  - Control strategies
+KW  - Fuzzy logic controllers
+KW  - Internal model control
+KW  - PH neutralization process
+KW  - pH process
+KW  - PID controllers
+KW  - Smith predictor controller
+KW  - Smith-predictor
+KW  - Controllers
+A2  - Manik G.
+A2  - Kalia S.
+A2  - Verma O.P.
+A2  - Sharma T.K.
+PB  - Springer Science and Business Media Deutschland GmbH
+SN  - 21954356 (ISSN); 978-981192187-2 (ISBN)
+LA  - English
+J2  - Lect. Notes Mech. Eng.
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: M.P.R. Prasad; Department of Electrical Engineering, National Institute of Technology, Kurukshetra, 136119, India; email: mprprasad@nitkkr.ac.in; Conference name: 2nd International Congress on Advances in Mechanical and Systems Engineering, CAMSE 2021; Conference date: 17 July 2021 through 19 July 2021; Conference code: 283129
+ER  -
+
+TY  - JOUR
+AU  - Medl, M.
+AU  - Rajamanickam, V.
+AU  - Striedner, G.
+AU  - Newton, J.
+TI  - Development and Validation of an Artificial Neural-Network-Based Optical Density Soft Sensor for a High-Throughput Fermentation System
+PY  - 2023
+T2  - Processes
+VL  - 11
+IS  - 1
+C7  - 297
+DO  - 10.3390/pr11010297
+UR  - https://www.scopus.com/pages/publications/85146654922?origin=resultslist
+AD  - Boehringer Ingelheim RCV GmbH & Co., KG, Dr. Boehringer-Gasse 5-11, Vienna, 1121, Austria
+AD  - Department of Biotechnology, University of Natural Resources and Life Sciences, Muthgasse 18, Vienna, 1190, Austria
+AD  - Institute of Statistics, University of Natural Resources and Life Sciences, Peter-Jordan-Straße 82/I, Vienna, 1190, Austria
+AD  - Institute of Chemical, Environmental and Bioscience Engineering, Research Area Biochemical Engineering, Gumpendorfer Strasse 1A, Vienna, 1060, Austria
+AB  - Optical density (OD) is a critical process parameter during fermentation, this being directly related to cell density, which provides valuable information regarding the state of the process. However, to measure OD, sampling of the fermentation broth is required. This is particularly challenging for high-throughput-microbioreactor (HT-MBR) systems, which require robotic liquid-handling (LiHa) systems for process control tasks, such as pH regulation or carbon feed additions. Bioreactor volume is limited and automated at-line sampling occupies the resources of LiHa systems; this affects their ability to carry out the aforementioned pipetting operations. Minimizing the number of physical OD measurements is therefore of significant interest. However, fewer measurements also result in less process information. This resource conflict has previously represented a challenge. We present an artificial neural-network-based soft sensor developed for the real-time estimation of the OD in an MBR system. This sensor was able to estimate the OD to a high degree of accuracy (>95%), even without informative process variables stemming from, e.g., off-gas analysis only available at larger scales. Furthermore, we investigated and demonstrated scaling of the soft sensor’s generalization capabilities with the data from different antibody fragments expressing Escherichia coli strains. This study contributes to accelerated biopharmaceutical process development. © 2023 by the authors.
+KW  - artificial neural network
+KW  - biopharmaceuticals
+KW  - fermentation
+KW  - high-throughput
+KW  - microbioreactor system
+KW  - optical density (OD)
+KW  - recombinant protein
+KW  - soft sensor
+KW  - Bioreactors
+KW  - Escherichia coli
+KW  - Fermentation
+KW  - Neural networks
+KW  - Recombinant proteins
+KW  - Biopharmaceuticals
+KW  - Fermentation systems
+KW  - Handling systems
+KW  - High-throughput
+KW  - Liquid handling
+KW  - Micro-bioreactor
+KW  - Microbioreactor system
+KW  - Network-based
+KW  - Optical density
+KW  - Soft sensors
+KW  - Density (optical)
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 22279717 (ISSN)
+LA  - English
+J2  - Process.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 18; Correspondence Address: V. Rajamanickam; Boehringer Ingelheim RCV GmbH & Co., KG, Vienna, Dr. Boehringer-Gasse 5-11, 1121, Austria; email: vignesh.rajamanickam@boehringer-ingelheim.com
+ER  -
+
+TY  - CONF
+AU  - Chanona, J.
+AU  - Pastor, L.
+AU  - Borrás, L.
+AU  - Seco, A.
+TI  - Application of a fuzzy algorithm for pH control in a struvite crystallisation reactor
+PY  - 2006
+T2  - Water Science and Technology
+VL  - 53
+IS  - 12
+SP  - 161
+EP  - 168
+DO  - 10.2166/wst.2006.418
+UR  - https://www.scopus.com/pages/publications/33746578495?origin=resultslist
+AD  - Depto. Ingeniería Hidráulica y Medio Ambiente, Universidad Politécnica de Valencia, 46022 Valencia, Camino de Vera s/n, Spain
+AD  - Depto. Ingeniería Química, Universidad de Valencia, 46100 Burjassot, Valencia, Doctor Moliner 50, Spain
+AB  - A struvite crystallisation process is highly dependent on pH. To achieve a high phosphorus recovery as struvite it is important to have an accurate control of pH in the reactor. The high non-linear response of pH value makes manual pH control difficult. Therefore, a software based on fuzzy logic control (FLC) has been developed to maintain the pH at a set value in a stirred reactor to crystallise struvite. The FLC developed has been based on Larsen's inference. In order to confirm the improvement of the pH stability using FLC software, different experiments have been carried out with manual control of the pH value, and with the FLC software. It has been demonstrated that using FLC software allows a precise control of pH with high stability, optimises the process, and minimises the operator intervention. © IWA Publishing 2006.
+KW  - Crystallisation
+KW  - FLC
+KW  - pH
+KW  - Struvite
+KW  - Algorithms
+KW  - Crystallization
+KW  - Fertilizers
+KW  - Fuzzy Logic
+KW  - Hydrogen-Ion Concentration
+KW  - Magnesium Compounds
+KW  - Phosphates
+KW  - Phosphorus
+KW  - Water Pollutants, Chemical
+KW  - Water Purification
+KW  - Algorithms
+KW  - Chemical reactors
+KW  - Computer software
+KW  - Crystallization
+KW  - Fuzzy control
+KW  - Optimization
+KW  - pH effects
+KW  - Phosphorus
+KW  - Algorithms
+KW  - Chemical reactors
+KW  - Computer software
+KW  - Fuzzy control
+KW  - Optimization
+KW  - pH effects
+KW  - Phosphorus
+KW  - phosphorus
+KW  - struvite
+KW  - control system
+KW  - crystallization
+KW  - fuzzy mathematics
+KW  - pH
+KW  - accuracy
+KW  - algorithm
+KW  - computer model
+KW  - computer program
+KW  - conference paper
+KW  - crystallization
+KW  - energy conservation
+KW  - equipment design
+KW  - pH
+KW  - process monitoring
+KW  - process optimization
+KW  - process technology
+KW  - stirred reactor
+KW  - waste water management
+KW  - waste water treatment plant
+KW  - Fuzzy algorithm
+KW  - Fuzzy logic control (FLC)
+KW  - Struvite
+KW  - Crystallization
+SN  - 02731223 (ISSN)
+C2  - 16889252
+LA  - English
+J2  - Water Sci. Technol.
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 10; Correspondence Address: J. Chanona; Depto. Ingeniería Hidráulica y Medio Ambiente, Universidad Politécnica de Valencia, 46022 Valencia, Camino de Vera s/n, Spain; email: jochaso@doctor.upv.es; CODEN: WSTED
+ER  -
+
+TY  - CONF
+AU  - Cho, B.C.
+AU  - Liaw, S.-L.
+AU  - Chang, C.-N.
+AU  - Yu, R.-F.
+AU  - Yang, S.-J.
+AU  - Chiou, B.-R.
+TI  - Development of a real-time control strategy with artificial neural network for automatic control of a continuous-flow sequencing batch reactor
+PY  - 2001
+T2  - Water Science and Technology
+VL  - 44
+IS  - 1
+SP  - 95
+EP  - 104
+DO  - 10.2166/wst.2001.0023
+UR  - https://www.scopus.com/pages/publications/0034910786?origin=resultslist
+AD  - Grad. Inst. of Environ. Engineering, National Central University, Chung-Li City 32054, Taiwan
+AB  - The purpose of this study is to develop a reliable and effective real-time control strategy by integrating artificial neural network (ANN) process models to perform automatic operation of a dynamic continuous-flow SBR system. The ANN process models, including ORH/pH simulation models and water quality ([NH4+-N] and [NOx--N]) prediction models, can assist in real-time searching the ORP and pH control points and evaluating the operation performances of aerobic nitrification and anoxic dentrification operation phases. Since the major biological nitrogen removal mechanisms wer controlled at nitrification (NH4+-N→NO2--N) and denitrification (NO2--N→N2) stages, as well as the phosphorus uptake and release could be completely controlled during aerobic and anoxic operation phases, the system operation performances under this ANN real-time control system revealed that both the aeration time and overall hydraulic retention time could be shortened to about 1.9-2.5 and 4.8-6.2 hrs/cycle respectively. The removal efficiencies of COD, ammonia nitrogen, total nitrogen, and phosphate were 98%, 98%, 97%, and 84% respectively, which were more effective and efficient than under conventional fixed-time control approach.
+KW  - Artificial neural network (ANN)
+KW  - Automatic control
+KW  - Biological nitrogen removal (BNR)
+KW  - Continuous-flow SBR
+KW  - Denitrification
+KW  - Nitrification
+KW  - On-line monitoring
+KW  - ORP
+KW  - pH
+KW  - Real-time control
+KW  - automated control
+KW  - control system
+KW  - neural network
+KW  - Nitrogen
+KW  - real time method
+KW  - sequencing batch reactor
+KW  - Computer simulation
+KW  - Hydraulics
+KW  - Mathematical models
+KW  - Neural networks
+KW  - Nitrification
+KW  - Nitrogen removal
+KW  - pH effects
+KW  - Real time systems
+KW  - ammonia
+KW  - nitrogen
+KW  - phosphate
+KW  - phosphorus
+KW  - Aerobic nitrification
+KW  - activated sludge
+KW  - aeration
+KW  - algorithm
+KW  - anaerobic digestion
+KW  - artificial neural network
+KW  - automation
+KW  - bioreactor
+KW  - chemical oxygen demand
+KW  - concentration (parameters)
+KW  - conference paper
+KW  - control system
+KW  - denitrification
+KW  - dephosphorylation
+KW  - model
+KW  - monitoring
+KW  - nitrification
+KW  - online system
+KW  - pH measurement
+KW  - prediction
+KW  - reliability
+KW  - sewage treatment
+KW  - simulation
+KW  - time
+KW  - waste water management
+KW  - water quality
+KW  - Reactor operation
+PB  - IWA Publishing
+SN  - 02731223 (ISSN)
+C2  - 11496683
+LA  - English
+J2  - Water Sci. Technol.
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 33; CODEN: WSTED
+ER  -
+
+TY  - JOUR
+AU  - Ikhsan, I.Z.A.I.J.
+AU  - Rahman, N.A.
+AU  - Ali, J.M.
+TI  - Temperature and pH Control of Dark Fermentation Bioreactor to Produce Biohydrogen from Palm Oil Mill Effluent by Using Fuzzy Logic Controller
+PY  - 2023
+T2  - Jurnal Kejuruteraan
+VL  - 35
+IS  - 2
+SP  - 445
+EP  - 452
+DO  - 10.17576/jkukm-2023-35(2)-16
+UR  - https://www.scopus.com/pages/publications/105008731484?origin=resultslist
+AD  - Chemical Engineering Programme, Faculty of Engineering & Built Environment, Universiti Kebangsaan Malaysia, Malaysia
+AB  - Hydrogen is the main choice of renewable fuel since it brings significant benefits compared with the other conventional fuels, such as the use of waste substrate, cleaner and highest energy density. Biological hydrogen production route is cost efficient since it can be processed in ambient conditions, easy operational techniques while keeping the environment safe. Dark fermentation to produce bio-hydrogen has received widespread attention from researchers in the present decades especially due to not requires light sources. This work is a study of the optimization of process conditions particularly pH and temperature of a dark fermentation bioreactor to produce Bio-H2 from palm oil mill effluent (POME) by using fuzzy logic controller. The simulation started by developing process and instrumentation diagram (P&ID) of bioreactor. Then a conventional PID controller and fuzzy logic controller were simulated by using MATLAB SIMULINK and the results were compared with each other in terms of safety aspect. The temperature of 37oC and pH of 6 is the optimum conditions that needs to be maintained to yield the hydrogen at 2.79 mol H2 mol-1 glucose. The pH is able to reach optimum value at 600s and 30s by using the PID controller and fuzzy logic controller, respectively. Same goes to temperature control, where the parameter reaches optimum value at 200s and 0.3s respectively. Based on these promising results, fuzzy logic controller is a good replacement for the conventional control systems since it requires shorter time to optimize process conditions, consequently making sure the safety aspect is well guaranteed. © 2023, National University of Malaysia. All rights reserved.
+KW  - Bio-H<sub>2</sub>
+KW  - Dark Fermentation
+KW  - Fuzzy Logic Controller
+KW  - PID Controller
+KW  - POME
+PB  - National University of Malaysia
+SN  - 01280198 (ISSN)
+LA  - English
+J2  - J. Kejurut.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 5; Correspondence Address: N.A. Rahman; Chemical Engineering Programme, Faculty of Engineering & Built Environment, Universiti Kebangsaan Malaysia, Malaysia; email: norlizajkkp@ukm.edu.my
+ER  -
+
+TY  - JOUR
+AU  - Hurowitz, S.E.
+AU  - Bobkov, A.
+AU  - Riggs, J.B.
+TI  - pH control using advanced proportional-integral controls with the dual- injection in-line process
+PY  - 2000
+T2  - Industrial and Engineering Chemistry Research
+VL  - 39
+IS  - 7
+SP  - 2418
+EP  - 2426
+DO  - 10.1021/ie980776x
+UR  - https://www.scopus.com/pages/publications/0034234229?origin=resultslist
+AD  - Department of Chemical Engineering, Texas Tech. University, Lubbock, TX 79409, United States
+AD  - Exxon Chemical Company, Baton Rouge, LA, United States
+AB  - This paper presents both simulation and experimental results for the application of a dual-reagent-injection in-line pH controller for wastewater neutralization. The dual-reagent-injection in-line configuration enables the gain estimation of the first-order plus deadtime (FOPDT) model of the process. A proportional-integral (PI) controller is then tuned based on the FOPDT model using Haalman's tuning rules where the process deadtime and time constant are estimated as a function of process flow rates. Controlling the intermediate pH to the average between the inlet pH and effluent pH as well as deadtime coordination of the pH readings greatly enhances the fidelity of the gain of the FOPDT model and the resulting controller performance. The proposed PI-based controller is compared with a fuzzy logic controller, the best control strategy previously developed for this in-line process, and with a conventional PI controller applied to a single-injection process using extreme changes in the influent wastewater character.
+KW  - pH
+KW  - proportional control system
+KW  - treatment plant
+KW  - Wastewater
+KW  - Computer simulation
+KW  - Effluents
+KW  - Fuzzy control
+KW  - Performance
+KW  - Process control
+KW  - Proportional control systems
+KW  - Titration
+KW  - Wastewater treatment
+KW  - Dual injection in line pH controller
+KW  - First order plus deadtime
+KW  - Haalsman tuning rules
+KW  - Influent wastewater character
+KW  - Process flow rates
+KW  - Proportional integral controls
+KW  - Wastewater neutralization
+KW  - acid base balance
+KW  - article
+KW  - flow rate
+KW  - nonhuman
+KW  - pH
+KW  - simulation
+KW  - titrimetry
+KW  - waste water management
+KW  - pH
+PB  - ACS
+SN  - 08885885 (ISSN)
+LA  - English
+J2  - Ind. Eng. Chem. Res.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 10; Correspondence Address: J.B. Riggs; Department of Chemical Engineering, Texas Tech University, Lubbock, TX 79409, United States; email: cpjbr@ttacs.ttu.edu; CODEN: IECRE
+ER  -
+
+TY  - CONF
+AU  - Zhang, J.
+AU  - Morris, J.
+TI  - Nonlinear model predictive control based on multiple local linear models
+PY  - 2001
+T2  - Proceedings of the American Control Conference
+VL  - 5
+SP  - 3503
+EP  - 3508
+UR  - https://www.scopus.com/pages/publications/0034841556?origin=resultslist
+AD  - Cent. Proc. Analyt. Contr. Technol., Dept. of Chemical and Process Eng., University of Newcastle, Newcastle upon Tyne NE1 7RU, United Kingdom
+AB  - A long range nonlinear predictive control strategy using multiple local linear models is proposed. The multiple local linear models are identified through recurrent neuro-fuzzy network training. In this modelling approach, the process operation is partitioned into several fuzzy operating regions. Within each region, a local linear model is used to represent the process. The global model output is obtained through the centre of gravity defuzzification which is essentially the interpolation of local model outputs. Based upon the multiple local linear models, a nonlinear model based controller is developed by combining several local linear model based predictive controllers which usually have analytical solutions. Control actions obtained based on local incremental models contain inherent integral actions eliminating static offsets in a natural way. The techniques are demonstrated by applying to pH control in a continuous stirred tank reactor.
+KW  - Heterogeneous control
+KW  - Local models
+KW  - Model predictive control
+KW  - Neuro-fuzzy networks
+KW  - Nonlinear process modelling
+KW  - Chemical reactors
+KW  - Computer simulation
+KW  - Fuzzy sets
+KW  - Mathematical models
+KW  - Membership functions
+KW  - Nonlinear control systems
+KW  - pH
+KW  - Process control
+KW  - Recurrent neural networks
+KW  - Multiple local linear models
+KW  - Neuro-fuzzy networks
+KW  - Nonlinear model predictive control
+KW  - Nonlinear process modelling
+KW  - Predictive control systems
+SN  - 07431619 (ISSN)
+LA  - English
+J2  - Proc Am Control Conf
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 8; Correspondence Address: J. Zhang; Cent. Proc. Analyt. Contr. Technol., Dept. of Chemical and Process Eng., University of Newcastle, Newcastle upon Tyne NE1 7RU, United Kingdom; email: jie.zhang@newscastle.ac.uk; Conference name: 2001 American Control Conference; Conference date: 25 June 2001 through 27 June 2001; Conference code: 58512; CODEN: PRACE
+ER  -
+
+TY  - JOUR
+AU  - Al-Najari, B.M.A.
+AU  - Wali, W.A.
+TI  - Optimization of pH Controller Performance for Industrial Cooling Towers via the PSO–MANFIS Hybrid Algorithm
+PY  - 2025
+T2  - Energies
+VL  - 18
+IS  - 5
+C7  - 1232
+DO  - 10.3390/en18051232
+UR  - https://www.scopus.com/pages/publications/86000744376?origin=resultslist
+AD  - Department of Electrical and Electronics Engineering, Universiti of Tenaga Nasional (UNITEN), Putrajaya Campus, Jalan IKRAM-UNITENSelangor, Kajang, 43000, Malaysia
+AD  - Department of Computer Engineering, College of Engineering, University of Basrah, Al-Basrah, 61004, Iraq
+AB  - The performance of pH controllers in industrial cooling towers is critical for maintaining optimal operational conditions and ensuring system efficiency. Industries such as the fertilizer, petrochemical, oil refinery, gas production, and power plant sectors rely on cooling towers, where poor pH regulation can lead to corrosion, scaling, and microbial growth. Traditional proportional–integral–derivative (PID) controllers are used for pH neutralization but often struggle with the cooling tower environments’ dynamic and nonlinear nature, resulting in suboptimal performance and increased operational costs. A hybrid particle swarm optimization (PSO) algorithm combined with a multiple adaptive neuro-fuzzy inference system (MANFIS) was developed to address these challenges. The MANFIS leverages fuzzy logic and neural networks to handle nonlinear pH fluctuations, while PSO improves the convergence speed and solution accuracy. This hybrid approach optimized the PID controller parameters for real-time adaptive pH control. The methodology involved collecting open-loop pH data, deriving the system transfer function, designing the PID controller, and implementing the PSO–MANFIS algorithm to fine-tune PID gains. Three tuning methods—MATLAB Tuner, MANFIS, and PSO–MANFIS—were compared. The findings proved that the PSO–MANFIS approach markedly enhanced the closed-loop efficiency by reducing overshoot and enhancing the dynamic response. These findings demonstrate that the PSO–MANFIS approach effectively maintains pH levels within desired limits, reduces energy consumption, and minimizes chemical usage and the risk of mechanical equipment damage. This study provided valuable insights into optimizing pH control strategies in industrial cooling tower systems, offering a practical solution for improving efficiency and reliability. © 2025 by the authors.
+KW  - cooling towers
+KW  - MANFIS
+KW  - pH regulation
+KW  - PID controller
+KW  - PSO–MANFIS algorithm
+KW  - Adaptive control systems
+KW  - Bioreactors
+KW  - Cooling systems
+KW  - Cooling towers
+KW  - Crystallizers
+KW  - Filtration
+KW  - Final control devices
+KW  - Fluidized beds
+KW  - Fuzzy inference
+KW  - Industrial refrigeration
+KW  - Lead refining
+KW  - Mechanical control equipment
+KW  - Nanoreactors
+KW  - Petrochemical plants
+KW  - Petrochemicals
+KW  - Petroleum refining
+KW  - Petroleum tar
+KW  - pH meters
+KW  - Thermoelectric power plants
+KW  - Multiple adaptive neuro fuzzy inference systems
+KW  - Optimisations
+KW  - Particle swarm
+KW  - Particle swarm optimization–multiple adaptive neuro-fuzzy inference system algorithm
+KW  - pH-regulation
+KW  - Proportional-integral-derivatives controllers
+KW  - Swarm optimization
+KW  - System algorithm
+KW  - Systems approach
+KW  - Three term control systems
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 19961073 (ISSN)
+LA  - English
+J2  - Energies
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 2; Correspondence Address: B.M.A. Al-Najari; Department of Electrical and Electronics Engineering, Universiti of Tenaga Nasional (UNITEN), Kajang, Putrajaya Campus, Jalan IKRAM-UNITENSelangor, 43000, Malaysia; email: pe21023@student.uniten.edu.my
+ER  -
+
+TY  - JOUR
+AU  - Guo, W.-Q.
+AU  - Ren, N.-Q.
+AU  - Chen, Z.-B.
+AU  - Liu, B.-F.
+AU  - Wang, X.-J.
+AU  - Xiang, W.-S.
+AU  - Ding, J.
+TI  - Simultaneous biohydrogen production and starch wastewater treatment in an acidogenic expanded granular sludge bed reactor by mixed culture for long-term operation
+PY  - 2008
+T2  - International Journal of Hydrogen Energy
+VL  - 33
+IS  - 24
+SP  - 7397
+EP  - 7404
+DO  - 10.1016/j.ijhydene.2008.09.039
+UR  - https://www.scopus.com/pages/publications/57549117334?origin=resultslist
+AD  - State Key Lab of Urban Water Resource and Environ, Harbin Institute of Technology, Harbin 150090, China
+AD  - School of Materials Science and Chemical Engineering, Harbin Engineering University, Harbin 150001, China
+AD  - Research Center of Life Science and Biotechnology, Northeast Agricultural University, Harbin 150030, China
+AB  - The biofilm-based expanded granular sludge bed (EGSB) reactor was developed to treat starch-containing wastewater and simultaneously recovery hydrogen by mixed microbial culture. Granular activated carbon (GAC) was used as the support media. Operating at the temperature of 30 °C for over 400 days (data not shown), the EGSB reactor presented high efficiency in hydrogen production and COD removal ability. The maximum hydrogen production rate (HPR) was found to be 1.64 L/L.d under the organic loading rate (OLR) of 1.0 g-starch/L.d, pH of 4.42 and HRT of 4 h. The hydrogen yield (HY) peaked at 0.11 L/g-COD, under the OLR of 0.5 g-starch/L.d, pH of 3.95 and HRT of 8 h. Hydrogen volume content was estimated to be 35-65% of the total biogas. The average COD removal rate was 31.1% under the OLR of 0.125 g-starch/L.d and HRT of 24 h. The main dissolved fermentation products were ethanol, acetate and butyrate. The average attached biofilm concentration was estimated to be 8.26 g/L, which favored hydrogen production and COD removal. It is speculated that the low pH operation in the present system would contribute significantly to lower the cost of alkaline amount required for pH control in the continuous operation, especially in the scale-up biohydrogen producing system. A model, built on the back propagation neural network (BPNN) theory and linear regression techniques, was developed for the simulation of EGSB system performance in the biodegradation of starch synthesis-based wastewater and simultaneous hydrogen production. The model well fitted the laboratory data, and could well simulate the removal of COD and the production of hydrogen in the EGSB reactor. © 2008 International Association for Hydrogen Energy. Published by Elsevier Ltd. All rights reserved.
+KW  - (BPNN)
+KW  - Back propagation neural network
+KW  - EGSB
+KW  - Hydrogen production
+KW  - Low pH
+KW  - Mixed culture
+KW  - Starch wastewater
+KW  - Activated carbon
+KW  - Activated carbon treatment
+KW  - Alkalinity
+KW  - Backpropagation
+KW  - Biodegradation
+KW  - Biofilms
+KW  - Carbon
+KW  - Granular materials
+KW  - Neural networks
+KW  - Starch
+KW  - Torsional stress
+KW  - Volatile fatty acids
+KW  - Wastewater treatment
+KW  - (BPNN)
+KW  - Back propagation neural networks
+KW  - EGSB
+KW  - Mixed cultures
+KW  - Starch wastewater
+KW  - Hydrogen production
+PB  - Elsevier Ltd
+SN  - 03603199 (ISSN)
+LA  - English
+J2  - Int J Hydrogen Energy
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 86; Correspondence Address: N.-Q. Ren; State Key Lab of Urban Water Resource and Environ, Harbin Institute of Technology, Harbin 150090, China; email: rnq@hit.edu.cn; CODEN: IJHED
+ER  -
+
+TY  - JOUR
+AU  - Larroca, F.P.
+AU  - Olschewski, E.S.
+AU  - Quino-Favero, J.
+AU  - Huamaní, J.R.
+AU  - Sequera, J.L.C.
+TI  - Water treatment plant prototype with ph control modeled on fuzzy logic for removing arsenic using fe(Vi) and fe(iii)
+PY  - 2020
+T2  - Water (Switzerland)
+VL  - 12
+IS  - 10
+C7  - 2834
+DO  - 10.3390/w12102834
+UR  - https://www.scopus.com/pages/publications/85092735517?origin=resultslist
+AD  - Research Group of Technological Solution for the Environment, Faculty of Engineering and Architecture, Universidad de Lima, Lima, 33, Peru
+AD  - Faculty of Industrial and Systems Engineering, Universidad Nacional de Ingeniería, Lima, 25, Peru
+AD  - Department of Computer Science, Higher Polytechnic School, University of Alcala, Alcalá de Henares, 28871, Spain
+AB  - This study proposes a fuzzy control strategy embedded in a Siemens IoT2040 gateway developed for removing inorganic arsenic from synthetic underground water in a treatment plant prototype. The prototype is used to dose a constant flow of Fe(VI) to maintain an oxide-reduction potential to guarantee the oxidation of arsenite into arsenate, while the fuzzy logic embedded in the IoT control manages the addition of Fe(III) to achieve a proper pH adjustment and efficient arsenate removal. The tests used synthetic Bangladesh groundwater enriched with 200 µg/L of arsenite and 200 µg/L of arsenate. The results revealed that the plant prototype yielded an effective treatment of the water. Arsenate was decreased to an average value of 6.66 µg/L and, the arsenite concentration decreased to 1.01 µg/L or less. These values were lower than the limit of 10 µg/L deemed by the World Health Organization as safe for human consumption. © 2020 by the authors. Licensee MDPI, Basel, Switzerland.
+KW  - Arsenate
+KW  - Arsenite
+KW  - Ferrate(VI)
+KW  - Ferric chloride
+KW  - Fuzzy logic
+KW  - IoT control
+KW  - Bangladesh
+KW  - Arsenic
+KW  - Computer circuits
+KW  - Fuzzy control
+KW  - Fuzzy logic
+KW  - Groundwater
+KW  - Iron compounds
+KW  - Arsenate removal
+KW  - Average values
+KW  - Fuzzy control strategy
+KW  - Human consumption
+KW  - Inorganic arsenic
+KW  - Oxide reduction
+KW  - Treatment plants
+KW  - World Health Organization
+KW  - arsenic
+KW  - concentration (composition)
+KW  - fuzzy mathematics
+KW  - iron
+KW  - pH
+KW  - pollutant removal
+KW  - pollution control
+KW  - reduction
+KW  - wastewater treatment
+KW  - water treatment
+KW  - Chemicals removal (water treatment)
+PB  - MDPI AG
+SN  - 20734441 (ISSN)
+LA  - English
+J2  - Water
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 6; Correspondence Address: F.P. Larroca; Research Group of Technological Solution for the Environment, Faculty of Engineering and Architecture, Universidad de Lima, Lima, 33, Peru; email: fparedes@ulima.edu.pe
+ER  -
+
+TY  - JOUR
+AU  - Suguna, R.
+AU  - Thankaraj, B.I.
+AU  - Kothandaraman, U.
+AU  - Jeevananthan, M.
+TI  - Advanced adaptive neuro-fuzzy inference system controller for optimizing pH neutralization process control
+PY  - 2026
+T2  - Canadian Journal of Chemical Engineering
+VL  - 104
+IS  - 2
+SP  - 864
+EP  - 885
+DO  - 10.1002/cjce.70053
+UR  - https://www.scopus.com/pages/publications/105013264598?origin=resultslist
+AD  - Department of Electrical and Electronics Engineering, Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College, Chennai, India
+AD  - Department of Electrical and Electronics Engineering, Saveetha School of Engineering, SIMATS, Chennai, India
+AD  - Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, India
+AD  - Department of Electrical and Electronics Engineering, Sri Manakula Vinayagar Engineering College, Puducherry, India
+AB  - The heavy reliance of modern industries on chemical processes to facilitate the mass production of cosmetics, beverages, food products, and pharmaceuticals has in turn contributed to the heightened significance of pH value regulation that supports product quality assurance. However, the process of pH control is difficult due to its highly sensitive, dynamic, and nonlinear nature. The conventional control approaches like proportional integral derivative (PID) and proportional integral (PI) controller are inept at handling the complex process of pH control. Thereby, in this work adaptive neuro-fuzzy inference system (ANFIS), which combines the accuracy of fuzzy inference system (FIS) and learning capability of adaptive neural network (ANN) is applied for pH process regulation. Moreover, the controller operation is improved further with the application of chicken swarm optimization (CSO) for tuning its input parameters. The primary goal is to accomplish effective load regulation and appropriate set-point tracking using smoother control signal. According to the derived simulation outcomes, it is observed that both the industrial and standard structure of the proposed chicken swarm (CS)-ANFIS controller outperforms other existing control techniques with better disturbance rejection, set-point tracking and excellent sensitivity to change in model parameters. © 2025 Canadian Society for Chemical Engineering.
+KW  - CS-optimized ANFIS controller
+KW  - pH process
+KW  - PI controller
+KW  - PID controller
+KW  - Adaptive control systems
+KW  - Animals
+KW  - Disturbance rejection
+KW  - Electric control equipment
+KW  - Food products
+KW  - Fuzzy inference
+KW  - Fuzzy neural networks
+KW  - Fuzzy systems
+KW  - Process control
+KW  - Proportional control systems
+KW  - Quality assurance
+KW  - Three term control systems
+KW  - Two term control systems
+KW  - Adaptive neuro-fuzzy inference
+KW  - Chicken swarm-optimized adaptive neuro-fuzzy inference system controller
+KW  - Neuro-fuzzy inference systems
+KW  - PH control
+KW  - PH neutralization process
+KW  - pH process
+KW  - Proportional integral controllers
+KW  - Proportional-integral-derivatives controllers
+KW  - Set-point tracking
+KW  - System controllers
+KW  - Controllers
+PB  - John Wiley and Sons Inc
+SN  - 00084034 (ISSN)
+LA  - English
+J2  - Can. J. Chem. Eng.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: R. Suguna; Department of Electrical and Electronics Engineering, Vel Tech High TechRangarajanSakunthala Engineering College, Chennai, India; email: rsuguna016@gmail.com; CODEN: CJCEA
+ER  -
+
+TY  - JOUR
+AU  - Zhang, P.
+AU  - Zhang, S.
+AU  - Xu, M.
+AU  - Jiang, S.
+AU  - Ou, X.
+AU  - Wang, C.
+AU  - Yu, Y.
+AU  - Wu, C.
+TI  - Bio-electro-Fenton systems in wastewater treatment: Research progress and prospects
+PY  - 2025
+T2  - Journal of Electroanalytical Chemistry
+VL  - 981
+C7  - 118959
+DO  - 10.1016/j.jelechem.2025.118959
+UR  - https://www.scopus.com/pages/publications/85216463364?origin=resultslist
+AD  - State Key Laboratory of Environmental Criteria and Risk Assessment, Chinese Research Academy of Environment Sciences, Beijing, China
+AD  - Research Center of Environmental Pollution Control Engineering Technology, Chinese Research Academy of Environmental Sciences, Beijing, China
+AD  - School of Energy and Environmental Engineering, Hebei University of Engineering, Handan, China
+AB  - Fenton process is a highly promising technology for wastewater treatment, but its operational potential is limited by pH sensitivity and excessive sludge production. The bio-electro-Fenton (BEF) system combines the cost-effectiveness of biotechnology with the sludge reduction effects of electro-Fenton, offering greater economic benefits and treatment potential compared to other enhanced Fenton processes. However, challenges persist in terms of stringent pH control, low electricity production efficiency, and limited reaction efficiency when applied at a large scale. Therefore, this paper introduces the BEF mechanism, examines key factors influencing its efficiency in terms of biological and catalytic performance, and highlights recent innovations in electrode materials, catalysts, and reactor design. The discussion focuses on the challenges and limitations faced by the BEF system in catalysts and reactor configurations for large-scale industrial applications. Strategies are proposed to overcome key technical constraints and enhance the cost-effectiveness of the process. It is recommended to integrate BEF with biological methods, develop highly efficient catalysts, and leverage modeling technologies such as Matlab/Simulink and artificial neural networks to accelerate the full-scale application of BEF technology. © 2025 Elsevier B.V.
+KW  - Bio-electro-Fenton
+KW  - Optimizing process control
+KW  - Recalcitrant organics removal
+KW  - System configuration
+KW  - Wastewater treatment
+KW  - Bio-electro-fenton
+KW  - Electro-fenton
+KW  - Fenton system
+KW  - Fenton's process
+KW  - Large-scales
+KW  - Optimizing process control
+KW  - Organic removal
+KW  - Recalcitrant organic removal
+KW  - Recalcitrant organics
+KW  - Systems Configuration
+PB  - Elsevier B.V.
+SN  - 15726657 (ISSN)
+LA  - English
+J2  - J Electroanal Chem
+M3  - Review
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 15; Correspondence Address: M. Xu; State Key Laboratory of Environmental Criteria and Risk Assessment, Chinese Research Academy of Environment Sciences, Beijing, China; email: renyumeiwen1987@163.com; CODEN: JECHE
+ER  -
+
+TY  - JOUR
+AU  - Yao, Y.
+AU  - Guan, B.
+AU  - Zhu, L.
+AU  - Zhu, T.
+AU  - Chang, S.
+AU  - Ma, J.
+AU  - Wang, R.
+AU  - Yang, D.
+AU  - Qu, H.
+AU  - Tan, B.
+AU  - Huang, Z.
+TI  - Review: From research progress to real-world marine applications of direct seawater electrolysis for hydrogen production
+PY  - 2026
+T2  - Journal of Environmental Chemical Engineering
+VL  - 14
+IS  - 3
+C7  - 122909
+DO  - 10.1016/j.jece.2026.122909
+UR  - https://www.scopus.com/pages/publications/105037881090?origin=resultslist
+AD  - Key Laboratory for Power Machinery and Engineering of Ministry of Education, Shanghai Jiao Tong University, Shanghai, 200240, China
+AD  - State Key Laboratory of Precious Metal Functional Materials, Kunming, 650000, China
+AD  - Kunming Sino-Platinum Metals Catalyst Co, Ltd., Kunming, 65000, China
+AD  - State Key Laboratory of Precious Metal Functional Materials, Kunming, 650106, China
+AD  - School of Metallurgical and Energy Engineering, Kunming University of Science and Technology, Kunming, 650500, China
+AD  - State-Local Joint Engineering Research Center of Precious Metal Catalytic Technology and Application, Kunming Sino-Platinum Metals Catalysts Co., Ltd., Kunming, 650106, China
+AD  - Kunming Sino-Platinum Metals Catalyst Co.Ltd., Kunming, 650010, China
+AD  - China FAW Group Co., Ltd., Changchun, 130025, China
+AD  - Wuxi Henghe EP Tech. Co., Ltd., Wuxi, 214174, China
+AB  - Seawater covers 96.5% of Earth’s water resources, making direct seawater electrolysis (DSE) a compelling pathway for sustainable hydrogen production, particularly when coupled with offshore renewable energy. Yet the complex ionic environment of seawater imposes formidable barriers: chloride-driven side reactions compete with oxygen evolution at the anode, magnesium and calcium precipitates foul cathode surfaces, and membrane materials degrade under sustained halide attack. Bridging the gap between laboratory promise and marine-scale deployment remains the central challenge of this field. This review traces the full technical chain from fundamental catalyst design to real-world offshore demonstration. At the anode, strategies including Lewis acid protective layers, anion-enriched surface engineering, and single-atom coordination modulation have pushed oxygen evolution selectivity beyond 99%, while cathode innovations such as phosphate passivation layers, bubble-assisted self-cleaning architectures, and dynamic pH regulation have enabled systems to withstand intermittent operation exceeding 10,000 h. At the membrane and electrolyzer level, asymmetric pH configurations, zero-gap cell designs, and bipolar membrane architectures collectively address chlorine suppression, scaling control, and mass transfer limitations. The emerging role of machine learning and density functional theory in accelerating catalyst screening and elucidating corrosion mechanisms is critically assessed, alongside the data scarcity bottlenecks that constrain model generalization to genuine seawater conditions. Field demonstrations, including megawatt-scale systems and the world’s first offshore wind-coupled desalination-free hydrogen platform, are examined to identify the engineering gaps that laboratory metrics consistently underestimate: biofouling, structural fatigue, gas crossover safety, and the absence of standardized evaluation protocols. © 2026 Elsevier Ltd.
+KW  - Artificial intelligence
+KW  - Catalyst
+KW  - Direct seawater electrolysis
+KW  - Electrolyzer
+KW  - Hydrogen production
+KW  - System integration
+PB  - Elsevier Ltd
+SN  - 22132929 (ISSN)
+LA  - English
+J2  - J. Environ. Chem. Eng.
+M3  - Review
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: L. Zhu; Key Laboratory for Power Machinery and Engineering of Ministry of Education, Shanghai Jiao Tong University, Shanghai, 200240, China; email: tonyzhulei@sjtu.edu.cn
+ER  -
+
+TY  - JOUR
+AU  - Lee, J.S.Z.
+AU  - Nguyen, T.D.
+AU  - Zheng, Z.Y.
+AU  - Zhang, W.
+AU  - Liu, D.
+TI  - Real-Time Adaptive Inline Acidification Enhances Continuous pH Control for Viral Inactivation
+PY  - 2024
+T2  - Biotechnology Journal
+VL  - 19
+IS  - 11
+C7  - e202400456
+DO  - 10.1002/biot.202400456
+UR  - https://www.scopus.com/pages/publications/85208600739?origin=resultslist
+AD  - Bioprocessing Technology Institute (BTI), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore
+AB  - Existing low pH viral inactivation methods for continuous downstream processing of biologics typically rely on predictive models to estimate the necessary pH adjustments. However, these methods are of limited use during the process development stage due to the dynamic nature of capture chromatography, where batch variations can alter the eluted protein titer. This study introduces an inline viral inactivation system (IVIS) that utilizes real-time adaptive control and inline sensor readings to precisely regulate the pH manipulation for inline acidification and continuous viral inactivation. The IVIS, which includes a coiled flow inversion reactor (CFIR), is integrated with a multicolumn capture chromatography system to demonstrate a fully continuous process from protein capture chromatography to inline pH manipulation. The system achieved precise inline pH manipulation within ±0.15 and a narrow residence time distribution of 13.5 min with a relative width of 0.7. The introduction of real-time inline pH manipulation with the IVIS signifies a notable advancement in managing critical process parameters (CPPs) and ensuring consistent product quality across varied production environments for continuous downstream bioprocessing. © 2024 Wiley-VCH GmbH.
+KW  - coiled flow inverse reactor
+KW  - continuous downstream processing
+KW  - critical process parameters (CPPs)
+KW  - inline viral inactivation
+KW  - pH manipulation
+KW  - process control
+KW  - process development
+KW  - Animals
+KW  - Bioreactors
+KW  - CHO Cells
+KW  - Chromatography
+KW  - Hydrogen-Ion Concentration
+KW  - Virus Inactivation
+KW  - Adaptive control systems
+KW  - Chromatography
+KW  - Continuous time systems
+KW  - Model predictive control
+KW  - Coiled flow inverse reactor
+KW  - Continuous downstream processing
+KW  - Critical process parameter
+KW  - Critical process parameters
+KW  - Downstream-processing
+KW  - Inline viral inactivation
+KW  - Ph manipulation
+KW  - Process development
+KW  - Real- time
+KW  - Viral inactivation
+KW  - acidification
+KW  - Article
+KW  - chromatography
+KW  - continuous process
+KW  - controlled study
+KW  - downstream processing
+KW  - nonhuman
+KW  - pH
+KW  - process development
+KW  - product quality
+KW  - retention time
+KW  - virus inactivation
+KW  - animal
+KW  - bioreactor
+KW  - CHO cell line
+KW  - pH
+KW  - procedures
+KW  - Acidification
+PB  - John Wiley and Sons Inc
+SN  - 18606768 (ISSN)
+C2  - 39513354
+LA  - English
+J2  - Biotechnol. J.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 2; Correspondence Address: D. Liu; Bioprocessing Technology Institute (BTI), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore; email: Liu_Dan@bti.a-star.edu.sg
+ER  -
+
+TY  - JOUR
+AU  - Otálora, P.
+AU  - Banerjee, S.
+AU  - Mistiri, M.E.
+AU  - Khan, O.
+AU  - Rivera, D.E.
+AU  - Guzmán, J.L.
+TI  - Enhancing pH control in microalgae raceway photobioreactors using 3DoF-KF model-on-demand model predictive control
+PY  - 2026
+T2  - Control Engineering Practice
+VL  - 168
+C7  - 106742
+DO  - 10.1016/j.conengprac.2025.106742
+UR  - https://www.scopus.com/pages/publications/105029222035?origin=resultslist
+AD  - Department of Informatics, University of Almería, CIESOL, ceiA3, Almería, 04120, Spain
+AD  - Control Systems Engineering Laboratory, School for Engineering of Matter, Transport, and Energy, Arizona State University, Tempe, AZ 85287, United States
+AB  - Microalgae have gained increasing recognition as a sustainable resource with diverse applications ranging from biofuel production to wastewater treatment. Raceway reactors, the most widespread microalgae production system, are vulnerable to environmental fluctuations and external contamination, which can negatively impact microalgal growth and increase the emphasis on culture conditions, especially pH. In this study, a three-degree-of-freedom model predictive controller is presented, which is designed to regulate pH in raceway reactors. The controller employs a Model-on-Demand (MoD) approach for real-time data-driven estimation by using a database generated by exciting the system with control-relevant multisine signals. The estimated models demonstrate accurate goodness of fit across a wide range of prediction horizons, outperforming similar linear models. The controller formulation offers significant flexibility, enabling users to independently tune the speeds of setpoint tracking, measured disturbance rejection, and unmeasured disturbance rejection. The experimental results achieved in a pilot facility demonstrate that the proposed methodology is intuitive, straightforward and highly effective in controlling microalgae production systems. © 2025 The Author(s)
+KW  - Microalgae
+KW  - Model predictive control
+KW  - Model-on-demand
+KW  - Nonlinear control
+KW  - Raceway reactor
+KW  - Controllers
+KW  - Degrees of freedom (mechanics)
+KW  - Disturbance rejection
+KW  - Microalgae
+KW  - Microorganisms
+KW  - Predictive control systems
+KW  - Wastewater treatment
+KW  - Micro-algae
+KW  - Microalga
+KW  - Model-on-demand
+KW  - Model-predictive control
+KW  - Non linear control
+KW  - On demands
+KW  - PH control
+KW  - Photobiore-actor
+KW  - Production system
+KW  - Raceway reactor
+KW  - Model predictive control
+PB  - Elsevier Ltd
+SN  - 09670661 (ISSN)
+LA  - English
+J2  - Control Eng. Pract.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 1; Correspondence Address: J.L. Guzmán; Department of Informatics, University of Almería, Almería, CIESOL, ceiA3, 04120, Spain; email: joseluis.guzman@ual.es; CODEN: COEPE
+ER  -
+
+TY  - JOUR
+AU  - Menzl, S.
+AU  - Stühler, M.
+AU  - Benz, R.
+TI  - A self adaptive computer-based pH measurement and fuzzy-control system
+PY  - 1996
+T2  - Water Research
+VL  - 30
+IS  - 4
+SP  - 981
+EP  - 991
+DO  - 10.1016/0043-1354(95)00249-9
+UR  - https://www.scopus.com/pages/publications/0343113362?origin=resultslist
+AD  - Department of Biotechnology, University of Würzburg, Biozentrum, D-97074, Würzburg, Am Hubland, Germany
+AB  - The highly non-linear response of the pH value to the addition of acid or base makes pH control by conventional means very difficult, in particular when the buffer capacity of the system is not known. The aim of this study was the development and implementation of a computer-based pH measurement and fuzzy logic pH controller using a simple, low cost, pH measurement unit. The pH controller was devised to have a wide range of possible application such as the control of pH value in a laboratory reactor, or the neutralisation of waste water streams of industrial processes. This means that the controller had to be self adaptive to different or changing system parameters. The pH controller is based on fuzzy logic because it permits the inclusion of subjective knowledge, often based on experience and not on a theoretical model. It can employ data that are, to a certain extent inconsistent and it may use primary knowledge (for example experimental results) directly. We built up a self-optimizing pH measurement and controlling system that is capable of controlling the pH value within ± 0.1 units, and within a very short response time. The pH-fuzzy controller is applicable to any fermentation process requiring in situ pH measurement and control. The self adaptability of the controller makes it independent of the buffer capacity of the system, so that it is even possible to adjust the pH value of distilled water by adding 1 N acid or base solution. The controller can also be used in any pH-neutralization plant for chemical waste water by adding the required amount of acid or alkaline solution with high accuracy, thereby preventing any pH value overshoot.
+KW  - Computer
+KW  - Fuzzy-logic
+KW  - pH-control
+KW  - Fuzzy control
+KW  - Industrial waste treatment
+KW  - pH
+KW  - Process control
+KW  - Self adjusting control systems
+KW  - computer control
+KW  - fuzzy logic
+KW  - pH
+KW  - Buffer capacity
+KW  - pH control
+KW  - pH measurement
+KW  - article
+KW  - computer system
+KW  - model
+KW  - pH measurement
+KW  - priority journal
+KW  - waste water management
+KW  - Wastewater treatment
+PB  - Elsevier Ltd
+SN  - 00431354 (ISSN)
+LA  - English
+J2  - WATER RES.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 23; CODEN: WATRA
+ER  -
+
+TY  - CONF
+AU  - Akhmatov, A.A.
+AU  - Sattarov, O.U.
+AU  - Boybutayev, S.B.
+AU  - Annakulov, S.O.
+AU  - Israilov, T.A.
+TI  - Development of an intelligent control system for the biooxidation process of sulfide concentrates
+PY  - 2025
+T2  - Proceedings of SPIE - The International Society for Optical Engineering
+VL  - 13803
+C7  - 1380321
+DO  - 10.1117/12.3077889
+UR  - https://www.scopus.com/pages/publications/105022459951?origin=resultslist
+AD  - Navoi State University of Mining and Technologies, Navoi, Uzbekistan
+AB  - This article discusses the development of an intelligent control system for the biooxidation process of sulfide concentrates. Special attention is given to maintaining the optimal pH level, as it directly influences the activity of microorganisms and, consequently, the efficiency of the entire process. Key biochemical reactions occurring within the system, including the oxidation of iron ions and sulfur compounds, are analyzed. Based on these reactions, kinetic models have been developed that account for bacterial growth rates and substrate consumption. A fuzzy logic-based controller was chosen as the foundation for intelligent control, enabling effective management of complex and nonlinear biotechnological processes characterized by a high degree of uncertainty. This approach ensures precise pH regulation under variable environmental conditions. Modeling results demonstrated that the fuzzy controller outperforms traditional PID systems in terms of stability and adaptability. © 2025 SPIE.
+KW  - biooxidation
+KW  - bioreactor
+KW  - fuzzy logic
+KW  - intelligent control
+KW  - mathematical model
+KW  - pH regulation
+KW  - sulfide concentrates
+KW  - Controllers
+KW  - Environmental regulations
+KW  - Intelligent control
+KW  - Process control
+KW  - Sulfur compounds
+KW  - Three term control systems
+KW  - Bacterial growth
+KW  - Bio-oxidation
+KW  - Biochemical reactions
+KW  - Biooxidation process
+KW  - Fuzzy-Logic
+KW  - Iron ions
+KW  - Ph level
+KW  - pH-regulation
+KW  - Reaction kinetics models
+KW  - Sulfide concentrates
+KW  - Fuzzy logic
+A2  - Stanimirovic P.
+A2  - Matrasulov D.
+A2  - Oksengendler B.
+A2  - Sharipov M.
+PB  - SPIE
+SN  - 0277786X (ISSN); 978-151069493-4 (ISBN)
+LA  - English
+J2  - Proc SPIE Int Soc Opt Eng
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 1; Correspondence Address: A.A. Akhmatov; Navoi State University of Mining and Technologies, Navoi, Uzbekistan; email: a.a.axmatov@gmail.com; Conference name: Optical and Computational Technologies for Measurements and Industrial Applications, OptiComp 2025; Conference date: 24 May 2025 through 25 May 2025; Conference code: 214541; CODEN: PSISD
+ER  -
+
+TY  - JOUR
+AU  - Chen, X.
+AU  - Hou, Q.
+AU  - Liu, J.
+AU  - Zhuang, Y.
+AU  - Meng, G.
+TI  - Application of the dynamic self-adaptive nearest neighbor clustering algorithm in an industrial waste water treatment system
+PY  - 2006
+T2  - Beijing Keji Daxue Xuebao/Journal of University of Science and Technology Beijing
+VL  - 28
+IS  - 1
+SP  - 84
+EP  - 87
+UR  - https://www.scopus.com/pages/publications/33646382614?origin=resultslist
+AD  - Information Engineering School, University of Science and Technology Beijing, Beijing 100083, China
+AD  - Beihua University, Jilin 132021, China
+AD  - Daqing Petrochemical Company, Daqing 163000, China
+AB  - In order to establish a positive model of pH value control, the process with severe non-linearity and serious lag of neutralization action was studied by adding medicine in an industrial waster water neutralization control system. A novel kind of Dynamic Adaptive Nearest Neighbor Clustering (DANNC) algorithm was adopted, and a strategy by adjusting the parameter in the entire neural network to finish the task of learning and training of the neural network (NN) was applied. The NN internal model control system for pH value of neutralization, which serves as a controller of the converse model was designed, and different kinds of simulation experiments were carried. The results showed that the accuracy of the pH control system is ΔpH ≤ 0.2, which satisfied the requirement of the real time adding medicine track and anti-jamming abilities in industrial application.
+KW  - Dynamic self-adapting
+KW  - Industrial waster water
+KW  - Internal model control
+KW  - Nearest neighbor clustering algorithm
+KW  - PH value
+KW  - Adaptive control systems
+KW  - Learning algorithms
+KW  - Neural networks
+KW  - pH
+KW  - Process control
+KW  - Dynamic self-adapting
+KW  - Industrial waster water
+KW  - Internal model control
+KW  - Nearest neighbor clustering algorithm
+KW  - PH value
+KW  - Wastewater treatment
+SN  - 1001053X (ISSN)
+LA  - Chinese
+J2  - Beijing Keji Daxue Xuebao
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 1; CODEN: BKDXE
+ER  -
+
+TY  - JOUR
+AU  - Demirci, Y.
+AU  - Pekel, L.C.
+AU  - Altinten, A.
+AU  - Alpbaz, M.
+TI  - Improvement of the performance of an electrocoagulation process system using Fuzzy Control of pH
+PY  - 2015
+T2  - Water Environment Research
+VL  - 87
+IS  - 12
+SP  - 2045
+EP  - 2052
+DO  - 10.2175/106143015X14362865226996
+UR  - https://www.scopus.com/pages/publications/84950111706?origin=resultslist
+AD  - Adiyaman University, Faculty of Engineering, Department of Environmental Engineering, Adiyaman, 02040, Turkey
+AD  - Ankara University, Faculty of Engineering, Department of Chemical Engineering, Tandoʇan, Ankara, 06100, Turkey
+AD  - Gazi University, Faculty of Engineering, Department of Chemical Engineering, Maltepe, Ankara, 06570, Turkey
+AB  - The removal efficiencies of electrocoagulation (EC) systems are highly dependent on the initial value of pH. If an EC system has an acidic influent, the pH of the effluent increases during the treatment process; conversely, if such a system has an alkaline influent, the pH of the effluent decreases during the treatment process. Thus, changes in the pH of the wastewater affect the efficiency of the EC process. In this study, we investigated the dynamic effects of pH. To evaluate approaches for preventing increases in the pH of the system, the MATLAB/Simulink program was used to develop and evaluate an online computer-based system for pH control. The aim of this work was to study Proportional-Integral-Derivative (PID) control and fuzzy control of the pH of a real textile wastewater purification process using EC. The performances and dynamic behaviors of these two control systems were evaluated based on determinations of COD, colour, and turbidity removal efficiencies.
+KW  - Electrocoagulation
+KW  - Fuzzy control
+KW  - MATLAB/Simulink
+KW  - PID control
+KW  - Wastewater treatment
+KW  - Electrochemical Techniques
+KW  - Fuzzy Logic
+KW  - Hydrogen-Ion Concentration
+KW  - Waste Water
+KW  - Water Pollutants, Chemical
+KW  - Water Purification
+KW  - Alkalinity
+KW  - Coagulation
+KW  - Computer control systems
+KW  - Efficiency
+KW  - Effluent treatment
+KW  - Effluents
+KW  - Fuzzy control
+KW  - MATLAB
+KW  - pH effects
+KW  - Proportional control systems
+KW  - Three term control systems
+KW  - Two term control systems
+KW  - Wastewater treatment
+KW  - waste water
+KW  - water pollutant
+KW  - Computer-based system
+KW  - Electro coagulations
+KW  - Electrocoagulation
+KW  - MATLAB /simulink
+KW  - Proportional integral derivative control
+KW  - Removal efficiencies
+KW  - Textile wastewater
+KW  - Turbidity removal efficiency
+KW  - coagulation
+KW  - effluent
+KW  - electrochemistry
+KW  - fuzzy mathematics
+KW  - industrial waste
+KW  - textile industry
+KW  - wastewater
+KW  - aqueous solution
+KW  - Article
+KW  - chemical oxygen demand
+KW  - comparative effectiveness
+KW  - control system
+KW  - controlled study
+KW  - electric current
+KW  - electrocoagulation
+KW  - electrolysis
+KW  - fuzzy logic
+KW  - fuzzy system
+KW  - online system
+KW  - pH
+KW  - pH measurement
+KW  - priority journal
+KW  - proportional integral derivative control
+KW  - waste water management
+KW  - chemistry
+KW  - devices
+KW  - electrochemical analysis
+KW  - fuzzy logic
+KW  - pH
+KW  - procedures
+KW  - waste water
+KW  - water management
+KW  - water pollutant
+KW  - Process control
+PB  - Water Environment Federation
+SN  - 10614303 (ISSN)
+C2  - 26652117
+LA  - English
+J2  - Water Environ. Res.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 8; CODEN: WAERE
+ER  -
+
+TY  - JOUR
+AU  - An, S.
+AU  - Xu, H.
+AU  - Zhong, J.
+AU  - Li, X.
+TI  - Bioreactor pH Control System Using Interval Type-2 Fuzzy PID Controller
+PY  - 2026
+T2  - Biotechnology and Applied Biochemistry
+VL  - 73
+IS  - 2
+SP  - 380
+EP  - 393
+DO  - 10.1002/bab.70027
+UR  - https://www.scopus.com/pages/publications/105010584391?origin=resultslist
+AD  - Hubei Key Laboratory of Modern Manufacturing Quantity Engineering, School of Mechanical Engineering, Hubei University of Technology, Wuhan, China
+AB  - In cell culture, maintaining a stable and optimal pH level is critical for ensuring proper cellular growth. This study presents the design of a pH control system specifically tailored for this application, utilizing an algorithm that integrates interval type-2 fuzzy control with traditional PID control strategies. The hardware component of the control system employs an STM32 microcontroller, while the software is developed based on the process characteristics of the controlled system. The PID, type-1 fuzzy PID, and interval type-2 fuzzy PID algorithms are assessed through both simulations and experiments. The results demonstrate that the proposed interval type-2 fuzzy PID control algorithm shows reduced overshoot, enhanced control accuracy, and improved response time. Furthermore, it demonstrates a faster recovery rate when subjected to disturbances, rapidly reaching steady-state conditions and effectively fulfilling the requirements for pH regulation in cell culture. © 2025 International Union of Biochemistry and Molecular Biology, Inc.
+KW  - fuzzy PID
+KW  - interval type-2 fuzzy PID
+KW  - pH control
+KW  - STM32
+KW  - Algorithms
+KW  - Bioreactors
+KW  - Cell Culture Techniques
+KW  - Fuzzy Logic
+KW  - Hydrogen-Ion Concentration
+KW  - Cell culture
+KW  - Computer software
+KW  - Controllers
+KW  - Fuzzy control
+KW  - Microcontrollers
+KW  - Molecular biology
+KW  - Proportional control systems
+KW  - A-stable
+KW  - Fuzzy PID controller
+KW  - Fuzzy-PID
+KW  - Interval type-2 fuzzy
+KW  - Interval type-2 fuzzy PID
+KW  - PH control
+KW  - pH control systems
+KW  - Ph level
+KW  - STM32
+KW  - Article
+KW  - cell culture
+KW  - cell growth
+KW  - comparative study
+KW  - control system
+KW  - controlled study
+KW  - feedback system
+KW  - flow rate
+KW  - human
+KW  - oxygen consumption
+KW  - pH
+KW  - process control
+KW  - proportional integral derivative algorithm
+KW  - reaction time
+KW  - sensitivity analysis
+KW  - steady state
+KW  - waste water management
+KW  - algorithm
+KW  - bioreactor
+KW  - cell culture technique
+KW  - fuzzy logic
+KW  - pH
+KW  - Three term control systems
+PB  - John Wiley and Sons Inc
+SN  - 08854513 (ISSN)
+C2  - 40641184
+LA  - English
+J2  - Biotechnol. Appl. Biochem.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 1; Correspondence Address: X. Li; Hubei Key Laboratory of Modern Manufacturing Quantity Engineering, School of Mechanical Engineering, Hubei University of Technology, Wuhan, China; email: lixiao@hbut.edu.cn; CODEN: BABIE
+ER  -
+
+TY  - JOUR
+AU  - Panjapornpon, C.
+AU  - Chinchalongporn, P.
+AU  - Bardeeniz, S.
+AU  - Makkayatorn, R.
+AU  - Wongpunnawat, W.
+TI  - Reinforcement Learning Control with Deep Deterministic Policy Gradient Algorithm for Multivariable pH Process
+PY  - 2022
+T2  - Processes
+VL  - 10
+IS  - 12
+C7  - 2514
+DO  - 10.3390/pr10122514
+UR  - https://www.scopus.com/pages/publications/85144886653?origin=resultslist
+AD  - Department of Chemical Engineering, Center of Excellence on Petrochemicals and Materials Technology, Faculty of Engineering, Kasetsart University, Bangkok, 10900, Thailand
+AB  - The pH treatment unit is widely used in various processes, such as wastewater treatment, pharmaceutical manufacturing, and fermentation. It is essential to get the on-specifications product. Thus, controlling pH is key management for accomplishing the manufacturing objective. However, the highly nonlinear pH characteristics of acid–base titration make pH regulation difficult. Applications of artificial intelligence for process control have progressed and gained popularity recently. The development of reinforcement learning (RL) control with a deep deterministic policy gradient (DDPG) algorithm to handle coupled pH and liquid level control in a continuous stirred tank reactor with a strong acid–base reaction is presented in this study. To validate the RL model, the reward functions are created individually for the level and pH controls. The grid search technique is deployed to optimize the hyperparameters of the RL controller models, including the number of nodes in the hidden layers and the number of episodes. The control performance of the proposed RL control system was compared with that of the proportional-integral controller in a servo-regulatory test. The simulation results show that the proposed RL controllers outperform the proportional-integral controllers in approaching setpoints faster, with better performance and less oscillation. © 2022 by the authors.
+KW  - artificial intelligence
+KW  - deterministic deep policy gradient
+KW  - grid search
+KW  - pH control
+KW  - reinforcement learning
+PB  - MDPI
+SN  - 22279717 (ISSN)
+LA  - English
+J2  - Process.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 26; Correspondence Address: C. Panjapornpon; Department of Chemical Engineering, Center of Excellence on Petrochemicals and Materials Technology, Faculty of Engineering, Kasetsart University, Bangkok, 10900, Thailand; email: fengcnp@ku.ac.th
+ER  -
+
+TY  - CONF
+AU  - Zárate, L.E.
+AU  - Resende, P.
+AU  - Menezes, B.
+TI  - A fuzzy logic and variable structure based controller for pH control
+PY  - 2001
+T2  - IECON Proceedings (Industrial Electronics Conference)
+VL  - 3
+SP  - 37
+EP  - 42
+UR  - https://www.scopus.com/pages/publications/0035692520?origin=resultslist
+AD  - Pontifical Cathol. Univ Minas Gerais, Minas Gerais, Brazil
+AB  - The pH control is a difficult problem to solve. That happens due strong nonlinearities and extreme sensitivity to disturbances in the process. The possible combination of the variable structure system with fuzzy logic theory for the pH problem is treated in this paper. Will be showed how this theory can improve a variable structure controller applied for this process. A Smith predictor is utilized to account for the pH process time delay. This paper purposes the controller's gains adjustment by means of fuzzy logic. Simulation results are presented.
+KW  - Chemical reactors
+KW  - Chemical variables control
+KW  - Computer simulation
+KW  - Control nonlinearities
+KW  - Fuzzy sets
+KW  - pH
+KW  - Problem solving
+KW  - Sensitivity analysis
+KW  - Set theory
+KW  - Fuzzy logic theory
+KW  - pH control
+KW  - Smith predictor
+KW  - Variables structure controllers
+KW  - Control system analysis
+LA  - English
+J2  - IECON Proc
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 6; Conference name: 27th Annual Conference of the IEEE Industrial Electronics Society IECON'2001; Conference date: 29 November 2001 through 2 December 2001; Conference code: 58961; CODEN: IEPRE
+ER  -
+
+TY  - JOUR
+AU  - Guez, J.-S.
+AU  - Lacroix, P.-Y.
+AU  - Château, T.
+AU  - Vial, C.
+TI  - Deep in situ microscopy for real-time analysis of mammalian cell populations in bioreactors
+PY  - 2023
+T2  - Scientific Reports
+VL  - 13
+IS  - 1
+C7  - 22045
+DO  - 10.1038/s41598-023-48733-x
+UR  - https://www.scopus.com/pages/publications/85179304365?origin=resultslist
+AD  - Université Clermont Auvergne, Clermont Auvergne INP, CNRS, Institut Pascal, Clermont-Ferrand, 63 000, France
+AD  - Logiroad.AI, Aubière, 63 178, France
+AB  - An in situ microscope based on pulsed transmitted light illumination via optical fiber was combined to artificial-intelligence to enable for the first time an online cell classification according to well-known cellular morphological features. A 848 192-image database generated during a lab-scale production process of antibodies was processed using a convolutional neural network approach chosen for its accurate real-time object detection capabilities. In order to induce different cell death routes, hybridomas were grown in normal or suboptimal conditions in a stirred tank reactor, in the presence of substrate limitation, medium addition, pH regulation problem or oxygen depletion. Using such an optical system made it possible to monitor real-time the evolution of different classes of animal cells, among which viable, necrotic and apoptotic cells. A class of viable cells displaying bulges in feast or famine conditions was also revealed. Considered as a breakthrough in the catalogue of process analytical tools, in situ microscopy powered by artificial-intelligence is also of great interest for research. © 2023, The Author(s).
+KW  - Animals
+KW  - Bioreactors
+KW  - Hybridomas
+KW  - Mammals
+KW  - Microscopy
+KW  - animal
+KW  - hybridoma
+KW  - mammal
+KW  - microscopy
+KW  - procedures
+PB  - Nature Research
+SN  - 20452322 (ISSN)
+C2  - 38086908
+LA  - English
+J2  - Sci. Rep.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 4; Correspondence Address: J.-S. Guez; Université Clermont Auvergne, Clermont Auvergne INP, CNRS, Institut Pascal, Clermont-Ferrand, 63 000, France; email: j-sebastien.guez@uca.fr
+ER  -
+
+TY  - CONF
+AU  - Otálora, P.
+AU  - Guzmán, J.L.
+AU  - Gil, J.D.
+AU  - Berenguel, M.
+AU  - Acién, F.G.
+TI  - Data-driven Model Predictive Control for pH regulation in Raceway Reactors
+PY  - 2023
+T2  - IFAC-PapersOnLine
+VL  - 56
+IS  - 2
+SP  - 6223
+EP  - 6228
+DO  - 10.1016/j.ifacol.2023.10.746
+UR  - https://www.scopus.com/pages/publications/85183650398?origin=resultslist
+AD  - Department of Informatics, University of Almería, CIESOL, ceiA3, Almería, 04120, Spain
+AD  - Department of Chemical Engineering, University of Almería, CIESOL, ceiA3, Almería, 04120, Spain
+AB  - The industrial production of microalgae is a highly sustainable and attractive process due to its variety of applications, especially when it is combined with wastewater treatment. From a control point of view, the optimization of the process requires a considerable effort regarding the culture conditions. The biological nature of the process renders its characterization considerably difficult, as well as the acquisition of models describing its dynamics. In this work, a complete methodology for pH control in raceway photobioreactors based on the Practical Nonlinear Model Predictive Control (PNMPC) approach is proposed. Models based on Artificial Neural Networks (ANN) of the system have been obtained and validated, and a PNMPC controller based on these data-driven models has been developed and tested in a real raceway reactor. The results demonstrate the reliability of this type of models, and justify the possibility of combining them with predictive control algorithms in highly nonlinear systems. Copyright © 2023 The Authors. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+KW  - Microalgae
+KW  - Model Predictive Control
+KW  - Neural Network
+KW  - Process Control
+KW  - Microorganisms
+KW  - Model predictive control
+KW  - Neural networks
+KW  - Nonlinear systems
+KW  - Predictive control systems
+KW  - Wastewater treatment
+KW  - Culture conditions
+KW  - Data-driven model
+KW  - Industrial production
+KW  - Micro-algae
+KW  - Model-predictive control
+KW  - Neural-networks
+KW  - Nonlinear model predictive control
+KW  - Optimisations
+KW  - PH control
+KW  - pH-regulation
+KW  - Microalgae
+A2  - Ishii H.
+A2  - Ebihara Y.
+A2  - Imura J.
+A2  - Yamakita M.
+PB  - Elsevier B.V.
+SN  - 24058963 (ISSN); 978-171387234-4 (ISBN)
+LA  - English
+J2  - IFAC-PapersOnLine
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 5; Correspondence Address: P. Otálora; Department of Informatics, University of Almería, CIESOL, ceiA3, Almería, 04120, Spain; email: p.otalora@ual.es; J.D. Gil; Department of Informatics, University of Almería, CIESOL, ceiA3, Almería, 04120, Spain; email: juandiego.gil@ual.es; M. Berenguel; Department of Informatics, University of Almería, CIESOL, ceiA3, Almería, 04120, Spain; email: beren@ual.es; Conference name: 22nd IFAC World Congress; Conference date: 9 July 2023 through 14 July 2023; Conference code: 195861
+ER  -
+
+TY  - JOUR
+AU  - Cai, Q.Q.
+AU  - Lee, B.C.Y.
+AU  - Ong, S.L.
+AU  - Hu, J.Y.
+TI  - Fluidized-bed Fenton technologies for recalcitrant industrial wastewater treatment–Recent advances, challenges and perspective
+PY  - 2021
+T2  - Water Research
+VL  - 190
+C7  - 116692
+DO  - 10.1016/j.watres.2020.116692
+UR  - https://www.scopus.com/pages/publications/85097366784?origin=resultslist
+AD  - Sembcorp-NUS Corporate Laboratory, National University of Singapore, Sembcorp-NUS Corporate Laboratory c/o FoE, Block E1A, #04-01, 1 Engineering Drive 2, 117576, Singapore
+AD  - Department of Civil & Environmental Engineering, Faculty of Engineering, National University of Singapore, Block E1A, #07-01, 1 Engineering Drive 2, 117576, Singapore
+AB  - In recent years, fluidized-bed Fenton (FBR-Fenton) process has gained more attention in treating recalcitrant industrial wastewater. FBR-Fenton combines the effectiveness of homogeneous Fenton and sludge reduction of heterogeneous Fenton. Comparing to other modified Fenton processes, FBR-Fenton has greater economical and scaling up potential. However, large consumption of Fenton reagents and strict pH control are still the bottlenecks hampering the full-scale application of FBR-Fenton. While prior reviews mainly focused on the operation and performance of FBR-Fenton process, the present study critically discussed the challenges and bottlenecks for its full-scale industrial application. This study also comprehensively reviewed the development strategies for tackling these drawbacks, mainly over the recent five years. Homogeneous FBR-Fenton, heterogeneous FBR-Fenton and heterogeneous FBR-photo-Fenton processes were classified for the first time according to their reaction mechanisms and system designs. Important operational and design parameters affecting the cost-effectiveness of all FBR-Fenton technologies were reviewed, including the fundamentals, common practices and even innovative steps for enhancing the process performance. Up-to-date applications of FBR-Fenton technologies in recalcitrant wastewater/compounds treatment were also summarized, and it was found that upscaling of heterogeneous FBR-Fenton and heterogeneous FBR-photo-Fenton processes was still very challenging. Strategies to overcome the key technical limitations and enhance process cost-effectiveness were discussed in the future perspective part. Furthermore, modelling techniques such as computational fluid dynamics model and artificial neural network were suggested to be promising modelling techniques for speeding up the full-scale applications of FBR-Fenton technologies. © 2020 Elsevier Ltd
+KW  - Advanced oxidation processes
+KW  - Fluidized-bed Fenton process
+KW  - Heterogeneous Fenton process
+KW  - Industrial wastewater treatment
+KW  - Photo-Fenton process
+KW  - Recalcitrant organics removal
+KW  - Hydrodynamics
+KW  - Hydrogen Peroxide
+KW  - Oxidation-Reduction
+KW  - Sewage
+KW  - Waste Disposal, Fluid
+KW  - Waste Water
+KW  - Water Purification
+KW  - Computational fluid dynamics
+KW  - Cost effectiveness
+KW  - Fluidized bed process
+KW  - Fluidized beds
+KW  - Image processing
+KW  - Industrial water treatment
+KW  - Neural networks
+KW  - Wastewater treatment
+KW  - chelating agent
+KW  - water
+KW  - hydrogen peroxide
+KW  - Computational fluid dynamics modeling
+KW  - Development strategies
+KW  - Full-scale applications
+KW  - Heterogeneous fenton
+KW  - Industrial wastewater treatment
+KW  - Industrial wastewaters
+KW  - Photo-Fenton process
+KW  - Technical limitations
+KW  - artificial neural network
+KW  - computational fluid dynamics
+KW  - cost analysis
+KW  - industrial waste
+KW  - reduction
+KW  - sludge
+KW  - upscaling
+KW  - wastewater treatment
+KW  - artificial neural network
+KW  - computational fluid dynamics
+KW  - cost effectiveness analysis
+KW  - Fenton reaction
+KW  - pH
+KW  - physical chemistry
+KW  - priority journal
+KW  - process optimization
+KW  - reaction analysis
+KW  - Review
+KW  - scale up
+KW  - waste water management
+KW  - hydrodynamics
+KW  - oxidation reduction reaction
+KW  - sewage
+KW  - wastewater
+KW  - water management
+KW  - Oxidation
+PB  - Elsevier Ltd
+SN  - 00431354 (ISSN)
+C2  - 33279748
+LA  - English
+J2  - Water Res.
+M3  - Review
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 163; Correspondence Address: J.Y. Hu; Sembcorp-NUS Corporate Laboratory, National University of Singapore, Sembcorp-NUS Corporate Laboratory c/o FoE, Block E1A, #04-01, 1 Engineering Drive 2, 117576, Singapore; email: ceehujy@nus.edu.sg; CODEN: WATRA
+ER  -
+
+TY  - JOUR
+AU  - Takahashi, M.B.
+AU  - Leme, J.
+AU  - Caricati, C.P.
+AU  - Tonso, A.
+AU  - Fernández Núñez, E.G.
+AU  - Rocha, J.C.
+TI  - Artificial neural network associated to UV/Vis spectroscopy for monitoring bioreactions in biopharmaceutical processes
+PY  - 2024
+T2  - Bioprocess and Biosystems Engineering
+VL  - 38
+IS  - 6
+DO  - 10.1007/s00449-014-1346-7
+UR  - https://www.scopus.com/pages/publications/85027949164?origin=resultslist
+AD  - Departamento de Ciências Biológicas, Universidade Estadual Paulista “Júlio de Mesquita Filho” Campus-Assis, Avenida Dom Antonio 2100, Assis, 19806-900, SP, Brazil
+AD  - Laboratório Especial de Pesquisa e Desenvolvimento em Imunológicos Veterinários, Instituto Butantan, Av. Vital Brasil, 1500, São Paulo, 05503-900, SP, Brazil
+AD  - Laboratório de Células Animais, Departamento de Engenharia Química, Escola Politécnica, Universidade de São Paulo, Av. Prof. Luciano Gualberto, trav. 3 380, São Paulo, 05508-900, SP, Brazil
+AB  - Currently, mammalian cells are the most utilized hosts for biopharmaceutical production. The culture media for these cell lines include commonly in their composition a pH indicator. Spectroscopic techniques are used for biopharmaceutical process monitoring, among them, UV–Vis spectroscopy has found scarce applications. This work aimed to define artificial neural networks architecture and fit its parameters to predict some nutrients and metabolites, as well as viable cell concentration based on UV–Vis spectral data of mammalian cell bioprocess using phenol red in culture medium. The BHK-21 cell line was used as a mammalian cell model. Off-line spectra of supernatant samples taken from batches performed at different dissolved oxygen concentrations in two bioreactor configurations and with two pH control strategies were used to define two artificial neural networks. According to absolute errors, glutamine (0.13 ± 0.14 mM), glutamate (0.02 ± 0.02 mM), glucose (1.11 ± 1.70 mM), lactate (0.84 ± 0.68 mM) and viable cell concentrations (1.89 105 ± 1.90 105 cell/mL) were suitably predicted. The prediction error averages for monitored variables were lower than those previously reported using different spectroscopic techniques in combination with partial least squares or artificial neural network. The present work allows for UV–VIS sensor development, and decreases cost related to nutrients and metabolite quantifications. © 2014 Springer-Verlag Berlin Heidelberg
+KW  - Artificial neural network
+KW  - Biopharmaceutical process
+KW  - Bioreactor monitoring
+KW  - UV–Vis spectroscopy
+KW  - Animals
+KW  - Biological Products
+KW  - Bioreactors
+KW  - Cell Line
+KW  - Cricetinae
+KW  - Culture Media
+KW  - Hydrogen-Ion Concentration
+KW  - Neural Networks (Computer)
+KW  - Spectrophotometry, Ultraviolet
+KW  - Amino acids
+KW  - Animal cell culture
+KW  - Bioreactors
+KW  - Cells
+KW  - Dissolved oxygen
+KW  - Least squares approximations
+KW  - Mammals
+KW  - Metabolites
+KW  - Neural networks
+KW  - Process control
+KW  - Process monitoring
+KW  - biological product
+KW  - culture medium
+KW  - Biopharmaceutical process
+KW  - Biopharmaceuticals
+KW  - Bioreactions
+KW  - Bioreactor monitoring
+KW  - Cell concentrations
+KW  - Culture medium
+KW  - Mammalian cells
+KW  - Spectroscopic technique
+KW  - UV/ Vis spectroscopy
+KW  - Viable cells
+KW  - animal
+KW  - artificial neural network
+KW  - bioreactor
+KW  - cell line
+KW  - culture medium
+KW  - hamster
+KW  - pH
+KW  - procedures
+KW  - ultraviolet spectrophotometry
+KW  - Nutrients
+PB  - Springer Verlag
+SN  - 16157591 (ISSN)
+C2  - 25552348
+LA  - English
+J2  - Bioprocess Biosyst. Eng.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 52; CODEN: BBEIB
+ER  -
+
+TY  - JOUR
+AU  - Berenguel, M.
+AU  - Rodríguez, F.
+AU  - Acién, F.G.
+AU  - García, J.L.
+TI  - Model predictive control of pH in tubular photobioreactors
+PY  - 2004
+T2  - Journal of Process Control
+VL  - 14
+IS  - 4
+SP  - 377
+EP  - 387
+DO  - 10.1016/j.jprocont.2003.07.001
+UR  - https://www.scopus.com/pages/publications/0347380849?origin=resultslist
+AD  - Dpto. de Lenguajes, Area de Ing. de Sist. y Automatica, Universidad de Almería, La Canada, E04120 Almería, Carretera Sacramento s/n, Spain
+AD  - Dpto. de Ing. Química, Universidad de Almería, La Canada, E04120 Almería, Carretera Sacramento s/n, Spain
+AB  - This paper presents the development and implementation of a branch-and-bound on-off model-based predictive control (MPC) strategy aimed at controlling pH and minimising CO2 losses in a microalgal tubular photobioreactor. These kinds of photobioreactors are usually controlled by means of an on-off valve and thus classical on-off switching controllers are implemented, without taking into account plant dynamics. In the considered operating range, the nonlinearity of the system is not severe and thus a linear model of the pH evolution in spite of changes in CO2 injection and in solar radiation has been obtained and used within a MPC framework to achieve desired regulation properties trying to minimise CO2 losses, as one of the major costs in this installation is the supply of carbon dioxide and its transfer to the culture, amounting to about one-third the cost of the largest scale systems. The paper also shows the results obtained when applying the technique to the real photobioreactor. © 2003 Elsevier Ltd. All rights reserved.
+KW  - Biotechnology
+KW  - On-off model-based predictive control
+KW  - PH control
+KW  - Algorithms
+KW  - Biomass
+KW  - Bioreactors
+KW  - Carbon dioxide
+KW  - Control equipment
+KW  - Mass transfer
+KW  - pH effects
+KW  - Photoreactivity
+KW  - Photosynthesis
+KW  - Predictive control systems
+KW  - Solar radiation
+KW  - Thermostats
+KW  - Gas injection
+KW  - Photobioreactors
+KW  - Biotechnology
+SN  - 09591524 (ISSN)
+LA  - English
+J2  - J Process Control
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 115; Correspondence Address: M. Berenguel; Dpto. de Lenguajes, Area de Ing. de Sist. y Automatica, Universidad de Almería, La Canada, E04120 Almería, Carretera Sacramento s/n, Spain; email: beren@ual.es; CODEN: JPCOE
+ER  -
+
+TY  - JOUR
+AU  - Durairaj, S.
+AU  - Xavier, J.
+AU  - Patnaik, S.K.
+AU  - Panda, R.C.
+TI  - Deep Learning Based System Identification and Nonlinear Model Predictive Control of pH Neutralization Process
+PY  - 2023
+T2  - Industrial and Engineering Chemistry Research
+VL  - 62
+IS  - 33
+SP  - 13061
+EP  - 13080
+DO  - 10.1021/acs.iecr.3c01212
+UR  - https://www.scopus.com/pages/publications/85166667140?origin=resultslist
+AD  - Dept of EEE, College of Engineering, Anna University, Chennai, 600025, India
+AB  - An essential step in the progression of nonlinear system identification is the inception of recurrent and convolution-type deep learning methods in industrial units. Many chemical/pharmaceutical/wastewater process units employ pH neutralization schemes to check the acidity and alkalinity of the product before bringing them for industrial production. The inherent nonlinear dynamics, especially during the neutralization of strong acid by a strong base, pose rigorous difficulties to model uncertainties, making it highly challenging to implement automatic pH control. This research endeavor focuses on building a deep Temporal Convolution Network (TCN) with a larger receptive field to learn the dynamics of the pH neutralization process. This method uses a 1-D causal convolution strategy with a residual learning framework to perform dilated causal convolutions. The simulation studies of the proposed TCN-based identification-scheme are adopted and executed in a Python environment for two important case studies, namely, (a) single tank pH process and (b) ETP (effluent treatment plant)-pH process. The proposed TCN framework manifested supremacy over predicted model responses of LSTM (long short-term memory) and MLP (multilayer-perceptron) architectures in terms of accuracy while requiring less training time. Furthermore, in this research, a state-of-art TCN-based NMPC (nonlinear model predictive control) and LSTM-based NMPC schemes are designed, implemented, and investigated where the control performance revealed the precision of the former. © 2023 American Chemical Society.
+KW  - Alkalinity
+KW  - Computer software
+KW  - Effluent treatment
+KW  - Effluents
+KW  - Learning systems
+KW  - Long short-term memory
+KW  - Model predictive control
+KW  - Nonlinear systems
+KW  - Predictive control systems
+KW  - Religious buildings
+KW  - State space methods
+KW  - Uncertainty analysis
+KW  - Causal convolutions
+KW  - Convolution type
+KW  - Industrial units
+KW  - Learning methods
+KW  - Network-based
+KW  - Non-linear system identification
+KW  - Nonlinear model predictive control
+KW  - PH neutralization process
+KW  - pH process
+KW  - System identification models
+KW  - Convolution
+PB  - American Chemical Society
+SN  - 08885885 (ISSN)
+LA  - English
+J2  - Ind. Eng. Chem. Res.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 7; Correspondence Address: R.C. Panda; email: panda@clri.res.in; CODEN: IECRE
+ER  -
+
+TY  - CONF
+AU  - Kuo, L.-E.
+AU  - Melsheimer, S.S.
+TI  - Wastewater neutralisation control using a neural network based model predictive controller
+PY  - 1998
+T2  - Proceedings of the American Control Conference
+VL  - 6
+C7  - 703386
+SP  - 3896
+EP  - 3899
+DO  - 10.1109/ACC.1998.703386
+UR  - https://www.scopus.com/pages/publications/0012551498?origin=resultslist
+AD  - Department of Environmental Engineering, Yuan-Pei Institute of Medical Technology, Hsin-Chu City, 300, 306 Yuan-Pei Street, Taiwan
+AD  - Department of Chemical Engineering, Clemson University, Clemson, SC 29634-0909, United States
+AB  - Neutralisation is an important and common technique used in the wastewater treatment. The purpose of neutralization is to adjust the pH value to meet the requirements of the different processing units in the wastewater treatment system. Although the importance of this technique and extensive study has been devoted to neutralization control, there are still a lot of control problems in the industrial wastewater neutralization because of the nonlinearity of the titration curve, variable buffering, changes in loading. In order to cope these problems, many authors propose different solutions such as modified PI controller [1], adaptive control [2] and predictive adaptive control [3, 4]. One of the alternative control schemes recently applied to the pH control of chemical process is the use of Model Predictive Control (MPC). A Neural Network based Model Predictive Controller (NNMPC) is developed in this paper. In order to study the effectiveness of NNMPC, a simulation case of wastewater neutralisation process was chosen as a test case. © 1998 AACC.
+KW  - Adaptive control systems
+KW  - Model predictive control
+KW  - Neural networks
+KW  - Wastewater treatment
+KW  - Adaptive Control
+KW  - Chemical process
+KW  - Industrial wastewaters
+KW  - Model predictive controllers
+KW  - Neutralization control
+KW  - Processing units
+KW  - Titration curves
+KW  - Wastewater treatment system
+KW  - Predictive control systems
+SN  - 07431619 (ISSN); 0780345304 (ISBN); 978-078034530-0 (ISBN)
+LA  - English
+J2  - Proc Am Control Conf
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 4; Conference name: 1998 American Control Conference, ACC 1998; Conference date: 24 June 1998 through 26 June 1998; Conference code: 98440; CODEN: PRACE
+ER  -
+
+TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
+TI  - 2024 IEEE International Multi-Conference on Smart Systems and Green Process, IMC-SSGP 2024
+PY  - 2024
+T2  - 2024 IEEE International Multi-Conference on Smart Systems and Green Process, IMC-SSGP 2024
+UR  - https://www.scopus.com/pages/publications/105001720044?origin=resultslist
+AB  - The proceedings contain 75 papers. The topics discussed include: a rule-based power management controller for home-connected PV systems using stateflow; towards optimized dynamic ridesharing system through multi-objective reinforcement learning; levelized cost of hydrogen in the Tunisian context; production of sustainable energy storage biocomposites; design and implementation of an automated pH control system for bioreactor with integrated water management; application of fuzzy logic controller for stabilization of magnetic levitation system; 3D numerical analysis of a phase change material applied to a thermal energy storage system; first principles calculations of new half Heusler semi-conductor: green energy application; and detailed simulation analysis of rooftop stand-alone photovoltaic systems installed in arid regions of Algeria.
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 979-835037838-2 (ISBN)
+LA  - English
+J2  - IEEE Int. Multi-Conf. Smart Syst. Green Process, IMC-SSGP
+M3  - Conference review
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Conference name: 2024 IEEE International Multi-Conference on Smart Systems and Green Process, IMC-SSGP 2024; Conference date: 31 October 2024 through 3 November 2024; Conference code: 207681
+ER  -
+
+TY  - CONF
+AU  - Ashoori, A.
+AU  - Moshiri, B.
+AU  - Ramezani, A.
+AU  - Bakhtiari, M.R.
+AU  - Khaki-Sedigh, A.
+TI  - PH control of penicillin fermentation process using predictive approach
+PY  - 2009
+T2  - Systems Science
+VL  - 35
+IS  - 1
+SP  - 65
+EP  - 74
+UR  - https://www.scopus.com/pages/publications/73349121624?origin=resultslist
+AD  - Control and Intelligent Processing Center of Excellence, School of Electrical and Computer Engineering, University of Tehran, Tehran, Iran
+AD  - Iranian Research Organization for Science and Technology, Iran
+AD  - Department of Electrical Engineering, K.N. Toosi University of Technology, Tehran, Iran
+AD  - Box No. 83, 2205 Lower Mall, Vancouver, BC V6T 1Z4, United States
+AB  - Bioprocesses which are involved in producing different pharmaceutical products may conveniently be classified according to the mode chosen for the process: cither batch, fed-batch or continuous. From the control engineer's viewpoint they are fed-batch processes, which present the greatest challenge to get a pure product with a high concentration. Complicated dynamics, nonline-arity and non-stationarity make controlling them a very delicate task. pH control of bioreactors has been an interesting problem from both implementation and controller design points of view. This is particularly true if the complex microbial interactions yield significant nonlinear behavior. When this occurs, conventional control strategies may not succeed and more advanced strategies need to be suggested. This paper discusses model predictive control (MPC) based on a detailed unstructured model for penicillin production in a fed-batch fermentor. The approach used here is to use quadratic cost function for pH regulation, while taking into account control signal fluctuations in the optimization block. The result of applying the obtained controller and also its sensitivity to disturbance have been displayed and compared with the results of an auto-tuned PID controller used in previous works. The merit of this method is its low computational cost of solving the optimization problem, while leading to a closed form controller as well.
+KW  - Fed-batch fermentation process
+KW  - Linearized model
+KW  - Model predictive control
+KW  - Penicillin production
+KW  - Batch data processing
+KW  - Complexation
+KW  - Drug products
+KW  - Fermentation
+KW  - Fuzzy control
+KW  - Linearization
+KW  - Model predictive control
+KW  - Predictive control systems
+KW  - Proportional control systems
+KW  - Bioprocesses
+KW  - Closed form
+KW  - Computational costs
+KW  - Control engineers
+KW  - Control signal
+KW  - Controller designs
+KW  - Conventional control
+KW  - Fed batches
+KW  - Fed-batch fermentation
+KW  - Fed-batch process
+KW  - Fermentors
+KW  - High concentration
+KW  - Linearized model
+KW  - Linearized models
+KW  - Microbial interactions
+KW  - Non-stationarities
+KW  - Nonlinear behavior
+KW  - Optimization problems
+KW  - Penicillin fermentation process
+KW  - Penicillin production
+KW  - PH control
+KW  - pH regulation
+KW  - Pharmaceutical products
+KW  - PID controllers
+KW  - Quadratic cost functions
+KW  - Unstructured model
+KW  - Controllers
+SN  - 01371223 (ISSN)
+LA  - English
+J2  - Syst Sci
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 1; Correspondence Address: A. Ashoori; Control and Intelligent Processing Center of Excellence, School of Electrical and Computer Engineering, University of Tehran, Tehran, Iran; email: a.ashoori@ece.ut.ac.ir; CODEN: SYSCD
+ER  -
+
+TY  - CONF
+AU  - Hulhoven, X.
+AU  - Renard, F.
+AU  - Dessoy, S.
+AU  - Dehottay, Ph.
+AU  - Bogaerts, Ph.
+AU  - Vande Wouwer, A.
+TI  - Monitoring and control of a bioprocess for malaria vaccine production
+PY  - 2006
+T2  - IFAC Proceedings Volumes (IFAC-PapersOnline)
+VL  - 5
+IS  - PART 1
+SP  - 143
+EP  - 148
+DO  - 10.3182/20060705-3-fr-2907.00026
+UR  - https://www.scopus.com/pages/publications/80051595617?origin=resultslist
+AD  - Service de Chimie Générale et Biosystèmes, Université Libre de Bruxelles, B-1050 Brussels, 50 Avenue F.-D. Roosevelt, Belgium
+AD  - Service d'Automatique, Faculté Polytechnique de Mons, B-7000 Mons, Boulevard Dolez 31, Belgium
+AD  - GlaxoSmithKline Biologicals, Rixensart, Belgium
+AB  - Based on genetic manipulations, new strains of S. cerevisae are developed, which can be used for the production of pharmaceuticals. In this study, attention is focused on yeast fed-batch cultures dedicated to the production of a malaria vaccine. The efficient operation of this bioprocess requires on-line monitoring and regulation of the ethanol concentration at a low level (so as to maximize biomass productivity). This paper reports on the development of software sensors for the on-line reconstruction of biomass and ethanol, which are based on simple feedforward neural networks making only use of conventional bioprocess instrumentation (stirrer speed, base addition for pH regulation, etc.). This paper also discusses the design of a robust RST control strategy for regulating the ethanol concentration, which ensures setpoint tracking and asymptotic disturbance rejection. Robustification is achieved through the use of Youla parametrisation and on-line adaptation. This control strategy only requires the a priori knowledge about one yield coefficient and one on-line measurement sensor (i.e. an ethanol probe or the proposed software sensor). The software sensor and controller are tested successfully in real-case experimental runs.
+KW  - Artificial neural networks
+KW  - Biotechnology
+KW  - Fed-batch fermentation
+KW  - Robust control
+KW  - Software sensors
+KW  - Batch cell culture
+KW  - Bioethanol
+KW  - Biotechnology
+KW  - Diseases
+KW  - Disturbance rejection
+KW  - Ethanol
+KW  - Feedforward neural networks
+KW  - Neural networks
+KW  - Parameterization
+KW  - Robust control
+KW  - Software testing
+KW  - Vaccines
+KW  - Biomass productivity
+KW  - Ethanol concentrations
+KW  - Fed-batch fermentation
+KW  - Genetic manipulations
+KW  - Monitoring and control
+KW  - On-line measurement
+KW  - Software sensor
+KW  - Youla parametrisation
+KW  - Malaria control
+PB  - IFAC Secretariat
+SN  - 14746670 (ISSN); 978-390266110-4 (ISBN)
+LA  - English
+J2  - IFAC Proc. Vol. (IFAC-PapersOnline)
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 8; Correspondence Address: A. Vande Wouwer; Service d'Automatique, Faculté Polytechnique de Mons, B-7000 Mons, Boulevard Dolez 31, Belgium; email: Alain.Vandewouwer@fpms.ac.be
+ER  -
+
+TY  - JOUR
+AU  - Demirci, Y.
+AU  - Özbeyaz, A.
+TI  - Wastewater treatment in electrocoagulation systems: investigation of the impact of temperature using a fuzzy logic control algorithm
+PY  - 2019
+T2  - Environmental Science and Pollution Research
+VL  - 26
+IS  - 30
+SP  - 30893
+EP  - 30906
+DO  - 10.1007/s11356-019-06279-4
+UR  - https://www.scopus.com/pages/publications/85071489488?origin=resultslist
+AD  - Department of Environmental Engineering, Adiyaman University, Adiyaman, 02040, Turkey
+AD  - Department of Electrical and Electronics Engineering, Adiyaman University, Adiyaman, 02040, Turkey
+AB  - In an electrocoagulation process, controlling various parameters, such as temperature, pH, and conductivity, increases the performance of the process. In this study, fuzzy logic algorithms were used to control the temperature of the electrocoagulation system for the removal of pollutants from textile wastewater. In the experimental part, we used a reactor with a cooling jacket to control the temperature, and the flow rate of the cooling water was a variable that we could manipulate. Also, we investigated the use of a single-variable fuzzy control process and a multivariable fuzzy control process to control the dynamic behavior of the system. In the single variable control process, the effect of temperature was investigated at chosen original temperatures, i.e., 17.2 °C, 20 °C, and 23 °C. In the multivariable control, the temperature-pH and temperature-conductivity pairs were controlled separately in different processes. When the removal efficiencies were determined for the two control approaches, it was observed that the temperature-pH control process outperformed the temperature-conductivity control process, and its removal efficiencies for COD, color, and turbidity were about 74.6%, 85.2%, and 91.0%, respectively. Thus, the results obtained from this study will be useful for other investigators in the field. [Figure not available: see fulltext.] © 2019, Springer-Verlag GmbH Germany, part of Springer Nature.
+KW  - Electrocoagulation
+KW  - Fuzzy
+KW  - MATLAB/Simulink
+KW  - Temperature control
+KW  - Treatment of wastewater
+KW  - Algorithms
+KW  - Biological Oxygen Demand Analysis
+KW  - Color
+KW  - Electrocoagulation
+KW  - Fuzzy Logic
+KW  - Hydrogen-Ion Concentration
+KW  - Industrial Waste
+KW  - Temperature
+KW  - Textile Industry
+KW  - Waste Disposal, Fluid
+KW  - Waste Water
+KW  - Water Pollutants, Chemical
+KW  - coagulation
+KW  - cooling water
+KW  - electrochemistry
+KW  - fuzzy mathematics
+KW  - software
+KW  - temperature profile
+KW  - turbidity
+KW  - wastewater treatment
+KW  - algorithm
+KW  - biochemical oxygen demand
+KW  - chemistry
+KW  - color
+KW  - devices
+KW  - electrocoagulation
+KW  - fuzzy logic
+KW  - industrial waste
+KW  - pH
+KW  - procedures
+KW  - sewage
+KW  - temperature
+KW  - textile industry
+KW  - waste water
+KW  - water pollutant
+PB  - Springer Verlag
+SN  - 09441344 (ISSN)
+C2  - 31446601
+LA  - English
+J2  - Environ. Sci. Pollut. Res.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 13; Correspondence Address: A. Özbeyaz; Department of Electrical and Electronics Engineering, Adiyaman University, Adiyaman, 02040, Turkey; email: aozbeyaz@adiyaman.edu.tr; CODEN: ESPLE
+ER  -
+
+TY  - CONF
+AU  - Syu, M.-J.
+AU  - Chang, C.-B.
+TI  - Neural network adaptive control of the penicillin acylase fermentation
+PY  - 1997
+T2  - IEEE International Conference on Neural Networks - Conference Proceedings
+VL  - 2
+C7  - 616096
+SP  - 639
+EP  - 644
+DO  - 10.1109/ICNN.1997.616096
+UR  - https://www.scopus.com/pages/publications/0030688766?origin=resultslist
+AD  - Department of Chemical Engineering, National Cheng Kung University, Tainan 70101, Taiwan
+AB  - Investigates online control of fermentation with Arthrobacter viscosus. These bacteria secrete penicillin acylase, a key enzyme in pharmaceutical industry. The growth of more cells during fermentation results in more enzyme. Enzyme activity and cell growth are sensitive to pH, so pH control during batch fermentation is very important. Two peristaltic pumps, supplying acidic and basic solutions, are used, and a 4-4-1 recurrent backpropagation neural net (RBPN) is used for adaptive control because of its long-term identification ability. The transfer function x/(1+|x|) is used. The deviation of the pH from the set point of pH 7 is the input node of the network controller. Its output node is the predicted flow rate of the pump for next control time interval. The model was operated by two phases. During the first, it was set as the process model and trained by a fixed set of online acquired data. During the second, it acted as a predictor, the predicted control action was hence obtained. To enhance effective computation of this network, the number of training data was limited. A moving window of size 15 for supplying training data was determined for each learning and applied for the online learning. Good results were obtained, including a maximum optical density of 6.7 at the end of the fermentation. © 1997 IEEE.
+KW  - Adaptive control systems
+KW  - Enzymes
+KW  - Neural networks
+KW  - Backpropagation
+KW  - Computational methods
+KW  - Density (optical)
+KW  - Fermentation
+KW  - Learning systems
+KW  - Mathematical models
+KW  - Online systems
+KW  - pH effects
+KW  - Process control
+KW  - Transfer functions
+KW  - Arthrobacter viscosus
+KW  - Back-propagation Neural Net
+KW  - Batch fermentation
+KW  - Neural network adaptive control
+KW  - On-line controls
+KW  - Penicillin acylase
+KW  - Pharmaceutical industry
+KW  - Process Modeling
+KW  - Penicillin acylase fermentation
+KW  - Recurrent backpropagation network (RBPN)
+KW  - Fermentation
+KW  - Neural networks
+SN  - 10987576 (ISSN); 0780341228 (ISBN); 978-078034122-7 (ISBN)
+LA  - English
+J2  - IEEE Int. Conf. Neural. Netw. Conf. Proc.
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 2; Conference name: 1997 IEEE International Conference on Neural Networks, ICNN 1997; Conference date: 9 June 1997 through 12 June 1997; Conference code: 101939; CODEN: ICNNF
+ER  -
+
+TY  - JOUR
+AU  - Heredia-Molinero, M.C.
+AU  - Sánchez-Prieto, J.
+AU  - Briongos, J.V.
+AU  - Palancar, M.C.
+TI  - Feedback PID-like fuzzy controller for pH regulatory control near the equivalence point
+PY  - 2014
+T2  - Journal of Process Control
+VL  - 24
+IS  - 7
+SP  - 1023
+EP  - 1037
+DO  - 10.1016/j.jprocont.2014.05.006
+UR  - https://www.scopus.com/pages/publications/84902687697?origin=resultslist
+AD  - Universidad Politécnica de Madrid, Escuela Universitaria de Ingeniería Técnica de Obras Públicas, Madrid, C/ Alfonso XII, 3 y 5, Spain
+AD  - University Complutense of Madrid, Facultad de Ciencias Químicas, Departamento de Ingeniería Química, 28040 Madrid, Avda. Complutense S/N, Spain
+AD  - Universidad Carlos III de Madrid, Escuela Politécnica Superior, Departamento de Ingeniería Térmica y de Fluidos, 28911 Leganés, Madrid, Avenida de la Universidad 30, Spain
+AB  - In this research the use of a feedback PID-like fuzzy controller scheme for pH control is presented to deal with instability problems near the equivalence point in neutralization processes. State space analysis of the titration curves and a fuzzy clustering algorithm based on calculating a measure of potential derived from the square distance of the pH data are complementary applied to define the membership structure and the fuzzy sets of the controller. To test the performance of the controller, both simulated and experimental runs were used. The fuzzy controller was tested for compensating step-change perturbations of propionic acidic flow rates, propionic acid concentration, and buffering conditions. Stationary cycling behavior has been observed for large loads of acidic flow rates. It was found that though the rejection time was strongly dependent on the mean residence time of the liquid solutions, the proposed controller keep the neutralization process operating close to the specified set point of pH = 7. © 2014 Elsevier Ltd.
+KW  - Fuzzy logic
+KW  - pH control
+KW  - Process control
+KW  - Wastewater treatment
+KW  - Flow rate
+KW  - Fuzzy clustering
+KW  - Fuzzy logic
+KW  - Process control
+KW  - Wastewater treatment
+KW  - Fuzzy controllers
+KW  - Instability problems
+KW  - Mean residence time
+KW  - Neutralization process
+KW  - PH control
+KW  - PID-like fuzzy controllers
+KW  - Regulatory control
+KW  - State-space analysis
+KW  - Controllers
+PB  - Elsevier Ltd
+SN  - 09591524 (ISSN)
+LA  - English
+J2  - J Process Control
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 27; Correspondence Address: J.V. Briongos; Universidad Carlos III de Madrid, Escuela Politécnica Superior, Departamento de Ingeniería Térmica y de Fluidos, 28911 Leganés, Madrid, Avenida de la Universidad 30, Spain; email: jvilla@ing.uc3m.es; CODEN: JPCOE
+ER  -
+
+TY  - CONF
+AU  - Madhavasarma, P.
+AU  - Sridevi, M.
+AU  - Veeraragavan, P.
+AU  - Prabakar, T.N.
+AU  - Ramkumar, K.
+AU  - Sriram, A.L.
+TI  - Intelligent pH Regulation with an Adaptive Neuro-Fuzzy PI Controller in Saccharomyces cerevisiae Bioreactors for Improved Invertase Production
+PY  - 2025
+T2  - Conference Proceedings - 2025 IEEE Silchar Subsection Conference, IEEE SILCON 2025
+DO  - 10.1109/SILCON67893.2025.11327085
+UR  - https://www.scopus.com/pages/publications/105035021693?origin=resultslist
+AD  - SASTRA Deemed University, Thanjavur, 613401, India
+AD  - Rajalakshmi Engineering College, Department of EEE, Chennai, 602105, India
+AD  - University College of Engineering Tindivanam, Department of Physics, Chennai, 604001, India
+AD  - SASTRA Deemed University, School of EEE, Thanjavur, India
+AD  - SASTRA Deemed University, School OF CSE, Thanjavur, 613401, India
+AB  - Managing stable pH levels within bioreactors remains a continuous challenge owing to time-variant behaviour, inherent uncertainty, and non-linear system dynamics. The challenge is even greater in such bioprocesses, especially Saccharomyces cerevisiae culturing for invertase production, since the pH needs to be tightly controlled in the process. Often, a standard proportional-integral (PI) controller struggles to follow the titration curve and achieve the desired setpoint. This work presents the hybrid control study between the Adaptive Neuro-Fuzzy Inference System (ANFIS) and the Winer model-based PI controller in solving the problem. The adaptive neuro-fuzzy PI controller significantly enhances control performance through minimal overshoot and faster setpoint convergence, with smooth responses, as demonstrated by both simulation and real-time experimental validation. Really, the accuracy improved when the Integral Square Error (ISE) decreased from 2.4573 to 1.1067.  © 2025 IEEE.
+KW  - adaptive control
+KW  - integral square error (ISE)
+KW  - neuro-fuzzy systems
+KW  - pH control
+KW  - Wiener model
+KW  - Adaptive control systems
+KW  - Fuzzy inference
+KW  - Fuzzy neural networks
+KW  - Fuzzy systems
+KW  - Proportional control systems
+KW  - Titration
+KW  - Two term control systems
+KW  - Adaptive Control
+KW  - Adaptive neuro-fuzzy
+KW  - Cerevisiae
+KW  - Fuzzy-proportional-integral controllers
+KW  - Integral square error
+KW  - Integral square errors
+KW  - Neurofuzzy system
+KW  - PH control
+KW  - Saccharomyces
+KW  - Wiener models
+KW  - Controllers
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 979-833157727-8 (ISBN)
+LA  - English
+J2  - Conf. Proc. - IEEE Silchar Subsect. Conf., IEEE SILCON
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: P. Madhavasarma; SASTRA Deemed University, Thanjavur, 613401, India; email: madhavasarma@exam.sastra.edu; Conference name: 2025 IEEE Silchar Subsection Conference, IEEE SILCON 2025; Conference date: 6 November 2025 through 8 November 2025; Conference code: 220390
+ER  -
+
+TY  - JOUR
+AU  - Li, J.
+AU  - Tang, Z.
+AU  - Luan, H.
+AU  - Liu, Z.
+AU  - Xu, B.
+AU  - Wang, Z.
+AU  - He, W.
+TI  - An Improved Method of Model-Free Adaptive Predictive Control: A Case of pH Neutralization in WWTP
+PY  - 2023
+T2  - Processes
+VL  - 11
+IS  - 5
+C7  - 1448
+DO  - 10.3390/pr11051448
+UR  - https://www.scopus.com/pages/publications/85160804996?origin=resultslist
+AD  - HSE Testing Center, CNPC Research Institute of Safety and Environmental Technology, Beijing, 102206, China
+AD  - College of Information Science and Engineering, China University of Petroleum, Beijing, 102249, China
+AB  - pH neutralization reaction process plays a crucial role in Waste Water Treatment Process (WWTP). Traditional PID Proportion Integral Differential, (or even advanced PID control) algorithms have poor performance on WWTP due to the strong non-linearity, large time lag, and large inertia characteristics of pH neutralization. Therefore, finding a superior control method to maintain the pH value of wastewater within the normal range will greatly help to improve the efficiency and effectiveness of wastewater treatment. The chemical reaction mechanism of pH neutralization reaction process is first analyzed, and a mechanistic model of pH neutralization reaction process is developed based on the reaction of ions during acid-alkali neutralization and the electric balance equation. Then, combining the characteristics of generalized predictive control and Model-Free Adaptive Control (MFAC), a Model-Free Adaptive Predictive Control (MFAPC) method based on compact format dynamic linearization is introduced. An Improved Model Free Adaptive PI Predictive Control algorithm (IMFAPC) with proportional (P) and integral (I) algorithms is proposed to further improve the control performance. IMFAPC is proposed on the basis of MFAPC, combining the advantages of generalized predictive control, introducing a PI module consisting of error and error sum, and predicting the PI module, making it possible to produce more accurate constraints on the control inputs, avoiding increasing errors, and improving the control effect of delayed systems at the same time. pH neutralization process simulation experimental results show that compared with the ordinary Model-Free Adaptive Control (MFAC) and MFAPC, the IMFAPC control algorithms has the best performance in terms of accuracy, overshoot, and the robustness. © 2023 by the authors.
+KW  - model-free adaptive predictive control
+KW  - nonlinear
+KW  - pH control
+KW  - robustness
+KW  - time-delay
+KW  - Delay control systems
+KW  - Errors
+KW  - Model predictive control
+KW  - Predictive control systems
+KW  - Proportional control systems
+KW  - Robustness (control systems)
+KW  - Three term control systems
+KW  - Timing circuits
+KW  - Two term control systems
+KW  - Wastewater treatment
+KW  - Adaptive predictive control
+KW  - Model free
+KW  - Model-free adaptive predictive control
+KW  - Nonlinear
+KW  - PH control
+KW  - Ph neutralizations
+KW  - Robustness
+KW  - Time-delays
+KW  - Waste-water treatment
+KW  - Water treatment process
+KW  - Time delay
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 22279717 (ISSN)
+LA  - English
+J2  - Process.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 7; Correspondence Address: W. He; HSE Testing Center, CNPC Research Institute of Safety and Environmental Technology, Beijing, 102206, China; email: he-wei@cnpc.com.cn
+ER  -
+
+TY  - JOUR
+AU  - Ohkura, T.
+TI  - Example of waste water pH control by fuzzy
+PY  - 2007
+T2  - Kami Pa Gikyoshi/Japan Tappi Journal
+VL  - 61
+IS  - 3
+SP  - 55
+EP  - 59
+DO  - 10.2524/jtappij.61.305
+UR  - https://www.scopus.com/pages/publications/33847777582?origin=resultslist
+AD  - Saga Mill, Oji Paperboard Co., Ltd.
+AB  - Seven loops of pH control for wastewater treatment plant at Oji Paperboard Saga Mill, which used to be taken control of with conventional PID algorithm, did not totally satisfy with its control response. Generally, pH controls for neutralization process have non-linear characteristics. In addition, dead time would be long at the wastewater treatment plant because of limited installation location of pH meter and would vary depending upon discharge volume. Accordingly, time consuming fine tuning procedure for PID parameters just covers some specific conditions, but never represents satisfactorily entire status of the plant. In this article, introduction of fuzzy control system in two out of seven pH control loops which had worse performance and had been strongly claimed for modification, significant improvement in control response and reduction of neutralizing agent cost after installation as well as principle of two loops with fuzzy system are summarized.
+KW  - Effluent Treatment
+KW  - Fuzzy Logic
+KW  - Ph
+KW  - Three Term Controllers
+KW  - Fuzzy logic
+KW  - Paper and pulp industry
+KW  - pH effects
+KW  - Three term control systems
+KW  - Oji Paperboard Saga Mill (CO)
+KW  - Waste water pH control
+KW  - Wastewater treatment plants
+KW  - Wastewater treatment
+PB  - Japan Technical Assoc. of the Pulp and Paper Industry
+SN  - 0022815X (ISSN)
+LA  - Japanese
+J2  - Kami Pa Gikyoshi
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; CODEN: KAGIA
+ER  -
+
+TY  - JOUR
+AU  - Xu, Y.
+AU  - Zeng, X.
+AU  - Bernard, S.
+AU  - He, Z.
+TI  - Data-driven prediction of neutralizer pH and valve position towards precise control of chemical dosage in a wastewater treatment plant
+PY  - 2022
+T2  - Journal of Cleaner Production
+VL  - 348
+C7  - 131360
+DO  - 10.1016/j.jclepro.2022.131360
+UR  - https://www.scopus.com/pages/publications/85126515487?origin=resultslist
+AD  - Department of Energy, Environmental and Chemical Engineering, Washington University in St. Louis, St. Louis, 63130, MO, United States
+AD  - Greeley and Hansen, Alexandria, 22312, VA, United States
+AD  - American Bottoms Wastewater Treatment Facility, Sauget, 62201, IL, United States
+AB  - Proper pH control is important to the neutralization of industrial wastewater that will facilitate downstream biological treatment and can strongly affect the utilization of chemical reagent/resource. This study aimed to apply machine learning (ML) models for both pH prediction and lime dosage control towards enhanced automated control of neutralization processes. To achieve this goal, eight ML models were employed and compared in modeling performance, and optimized by using correlation analysis, cross-validation, and grid search techniques. In the neutralizer pH prediction, the highest coefficients of determination (R2) results were obtained at 0.765 (k-nearest neighbors - KNN), 0.918 (eXtreme Gradient Boosting - XGBoost), and 0.900 (random forest - RF) for three neutralizer tanks, accompanied with the lowest root-mean-square error (RMSE) values of 0.289, 0.100, and 0.093, respectively. The impacts of input features were quantified by sensitivity analysis using SHAP values, which demonstrated the importance of temperature, valve position, and upstream pH as high as 0.214, 0.156, and 0.118 (the mean of absolute SHAP value). For lime dosage control, the best model performance came from XGBoost (R2 values of 0.605) for valve 1, RF (0.788) for valve 2, and RF (0.436) for valve 3 with the corresponding RMSE values of 8.056, 6.125, and 4.466, respectively. The recommended valve position was based on the target pH and some examples were illustrated at different upstream pH values. The results of this study has demonstrated that ML approach can be an effective tool to help conserve chemical resources via enhanced chemical dosage control in wastewater treatment. © 2022 Elsevier Ltd
+KW  - Dosage control
+KW  - Machine learning
+KW  - pH prediction
+KW  - Sensitivity analysis
+KW  - Wastewater treatment
+KW  - Chemical analysis
+KW  - Decision trees
+KW  - Forecasting
+KW  - Lime
+KW  - Machine learning
+KW  - Mean square error
+KW  - Nearest neighbor search
+KW  - pH
+KW  - Sensitivity analysis
+KW  - Chemical dosage
+KW  - Data driven
+KW  - Dosage control
+KW  - Error values
+KW  - Machine learning models
+KW  - Modeling performance
+KW  - Neutralisers
+KW  - Ph prediction
+KW  - Root mean square errors
+KW  - Valve positions
+KW  - Wastewater treatment
+PB  - Elsevier Ltd
+SN  - 09596526 (ISSN)
+LA  - English
+J2  - J. Clean. Prod.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 78; Correspondence Address: Z. He; Department of Energy, Environmental and Chemical Engineering, Washington University in St. Louis, St. Louis, 63130, United States; email: zhenhe@wustl.edu; CODEN: JCROE
+ER  -
+
+TY  - JOUR
+AU  - Bardeeniz, S.
+AU  - Panjapornpon, C.
+AU  - Hounkim, W.
+AU  - Dechakupt, T.
+AU  - Tawai, A.
+TI  - Artificial intelligence-driven control for enhancing carbon dioxide-based wastewater pH regulation in tubular reactor
+PY  - 2025
+T2  - Computers and Chemical Engineering
+VL  - 192
+C7  - 108880
+DO  - 10.1016/j.compchemeng.2024.108880
+UR  - https://www.scopus.com/pages/publications/85204479625?origin=resultslist
+AD  - Department of Chemical Engineering, Center of Excellence on Petrochemicals and Materials Technology, Faculty of Engineering, Kasetsart University, Bangkok, 10900, Thailand
+AD  - Department of Industrial Chemistry, Faculty of Applied Science, King Mongkut's University of Technology North Bangkok, Bangkok, 10800, Thailand
+AD  - The Sirindhorn International Thai-German Graduate School of Engineering, King Mongkut's University of Technology North Bangkok, Bangkok, 10800, Thailand
+AB  - Alkaline wastewater treatment using carbon dioxide can reduce chemical costs and provide a safer alternative to traditional methods. However, complex gas-liquid reactions and narrow operating pH ranges present challenges. This research develops an artificial intelligence-driven control system for treating alkaline wastewater using carbon dioxide in a bench-scale tubular reactor. The proposed control system employs an inverse neural network to regulate the carbon dioxide gas based on the desired setpoint, along with a Smith predictor and a linear controller to compensate for natural delays, model mismatches, and pH disturbances. The inverse neural controller was trained using experimental data from a bench-scale reactor pH treatment of synthetic alkaline wastewater and verified on real influent from an electroplating wastewater treatment plant. The results show that the proposed method efficiently enforces the desired reactor outlet pH setpoint with up to 51.36% faster settling time than a proportional-integral controller while improving pH-adjusting efficiency by 72.24%. © 2024 Elsevier Ltd
+KW  - Alkaline wastewater treatment
+KW  - Carbon dioxide utilization
+KW  - Greenhouse gas reduction
+KW  - Neural network-based control
+KW  - Smith predictor
+KW  - Kyoto Protocol
+KW  - Alkaline wastewater
+KW  - Alkaline wastewater treatment
+KW  - Carbon dioxide utilization
+KW  - Chemical costs
+KW  - Greenhouse gas reductions
+KW  - Neural network based control
+KW  - pH-regulation
+KW  - Setpoints
+KW  - Smith-predictor
+KW  - Tubular reactors
+PB  - Elsevier Ltd
+SN  - 00981354 (ISSN)
+LA  - English
+J2  - Comput. Chem. Eng.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 9; Correspondence Address: C. Panjapornpon; Department of Chemical Engineering, Center of Excellence on Petrochemicals and Materials Technology, Faculty of Engineering, Kasetsart University, Bangkok, 10900, Thailand; email: fengcnp@ku.ac.th; CODEN: CCEND
+ER  -
+
+TY  - JOUR
+AU  - Alves Goulart, D.
+AU  - Dutra Pereira, R.
+TI  - Autonomous pH control by reinforcement learning for electroplating industry wastewater
+PY  - 2020
+T2  - Computers and Chemical Engineering
+VL  - 140
+C7  - 106909
+DO  - 10.1016/j.compchemeng.2020.106909
+UR  - https://www.scopus.com/pages/publications/85086029890?origin=resultslist
+AD  - Department of Chemical Engineering, Federal University of Rio Grande, Rio Grande, 96203-900, RS, Brazil
+AB  - The electroplating industry, due to steps such as pickling, generates acid pH wastewater. Its treatment is important for environmental preservation and the future recovery of metals. Therefore, the main objective of this work was the development of an autonomous pH controller for electroplating industry liquid effluents, based on fully automated Reinforcement Learning (RL). In order to do that, a Continuous Stirred-Tank Reactor (CSTR) neutralization simulator, and an adapted Particle Swarm Optimization (PSO) algorithm to automate the choice of RL hyperparameters were developed. The controller was developed and validated when it stabilized the effluent's pH in a neutral range in different scenarios during the regulatory and servo operations better than a Proportional Integral Derivative (PID) controller. The development of autonomous wastewater pH control systems in coated surface treatment units is a significant advancement, as it reduces human intervention and allows the monitoring of variability associated with the electroplating industry. © 2020
+KW  - Actor-Critic
+KW  - Cloud computing
+KW  - Hyperparameters
+KW  - Machine learning
+KW  - Metaheuristic optimization
+KW  - Effluents
+KW  - Electroplating
+KW  - Electroplating shops
+KW  - Man machine systems
+KW  - Metal recovery
+KW  - Particle swarm optimization (PSO)
+KW  - Predictive control systems
+KW  - Proportional control systems
+KW  - Reinforcement learning
+KW  - Surface treatment
+KW  - Two term control systems
+KW  - Wastewater treatment
+KW  - Continuous stirred tank reactor
+KW  - Electroplating industry
+KW  - Environmental preservation
+KW  - Human intervention
+KW  - Liquid effluents
+KW  - Particle swarm optimization algorithm
+KW  - Proportional integral derivative controllers
+KW  - Wastewater pH control system
+KW  - Controllers
+PB  - Elsevier Ltd
+SN  - 00981354 (ISSN)
+LA  - English
+J2  - Comput. Chem. Eng.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 40; Correspondence Address: D. Alves Goulart; Department of Chemical Engineering, Federal University of Rio Grande, Rio Grande, 96203-900, Brazil; email: douglasagoulart@gmail.com; CODEN: CCEND
+ER  -
+
+TY  - JOUR
+AU  - Pröll, T.
+AU  - Nazmul Karim, M.
+TI  - Model‐predictive pH control using real‐time NARX approach
+PY  - 1994
+T2  - AIChE Journal
+VL  - 40
+IS  - 2
+SP  - 269
+EP  - 282
+DO  - 10.1002/aic.690400207
+UR  - https://www.scopus.com/pages/publications/0028372340?origin=resultslist
+AD  - Dept. of Agricultural and Chemical Engineering, Colorado State University, Fort Collins, Colorado, 80523, United States
+AB  - A new comprehensive real‐time identification/control methodology based on the concept of nonlinear autoregressive exogenous input (NARX) models and adaptive, nonlinear, model‐predictive control (ANMPC) is applied to a pH neutralization process. The existing NARX model theory has been extended by incorporating measured disturbances. NARX models have shown superior predictive characteristics in comparison to linear models. The proposed real‐time methodology uses a pointer vector being created during an initial identification and model structure selection procedure. Using this pointer vector, which allocates the chosen elements from the pool of all possible linear and nonlinear combinations, one needs no explicit information about the model structure for the closed‐loop control. The nonlinear programming problem encountered in ANMPC is solved by a gradient‐based modified Marquardt and finite difference methods. The design procedure and explicit algorithms are discussed for the multiinput/multioutput case. A pH wastewater neutralization process used illustrates and verifies the procedure by computer simulations and a real‐time laboratory‐scale experiments. Copyright © 1994 American Institute of Chemical Engineers
+KW  - Control Systems
+KW  - Model Studies
+KW  - Process Industries
+KW  - Algorithms
+KW  - Computer simulation
+KW  - Finite difference method
+KW  - Identification (control systems)
+KW  - Linear control systems
+KW  - Mathematical models
+KW  - Model structures
+KW  - Nonlinear programming
+KW  - Real time systems
+KW  - Stochastic control systems
+KW  - Vectors
+KW  - Wastewater treatment
+KW  - Adaptive nonlinear model predictive control
+KW  - Modified Gram Schmidt orthogonalization method
+KW  - Nonlinear autoregressive exogenous input
+KW  - pH control
+KW  - pH neutralization process
+KW  - Pointer vector
+KW  - PH
+SN  - 00011541 (ISSN)
+LA  - English
+J2  - AIChE J.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 55
+ER  -
+
+TY  - JOUR
+AU  - Pastor, L.
+AU  - Mangin, D.
+AU  - Ferrer, J.
+AU  - Seco, A.
+TI  - Struvite formation from the supernatants of an anaerobic digestion pilot plant
+PY  - 2010
+T2  - Bioresource Technology
+VL  - 101
+IS  - 1
+SP  - 118
+EP  - 125
+DO  - 10.1016/j.biortech.2009.08.002
+UR  - https://www.scopus.com/pages/publications/70249117836?origin=resultslist
+AD  - Departamento de Ingeniería Hidráulica y Medio Ambiente, Universidad Politécnica de Valencia, 46022 Valencia, Camino de Vera s/n, Spain
+AD  - Laboratoire d'Automatique et de Génie des Procédés (LAGEP), Université Claude Bernard Lyon 1, bât 308G ESCPE-Lyon, 69622 Villeurbanne Cedex, 2ième étage, France
+AD  - Departamento de Ingeniería Química, Universidad de Valencia, 46100 Burjassot, Valencia, Spain
+AB  - This work studied the influence of the characteristics of the supernatants on the struvite precipitation process. Eighteen experiments with the supernatants generated in an anaerobic digestion pilot plant were performed in a stirred reactor. In order to obtain the pH control during the crystallization process, a Fuzzy Logic based controller was used. High phosphorus precipitation and recovery efficiencies were obtained. The composition of the supernatants was analyzed in order to study its influence on the solids formed from those solutions. The presence of calcium reduced the percentage of phosphorus precipitated as struvite leading to the formation of amorphous calcium phosphate (ACP), which tended to be lost with the effluent of the reactor. Calcite was also formed when supernatants with high magnesium:phosphorus (Mg/P) and calcium:phosphorus (Ca/P) molar ratios were employed. Some ammonium volatilization by conversion to NH3 occurred in all the experiments. The use of air to increase the pH to an adequate value showed to be feasible. Aeration cleaned struvite crystals from suspended solids, which makes aeration interesting for struvite separation. However, aeration slightly increased the loss of phosphorus with the effluent of the reactor and promoted ammonium volatilization. © 2009 Elsevier Ltd. All rights reserved.
+KW  - Anaerobic digestion
+KW  - Phosphorus recovery
+KW  - Stirred crystallizer
+KW  - Struvite
+KW  - Bacteria, Anaerobic
+KW  - Bioreactors
+KW  - Equipment Design
+KW  - Equipment Failure Analysis
+KW  - Magnesium Compounds
+KW  - Phosphates
+KW  - Pilot Projects
+KW  - Water Pollutants, Chemical
+KW  - Water Purification
+KW  - Calcite
+KW  - Calcium phosphate
+KW  - Effluents
+KW  - Fuzzy logic
+KW  - Phosphorus
+KW  - Pilot plants
+KW  - Precipitation (chemical)
+KW  - Process control
+KW  - calcium
+KW  - calcium carbonate
+KW  - calcium phosphate
+KW  - magnesium
+KW  - phosphorus
+KW  - struvite
+KW  - Amorphous calcium phosphate
+KW  - Crystallization process
+KW  - Fuzzy logic based controller
+KW  - Phosphorus recovery
+KW  - Recovery efficiency
+KW  - Struvite formation
+KW  - Struvite precipitation
+KW  - Struvites
+KW  - aeration
+KW  - anoxic conditions
+KW  - chemical composition
+KW  - crystallization
+KW  - digestion
+KW  - effluent
+KW  - experimental study
+KW  - formation mechanism
+KW  - fuzzy mathematics
+KW  - phosphorus
+KW  - precipitation (chemistry)
+KW  - struvite
+KW  - volatilization
+KW  - waste treatment
+KW  - aeration
+KW  - air
+KW  - article
+KW  - crystallization
+KW  - effluent
+KW  - fuzzy logic
+KW  - pH
+KW  - precipitation
+KW  - priority journal
+KW  - separation technique
+KW  - stirred reactor
+KW  - supernatant
+KW  - suspended particulate matter
+KW  - volatilization
+KW  - waste water treatment plant
+KW  - Anaerobic digestion
+PB  - Elsevier Ltd
+SN  - 09608524 (ISSN)
+C2  - 19733058
+LA  - English
+J2  - Bioresour. Technol.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 144; Correspondence Address: A. Seco; Departamento de Ingeniería Química, Universidad de Valencia, 46100 Burjassot, Valencia, Spain; email: aurora.seco@uv.es; CODEN: BIRTE
+ER  -
+
+TY  - JOUR
+AU  - Siejak, P.
+AU  - Przybył, K.
+AU  - Masewicz, Ł.
+AU  - Walkowiak, K.
+AU  - Rezler, R.
+AU  - Baranowska, H.M.
+TI  - The Prediction of Pectin Viscosity Using Machine Learning Based on Physical Characteristics—Case Study: Aglupectin HS-MR
+PY  - 2024
+T2  - Sustainability (Switzerland)
+VL  - 16
+IS  - 14
+C7  - 5877
+DO  - 10.3390/su16145877
+UR  - https://www.scopus.com/pages/publications/85199925116?origin=resultslist
+AD  - Department of Physics and Biophysics, Faculty of Food Science and Nutrition, Poznań University of Life Sciences, Wojska Polskiego 38/42, Poznań, 60-637, Poland
+AD  - Department of Dairy and Process Engineering, Faculty of Food Science and Nutrition, Poznań University of Life Sciences, 31 Wojska Polskiego St., Poznań, 60-624, Poland
+AB  - In the era of technology development, the optimization of production processes, quality control and at the same time increasing production efficiency without wasting food, artificial intelligence is becoming an alternative tool supporting many decision-making processes. The work used modern machine learning and physical analysis tools to evaluate food products (pectins). Various predictive models have been presented to estimate the viscosity of pectin. Based on the physical analyses, the characteristics of the food product were isolated, including L*a*b* color, concentration, conductance and pH. Prediction was determined using the determination index and loss function for individual machine learning algorithms. As a result of the work, it turned out that the most effective estimation of pectin viscosity was using Decision Tree (R2 = 0.999) and Random Forest (R2 = 0.998). In the future, the prediction of pectin properties in terms of viscosity recognition may be significantly perceived, especially in the food and pharmaceutical industries. Predicting the natural pectin substrate may contribute to improving quality, increasing efficiency and at the same time reducing losses of the obtained final product. © 2024 by the authors.
+KW  - color L*a*b*
+KW  - concentration
+KW  - conductance
+KW  - machine learning
+KW  - pectin viscosity
+KW  - pH
+KW  - prediction
+KW  - artificial intelligence
+KW  - food product
+KW  - machine learning
+KW  - physical analysis
+KW  - quality control
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 20711050 (ISSN)
+LA  - English
+J2  - Sustainability
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 6; Correspondence Address: K. Walkowiak; Department of Physics and Biophysics, Faculty of Food Science and Nutrition, Poznań University of Life Sciences, Poznań, Wojska Polskiego 38/42, 60-637, Poland; email: katarzyna.walkowiak@up.poznan.pl; K. Przybył; Department of Dairy and Process Engineering, Faculty of Food Science and Nutrition, Poznań University of Life Sciences, Poznań, 31 Wojska Polskiego St., 60-624, Poland; email: krzysztof.przybyl@up.poznan.pl
+ER  -
+
+TY  - CONF
+AU  - Cărbureanu, M.
+AU  - Roșca, C.-M.
+TI  - Evaluating Wastewater pH Prediction Solutions in Custom Python and C# Models
+PY  - 2026
+T2  - Lecture Notes in Networks and Systems
+VL  - 1590 LNNS
+SP  - 268
+EP  - 280
+DO  - 10.1007/978-981-95-0684-2_22
+UR  - https://www.scopus.com/pages/publications/105026340718?origin=resultslist
+AD  - Petroleum-Gas University of Ploiesti, B-dul Bucureşti 39, Ploieşti, 100680, Romania
+AB  - In a treatment plant, the processes are complex ones, such as wastewater pH neutralization, which is very difficult to model, to control, being challenging to predict the treated water pH value at the exit of the process because of the process dynamic and non-linear behavior and because of the disturbances that occur. The identification of any method (AI-based) that can be used for wastewater pH prediction (knowing the acid and basic type reactants stream flowrates, their concentrations and initial pH) is a desideratum to ensure a neutral pH for the plant effluent, with tangible benefits on the plant emissary. Deep Learning (DL) and Machine Learning (ML) techniques provide optimal solutions that can be explored to find the best tool for the addressed problem. In the present paper, were customized and analyzed twelve Python algorithms, respectively six ML regression algorithms and six DL ones, implemented using Python 3.9 software and TensorFlow library. After a presentation of the neutralization process and a short description of the analyzed algorithms (custom Python ML and DL), the tailored ML and DL models were compared using specific evaluation metrics, with a number of five C# pre-implemented algorithms, in order to identify that ML or DL method (custom or pre-implemented) that is more suitable for an accurate wastewater pH prediction. Also, for the same purpose, it is proposed a mathematical model based on the method that was identified to be as the most appropriate. © The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2026.
+KW  - C#
+KW  - Deep Learning
+KW  - Machine Learning
+KW  - neutralization
+KW  - pH prediction
+KW  - Python
+KW  - wastewater
+KW  - C (programming language)
+KW  - Computer software
+KW  - Effluents
+KW  - Forecasting
+KW  - Learning systems
+KW  - Process control
+KW  - Python
+KW  - Wastewater treatment
+KW  - C#
+KW  - C-models
+KW  - Deep learning
+KW  - Machine-learning
+KW  - Neutralisation
+KW  - Ph neutralizations
+KW  - Ph prediction
+KW  - pH value
+KW  - Process dynamics
+KW  - Treatment plants
+KW  - Deep learning
+A2  - Saroha K.
+A2  - Johari K.
+A2  - Pricop E.
+A2  - Sen A.
+A2  - Trivedi G.
+PB  - Springer Science and Business Media Deutschland GmbH
+SN  - 23673370 (ISSN); 978-981950683-5 (ISBN)
+LA  - English
+J2  - Lect. Notes Networks Syst.
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: M. Cărbureanu; Petroleum-Gas University of Ploiesti, Ploieşti, B-dul Bucureşti 39, 100680, Romania; email: mcarbureanu@upg-ploiesti.ro; C.-M. Roșca; Petroleum-Gas University of Ploiesti, Ploieşti, B-dul Bucureşti 39, 100680, Romania; email: mcarbureanu@upg-ploiesti.ro; Conference name: 5th International Conference on Emerging Trends and Technologies on Intelligent Systems, ETTIS 2025; Conference date: 19 March 2025 through 21 March 2025; Conference code: 344409
+ER  -
+
+TY  - CONF
+AU  - Harivardhagini, S.
+AU  - Raghuram, A.
+TI  - Variable structure control of pH neutralization of a prototype waste water treatment plant using LabVIEW
+PY  - 2016
+T2  - Proceedings - 2015 IEEE Conference on System, Process and Control, ICSPC 2015
+C7  - 7473563
+SP  - 79
+EP  - 84
+DO  - 10.1109/SPC.2015.7473563
+UR  - https://www.scopus.com/pages/publications/85009104992?origin=resultslist
+AD  - EIE. Department, CVRCE, Hyderabad, India
+AD  - EEE Department, JNTUH, Hyderabad, India
+AB  - This paper aims at developing a control technique using Variable Structure control [VSC] methodology for a pH control plant. The pH control process involves a prototype model in which acidic and alkaline streams are mixed into a Continuous Stirred Tank Reactor [CSTR] in proper proportions so as to control the pH of the plant. The control mechanism involved controls the flow rate of the acid and alkaline solutions. Sliding Mode Control is a type of VSC which is a type of nonlinear control. As the neutralization process is also non linear, VSC serves as a better solution. Also PID control and fuzzy control are incorporated on the same process and the results are compared. The unique feature of this paper is that all the control methods are implemented using LabVIEW SOFTWARE. LabVIEW stands for Laboratory Virtual Instrumentation Workbench. The programming done with this software is applied to the prototype model and the results of PID, fuzzy and VSC are compared and it is found that VSC controller is better suited than PID and fuzzy controllers. © 2015 IEEE.
+KW  - Fuzzy Logic Control
+KW  - LabVIEW
+KW  - Ph Control
+KW  - PID Control
+KW  - Sliding Mode Control
+KW  - Variable Structure Control
+KW  - Alkalinity
+KW  - Computer programming languages
+KW  - Controllers
+KW  - Fuzzy control
+KW  - Fuzzy logic
+KW  - Predictive control systems
+KW  - Sliding mode control
+KW  - Software prototyping
+KW  - Three term control systems
+KW  - Variable structure control
+KW  - Waste treatment
+KW  - Wastewater treatment
+KW  - Water treatment
+KW  - Continuous stirred tank reactor
+KW  - Control techniques
+KW  - Fuzzy logic control
+KW  - Lab-view softwares
+KW  - LabViEW
+KW  - Neutralization process
+KW  - PH control
+KW  - Virtual Instrumentation
+KW  - Process control
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 978-146737655-6 (ISBN)
+LA  - English
+J2  - Proc. - IEEE Conf. Syst., Process Control, ICSPC
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 3; Conference name: IEEE Conference on System, Process and Control, ICSPC 2015; Conference date: 19 December 2015 through 20 December 2015; Conference code: 121687
+ER  -
+
+TY  - JOUR
+AU  - Williams, T.
+AU  - Kalinka, K.
+AU  - Sanches, R.
+AU  - Blanchard-Emmerson, G.
+AU  - Watts, S.
+AU  - Davies, L.
+AU  - Knevelman, C.
+AU  - McCloskey, L.
+AU  - Jones, P.
+AU  - Mitrophanous, K.
+AU  - Miskin, J.
+AU  - Dikicioglu, D.
+TI  - Machine learning and metabolic modelling assisted implementation of a novel process analytical technology in cell and gene therapy manufacturing
+PY  - 2023
+T2  - Scientific Reports
+VL  - 13
+IS  - 1
+C7  - 834
+DO  - 10.1038/s41598-023-27998-2
+UR  - https://www.scopus.com/pages/publications/85146314314?origin=resultslist
+AD  - Oxford Biomedica (UK) Limited, Windrush Court, Transport Way, Oxford, OX4 6LT, United Kingdom
+AD  - Department of Biochemical Engineering, University College London, Bernard Katz Building, Gower Street, London, WC1E 6BT, United Kingdom
+AD  - Department of Biosystems Science and Engineering, ETH Zurich, Mattenstrasse 26, Basel, 4058, Switzerland
+AD  - WattBE Innovations Limited, Winchester Business Centre, 10 Parchment Street, Hampshire, Winchester, SO23 8AT, United Kingdom
+AB  - Process analytical technology (PAT) has demonstrated huge potential to enable the development of improved biopharmaceutical manufacturing processes by ensuring the reliable provision of quality products. However, the complexities associated with the manufacture of advanced therapy medicinal products have resulted in a slow adoption of PAT tools into industrial bioprocessing operations, particularly in the manufacture of cell and gene therapy products. Here we describe the applicability of a novel refractometry-based PAT system (Ranger system), which was used to monitor the metabolic activity of HEK293T cell cultures during lentiviral vector (LVV) production processes in real time. The PAT system was able to rapidly identify a relationship between bioreactor pH and culture metabolic activity and this was used to devise a pH operating strategy that resulted in a 1.8-fold increase in metabolic activity compared to an unoptimised bioprocess in a minimal number of bioreactor experiments; this was achieved using both pre-programmed and autonomous pH control strategies. The increased metabolic activity of the cultures, achieved via the implementation of the PAT technology, was not associated with increased LVV production. We employed a metabolic modelling strategy to elucidate the relationship between these bioprocess level events and HEK293T cell metabolism. The modelling showed that culturing of HEK293T cells in a low pH (pH 6.40) environment directly impacted the intracellular maintenance of pH and the intracellular availability of oxygen. We provide evidence that the elevated metabolic activity was a response to cope with the stress associated with low pH to maintain the favourable intracellular conditions, rather than being indicative of a superior active state of the HEK293T cell culture resulting in enhanced LVV production. Forecasting strategies were used to construct data models which identified that the novel PAT system not only had a direct relationship with process pH but also with oxygen availability; the interaction and interdependencies between these two parameters had a direct effect on the responses observed at the bioprocess level. We present data which indicate that process control and intervention using this novel refractometry-based PAT system has the potential to facilitate the fine tuning and rapid optimisation of the production environment and enable adaptive process control for enhanced process performance and robustness. © 2023, The Author(s).
+KW  - Bioreactors
+KW  - Cell Culture Techniques
+KW  - HEK293 Cells
+KW  - Humans
+KW  - Machine Learning
+KW  - Proteins
+KW  - protein
+KW  - bioreactor
+KW  - cell culture technique
+KW  - HEK293 cell line
+KW  - human
+KW  - machine learning
+PB  - Nature Research
+SN  - 20452322 (ISSN)
+C2  - 36646795
+LA  - English
+J2  - Sci. Rep.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 21; Correspondence Address: D. Dikicioglu; Department of Biochemical Engineering, University College London, London, Bernard Katz Building, Gower Street, WC1E 6BT, United Kingdom; email: d.dikicioglu@ucl.ac.uk
+ER  -
+
+TY  - JOUR
+AU  - Palancar, M.C.
+AU  - Aragón, J.M.
+AU  - Torrecilla, J.S.
+TI  - PH-control system based on artificial neural networks
+PY  - 1998
+T2  - Industrial and Engineering Chemistry Research
+VL  - 37
+IS  - 7
+SP  - 2729
+EP  - 2740
+DO  - 10.1021/ie970718w
+UR  - https://www.scopus.com/pages/publications/0032122668?origin=resultslist
+AD  - Department of Chemical Engineering, Universidad Complutense de Madrid, Madrid, Spain
+AD  - Department of Chemical Engineering, Faculty of Chemistry, Universidad Complutense de Madrid, 28040 Madrid, Spain
+AB  - A control system based on a combination of two artificial neural networks (ANN's) was designed for-thé pH-neutralizàtion of acidic liquid streams. The first ANN is a plant neural model that predicts future pH values from past/present values of pH and valve stem position and future values of valve stem position. The second ANN is a plant inverse neural model that calculates the future valve stem positions from present/past values of pH and valve stem position and future values of set point. The performance of the controller was studied first by numerical simulation. The controller was further implemented in a continuous stirred tank reactor in which the neutralization of acetic and propionic acids with sodium hydroxide was performed. The controller robustness and adaptive performance were tested under different perturbations of flow, composition, and set point and several buffering changes. © 1998 American Chemical Society.
+KW  - Acetic acid
+KW  - Adaptive control systems
+KW  - Chemical reactors
+KW  - Computer simulation
+KW  - Intelligent control
+KW  - Mathematical models
+KW  - Neural networks
+KW  - pH
+KW  - Robustness (control systems)
+KW  - Neutralization
+KW  - pH control system
+KW  - Propionic acid
+KW  - Process control
+PB  - American Chemical Society
+SN  - 08885885 (ISSN)
+LA  - English
+J2  - Ind. Eng. Chem. Res.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 94; Correspondence Address: M.C. Palancar; Department of Chemical Engineering, Faculty of Chemistry, Universidad Complutense de Madrid, 28040 Madrid, Spain; email: jomar@eucmax.sim.ucm.es; CODEN: IECRE
+ER  -
+
+TY  - CONF
+AU  - Balaji, V.
+AU  - Vasudevan, N.
+TI  - Model predictive control of pH in pharmaceutical process
+PY  - 2009
+T2  - IEEE 2009 International Conference on Mechatronics, ICM 2009
+C7  - 4957127
+DO  - 10.1109/ICMECH.2009.4957127
+UR  - https://www.scopus.com/pages/publications/67650320814?origin=resultslist
+AD  - Sathyabama University, Chennai, India
+AD  - Indra Institute of Engg and Tech, Chennai, India
+AB  - This work illustrates a new control strategy of model predictive control for pH control of the Cephradine purification process in Continuous stirrer tank reactor (CSTR). The simulation results show that the response ofMPC is accurate and nearer to the ideal response when compared to PID. © 2009 IEEE.
+KW  - Cephradine
+KW  - Labview
+KW  - Model predictive control
+KW  - PID controller
+KW  - Carboxylic acids
+KW  - Controllers
+KW  - Electric control equipment
+KW  - Mechatronics
+KW  - Predictive control systems
+KW  - Proportional control systems
+KW  - Three term control systems
+KW  - Two term control systems
+KW  - Cephradine
+KW  - Control strategies
+KW  - Labview
+KW  - PH control
+KW  - Pharmaceutical process
+KW  - PID controller
+KW  - Purification process
+KW  - Simulation result
+KW  - Tank reactors
+KW  - Model predictive control
+SN  - 978-142444195-2 (ISBN)
+LA  - English
+J2  - IEEE Int. Conf. Mechatronics, ICM
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 4; Correspondence Address: V. Balaji; Sathyabama University, Chennai, India; email: balajieee@rediffinail.com; Conference name: IEEE 2009 International Conference on Mechatronics, ICM 2009; Conference date: 14 April 2009 through 17 April 2009; Conference code: 76570
+ER  -
+
+TY  - CONF
+AU  - Ozgen, C.
+AU  - Obut, S.
+TI  - On-line identification and control of pH in a neutralization reactor of a waste water treatment plant using an identification reactor
+PY  - 2005
+T2  - 2005 AIChE Spring National Meeting, Conference Proceedings
+SP  - 3201
+UR  - https://www.scopus.com/pages/publications/22444437912?origin=resultslist
+AB  - A typical waste-water effluent of a chemical process can contain several strong acids, weak acid as well as their salts. Thus, they must be neutralized before being discharged to the environment in order to protect aquatic life and human welfare. However, such processes are highly nonlinear and have time-varying characteristics. Therefore, the control of pH is a challenging problem where advanced control strategies are often considered. In this study, the aim is to design a pH control system that will be capable of controlling the pH-value of a plant waste-water effluent stream having unknown acids with unknown concentrations using a new on-line identification procedure. A model predictive controller, MPC and a Fuzzy Logic Controller (FLC) are proposed and applied to a laboratory scale pH neutralization system. The characteristics of the upstream flow is obtained by a small identification reactor which has ten times faster dynamics and which is working parallel to actual neutralization tank. In the control strategy, steady-state titration curve of the process stream is obtained using the data collected in terms of pH value from the response of the identification reactor to a step input in base flow rate and using the simulated response of the identification reactor for the same input. After obtaining the steady-state titration curve, it is used in the design of an adaptive model predictive controller (AMPC). In the FLC identification reactor is not used. The performance of the proposed controllers are tested mainly for disturbance rejection, set point tracking and robustness issues theoretically. The performance pf the MPC and FLC are compared with a conventional PI controller experimentally for disturbance rejection, set point tracking and the superiority of the FLC is verified.
+KW  - Adaptive control systems
+KW  - Chemical reactors
+KW  - Effluents
+KW  - Fuzzy control
+KW  - Fuzzy sets
+KW  - pH effects
+KW  - Predictive control systems
+KW  - Titration
+KW  - Wastewater treatment
+KW  - Adaptive model predictive controller (AMPC)
+KW  - Fuzzy logic controller (FLC)
+KW  - Neutralization reactor
+KW  - pH control
+KW  - Control system analysis
+SN  - 0816909849 (ISBN)
+LA  - English
+J2  - AIChe Spring Natl. Meet. Conf. Proc.
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Conference name: 2005 AIChE Spring National Meeting; Conference date: 10 April 2005 through 14 April 2005; Conference code: 65256
+ER  -
+
+TY  - JOUR
+AU  - Son, M.
+AU  - Yoon, N.
+AU  - Jeong, K.
+AU  - Abass, A.
+AU  - Logan, B.E.
+AU  - Cho, K.H.
+TI  - Deep learning for pH prediction in water desalination using membrane capacitive deionization
+PY  - 2021
+T2  - Desalination
+VL  - 516
+C7  - 115233
+DO  - 10.1016/j.desal.2021.115233
+UR  - https://www.scopus.com/pages/publications/85110159817?origin=resultslist
+AD  - School of Urban and Environmental Engineering, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan, 44919, South Korea
+AD  - Department of Civil and Environmental Engineering, The Pennsylvania State University, University Park, 16802, PA, United States
+AB  - The pH of a solution has a large influence on the ion removal efficiency of the membrane capacitive deionization (MCDI) process, an electrochemical ion separation process. We developed a convolutional neural network linked with a long short-term memory (CNN-LSTM) model based on an artificial intelligence algorithm to predict the effluent pH of MCDI, as effluent pH is difficult to predict using conventional numerical modeling. The model accurately predicted effluent pH (R2≥0.998) based on the analysis of five input variables (current, voltage, influent conductivity and pH, and effluent conductivity) under standard operating conditions of MCDI using either constant-current or constant-voltage conditions. The developed model predicted effluent pH using only limited input variables, current and voltage, with high accuracy (R2≥0.997). Thus, the CNN-LSTM model can be used in practical applications as only the current and voltage of MCDI cells are often monitored in field applications. © 2021 Elsevier B.V.
+KW  - Deep learning
+KW  - Membrane capacitive deionization
+KW  - Neural networks
+KW  - pH
+KW  - Water desalination
+KW  - Deep neural networks
+KW  - Desalination
+KW  - Forecasting
+KW  - Long short-term memory
+KW  - pH
+KW  - Convolutional neural network
+KW  - Current-voltage
+KW  - Currents and voltages
+KW  - Deep learning
+KW  - Input variables
+KW  - Membrane capacitive deionization
+KW  - Memory models
+KW  - Neural-networks
+KW  - Short term memory
+KW  - Water desalination
+KW  - algorithm
+KW  - artificial intelligence
+KW  - artificial neural network
+KW  - desalination
+KW  - effluent
+KW  - machine learning
+KW  - membrane
+KW  - numerical model
+KW  - pH
+KW  - prediction
+KW  - Water filtration
+PB  - Elsevier B.V.
+SN  - 00119164 (ISSN)
+LA  - English
+J2  - Desalination
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 66; Correspondence Address: K.H. Cho; School of Urban and Environmental Engineering, Ulsan National Institute of Science and Technology, Ulsan, UNIST-gil 50, 44919, South Korea; email: khcho@unist.ac.kr; CODEN: DSLNA
+ER  -
+
+TY  - JOUR
+AU  - Nũnez-Alvarez, G.A.
+AU  - Pérez, A.A.
+AU  - Gonzalez-Sanchez, A.
+AU  - Mendez, F.
+AU  - Bonilla-Blancas, W.
+TI  - Application of the Fuzzy Logic Control Method to Improve the Growth of Microalgae in an Airlift Photobioreactor
+PY  - 2025
+T2  - International Journal of Fuzzy Logic and Intelligent Systems
+VL  - 25
+IS  - 3
+SP  - 351
+EP  - 363
+DO  - 10.5391/IJFIS.2025.25.3.351
+UR  - https://www.scopus.com/pages/publications/105017631610?origin=resultslist
+AD  - Tecnológico Nacional de México/TES de Ecatepec, Ecatepec de Morelos, Mexico
+AD  - Instituto de Ingeniería, Universidad Nacional Autónoma de México, Ciudad de México, Mexico
+AD  - Facultad de Ingeniería, Universidad Nacional Autónoma de México, Ciudad de México, Mexico
+AB  - Photobioreactor technology for the treatment of gaseous streams while generating high-valueadded byproducts has gained significant relevance in recent years, offering an alternative for producing biodiesel, biogas, cosmetics, pharmaceuticals, and other products. These systems harness the photosynthetic capacities of different microalgal species by capturing CO2 and converting it into organic matter for growth. However, factors such as temperature, light intensity, nutrients, and pH affect the biomass production performance. Therefore, various photobioreactor operational control techniques have been developed to optimize microalgal production. This study presents the design, implementation, and performance evaluation of a fuzzy control system for regulating pH by injecting gaseous CO2 and assesses its impact on the growth rates of a culture of the microalga Chlorella vulgaris cf. applied to an airlift photobioreactor. The fuzzy control method was programmed using the free Arduino software and implemented on the Arduino Mega development board. Theoretical validation of the fuzzy control method was performed by analyzing the Arduino Mega output variables using the fuzzy logic toolbox simulation of MATLAB 2023R. Growth tests were conducted for 15 days in triplicate to guarantee the reproducibility of the study. The results demonstrate improved pH regulation (7.30 ± 0.05), showing an increase in productivity, with a maximum concentration of up to 400 ± 1.15 mg/L under control conditions. In comparison, tests conducted without CO2 injection control achieved concentrations below 150 ± 0.58 mg/L. Moreover, an increase in the maximum CO2 capture rate was observed from 18.44 ± 0.035 mgL-1d-1 to 65.85 ± 0.015 mgL-1d-1 for tests without and with pH control, respectively. These findings affirm that applying the fuzzy control method on pH presented in the present study improves the productivity of microalgae. © The Korean Institute of Intelligent Systems. This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/by-nc/3.0/).
+KW  - Airlift
+KW  - Chlorella vulgaris cf
+KW  - Fuzzy control
+KW  - Open source software
+PB  - Korean Institute of Intelligent Systems
+SN  - 15982645 (ISSN)
+LA  - English
+J2  - Int. J. Fuzzy Log. Intell. Sys.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: W. Bonilla-Blancas; Tecnológico Nacional de México/TES de Ecatepec, Ecatepec de Morelos, Mexico; email: wcbonilla@tese.edu.mx
+ER  -
+
+TY  - JOUR
+AU  - Koppel, V.J.
+AU  - Segal, M.B.
+AU  - Remer, M.
+AU  - Lopano, M.A.
+TI  - Dynamics and control of neutralization systems with pH measurement. Conventional and fuzzy logic control
+ST  - Dinamica y control de sistemas de neutralizacion con medicion de pH. Control convencional y control de logica difusa
+PY  - 2000
+T2  - Informacion Tecnologica
+VL  - 11
+IS  - 6
+SP  - 93
+EP  - 97
+UR  - https://www.scopus.com/pages/publications/0034505858?origin=resultslist
+AD  - Universidad de Buenos Aires, Buenos Aires, Argentina
+AB  - The objective of this work was to study the application of fuzzy logic control systems in comparison with conventional control systems for neutralization reactors employing pH measurement. A simulation program was developed for strong acid neutralization reactors, which are those that present the greatest problems related to automatic control based on this measurement. The goodness of the model was verified by comparison with experimental titration curves. Conventional and diffuse logic control strategies were proposed and applied using simulations, studying their responses to excitations. The diffuse logic treatment gave better responses and provided greater management flexibility.
+KW  - Chemical reactors
+KW  - Computer simulation
+KW  - Control
+KW  - pH
+KW  - Neutralization reactors
+KW  - Fuzzy control
+PB  - CIT
+SN  - 07168756 (ISSN)
+LA  - Spanish
+J2  - Inf Tecnol
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; CODEN: ITECF
+ER  -
+
+TY  - JOUR
+AU  - Behera, L.
+AU  - Anand, K.K.
+TI  - Guaranteed tracking and regulatory performance of nonlinear dynamic systems using fuzzy neural networks
+PY  - 1999
+T2  - IEE Proceedings: Control Theory and Applications
+VL  - 146
+IS  - 5
+SP  - 484
+EP  - 491
+DO  - 10.1049/ip-cta:19990499
+UR  - https://www.scopus.com/pages/publications/0033329511?origin=resultslist
+AD  - Bhaktivedanta Institute for Advanced Studies in Conciousness and Science, Juhu, Mambai-400 049, Juhu Rd., India
+AD  - Department of Chemical Engineering, University of Connecticut, United States
+AB  - A new technique for the design of stable tracking and regulatory control systems for nonlinear systems using fuzzy neural networks is described. A class of nonlinear systems is considered where a few of the input variables can be manipulated (controlled) while the rest are considered as disturbances. System dynamics are modelled using a fuzzy neural network where each fuzzy operating region is associated with a series-parallel linear model. Two new control strategies are proposed using the Lyapunov synthesis approach. In one, a disturbance invariant control scheme is proposed where the sensitivity of the system response with respect to the control variable is estimated using a fuzzy neural model. In the other strategy a model predictive scheme is developed in which disturbances are predicted online and the fuzzy neural model is used to predict the control action for a desired setpoint. The proposed controllers have been implemented for a nonlinear pH reactor through simulation. In a pH control problem the acid and buffer flow rate are considered to be disturbances, while the base flow rate is controlled to maintain a constant pH. Simulation results show that the proposed scheme provides guaranteed tracking and regulatory performance.
+KW  - Chemical reactors
+KW  - Computer simulation
+KW  - Control system synthesis
+KW  - Fuzzy sets
+KW  - Invariance
+KW  - Lyapunov methods
+KW  - Mathematical models
+KW  - Neural networks
+KW  - pH
+KW  - Predictive control systems
+KW  - Fuzzy neural networks
+KW  - Nonlinear dynamic systems
+KW  - Regulatory control systems
+KW  - Nonlinear control systems
+PB  - IEE
+SN  - 13502379 (ISSN)
+LA  - English
+J2  - IEE Proc Control Theory Appl
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 8; CODEN: ICTAE
+ER  -
+
+TY  - JOUR
+AU  - Yan, B.
+AU  - Duan, J.
+AU  - Sun, J.
+AU  - Zhou, W.
+AU  - Guo, R.
+AU  - Yan, F.
+AU  - Wei, Z.
+AU  - Yang, X.
+TI  - Intelligent pH control system for wastewater treatment based on mathematical models
+ST  - 基于数学模型的污水处理 pH 智能控制系统
+PY  - 2025
+T2  - Industrial Water Treatment
+VL  - 45
+IS  - 9
+SP  - 196
+EP  - 202
+DO  - 10.19965/j.cnki.iwt.2024-0872
+UR  - https://www.scopus.com/pages/publications/105024677995?origin=resultslist
+AD  - Wuhan Branch, Baowu Water Technology Co., Ltd., Wuhan, 430080, China
+AD  - Huade Environmental Protection Branch, Baowu Water Technology Co., Ltd., Wuhan, 430080, China
+AD  - School of Intelligent Manufacturing, Jianghan University, Wuhan, 430080, China
+AB  - The acid-base neutralization reaction in wastewater treatment is characterized by strong nonlinearity, time-varying hysteresis, and susceptibility to multiple interferences, leading to unsatisfactory performance with conventional PID control. To address these challenges, an intelligent control system integrating machine learning and model prediction was constructed. By establishing historical data-driven models and implementing feedforward com pensation control method, the system utilized gated recurrent unit(GRU) and fully connected(FC) layer structures to treat influent flow fluctuations as disturbance variables. It dynamically predicted compensation values through mathematical model and combined them with PID feedback regulation to form a composite control system, significantly improving the accuracy and stability of pH control. Meanwhile, a precision flow control system with intelligent metering valve as the core was adopted. The system realized the collaboration of various components and the connection with the upper computer through RS485 communication. It could precisely adjust the sodium hydroxide dosage within the full range (100∶1) based on the dosage accurately calculated by the feedforward compensation control method, which improved the pH control accuracy to within ±0.15. The anti-interference ability of the system was significantly enhanced, and the sodium hydroxide consumption was greatly reduced by 22%. The system had significant advantages such as ultra wide range, low noise, low power consumption, and high reliability. © 2025, Editorial Office of Industrial Water Treatment, CNOOC Tianjin Chemical Research and Design Institute Co., Ltd. All rights reserved.
+KW  - feedforward compensation
+KW  - intelligent control
+KW  - mathematical model
+KW  - pH accuracy
+KW  - precision flow control
+PB  - Editorial Office of Industrial Water Treatment, CNOOC Tianjin Chemical Research and Design Institute Co., Ltd
+SN  - 1005829X (ISSN)
+LA  - Chinese
+J2  - Ind. Water. Treat.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 28 June 2026; Cited By: 0; Correspondence Address: W. Zhou; Wuhan Branch, Baowu Water Technology Co., Ltd., Wuhan, 430080, China; email: 68zhw@163.com
+ER  -
+

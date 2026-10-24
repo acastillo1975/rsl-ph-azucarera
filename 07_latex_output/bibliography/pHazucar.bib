@@ -1,0 +1,548 @@
+% pHazucar.bib
+% RSL: ML para Control de pH en la Industria Azucarera
+% Depurado: 2026-09-20 -- se conservan UNICAMENTE las 25 claves citadas
+% en el manuscrito (01_title..06_appendices.tex), verificadas contra el
+% .bcf generado por biber en la ultima compilacion (SRL_pH.bcf).
+% 18 entradas no citadas se retiraron (ver bibliography/pHazucar_no_citadas_2026-09-20.bib
+% para su contenido integro, por si se quieren re-citar en una version futura).
+% Los campos "note" con metadatos de trabajo interno (p. ej. "Contextual --
+% otras industrias; NO en flujo PRISMA") se retiraron el mismo dia: con
+% style=apa (biblatex-apa) ese campo SI se imprime en la lista de
+% referencias, y no debe aparecer en una bibliografia publicable.
+
+% =========== CORPUS FINAL (desde 4.filtrado_ollama.xlsx) ===========
+
+@article{palaciomorales2021optimiza,
+  author    = {Palacio-Morales, J. and Tobón, A. and Herrera, J.},
+  title     = {Optimization based on pattern search algorithm applied to ph non-linear control: Application to alkalinization process of sugar juice},
+  journal   = {Processes},
+  year      = {2021},
+  volume    = {9},
+  number    = {12},
+  pages     = {2283},
+  doi       = {10.3390/pr9122283},
+  publisher = {MDPI},
+}
+
+@article{murugesan2020computeraided,
+  author    = {Murugesan, R. and Solaimalai, J. and Chandran, K.},
+  title     = {Computer-Aided Controller Design for a Nonlinear Process Using a Lagrangian-Based State Transition Algorithm},
+  journal   = {Circuits, Systems, and Signal Processing},
+  year      = {2020},
+  volume    = {39},
+  number    = {2},
+  pages     = {977--996},
+  doi       = {10.1007/s00034-019-01139-5},
+  publisher = {Springer},
+}
+
+% =========== REFERENCIAS METODOLOGICAS (hardcodeadas) ===========
+
+@article{ARIA2017959,
+  author  = {Aria, Massimo and Cuccurullo, Corrado},
+  title   = {bibliometrix: An {R}-tool for comprehensive science
+             mapping analysis},
+  journal = {Journal of Informetrics},
+  volume  = {11},
+  number  = {4},
+  pages   = {959--975},
+  year    = {2017},
+  doi     = {10.1016/j.joi.2017.08.007},
+}
+
+@misc{vanecksoftware2010,
+  author       = {van Eck, Nees Jan and Waltman, Ludo},
+  title        = {{VOSviewer}: Visualizing Scientific Landscapes},
+  year         = {2010},
+  howpublished = {\url{https://www.vosviewer.com}},
+}
+
+@book{rein2007cane,
+  author    = {Rein, Peter},
+  title     = {Cane Sugar Engineering},
+  publisher = {Bartens},
+  address   = {Berlin},
+  year      = {2007},
+  isbn      = {3870401109},
+}
+
+@book{shinskey1996process,
+  author    = {Shinskey, Francis G.},
+  title     = {Process Control Systems: Application, Design, and Tuning},
+  edition   = {4},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {1996},
+}
+
+@article{garcia1989model,
+  author  = {Garc{\'{i}}a, Carlos E. and Prett, David M. and Morari, Manfred},
+  title   = {Model predictive control: Theory and practice -- A survey},
+  journal = {Automatica},
+  volume  = {25}, number  = {3}, pages   = {335--348},
+  year    = {1989}, doi = {10.1016/0005-1098(89)90002-2},
+}
+
+% =========== REFERENCIAS CONTEXTUALES: OTRAS INDUSTRIAS ===========
+% Uso EXCLUSIVO en Introduction (1.3) y Discussion (4.2/4.3).
+% NO cuentan en el diagrama PRISMA ni en Results.
+
+@article{hurowitz2000control,
+  author    = {Hurowitz, S.E. and Bobkov, A. and Riggs, J.B.},
+  title     = {pH control using advanced proportional-integral controls with the dual- injection in-line process},
+  journal   = {Industrial and Engineering Chemistry Research},
+  year      = {2000},
+  volume    = {39},
+  number    = {7},
+  pages     = {2418-2426},
+  doi       = {10.1021/ie980776x},
+}
+
+@article{suguna2026advanced,
+  author    = {Suguna, R. and Thankaraj, B.I. and Kothandaraman, U. and Jeevananthan, M.},
+  title     = {Advanced adaptive neuro-fuzzy inference system controller for optimizing pH neutralization process control},
+  journal   = {Canadian Journal of Chemical Engineering},
+  year      = {2026},
+  volume    = {104},
+  number    = {2},
+  pages     = {864-885},
+  doi       = {10.1002/cjce.70053},
+}
+
+@article{otalora2026enhancing,
+  author    = {Otálora, P. and Banerjee, S. and Mistiri, M.E. and Khan, O. and Rivera, D.E. and Guzmán, J.L.},
+  title     = {Enhancing pH control in microalgae raceway photobioreactors using 3DoF-KF model-on-demand model predictive control},
+  journal   = {Control Engineering Practice},
+  year      = {2026},
+  volume    = {168},
+  doi       = {10.1016/j.conengprac.2025.106742},
+}
+
+@article{panjapornpon2022reinforcement,
+  author    = {Panjapornpon, C. and Chinchalongporn, P. and Bardeeniz, S. and Makkayatorn, R. and Wongpunnawat, W.},
+  title     = {Reinforcement Learning Control with Deep Deterministic Policy Gradient Algorithm for Multivariable pH Process},
+  journal   = {Processes},
+  year      = {2022},
+  volume    = {10},
+  number    = {12},
+  doi       = {10.3390/pr10122514},
+}
+
+@article{berenguel2004model,
+  author    = {Berenguel, M. and Rodríguez, F. and Acién, F.G. and García, J.L.},
+  title     = {Model predictive control of pH in tubular photobioreactors},
+  journal   = {Journal of Process Control},
+  year      = {2004},
+  volume    = {14},
+  number    = {4},
+  pages     = {377-387},
+  doi       = {10.1016/j.jprocont.2003.07.001},
+}
+
+@article{durairaj2023deep,
+  author    = {Durairaj, S. and Xavier, J. and Patnaik, S.K. and Panda, R.C.},
+  title     = {Deep Learning Based System Identification and Nonlinear Model Predictive Control of pH Neutralization Process},
+  journal   = {Industrial and Engineering Chemistry Research},
+  year      = {2023},
+  volume    = {62},
+  number    = {33},
+  pages     = {13061-13080},
+  doi       = {10.1021/acs.iecr.3c01212},
+}
+
+@article{herediamolinero2014feedback,
+  author    = {Heredia-Molinero, M.C. and Sánchez-Prieto, J. and Briongos, J.V. and Palancar, M.C.},
+  title     = {Feedback PID-like fuzzy controller for pH regulatory control near the equivalence point},
+  journal   = {Journal of Process Control},
+  year      = {2014},
+  volume    = {24},
+  number    = {7},
+  pages     = {1023-1037},
+  doi       = {10.1016/j.jprocont.2014.05.006},
+}
+
+@article{xu2022datadriven,
+  author    = {Xu, Y. and Zeng, X. and Bernard, S. and He, Z.},
+  title     = {Data-driven prediction of neutralizer pH and valve position towards precise control of chemical dosage in a wastewater treatment plant},
+  journal   = {Journal of Cleaner Production},
+  year      = {2022},
+  volume    = {348},
+  doi       = {10.1016/j.jclepro.2022.131360},
+}
+
+@article{bardeeniz2025artificial,
+  author    = {Bardeeniz, S. and Panjapornpon, C. and Hounkim, W. and Dechakupt, T. and Tawai, A.},
+  title     = {Artificial intelligence-driven control for enhancing carbon dioxide-based wastewater pH regulation in tubular reactor},
+  journal   = {Computers and Chemical Engineering},
+  year      = {2025},
+  volume    = {192},
+  doi       = {10.1016/j.compchemeng.2024.108880},
+}
+
+@article{alvesgoulart2020autonomous,
+  author    = {Alves Goulart, D. and Dutra Pereira, R.},
+  title     = {Autonomous pH control by reinforcement learning for electroplating industry wastewater},
+  journal   = {Computers and Chemical Engineering},
+  year      = {2020},
+  volume    = {140},
+  doi       = {10.1016/j.compchemeng.2020.106909},
+}
+
+@article{proll1994modelpredictive,
+  author    = {Pröll, T. and Nazmul Karim, M.},
+  title     = {Model‐predictive pH control using real‐time NARX approach},
+  journal   = {AIChE Journal},
+  year      = {1994},
+  volume    = {40},
+  number    = {2},
+  pages     = {269-282},
+  doi       = {10.1002/aic.690400207},
+}
+
+@article{palancar1998phcontrol,
+  author    = {Palancar, M.C. and Aragón, J.M. and Torrecilla, J.S.},
+  title     = {PH-control system based on artificial neural networks},
+  journal   = {Industrial and Engineering Chemistry Research},
+  year      = {1998},
+  volume    = {37},
+  number    = {7},
+  pages     = {2729-2740},
+  doi       = {10.1021/ie970718w},
+}
+
+@article{son2021deep,
+  author    = {Son, M. and Yoon, N. and Jeong, K. and Abass, A. and Logan, B.E. and Cho, K.H.},
+  title     = {Deep learning for pH prediction in water desalination using membrane capacitive deionization},
+  journal   = {Desalination},
+  year      = {2021},
+  volume    = {516},
+  doi       = {10.1016/j.desal.2021.115233},
+}
+
+% =========== METODOLOGICAS ADICIONALES (scoping / empty reviews) ===========
+% Verificar DOI/paginas contra la fuente antes de submission.
+
+@article{tricco2018prismascr,
+  author    = {Tricco, Andrea C. and Lillie, Erin and Zarin, Wasifa and O'Brien, Kelly K. and Colquhoun, Heather and Levac, Danielle and Moher, David and Peters, Micah D.J. and Horsley, Tanya and Weeks, Laura and others},
+  title     = {PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation},
+  journal   = {Annals of Internal Medicine},
+  year      = {2018},
+  volume    = {169},
+  number    = {7},
+  pages     = {467--473},
+  doi       = {10.7326/M18-0850},
+}
+
+@article{munn2018scoping,
+  author    = {Munn, Zachary and Peters, Micah D.J. and Stern, Cindy and Tufanaru, Catalin and McArthur, Alexa and Aromataris, Edoardo},
+  title     = {Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach},
+  journal   = {BMC Medical Research Methodology},
+  year      = {2018},
+  volume    = {18},
+  pages     = {143},
+  doi       = {10.1186/s12874-018-0611-x},
+}
+
+@article{arksey2005scoping,
+  author    = {Arksey, Hilary and O'Malley, Lisa},
+  title     = {Scoping studies: towards a methodological framework},
+  journal   = {International Journal of Social Research Methodology},
+  year      = {2005},
+  volume    = {8},
+  number    = {1},
+  pages     = {19--32},
+  doi       = {10.1080/1364557032000119616},
+}
+
+@article{yaffe2012empty,
+  author    = {Yaffe, Joanne and Montgomery, Paul and Hopewell, Sally and Shepard, Lisa D.},
+  title     = {Empty reviews: a description and consideration of Cochrane systematic reviews with no included studies},
+  journal   = {PLoS ONE},
+  year      = {2012},
+  volume    = {7},
+  number    = {5},
+  pages     = {e36626},
+  doi       = {10.1371/journal.pone.0036626},
+}
+
+@article{lang2007empty,
+  author    = {Lang, Adam and Edwards, Nancy and Fleiszer, Andrea},
+  title     = {Empty systematic reviews: hidden perils and lessons learned},
+  journal   = {Journal of Clinical Epidemiology},
+  year      = {2007},
+  volume    = {60},
+  number    = {6},
+  pages     = {595--597},
+  doi       = {10.1016/j.jclinepi.2007.01.014},
+}
+
+@article{mnih2015human,
+  author    = {Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei A. and Veness, Joel and Bellemare, Marc G. and Graves, Alex and Riedmiller, Martin and Fidjeland, Andreas K. and Ostrovski, Georg and Petersen, Stig and Beattie, Charles and Sadik, Amir and Antonoglou, Ioannis and King, Helen and Kumaran, Dharshan and Wierstra, Daan and Legg, Shane and Hassabis, Demis},
+  title     = {Human-level control through deep reinforcement learning},
+  journal   = {Nature},
+  year      = {2015},
+  volume    = {518},
+  number    = {7540},
+  pages     = {529--533},
+  doi       = {10.1038/nature14236},
+}
+
+@inproceedings{krizhevsky2012imagenet,
+  author    = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.},
+  title     = {ImageNet classification with deep convolutional neural networks},
+  booktitle = {Advances in Neural Information Processing Systems 25 (NIPS 2012)},
+  year      = {2012},
+  pages     = {1097--1105},
+}
+
+@techreport{nasa2016trl,
+  author      = {{National Aeronautics and Space Administration}},
+  title       = {{NASA} Space Flight Program and Project Management Requirements ({NPR} 7123.1B): {NASA} Systems Engineering Processes and Requirements},
+  institution = {NASA Headquarters},
+  year        = {2016},
+  number      = {NPR 7123.1B},
+}
+
+@article{page2021prisma,
+  author  = {Page, Matthew J and McKenzie, Joanne E and Bossuyt, Patrick M and Boutron, Isabelle and Hoffmann, Tammy C and Mulrow, Cynthia D and Shamseer, Larissa and Tetzlaff, Jennifer M and Akl, Elie A and Brennan, Sue E and Chou, Roger and Glanville, Julie and Grimshaw, Jeremy M and Hróbjartsson, Asbjørn and Lalu, Manoj M and Li, Tianjing and Loder, Elizabeth W and Mayo-Wilson, Evan and McDonald, Steve and McGuinness, Luke A and Stewart, Lesley A and Thomas, James and Tricco, Andrea C and Welch, Vivian A and Whiting, Penny and Moher, David},
+  title   = {The PRISMA 2020 statement: an updated guideline for reporting systematic reviews},
+  journal = {BMJ},
+  year    = {2021},
+  pages   = {n71},
+  doi     = {10.1136/bmj.n71},
+}
+
+@article{henson1994adaptive,
+  author  = {Henson, M.A. and Seborg, D.E.},
+  title   = {Adaptive nonlinear control of a pH neutralization process},
+  journal = {IEEE Transactions on Control Systems Technology},
+  year    = {1994},
+  volume  = {2},
+  number  = {3},
+  pages   = {169--182},
+  doi     = {10.1109/87.317975},
+}
+
+@article{gustafsson1983dynamic,
+  author  = {Gustafsson, Tore K. and Waller, Kurt V.},
+  title   = {Dynamic modeling and reaction invariant control of pH},
+  journal = {Chemical Engineering Science},
+  year    = {1983},
+  volume  = {38},
+  number  = {3},
+  pages   = {389--398},
+  doi     = {10.1016/0009-2509(83)80157-2},
+}
+
+@article{mchugh2012interrater,
+  author  = {McHugh, Mary L.},
+  title   = {Interrater reliability: the kappa statistic},
+  journal = {Biochemia Medica},
+  year    = {2012},
+  volume  = {22},
+  number  = {3},
+  pages   = {276--282},
+  doi     = {10.11613/BM.2012.031},
+}
+
+@article{byrt1993bias,
+  author  = {Byrt, Ted and Bishop, Janet and Carlin, John B.},
+  title   = {Bias, prevalence and kappa},
+  journal = {Journal of Clinical Epidemiology},
+  year    = {1993},
+  volume  = {46},
+  number  = {5},
+  pages   = {423--429},
+  doi     = {10.1016/0895-4356(93)90018-V},
+}
+
+@article{feinstein1990high,
+  author  = {Feinstein, Alvan R. and Cicchetti, Domenic V.},
+  title   = {High agreement but low Kappa: I. the problems of two paradoxes},
+  journal = {Journal of Clinical Epidemiology},
+  year    = {1990},
+  volume  = {43},
+  number  = {6},
+  pages   = {543--549},
+  doi     = {10.1016/0895-4356(90)90158-L},
+}
+
+@article{blondel2008fast,
+  author  = {Blondel, Vincent D and Guillaume, Jean-Loup and Lambiotte, Renaud and Lefebvre, Etienne},
+  title   = {Fast unfolding of communities in large networks},
+  journal = {Journal of Statistical Mechanics: Theory and Experiment},
+  year    = {2008},
+  volume  = {2008},
+  number  = {10},
+  pages   = {P10008},
+  doi     = {10.1088/1742-5468/2008/10/P10008},
+}
+
+@article{levac2010scoping,
+  author  = {Levac, Danielle and Colquhoun, Heather and O'Brien, Kelly K},
+  title   = {Scoping studies: advancing the methodology},
+  journal = {Implementation Science},
+  year    = {2010},
+  volume  = {5},
+  number  = {1},
+  pages   = {69},
+  doi     = {10.1186/1748-5908-5-69},
+}
+
+@article{guo2024automated,
+  author  = {Guo, Eddie and Gupta, Mehul and Deng, Jiawen and Park, Ye-Jean and Paget, Michael and Naugler, Christopher},
+  title   = {Automated Paper Screening for Clinical Reviews Using Large Language Models: Data Analysis Study},
+  journal = {Journal of Medical Internet Research},
+  year    = {2024},
+  volume  = {26},
+  pages   = {e48996},
+  doi     = {10.2196/48996},
+}
+
+@article{khraisha2024can,
+  author  = {Khraisha, Qusai and Put, Sophie and Kappenberg, Johanna and Warraitch, Azza and Hadfield, Kristin},
+  title   = {Can large language models replace humans in systematic reviews? Evaluating GPT ‐4's efficacy in screening and extracting data from peer‐reviewed and grey literature in multiple languages},
+  journal = {Research Synthesis Methods},
+  year    = {2024},
+  volume  = {15},
+  number  = {4},
+  pages   = {616--626},
+  doi     = {10.1002/jrsm.1715},
+}
+
+@incollection{peters2020scoping,
+  author    = {Peters, Micah D. J. and Godfrey, Christina and McInerney, Patricia and Munn, Zachary and Tricco, Andrea C. and Khalil, Hanan},
+  editor    = {Aromataris, Edoardo and Munn, Zachary},
+  title     = {Scoping reviews},
+  booktitle = {JBI Manual for Evidence Synthesis},
+  publisher = {JBI},
+  year      = {2020},
+  chapter   = {11},
+  doi       = {10.46658/JBIMES-20-12},
+}
+
+@article{sunori2016ga,
+  author = {Sunori, Sandeep and Juneja, Pradeep and Chaturvedi, Mayank and Bisht, Sourabh},
+  title  = {GA based Optimization of Control System Performance for Juice Clarifier of Sugar Mill},
+  journal = {Oriental Journal of Chemistry},
+  volume = {32},
+  number = {4},
+  year   = {2016},
+  pages  = {2205--2208},
+  doi    = {10.13005/ojc/320451},
+}
+
+@article{rajalakshmi2022machine,
+  author = {Rajalakshmi, M. and Saravanan, V. and Arunprasad, V. and A. T. Romero, C. and I. Khalaf, O. and Karthik, C.},
+  title  = {Machine Learning for Modeling and Control of Industrial Clarifier Process},
+  journal = {Intelligent Automation \& Soft Computing},
+  volume = {32},
+  number = {1},
+  year   = {2022},
+  pages  = {339--359},
+  doi    = {10.32604/iasc.2022.021696},
+}
+
+@inproceedings{sunori2017model,
+  author = {Sunori, Sandeep Kumar and Juneja, Pradeep Kumar and Chaturvedi, Mayank and Saini, Parvesh},
+  title  = {Model Order Reduction of a Higher Order Model of pH Neutralizer of Sugar Mill},
+  booktitle = {2016 8th International Conference on Computational Intelligence and Communication Networks (CICN)},
+  year   = {2017},
+  pages  = {653--656},
+  doi    = {10.1109/CICN.2016.134},
+}
+
+@inproceedings{rajalakshmi2018hybrid,
+  author = {Rajalakshmi, M. and Jeyadevi, S. and Karthik, C.},
+  title  = {An Application Of Hybrid Firefly And Pso With Support Vector Regression For Modeling A Clarifier Process In Sugar Industry},
+  booktitle = {2018 National Power Engineering Conference (NPEC)},
+  year   = {2018},
+  pages  = {1--10},
+  doi    = {10.1109/NPEC.2018.8476695},
+}
+
+@inproceedings{sunori2020neurofuzzy,
+  author = {Sunori, Sandeep Kumar and Jethi, Govind Singh and Bhakuni, Abhijit Singh and Juneja, Pradeep Kumar},
+  title  = {Neuro-Fuzzy Modeling of PH Neutralization Process in Sugar Mill},
+  booktitle = {2020 International Conference on Advances in Computing, Communication \& Materials (ICACCM)},
+  year   = {2020},
+  pages  = {95--98},
+  doi    = {10.1109/ICACCM50413.2020.9213034},
+}
+
+@inproceedings{jethi2021prediction,
+  author = {Jethi, Govind Singh and Sunori, Sandeep Kumar and Tewari, Mallika and Goyal, Pratul and Maurya, Sudhanshu and Arora, Shweta},
+  title  = {Design and Analysis of Prediction based Control System for pH Neutralization Process of Sugar Mill},
+  booktitle = {2021 2nd Global Conference for Advancement in Technology (GCAT)},
+  year   = {2021},
+  pages  = {1--6},
+  doi    = {10.1109/GCAT52182.2021.9587748},
+}
+
+@inproceedings{kdt2021sensor,
+  author = {Kalavathi Devi, T and Mouleeshuwarapprabhu, R and Uma Devi, S and Sakthivel, P and Poojashri, V and Swetha, A and Vasuki, P},
+  title  = {Sensor Technology and Regulation method for Sustaining the pH value in Sugar Mechanized Process},
+  booktitle = {2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)},
+  year   = {2021},
+  pages  = {1--5},
+  doi    = {10.1109/ICECCT52121.2021.9616891},
+}
+
+@inproceedings{sunori2022digital,
+  author = {Sunori, Sandeep Kumar and Joshi, Kavita Ajay and Negi, Pushpa Bhakuni and Mittal, Amit and Garia, Prakash and Maurya, Sudhanshu and Juneja, Pradeep},
+  title  = {Design of Digital and Robust Control Systems for Sugar Refinery},
+  booktitle = {2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT)},
+  year   = {2022},
+  pages  = {527--532},
+  doi    = {10.1109/ICSSIT53264.2022.9716315},
+}
+
+@inproceedings{sunori2022neurofuzzy,
+  author = {Sunori, Sandeep Kumar and Bhakuni Negi, Pushpa and Arora, Shweta and Khan, Farha and Maurya, Sudhanshu and Juneja, Pradeep and Manu, Mehul and Ghai, Kapil},
+  title  = {Neuro-fuzzy Controller Design for pH Control in Sugar Refineries},
+  booktitle = {2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)},
+  year   = {2022},
+  pages  = {197--202},
+  doi    = {10.1109/ICACCS54159.2022.9785146},
+}
+
+@incollection{sunori2022soft,
+  author = {Sunori, Sandeep Kumar and Negi, Pushpa Bhakuni and Mittal, Amit and Bhawana,  and Goyal, Pratul and Juneja, Pradeep Kumar},
+  title  = {Soft Computing-Based Optimization of pH Control System of Sugar Mill},
+  booktitle = {Lecture Notes in Networks and Systems},
+  publisher = {Springer Nature Singapore},
+  year   = {2022},
+  pages  = {271--281},
+  doi    = {10.1007/978-981-16-2126-0_24},
+}
+
+@incollection{vlasenko2023neural,
+  author = {Vlasenko, Lidiia and Zaiets, Nataliia and Lutska, Nataliia and Savchuk, Olga},
+  title  = {Neural Network Model for Predicting the Resource Efficiency of the Defecosaturation Department of a Sugar Factory},
+  booktitle = {Lecture Notes in Networks and Systems},
+  publisher = {Springer International Publishing},
+  year   = {2023},
+  pages  = {121--131},
+  doi    = {10.1007/978-3-031-19958-5_12},
+}
+
+@article{wang2017ph,
+  author  = {Wang, Z.},
+  title   = {The {pH} value control of clarifying process in sugar refinery based on fuzzy control},
+  journal = {Acta Technica CSAV (Ceskoslovensk Akademie Ved)},
+  year    = {2017},
+  volume  = {62},
+  number  = {1},
+  pages   = {433--446},
+}
+
+@article{wilson1927probable,
+  author  = {Wilson, Edwin B.},
+  title   = {Probable inference, the law of succession, and statistical inference},
+  journal = {Journal of the American Statistical Association},
+  year    = {1927},
+  volume  = {22},
+  number  = {158},
+  pages   = {209--212},
+  doi     = {10.1080/01621459.1927.10502953},
+}

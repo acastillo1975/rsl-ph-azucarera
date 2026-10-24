@@ -1,0 +1,915 @@
+TY  - CONF
+TI  - Sensor Technology and Regulation method for Sustaining the pH value in Sugar Mechanized Process
+T2  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+SP  - 1
+EP  - 5
+AU  - K. D. T
+AU  - M. R
+AU  - U. D. S
+AU  - S. P
+AU  - P. V
+AU  - S. A
+AU  - V. P
+PY  - 2021
+KW  - Powders
+KW  - Valves
+KW  - Sugar industry
+KW  - Hardware
+KW  - Regulation
+KW  - Mathematical models
+KW  - Time-domain analysis
+KW  - sugar
+KW  - pH
+KW  - sulphitation
+KW  - clarification
+KW  - PID controllers
+KW  - Load cell
+KW  - IMC
+KW  - MATLAB
+DO  - 10.1109/ICECCT52121.2021.9616891
+JO  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+Y1  - 15-17 Sept. 2021
+AB  - Sugar is an important ingredient for the food we make at home and also for the manufactured foods. The quality of the sugar products can be maintained only if their pH value is controlled. This pH value plays an important role in liming, sulphitation process and clarification. Thus preserving the pH rate in the sugar content is emphasized with the hardware components and the addition of lime content in order to stabilize the pH is done through a PID controller. The parameters considered in the tuning of PID controllers are the time domain, integral absolute errors along with its associated factors. Hardware model is developed with Load cell and pH sensor which is interfaced with the PC for tuning the PID controller values. The tuning is carried out by the Internal Mode Controller (IMC) based PID. The simulation of the work is done in MATLAB. Results indicate the error is minimum in the order of 1.94X10-4 which has settling time by 70ms.
+ER  - 
+
+TY  - CONF
+TI  - An Application Of Hybrid Firefly And Pso With Support Vector Regression For Modeling A Clarifier Process In Sugar Industry
+T2  - 2018 National Power Engineering Conference (NPEC)
+SP  - 1
+EP  - 10
+AU  - M. Rajalakshmi
+AU  - S. Jeyadevi
+AU  - C. Karthik
+PY  - 2018
+KW  - Sugar industry
+KW  - Mathematical model
+KW  - Convergence
+KW  - Power engineering
+KW  - Support vector machines
+KW  - Training
+KW  - Genetic algorithms
+KW  - Support Vector Regression
+KW  - Firefly
+KW  - PSO
+KW  - clarifier process
+KW  - Sugar Industry
+KW  - Model Identification
+DO  - 10.1109/NPEC.2018.8476695
+JO  - 2018 National Power Engineering Conference (NPEC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 National Power Engineering Conference (NPEC)
+Y1  - 9-10 March 2018
+AB  - In this paper, Support Vector Regression (SVR) with the Particle Swarm Optimization algorithm (PSO) and SVR with Firefly algorithm (FFA) is used to model the clarifier process of sugar industry. Generally, SVR model is involved in mapping the nonlinear structure for nonlinear regression. Hybrid structure of SVR with PSO-FFA is involved in the modeling of nonlinear process. The proposed method is has improved its efficient characteristics in the process of maintaining the neutralized value of pH. The performances of proposed methods are compared and the result were obtained which shows the effectiveness of the proposed hybrid algorithm. The results proves to be effective for using in the real-time complex industrial problems.
+ER  - 
+
+TY  - CONF
+TI  - Neuro-fuzzy Controller Design for pH Control in Sugar Refineries
+T2  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+SP  - 197
+EP  - 202
+AU  - S. K. Sunori
+AU  - P. Bhakuni Negi
+AU  - S. Arora
+AU  - F. Khan
+AU  - S. Maurya
+AU  - P. Juneja
+AU  - M. Manu
+AU  - K. Ghai
+PY  - 2022
+KW  - PI control
+KW  - Crystallizers
+KW  - Filtration
+KW  - Computational modeling
+KW  - Process control
+KW  - Crystals
+KW  - Sugar industry
+KW  - Sugar factory
+KW  - pH
+KW  - ANFIS
+KW  - Control performance
+KW  - peak overshoot
+KW  - Disturbance rejection
+DO  - 10.1109/ICACCS54159.2022.9785146
+JO  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+IS  - 
+SN  - 2575-7288
+VO  - 1
+VL  - 1
+JA  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+Y1  - 25-26 March 2022
+AB  - The input for a sugar industry is sugarcane beat, and output is sweet and white sugar crystals. However, this process is not simple as it looks like. There are various individual sub-processes which run altogether to yield the final product. Broadly, it starts with the preparation of thin fibers out of the sugarcane. Then, it is forwarded to a series of crushing rollers to extract the juice. This raw juice is then passed on to the pH neutralization and filtration process. The refined juice is then evaporated to yield thick syrup. Finally, the syrup is forwarded to crystallizers to yield crystals of sugar. The sub-process that is chosen, in this paper, to proceed with the research, is the pH control process. For considered model of this process, automatic control systems are designed using MATLAB. The classical PI and soft computing based ANFIS controllers have been developed, and their control responses have been compared.
+ER  - 
+
+TY  - CONF
+TI  - Intelligent based modelling, control and fault detection of chemical process
+T2  - 2010 INTERNATIONAL CONFERENCE ON COMMUNICATION CONTROL AND COMPUTING TECHNOLOGIES
+SP  - 327
+EP  - 332
+AU  - C. Karthik
+AU  - M. Senthilkumar
+PY  - 2010
+KW  - Sugar industry
+KW  - Artificial neural networks
+KW  - Mathematical model
+KW  - Process control
+KW  - Sugar
+KW  - System identification
+KW  - Training
+KW  - clarifying process of sugar Cane juice
+KW  - Neural Network
+KW  - system Identification
+KW  - neutralized pH value
+KW  - diagnosis
+KW  - Laview
+DO  - 10.1109/ICCCCT.2010.5670574
+JO  - 2010 INTERNATIONAL CONFERENCE ON COMMUNICATION CONTROL AND COMPUTING TECHNOLOGIES
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2010 INTERNATIONAL CONFERENCE ON COMMUNICATION CONTROL AND COMPUTING TECHNOLOGIES
+Y1  - 7-9 Oct. 2010
+AB  - Neutralizing pH value of sugar cane juice is the important craft in the control process in the clarifying process of sugar cane juice, which is the important factor to influence output and the quality of white sugar. On the one hand, it is an important content to control the neutralized pH value within a required range, which has the vital significance for acquiring high quality purified juice, reducing energy consumption and raising sucrose recovery. On the other hand, it is a complicated physical-chemistry process, which has the characteristics of strong non linearity, time-varying, large time-delay, and multiinput. Therefore, there has not a very good solution to control the neutralized pH value. Firstly, in this paper, neural network model for the clarifying process of sugar juice is established based on gathering 1200 groups of realtime sample data in a sugar factory.
+ER  - 
+
+TY  - CONF
+TI  - An improved method of DHP for optimal control in the clarifying process of sugar cane juice
+T2  - 2009 International Joint Conference on Neural Networks
+SP  - 1814
+EP  - 1819
+AU  - X. Lin
+AU  - J. Yang
+AU  - H. Liu
+AU  - S. Song
+AU  - C. Song
+PY  - 2009
+KW  - Optimal control
+KW  - Sugar industry
+KW  - Dynamic programming
+KW  - Neural networks
+KW  - Nonlinear dynamical systems
+KW  - Nonlinear systems
+KW  - Production facilities
+KW  - Predictive models
+KW  - Delay systems
+KW  - Delay effects
+KW  - approximate dynamic programming (ADP)
+KW  - dual heuristic programming (DHP)
+KW  - Elman neural network time-delay
+DO  - 10.1109/IJCNN.2009.5178787
+JO  - 2009 International Joint Conference on Neural Networks
+IS  - 
+SN  - 2161-4407
+VO  - 
+VL  - 
+JA  - 2009 International Joint Conference on Neural Networks
+Y1  - 14-19 June 2009
+AB  - Clarifying process of sugar cane juice is a dynamic nonlinear system which has the characteristics of strong non-linearity, multi-constraint, large time-delay, multi-input and other characteristics of complex nonlinear systems. In this paper, Elman neural network is applied to the model of the clarifying process of sugar cane juice. An improved method of dual heuristic programming (DHP) affiliated to the approximate dynamic programming (ADP) family is employed to the optional control of neutralized pH value and purified juice pH value in clarifying process of sugar cane juice. The main advantage of this method is to add an ldquoapproximaterdquo neural network, which takes use of the states and actions during delay-time of the system to calculate partial derivative of state with respect to action, consequently it overcomes the difficulty of using the system model to calculate the partial derivative of state with respect to action because of the large lagging time. As a result the DHP algorithm is more suitable for real-time process control and online application. Finally, the results of the simulation indicate that the improved DHP method has good control effect.
+ER  - 
+
+TY  - CONF
+TI  - The Assessment of the Quality of Sugar Using Electronic Tongue and Machine Learning Algorithms
+T2  - 2012 11th International Conference on Machine Learning and Applications
+SP  - 538
+EP  - 541
+AU  - T. C. Sakata
+AU  - K. Faceli
+AU  - T. A. Almeida
+AU  - A. R. Júnior
+AU  - W. M. D. M. F. Steluti
+PY  - 2012
+KW  - Sugar
+KW  - Tongue
+KW  - Sugar industry
+KW  - Machine learning
+KW  - Consumer electronics
+KW  - Learning systems
+KW  - Image color analysis
+KW  - electronic tongue
+KW  - machine learning
+KW  - classification
+KW  - sugar
+DO  - 10.1109/ICMLA.2012.98
+JO  - 2012 11th International Conference on Machine Learning and Applications
+IS  - 
+SN  - 
+VO  - 1
+VL  - 1
+JA  - 2012 11th International Conference on Machine Learning and Applications
+Y1  - 12-15 Dec. 2012
+AB  - The correct classification of sugar according to its physico-chemical characteristics directly influences the value of the product and its acceptance by the market. This study shows that using an electronic tongue system along with established techniques of supervised learning leads to the correct classification of sugar samples according to their qualities. In this paper, we offer two new real, public and non-encoded sugar datasets whose attributes were automatically collected using an electronic tongue, with and without pH controlling. Moreover, we compare the performance achieved by several established machine learning methods. Our experiments were diligently designed to ensure statistically sound results and they indicate that k-nearest neighbors method outperforms other evaluated classifiers and, hence, it can be used as a good baseline for further comparison.
+ER  - 
+
+TY  - CONF
+TI  - Design and Analysis of an Intelligent PID Controller for Sugar Industry Process
+T2  - 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)
+SP  - 784
+EP  - 789
+AU  - V. Saravana
+AU  - R. B. Kumar
+PY  - 2019
+KW  - Neural networks
+KW  - Process control
+KW  - Sugar industry
+KW  - Mathematical model
+KW  - Data models
+KW  - Training
+KW  - Tuning
+KW  - Modeling and control
+KW  - Neural network
+KW  - PID
+KW  - Fuzzy
+KW  - Genetic algorithm
+KW  - Stability
+KW  - Industrial process
+DO  - 10.1109/ICCIKE47802.2019.9004285
+JO  - 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)
+Y1  - 11-12 Dec. 2019
+AB  - The proposed paper focuses on the identification of system model with different investigation on real time data obtained from industrial process using neural networks along with design of PID controller using intelligent controllers. The real time process in sugar industry has been taken as reference for modeling and controller design for controlling the process parameters such as level, temperature, flow, pressure, pH etc that associate with the process. The real time process constitutes multi input and output with external disturbance which makes the conventional mathematical modeling is complex when compared to algorithm based design. The process model representation in terms of mathematical model, transfer function, state space model holds the process characteristics and order of the system reflects the input and output to the system. The initial process in sugar industry is juice extraction from sugar cane called crushing unit which requires continuous monitoring and control for maximum juice extraction. The author clearly explains the model identification for cane crushing process with the aid of neural network for data fitness, estimation and validation, model identification. The classical PID controller plays the vital role in process control industries which controls the major closed loop process. The influence of external disturbance during run time in any process or change in set point leads to non-linearity. In order to improve the control action, intelligent controller like fuzzy logic controller and genetic algorithm has been designed for tuning of PID controller. The response of proposed controllers are compared with classical controller and discussed briefly in conclusion.
+ER  - 
+
+TY  - CONF
+TI  - Neuro-Fuzzy Modeling of PH Neutralization Process in Sugar Mill
+T2  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+SP  - 95
+EP  - 98
+AU  - S. K. Sunori
+AU  - G. S. Jethi
+AU  - A. S. Bhakuni
+AU  - P. K. Juneja
+PY  - 2020
+KW  - Mathematical model
+KW  - Training
+KW  - Sugar
+KW  - Testing
+KW  - Process control
+KW  - Computational modeling
+KW  - Firing
+KW  - pH value
+KW  - ANFIS
+KW  - step response
+KW  - membership functions
+KW  - fuzzy
+DO  - 10.1109/ICACCM50413.2020.9213034
+JO  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+IS  - 
+SN  - 2642-7354
+VO  - 
+VL  - 
+JA  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+Y1  - 21-22 Aug. 2020
+AB  - In sugar factory, the primary juice that is produced from extraction mill is highly impure with a low pH value. The control of pH value of sucrose solution is a crucial task as the purity and colour of final sugar crystals is strictly decided by it. For this, a controlled amount of milk of lime is mixed with it to bring pH value to the desired level. For the design of this control system, a mathematical model of the considered process is required. A neurofuzzy system is an amalgamation of fuzzy logic and neural network. An attempt has been made to obtain a Neuro-Fuzzy model of this process in the present paper using the ANFIS technique of MATLAB.
+ER  - 
+
+TY  - CONF
+TI  - Color quality assessment of coconut sugar using Artificial Neural Network (ANN)
+T2  - 2015 International Conference on Humanoid, Nanotechnology, Information Technology,Communication and Control, Environment and Management (HNICEM)
+SP  - 1
+EP  - 5
+AU  - A. Aquino
+AU  - M. G. A. Bautista
+AU  - A. Bandala
+AU  - E. Dadios
+PY  - 2015
+KW  - Sugar industry
+KW  - Image color analysis
+KW  - Conferences
+KW  - Training
+KW  - Biological neural networks
+KW  - Sugar
+KW  - Color Quality Assessment
+KW  - Coconut Sugar
+KW  - RGB Extraction
+KW  - Neural Network
+DO  - 10.1109/HNICEM.2015.7393182
+JO  - 2015 International Conference on Humanoid, Nanotechnology, Information Technology,Communication and Control, Environment and Management (HNICEM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 International Conference on Humanoid, Nanotechnology, Information Technology,Communication and Control, Environment and Management (HNICEM)
+Y1  - 9-12 Dec. 2015
+AB  - This paper presents a simple color recognition algorithm using digital image processing techniques and pattern recognition to eliminate the subjectiveness of manual inspection of the quality of coconut sugar based on Philippine National Standard. The image processing was built using MATLAB functions through RGB acquisition. The Backpropagation Artificial Neural Network was used in this project to enhance the accuracy and performance of image processing. The database of the network involved 300 images and 70% of these were used for training the network, 15% for validation and 15% for testing.
+ER  - 
+
+TY  - CONF
+TI  - Honey Adulteration Detection Using Explainable XGBoost Classifier: A Physicochemical Feature-Based Approach
+T2  - 2025 International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN)
+SP  - 832
+EP  - 837
+AU  - V. L. Priya
+AU  - S. A
+PY  - 2025
+KW  - Support vector machines
+KW  - Technological innovation
+KW  - Accuracy
+KW  - Explainable AI
+KW  - Moisture
+KW  - Ash
+KW  - Feature extraction
+KW  - Space vector modulation
+KW  - Random forests
+KW  - Chemicals
+KW  - XAI
+KW  - HMF
+KW  - Random Forest
+KW  - Support Vector Machine (SVM)
+KW  - XGBoost
+KW  - SHAP
+DO  - 10.1109/EmergIN67762.2025.11450830
+JO  - 2025 International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN)
+Y1  - 28-29 Nov. 2025
+AB  - Honey adulteration is a growing concern in the food industry, with direct implications for consumer health and market authenticity. This study proposes a robust machine learning framework enhanced with Explainable Artificial Intelligence (XAI) to accurately detect adulterated honey samples and interpret model decisions. A curated dataset comprising 1,000 laboratory-verified honey samples—equally split between pure and adulterated variants—was utilized. Each sample was characterized by 12 physicochemical attributes, including pH, electrical conductivity, sugar profile (glucose, fructose, sucrose), moisture content, ash percentage, and hydroxymethylfurfural (HMF) levels. The data preparation involved imputing missing data, min-max scaling, and handling of abnormal data. In order to encourage generalization, feature selection was based on mutual information criteria and Recursive feature elimination. Three classifiers (Random Forest, Support Vector machine (SVM), and XGBoost) were trained and evaluated by use of 10-fold cross-validation. XGBoost performed the best with the highest accuracy, precision, recall, F1-score, and AUC of 97.4, 96.9, 97.2, 97.0, and 98.1 respectively. To enhance model transparency, SHAP (SHapley Additive exPlanations) was integrated post-classification, allowing interpretation of feature influence on individual predictions. SHAP results revealed that HMF, sucrose content, and moisture level were the most critical indicators influencing classification outcomes. The integration of XAI not only bolstered user trust but also enabled domain experts to validate model logic against known chemical patterns. Overall, the proposed framework offers a high-performing and interpretable solution for honey adulteration detection, suitable for deployment in food quality labs and regulatory environments.
+ER  - 
+
+TY  - CONF
+TI  - Fruit Juice Dielectric Properties Characterization using Artificial Intelligence
+T2  - 2024 IEEE 1st International Conference on Communication Engineering and Emerging Technologies (ICoCET)
+SP  - 1
+EP  - 4
+AU  - N. Jazlina Jas Wari
+AU  - S. Zuraidah Ibrahim
+AU  - W. Fwen Hoon
+AU  - T. Inthasuth
+AU  - K. Masrakin
+PY  - 2024
+KW  - Backpropagation
+KW  - Dielectric constant
+KW  - Accuracy
+KW  - Computational modeling
+KW  - Dielectric losses
+KW  - Artificial neural networks
+KW  - Predictive models
+KW  - Dielectric loss measurement
+KW  - Mathematical models
+KW  - Data models
+KW  - artificial neural network
+KW  - orange juice
+KW  - dielectric properties
+KW  - Levenberg-Marquardt backpropagation
+DO  - 10.1109/ICoCET63343.2024.10729984
+JO  - 2024 IEEE 1st International Conference on Communication Engineering and Emerging Technologies (ICoCET)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE 1st International Conference on Communication Engineering and Emerging Technologies (ICoCET)
+Y1  - 2-3 Sept. 2024
+AB  - This paper presents an innovative method for measuring the quality of fruit juice using Artificial Neural Network (ANN). An open-ended probe connected to a vector network analyzer (VNA) was used to measure the dielectric constant and loss factor. Both dielectric constant and loss factor values of these samples were analyzed over a frequency range from 1GHz to 6GHz. The project focuses solely on oranges, with 7 distinct varieties of oranges selected and prepared for analysis. By referring to the difference in pH, sugar content, and dielectric properties, the behavior of the dielectric constant and loss factor are analyzed. To develop the ANN model, 707 data points are used as input and target data. To achieve target accuracy, the model uses a data set with unbiased ANN design parameters, including a feed-forward backpropagation network type, Tan-sigmoid transfer function, 5 neurons in the hidden layer, and Levenberg-Marquardt backpropagation as the training algorithm. The model's performance is evaluated by comparing measured and computed values to ensure precision in predicting juice quality through MATLAB software.
+ER  - 
+
+TY  - CONF
+TI  - Intelligent Control System for Cleaning Process in Sugar Refinery
+T2  - 2009 Sixth International Conference on Fuzzy Systems and Knowledge Discovery
+SP  - 8
+EP  - 13
+AU  - W. Na
+PY  - 2009
+KW  - Intelligent control
+KW  - Cleaning
+KW  - Sugar refining
+KW  - Automatic control
+KW  - Temperature control
+KW  - Heating
+KW  - Control systems
+KW  - Process control
+KW  - Artificial intelligence
+KW  - Intelligent systems
+KW  - Intelligent Control System
+KW  - Cleaning Process
+KW  - Sugar Refinery
+DO  - 10.1109/FSKD.2009.263
+JO  - 2009 Sixth International Conference on Fuzzy Systems and Knowledge Discovery
+IS  - 
+SN  - 
+VO  - 2
+VL  - 2
+JA  - 2009 Sixth International Conference on Fuzzy Systems and Knowledge Discovery
+Y1  - 14-16 Aug. 2009
+AB  - The cleaning process (CP) is an important step in sugar refinery. This paper presented an intelligent optimization control system (IOCS) to implement the modeling, optimization, and control of the CP by improved back-propagation neural networks, c-means clustering, genetic and chaos approaches. The results of actual runs demonstrate the validity of the system.
+ER  - 
+
+TY  - CONF
+TI  - Modeling and Optimization of Glucose Separation based on MPSO-SVR
+T2  - 2019 Chinese Control And Decision Conference (CCDC)
+SP  - 3401
+EP  - 3405
+AU  - D. Hongjun
+AU  - S. Jiaheng
+AU  - W. Keshu
+PY  - 2019
+KW  - Sugar
+KW  - Predictive models
+KW  - Training
+KW  - Support vector machines
+KW  - Liquids
+KW  - Particle swarm optimization
+KW  - Optimization
+KW  - Modeling
+KW  - support vector regression
+KW  - multi-population particle swarm optimization
+KW  - glucose separation
+DO  - 10.1109/CCDC.2019.8833253
+JO  - 2019 Chinese Control And Decision Conference (CCDC)
+IS  - 
+SN  - 1948-9447
+VO  - 
+VL  - 
+JA  - 2019 Chinese Control And Decision Conference (CCDC)
+Y1  - 3-5 June 2019
+AB  - Modeling the glucose separation process was researched based on support vector machine to remove redundant sugar in the liquid medicine, Ophiopogon japonicas solution was the research object. In the alcohol precipitation process of glucose separation, the pH value prediction model of the liquid medicine was established by support vector regression(SVR). The model parameters were optimized by multi-population particle swarm optimization(MPSO) algorithm, the prediction precision of the optimized model meets the production requirements. In order to further verify the feasibility, the proposed model was compared with the BP neural network model on prediction precision. The results show that the model prediction is stable and accurate on training set and test set, which indicates that the proposed model is feasible to predict the pH value of the glucose separation process in traditional Chinese medicine solution.
+ER  - 
+
+TY  - CONF
+TI  - Classification of Honey as Genuine or Fake via Artificial Neural Network using Gradient Descent Backpropagation Algorithm
+T2  - 2020 IEEE 12th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)
+SP  - 1
+EP  - 6
+AU  - C. C. Hortinela
+AU  - J. R. Balbin
+AU  - P. J. A. Tibayan
+AU  - J. M. D. Cabela
+AU  - G. V. Magwili
+PY  - 2020
+KW  - Training
+KW  - Temperature
+KW  - Artificial neural networks
+KW  - Backpropagation algorithms
+KW  - Sensor systems
+KW  - Sensors
+KW  - Testing
+KW  - Honey
+KW  - Artificial Neural Network
+KW  - Gradient Descent Backpropagation
+KW  - Electrical Conductivity
+KW  - pH Level
+DO  - 10.1109/HNICEM51456.2020.9400065
+JO  - 2020 IEEE 12th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2020 IEEE 12th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)
+Y1  - 3-7 Dec. 2020
+AB  - Honey is always among the lists for food fraud around the world. A whistleblower surfaced in a South African Honey manufacturer that claims their honey is revealed as passing off a sugar concoction. Also, in the Philippines, mid-2016 there's a manufacturer of honey named Cem's Honey that mislabels their product as real honey but in fact their product is a fake honey. The main objective of this study is to create a system that could classify a honey whether it is genuine or fake using Artificial Neural Network with Gradient Descent Backpropagation as the training algorithm, and sensors (Electrical Conductivity and pH Sensor). Through testing, the system classified the presented samples at an accuracy rate of 87.5%. In conclusion, the researchers successfully developed a system that can classify a honey whether is it genuine or fake using Artificial Neural Network.
+ER  - 
+
+TY  - CONF
+TI  - Analytical hierarchy process with artificial neural network: A case study of algal biofuel production impact prioritization in the Philippines
+T2  - 2016 IEEE Region 10 Conference (TENCON)
+SP  - 961
+EP  - 965
+AU  - A. T. Ubando
+AU  - I. Henderson V. Gue
+AU  - K. D. T. Aguilar
+PY  - 2016
+KW  - Biofuels
+KW  - Production
+KW  - Artificial neural networks
+KW  - Oils
+KW  - Analytic hierarchy process
+KW  - Training
+KW  - Data models
+KW  - neural network
+KW  - analytic hierarchy process
+KW  - biofuel
+KW  - microalgae
+DO  - 10.1109/TENCON.2016.7848147
+JO  - 2016 IEEE Region 10 Conference (TENCON)
+IS  - 
+SN  - 2159-3450
+VO  - 
+VL  - 
+JA  - 2016 IEEE Region 10 Conference (TENCON)
+Y1  - 22-25 Nov. 2016
+AB  - The Philippines' Biofuels Act of 2006 has mandated a progressive increase of biofuel blend in the country's fuel mix. This has become one of the country's initiatives on reducing fossil fuel consumption and carbon dioxide emission. This Act has led to the primary utilization of coconut oil for biodiesel production. In the recent years, the frequency of typhoons and insect infestation has led to decrease of biodiesel yield. A shift in the feedstock may help curb this issue, such in the case of algal biofuels. Its high oil yield per hectare and fast growth rate makes algal biofuels ideal for the typhoon-prone archipelagic country. Introducing this new technology to the country would entail detailed assessments on the technology's life cycle. In this regard, the life cycle assessment can be utilized to determine the environmental implications of producing algal-based biofuels in the Philippines. It provides the detailed effects of the life cycle to the different environmental impacts. As these different impacts are multidimensional in nature, weighting prioritization is generally applied as a tool for quantitatively comparing the different impacts. Weight prioritization can be assessed through different multitudes of methodologies where analytic hierarchy process (AHP) is one of the promising approaches. The AHP derives the weight prioritization by acquiring raw data from surveys of a group of stakeholders. A problem arise in the AHP methodology as there can exist inconsistencies and incomplete information from the surveys acquired. Through the use of pattern recognition of the artificial neural network (ANN) algorithm, a probable methodology may be generated to address the inconsistency of the results of the AHP survey. In this paper, we propose the demonstration of the ANN algorithm in creating a model that will fit the data from the survey with the values of the weight prioritization. The study has showed, with 11 hidden nodes, a regression value of 0.96 can be achieved with the predicted weights of the ANN compared to the AHP. The study can be further improved by providing larger quantities of data to the ANN for better training, of which, statistical tools may be applied for generating such data The result of this study can aid in the development of a robust AHP-based decision system for inconsistent and incomplete data.
+ER  - 
+
+TY  - JOUR
+TI  - An Improved Nonparallel Support Vector Machine
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+SP  - 5129
+EP  - 5143
+AU  - L. Liu
+AU  - M. Chu
+AU  - R. Gong
+AU  - L. Zhang
+PY  - 2021
+KW  - Support vector machines
+KW  - Pattern classification
+KW  - Kernel
+KW  - Generalization performance
+KW  - noise insensitivity
+KW  - nonparallel support vector machine (NPSVM)
+KW  - pattern classification
+KW  - twin support vector machine (TSVM)
+DO  - 10.1109/TNNLS.2020.3027062
+JO  - IEEE Transactions on Neural Networks and Learning Systems
+IS  - 11
+SN  - 2162-2388
+VO  - 32
+VL  - 32
+JA  - IEEE Transactions on Neural Networks and Learning Systems
+Y1  - Nov. 2021
+AB  - In this article, an improved nonparallel support vector machine (INPSVM) is proposed for pattern classification. INPSVM inherits almost all advantages of nonparallel support vector machine (NPSVM), i.e., the kernel trick can be directly applied for the nonlinear case and the matrix inversion is avoided. These are completely different from the twin support vector machine (TSVM). Moreover, the INPSVM classifier has some incomparable advantages over TSVM and NPSVM. First, it can effectively eliminate the negative effect of noise, especially feature noise around the decision boundary. Second, the novel classifier has higher classification accuracy for both linear and nonlinear data sets compared with the other algorithms. Finally, a large number of experiments show that INPSVM is superior to other algorithms in efficiency, accuracy, and robustness.
+ER  - 
+
+TY  - CONF
+TI  - Magnolia Jackfruit Maturity Classification System Using Color Space Analysis
+T2  - 2024 16th International Conference on Computer and Automation Engineering (ICCAE)
+SP  - 340
+EP  - 345
+AU  - A. N. Yumang
+AU  - G. L. B. Bacalla
+AU  - E. N. C. Corate
+PY  - 2024
+KW  - Support vector machines
+KW  - Training
+KW  - Histograms
+KW  - Accuracy
+KW  - Image color analysis
+KW  - Feature extraction
+KW  - Vectors
+KW  - image processing
+KW  - SVM
+KW  - jackfruit maturity classification
+KW  - HSV
+KW  - confusion matrix
+DO  - 10.1109/ICCAE59995.2024.10569743
+JO  - 2024 16th International Conference on Computer and Automation Engineering (ICCAE)
+IS  - 
+SN  - 2154-4360
+VO  - 
+VL  - 
+JA  - 2024 16th International Conference on Computer and Automation Engineering (ICCAE)
+Y1  - 14-16 March 2024
+AB  - Earlier studies on jackfruit maturity suggest that the fruit's physiological features are determinant of its maturity state. Similar to other fruits, the Magnolia jackfruit variety also exhibits rind discoloration from greenish to yellowish and is commonly used to visually assess the fruit's quality prior to its harvest. Using color space analysis, this study focuses on the development of a maturity classification system with the Magnolia jackfruit variety. First, the jackfruit will be captured using the proposed device, wherein the image will undergo preprocessing methods such as image resizing and extraction of ROI. Then, the image will be converted into HSV color space to extract the histograms from hue, saturation, and value channels. These histograms will be further concatenated to generate the final feature vector of the input image. Finally, the SVM will identify the maturity state of the jackfruit based on the final feature vector, labeling the jackfruit whether it is mature or immature. In this study, a total of 240 images were utilized for training the system, yielding an 88.33 % accuracy percentage using the proposed hardware device.
+ER  - 
+
+TY  - JOUR
+TI  - Twin Support Vector Machine With Local Structural Information for Pattern Classification
+T2  - IEEE Access
+SP  - 64237
+EP  - 64249
+AU  - M. Chu
+AU  - L. Liu
+AU  - Y. Yang
+AU  - R. Gong
+PY  - 2018
+KW  - Support vector machines
+KW  - Pattern classification
+KW  - Linear programming
+KW  - Clustering methods
+KW  - Kernel
+KW  - Couplings
+KW  - Classification algorithms
+KW  - Pattern classification
+KW  - structural twin support vector machine
+KW  - local structural information
+KW  - generalization performance
+DO  - 10.1109/ACCESS.2018.2877444
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 6
+VL  - 6
+JA  - IEEE Access
+Y1  - 2018
+AB  - Many versions of support vector machine with structural information exploit the useful prior knowledge to directly improve the algorithm’s generalization. The prior knowledge embodies the structure of data, but it cannot fully reflect the local nonlinear structure of data. In this paper, a twin support vector machine with local structural information (LSI-TSVM) is proposed. The LSI-TSVM embeds the local within-class and between-class distribution information of data, which makes it contain not only the original global within-class clustering and between-class margin but also the local within-class and between-class scatters. Furthermore, our LSI-TSVM is extended to a nonlinear version with a kernel trick. All experiments show that our LSI-TSVM is superior to the state-of-the-art algorithms in a generalization performance.
+ER  - 
+
+TY  - CONF
+TI  - Near-Infrared Spectroscopy Coupled with Chemometric Modeling for Rapid Assessment of Physicochemical Properties of Bulgarian Honey
+T2  - 2025 10th International Conference on Energy Efficiency and Agricultural Engineering (EE&AE)
+SP  - 01
+EP  - 08
+AU  - P. Veleva
+AU  - S. Uzunov
+AU  - S. Lazarov
+AU  - T. Georgieva
+PY  - 2025
+KW  - Electric potential
+KW  - Refractive index
+KW  - Moisture
+KW  - Quality control
+KW  - Conductivity
+KW  - Sugar industry
+KW  - Glucose
+KW  - Reliability
+KW  - pH measurement
+KW  - Functional near-infrared spectroscopy
+KW  - honey
+KW  - physicochemical parameters
+KW  - NIR Spectroscopy
+KW  - Chemometrics
+KW  - PLS
+DO  - 10.1109/EEAE65901.2025.11273784
+JO  - 2025 10th International Conference on Energy Efficiency and Agricultural Engineering (EE&AE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 10th International Conference on Energy Efficiency and Agricultural Engineering (EE&AE)
+Y1  - 5-7 Nov. 2025
+AB  - The increasing demand and widespread use of honey underscore its importance as an essential and unique natural product. Ensuring its authenticity and nutritional quality requires a detailed understanding of botanical origin, storage conditions, and potential compositional changes. In this context, expanding physicochemical analyses becomes vital to prevent adulteration and maintain quality control. This study examines the application of near-infrared (NIR) spectroscopy, combined with chemometric modelling, for rapid screening of Bulgarian honey. A total of 108 samples, including acacia, linden, rapeseed, sunflower, and polyfloral varieties, were collected from different regions across Bulgaria. Five physicochemical parameters were measured: active acidity, sugar content (glucose and fructose), electrical conductivity, refractive index, and water content. Spectral data were captured in the $900-1700 ~\text{nm}$ range using the NIRQuest 512 spectrometer. Partial Least Squares (PLS) regression models were developed for each parameter, applying various spectral preprocessing techniques. The most accurate predictions were achieved using first derivative transformations combined with autoscaling or mean-centring, depending on the botanical origin. For instance, the model for pH content in monofloral honey achieved a cross-validation correlation coefficient of 0.95, whereas for polyfloral honey, it was 0.78. Similarly, water content and refractive index were predicted with high reliability, with $\mathrm{r}_{\text{cv}}$ values of 0.83 for polyfloral honey and 0.79 for monofloral honey. Electrical conductivity and sugar content (glucose and fructose) also demonstrated strong predictive performance, especially in polyfloral samples ($\mathrm{r}_{\text{cv}}=0.86$). These findings confirm the potential of NIR spectroscopy, combined with PLS regression, as a quick, non-destructive, and reliable method for evaluating the physicochemical profile of honey.
+ER  - 
+
+TY  - CONF
+TI  - Developing Efficient Temperature Control for HERMS: A Study on P, P-Logic, PI, and PID Controllers
+T2  - 2025 Fourth International Symposium on Instrumentation, Control, Artificial Intelligence, and Robotics (ICA-SYMP)
+SP  - 23
+EP  - 26
+AU  - T. Subhagandha
+AU  - S. Boksuwan
+PY  - 2025
+KW  - Temperature dependence
+KW  - Mashups
+KW  - Process control
+KW  - Control systems
+KW  - Robustness
+KW  - Temperature control
+KW  - Delays
+KW  - Sugar
+KW  - Optimization
+KW  - Gravity
+KW  - HERMS
+KW  - Temperature control
+KW  - Mashing process
+KW  - Craft brewing
+KW  - Skogestad tunning
+DO  - 10.1109/ICA-SYMP63674.2025.10876477
+JO  - 2025 Fourth International Symposium on Instrumentation, Control, Artificial Intelligence, and Robotics (ICA-SYMP)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 Fourth International Symposium on Instrumentation, Control, Artificial Intelligence, and Robotics (ICA-SYMP)
+Y1  - 15-17 Jan. 2025
+AB  - The Heat Exchange Recirculating Mash System (HERMS) is widely used in craft brewing to maintain precise temperature control during the mashing process, which is crucial for achieving optimal sugar extraction and mash efficiency. This study investigates the performance of four different temperature control strategies-P, P-logic, PI, and PID-in maintaining the desired mash temperature profile. The system was modeled using both First-Order Plus Delay (FOPD) and Second-Order Plus Delay (SOPD) models to optimize controller gains through Skogestad's method. Validation of the control strategies was conducted through simulations in MATLAB Simulink. The results showed that while P-logic control maintained stable temperature with 0% overshoot, PI and PID controllers achieved the same with only 30% input energy, compared to 100% used by P-logic. A real-world mashing is conducted with P-logic control. Wort quality was also assessed, with specific gravity, pH, and mash efficiency analyzed. This study highlights the trade-offs between control precision and energy consumption, providing valuable insights for improving HERMS system efficiency in both homebrewing and commercial applications.
+ER  - 
+
+TY  - CONF
+TI  - Digital Personas in Philosophy and Humanities Education: Ethical Issues and Proposed Solutions
+T2  - 2025 IEEE Ural-Siberian Conference on Biomedical Engineering, Radioelectronics and Information Technology (USBEREIT)
+SP  - 146
+EP  - 149
+AU  - Y. Makakenko
+AU  - E. Maiatskaia
+AU  - A. Chernikov
+AU  - T. Oreshkina
+PY  - 2025
+KW  - Training
+KW  - Performance evaluation
+KW  - Ethics
+KW  - Humanities
+KW  - Technological innovation
+KW  - Philosophical considerations
+KW  - Educational technology
+KW  - Chatbots
+KW  - Reliability
+KW  - Standards
+KW  - digital personas
+KW  - chatbots
+KW  - interactive education
+KW  - Artificial Intelligence
+KW  - language models
+KW  - neural network training
+KW  - ethics
+KW  - person-centered approach
+KW  - transparency
+KW  - data protection
+KW  - efficiency of ai tools
+KW  - performance evaluation
+KW  - educational technologies
+DO  - 10.1109/USBEREIT65494.2025.11054229
+JO  - 2025 IEEE Ural-Siberian Conference on Biomedical Engineering, Radioelectronics and Information Technology (USBEREIT)
+IS  - 
+SN  - 2769-3635
+VO  - 
+VL  - 
+JA  - 2025 IEEE Ural-Siberian Conference on Biomedical Engineering, Radioelectronics and Information Technology (USBEREIT)
+Y1  - 12-13 May 2025
+AB  - Contemporary educational technologies are advancing at an extraordinary rate, with one of the most promising trends being the integration of digital personas, or chatbots, into online courses. This development holds particular significance in the realms of philosophy and the humanities, where educational goals transcend mere transmission of factual knowledge. Instead, there is a strong emphasis on nurturing critical thinking abilities, facilitating the interpretation of complex concepts, and promoting active engagement in intellectual dialogues. As mass online education continues to expand, the demand for innovative and effective learner support systems grows, positioning chatbots as a vital tool in this landscape. It not only provides instant, personalized feedback and clarification of intricate topics but also fosters an interactive, immersive educational experience. Furthermore, chatbots can be designed to adapt to individual learning styles and paces, offering tailored assistance that enhances student engagement and comprehension. By bridging the gap between knowledge acquisition and the development of essential analytical skills, chatbots can revolutionize the educational journey, making it more accessible, dynamic, and responsive to the needs of learners in an increasingly digital world. This transformative potential underscore the importance of integrating these technologies into educational frameworks, paving the way for a new era of learning that is both effective and enriching.
+ER  - 
+
+TY  - JOUR
+TI  - Optical Fiber Communication System Based on Intelligent Joint Source-Channel Coded Modulation
+T2  - Journal of Lightwave Technology
+SP  - 2009
+EP  - 2017
+AU  - H. Huang
+AU  - L. Cheng
+AU  - Z. Yu
+AU  - W. Zhang
+AU  - Y. Mu
+AU  - K. Xu
+PY  - 2024
+KW  - Optical fibers
+KW  - Symbols
+KW  - Optical receivers
+KW  - Optical fiber networks
+KW  - Optical attenuators
+KW  - Convolutional neural networks
+KW  - Optical fiber amplifiers
+KW  - Deep learning
+KW  - joint source-channel coded mod- ulation(JSCCM)
+KW  - optical fiber communication(OFC)
+DO  - 10.1109/JLT.2023.3328311
+JO  - Journal of Lightwave Technology
+IS  - 6
+SN  - 1558-2213
+VO  - 42
+VL  - 42
+JA  - Journal of Lightwave Technology
+Y1  - 15 March15, 2024
+AB  - To improve the information transmission ability of point-to-point optical fiber communication systems, we propose and experimentally demonstrate an optical fiber communication system based on intelligent joint source-channel coded modulation (JSCCM-OFC). Instead of encoding information into bits by source coding and employing channel coding, the JSCCM-OFC system codes and modulates the information source into discrete-time analog symbols jointly using deep learning. The generated discrete-time analog symbols are then directly transmitted through an optical fiber. We designed language attention and dual-attention residual networks as the JSCCM for text and image transmission, respectively. For interaction between the information layer and the optical physical layer, we incorporated a convolutional neural network into the joint demodulation and decoding (JDD) network and implemented joint optimization in the receiver. Compared with the bit-based structure, the JSCCM-OFC system achieved higher information compression and obtained a more stable performance, especially in the low-received optical power regime. Moreover, JSCCM enhanced the robustness of the system against optical link impairments.
+ER  - 
+
+TY  - CONF
+TI  - ANN inversion based soft-sensing of biochemical parameters in erythromycin fermentation
+T2  - International Conference on Information Acquisition, 2004. Proceedings.
+SP  - 262
+EP  - 266
+AU  - Xianzhong Dai
+AU  - Dongchuan Yu
+AU  - Yuhan Ding
+AU  - Wancheng Wang
+PY  - 2004
+KW  - Artificial neural networks
+KW  - Chemical and biological sensors
+KW  - Biosensors
+KW  - Equations
+KW  - Pharmaceuticals
+KW  - Production facilities
+KW  - Chemical processes
+KW  - Chemical sensors
+KW  - Costs
+KW  - Laboratories
+DO  - 10.1109/ICIA.2004.1373365
+JO  - International Conference on Information Acquisition, 2004. Proceedings.
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - International Conference on Information Acquisition, 2004. Proceedings.
+Y1  - 21-25 June 2004
+AB  - This paper presents a novel soft-sensing approach based on artificial neural network (ANN) inversion to estimate some crucial biochemical parameters in erythromycin fermentation, which usually can not be directly measurable by commercial sensors. Such direct-unmeasurable variables as mycelia concentration, sugar concentration and chemical potency, can be derived from other direct-measurable variables such as dissolved oxygen concentration, pH, and volume by using the proposed ANN inversion. The ANN inversion consists of a static ANN and several differentiators and acts as a soft-sensor. Experimental results show that the soft-sensing values are almost identical with the actual ones and the proposed method would be helpful for the real-time control of the biochemical fermentation.
+ER  - 
+
+TY  - CHAP
+TI  - Evaluation of In&#x2010;House Compact Biogas Plant Thereby Testing Four&#x2010;Stroke Single&#x2010;Cylinder Diesel Engine
+T2  - Artificial Intelligence for Renewable Energy and Climate Change
+SP  - 277
+EP  - 343
+AU  - Pradeep Kumar Meena
+AU  - Sumit Sharma
+AU  - Amit Pal
+AU  - Samsher
+PY  - 2022
+KW  - Biogas
+KW  - Methane
+KW  - Generators
+KW  - Fuels
+KW  - Urban areas
+KW  - Sugar industry
+KW  - Substrates
+KW  - Renewable energy sources
+KW  - Hydrolysis
+KW  - Hydrogen
+DO  - 10.1002/9781119771524.ch9
+PB  - Wiley
+SN  - 9781119771517
+UR  - http://ieeexplore.ieee.org.uni.lookproxy.com/document/10954591
+AB  - Summary <p>In metropolitans and cities, most wastages are produced from industries, hotels, messes and households. These wastages are not properly utilized in metropolitans either because of lack of knowledge or time management. In the present study, we are investigating the usefulness of these wastages that are produced by metropolitans and cities to produce biogas. Here, an effort is made to progress a compact biogas plant which can be used to produce biogas on a small scale that can fulfill the essential requirement of common people from urban and rural areas for the purpose of cooking, operating engines, and electricity. A biogas plant requires methane&#x2010;producing microorganisms to get it ongoing. Once the plant is producing biogas, the bacteria replicate and continue the ongoing process. Therefore, a comprehensive analysis of a compact biogas plant is performed in terms of its temperature, pH value, and efficiency for different kinds of wastages such as kitchen waste, fruits waste, animal dung and sugar as a catalyst, in view to increase production efficiency of biogas. Furthermore, a 4&#x2010;stroke single&#x2010;cylinder diesel engine is tested by using dual fuel, i.e., diesel and biogas, in terms of its brake power (BP), indicated power, brake and indicated thermal efficiency (B<sub>th</sub>, I<sub>th</sub>), volumetric efficiency, mechanical efficiency, BSFC and ISFC at different loads, to know the effect of biogas on performance of engine as compared with diesel as conventional fuel.</p>
+ER  - 
+
+TY  - CONF
+TI  - Soft-Sensing System Design Based on LabVIEW
+T2  - 2024 Second International Conference on Cyber-Energy Systems and Intelligent Energy (ICCSIE)
+SP  - 1
+EP  - 5
+AU  - G. Cai
+AU  - X. Mu
+AU  - G. Wang
+AU  - C. Wang
+AU  - C. Guan
+AU  - W. Yu
+PY  - 2024
+KW  - Training
+KW  - Temperature sensors
+KW  - Microorganisms
+KW  - Neural networks
+KW  - Estimation
+KW  - Ventilation
+KW  - Data models
+KW  - Fermentation
+KW  - System analysis and design
+KW  - Testing
+KW  - LabVIEW
+KW  - soft-sensing model
+KW  - BP neural network
+KW  - bacteria concentration
+DO  - 10.1109/ICCSIE61360.2024.10698357
+JO  - 2024 Second International Conference on Cyber-Energy Systems and Intelligent Energy (ICCSIE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 Second International Conference on Cyber-Energy Systems and Intelligent Energy (ICCSIE)
+Y1  - 17-19 May 2024
+AB  - Expounding the implementation process of an online estimation system for glutamic acid bacterial concentration designed using LabVIEW with graphical programming language and BP neural network soft-sensing. By selecting parameters such as ventilation, sugar supplementation, $\mathbf{pH}$, and temperature during the glutamic acid fermentation process as auxiliary variables for soft sensor modeling, the important biological parameter affecting the fermentation process and product quality, bacterial concentration, is determined as the target variable for softsensing modeling. The BP neural network in the machine learning toolkit provided by LabVIEW is called, and it is modeled by the BP neural network is trained and tested using sample data. Through simulation results analysis, it has been proven that soft-sensing system of LabVIEW can achieve online estimation of bacterial concentration in the glutamic acid fermentation process.
+ER  - 
+
+TY  - CONF
+TI  - IoT-Based Water Quality Monitoring System
+T2  - 2025 IEEE International Conference on Computer, Electronics, Electrical Engineering & their Applications (IC2E3)
+SP  - 1
+EP  - 5
+AU  - H. S. Khati
+AU  - K. Vishwakarma
+AU  - S. Kumar
+AU  - A. S. Bahuguna
+AU  - Y. P. Pundir
+AU  - K. Kumar
+AU  - S. Kala
+PY  - 2025
+KW  - Temperature measurement
+KW  - Temperature sensors
+KW  - Accuracy
+KW  - Turbidity
+KW  - Water pollution
+KW  - Real-time systems
+KW  - Pollution measurement
+KW  - Monitoring
+KW  - Water resources
+KW  - Testing
+KW  - Sensor Technology
+KW  - Water Quality Monitoring
+KW  - pH sensor
+KW  - TDS sensor
+KW  - Turbidity sensor
+KW  - IoT technology
+DO  - 10.1109/IC2E365635.2025.11167598
+JO  - 2025 IEEE International Conference on Computer, Electronics, Electrical Engineering & their Applications (IC2E3)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2025 IEEE International Conference on Computer, Electronics, Electrical Engineering & their Applications (IC2E3)
+Y1  - 15-16 May 2025
+AB  - Water pollution is an increasingly critical global challenge, against which environmental sustainability and public health are broadly threatened. Interventions for effective surveillance of key parameters of water quality-pH, turbidity, temperature, and total dissolved solids (TDS)-are essential in identifying pollutants in order to flag water safety issues for investigation. Conventional water testing methods have traditionally been laboratory-based chemical analyses that tend to be laborious, time-consuming, and mostly limited to stationary equipment. This paper aims at enhancing efficiency and accessibility of the water quality monitoring system by developing an IoT-based water quality monitoring system with low-cost. Our system, unlike other conventional systems, adopts sensor technology incorporated to the Arduino Uno controller to enable continuous real-time remote monitoring of water quality parameters. Sensor information is treated and sent to the ThingSpeak API for online visualization and analysis. The system allows for the cost-effective, portable, and scalable methods of offering assignments in water quality assessment. Such an approach permits preemptive pollution detection and enhances the control of habitat environmental monitors. Using IoT-based smart sensing, this system offers a more dynamic, real-time alternative to old testing, reducing intervention with humans while increasing accuracy and timeliness. Furthermore, its cloud-based data processing and remote access capabilities enable researchers, and environmental agencies to monitor multiple water sources at the same time. The system's modular design enables future integration with machine learning models.
+ER  - 
+
+TY  - CONF
+TI  - Physicochemical Study of the Conservation of Hot Pepper Post-Harvested in Adrar, Algeria by Convective Solar Drying
+T2  - 2023 IEEE International Conference on Artificial Intelligence & Green Energy (ICAIGE)
+SP  - 1
+EP  - 4
+AU  - A. Loumani
+AU  - A. Mediani
+AU  - M. Foulanine
+AU  - W. B. Chouch
+AU  - C. Tigani
+AU  - Z. Belkacem
+AU  - A. Djaber
+PY  - 2023
+KW  - Proteins
+KW  - Degradation
+KW  - Moisture measurement
+KW  - Green products
+KW  - Moisture
+KW  - Ash
+KW  - Fats
+KW  - Convective solar dryer
+KW  - physiochemical parameters
+KW  - Hot pepper (Capsicum annuum)
+DO  - 10.1109/ICAIGE58321.2023.10346495
+JO  - 2023 IEEE International Conference on Artificial Intelligence & Green Energy (ICAIGE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 IEEE International Conference on Artificial Intelligence & Green Energy (ICAIGE)
+Y1  - 12-14 Oct. 2023
+AB  - This study examined the effects of convective solar drying on the physiochemical quality of hot peppers harvested in Algeria. The fresh products were dried convectively until reaching a desired stable weight. The moisture content, water activity, pH, crude protein, crude fat, total sugars, and polyphenol content were measured. Using an ideal drying method, it required between 2 and 5 days with Aw values of (67, 59) of moisture content, (0.26) of ash, (4.1), PH, and acidity levels of (2.8), Ash levels of (32.41), Dry matter of (73.38), the total protein content of (0.83), the sugar content of (2.9), and polyphenol content of (89) and crude fat content of (0.23).in contrast, the values of fresh Hot pepper were (89),(0.92),(5.34),(3.6),(11),(8),(1.64), and (1.64),(125),(0.36) respectively. The observed results confirmed that the solar drying protected the nutritional value of this product with few losses when compared to the values of the harvested fresh product
+ER  - 
+
+

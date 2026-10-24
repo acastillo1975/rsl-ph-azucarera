@@ -1,0 +1,58 @@
+TY  - JOUR
+TI  - Optimization based on pattern search algorithm applied to ph non-linear control: Application to alkalinization process of sugar juice
+T2  - Processes
+PY  - 2021
+DO  - 10.3390/pr9122283
+UR  - https://www.scopus.com/pages/publications/85121646026?origin=resultslist
+AD  - Quality and Production Department, Instituto Tecnológico Metropolitano (ITM), Medellín, 050034, Colombia
+AD  - Electronic Engineering and Telecommunications Department, Instituto Tecnológico Metropolitano (ITM), Medellín, 050034, Colombia
+AD  - Facultad de Ciencias Económicas y Administrativas, Universidad Jorge Tadeo Lozano, Bogotá, 110311, Colombia
+AB  - In this paper, an approach for the tuning of a model-based non-linear predictive control (NMPC) is presented. The proposed control uses the pattern search optimization algorithm (PSM), which is applied to the pH non-linear control in the alkalinization process of sugar juice. First, the model identification is made using the Takagi Sugeno T-S fuzzy inference systems with multidimen-sional fuzzy sets; the next step is the controller parameters tuning. The PSM algorithm is used in both cases. The proposed approach allows the minimization of model uncertainty and decreases, in the response, the error in a steady state when compared with other authors who perform the same procedure but apply other optimization algorithms. The results show an improvement in the steady-state error in the plant response. © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+KW  - Alkalization
+KW  - Non-linear control
+KW  - Optimization
+PB  - MDPI
+SN  - 22279717 (ISSN)
+LA  - English
+J2  - Process.
+M3  - Article
+DB  - Scopus
+N1  - ['SJR: 0,554', 'SJR Best Quartile: Q2'] | Ollama-five-shot-pH: Aplica NMPC + logica difusa directamente al control de pH en la alcalinizacion del jugo de azucar (etapa de clarificacion). Cumple A, B y C. [conf=95%, nivel=AUTO]
+VL  - 9
+IS  - 12
+AU  - Palacio-Morales, J.
+AU  - Tobón, A.
+AU  - Herrera, J.
+ER  - 
+
+TY  - JOUR
+TI  - Computer-Aided Controller Design for a Nonlinear Process Using a Lagrangian-Based State Transition Algorithm
+T2  - CIRCUITS SYSTEMS AND SIGNAL PROCESSING
+PY  - 2020
+SP  - 977
+EP  - 996
+DO  - 10.1007/s00034-019-01139-5
+AD  - Dept Elect & Instrumentat, Kamaraj Coll Engn & Technol, Virudunagar, India
+AD  - Shanghai Jiao Tong Univ, Dept Automat, Shanghai, Peoples R China
+AB  - Model parameter estimation and controller tuning of the nonlinear clarification process are primary issues in the sugar industry. This paper proposes a Lagrangian-based state transition algorithm (LSTA) for controlling the clarification process and identifying the model parameters. First, the standard system identification procedure is used to estimate the model parameters for the clarifier. Then, the LSTA is used to enhance the accuracy of the identified system parameters. Once a suitable model is obtained, the proposed LSTA is used to fine-tune the optimal controller parameters off-line. We choose two types of evolutionary algorithms for comparison to show the efficacy of the proposed design. The results of the simulations indicate that the proposed controller achieves optimum transient and tracking performance in all cases. For fast convergence and the ability to provide the global optimum when estimating the modeling and controller parameters, the LSTA performance was found to be superior to that of the other algorithms.
+KW  - pH neutralization
+KW  - Lagrangian-based state transition algorithm
+KW  - Nonlinear system identification
+KW  - Controller tuning
+KW  - Clarifier process
+KW  - Sugar industry
+KW  - SYSTEM IDENTIFICATION
+KW  - PARTICLE SWARM
+KW  - CLASSIFICATION
+KW  - CONVERGENCE
+SN  - 0278-081X
+SN  - 1531-5878
+LA  - English
+N1  - ['SJR: 0,387', 'SJR Best Quartile: Q3'] | Ollama-five-shot-pH: Aplica LSTA para controlar y identificar parámetros del proceso de clarificación, lo que cumple con los criterios A (ML/IA) y B (control del pH). La justificación es que el proceso objetivo principal es la clarificación en la industria azucarera. [conf=98%, nivel=AUTO]
+VL  - 39
+IS  - 2
+AU  - Murugesan, R
+AU  - Solaimalai, J
+AU  - Chandran, K
+ER  - 
+

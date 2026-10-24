@@ -1,0 +1,133 @@
+TY  - CONF
+TI  - Neuro-fuzzy Controller Design for pH Control in Sugar Refineries
+T2  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+SP  - 197
+EP  - 202
+AU  - S. K. Sunori
+AU  - P. Bhakuni Negi
+AU  - S. Arora
+AU  - F. Khan
+AU  - S. Maurya
+AU  - P. Juneja
+AU  - M. Manu
+AU  - K. Ghai
+PY  - 2022
+KW  - PI control
+KW  - Crystallizers
+KW  - Filtration
+KW  - Computational modeling
+KW  - Process control
+KW  - Crystals
+KW  - Sugar industry
+KW  - Sugar factory
+KW  - pH
+KW  - ANFIS
+KW  - Control performance
+KW  - peak overshoot
+KW  - Disturbance rejection
+DO  - 10.1109/ICACCS54159.2022.9785146
+JO  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+IS  - 
+SN  - 2575-7288
+VO  - 1
+VL  - 1
+JA  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+Y1  - 25-26 March 2022
+AB  - The input for a sugar industry is sugarcane beat, and output is sweet and white sugar crystals. However, this process is not simple as it looks like. There are various individual sub-processes which run altogether to yield the final product. Broadly, it starts with the preparation of thin fibers out of the sugarcane. Then, it is forwarded to a series of crushing rollers to extract the juice. This raw juice is then passed on to the pH neutralization and filtration process. The refined juice is then evaporated to yield thick syrup. Finally, the syrup is forwarded to crystallizers to yield crystals of sugar. The sub-process that is chosen, in this paper, to proceed with the research, is the pH control process. For considered model of this process, automatic control systems are designed using MATLAB. The classical PI and soft computing based ANFIS controllers have been developed, and their control responses have been compared.
+ER  - 
+
+TY  - CONF
+TI  - Sensor Technology and Regulation method for Sustaining the pH value in Sugar Mechanized Process
+T2  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+SP  - 1
+EP  - 5
+AU  - K. D. T
+AU  - M. R
+AU  - U. D. S
+AU  - S. P
+AU  - P. V
+AU  - S. A
+AU  - V. P
+PY  - 2021
+KW  - Powders
+KW  - Valves
+KW  - Sugar industry
+KW  - Hardware
+KW  - Regulation
+KW  - Mathematical models
+KW  - Time-domain analysis
+KW  - sugar
+KW  - pH
+KW  - sulphitation
+KW  - clarification
+KW  - PID controllers
+KW  - Load cell
+KW  - IMC
+KW  - MATLAB
+DO  - 10.1109/ICECCT52121.2021.9616891
+JO  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+Y1  - 15-17 Sept. 2021
+AB  - Sugar is an important ingredient for the food we make at home and also for the manufactured foods. The quality of the sugar products can be maintained only if their pH value is controlled. This pH value plays an important role in liming, sulphitation process and clarification. Thus preserving the pH rate in the sugar content is emphasized with the hardware components and the addition of lime content in order to stabilize the pH is done through a PID controller. The parameters considered in the tuning of PID controllers are the time domain, integral absolute errors along with its associated factors. Hardware model is developed with Load cell and pH sensor which is interfaced with the PC for tuning the PID controller values. The tuning is carried out by the Internal Mode Controller (IMC) based PID. The simulation of the work is done in MATLAB. Results indicate the error is minimum in the order of 1.94X10-4 which has settling time by 70ms.
+ER  - 
+
+TY  - CONF
+TI  - Neuro-Fuzzy Modeling of PH Neutralization Process in Sugar Mill
+T2  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+SP  - 95
+EP  - 98
+AU  - S. K. Sunori
+AU  - G. S. Jethi
+AU  - A. S. Bhakuni
+AU  - P. K. Juneja
+PY  - 2020
+KW  - Mathematical model
+KW  - Training
+KW  - Sugar
+KW  - Testing
+KW  - Process control
+KW  - Computational modeling
+KW  - Firing
+KW  - pH value
+KW  - ANFIS
+KW  - step response
+KW  - membership functions
+KW  - fuzzy
+DO  - 10.1109/ICACCM50413.2020.9213034
+JO  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+IS  - 
+SN  - 2642-7354
+VO  - 
+VL  - 
+JA  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+Y1  - 21-22 Aug. 2020
+AB  - In sugar factory, the primary juice that is produced from extraction mill is highly impure with a low pH value. The control of pH value of sucrose solution is a crucial task as the purity and colour of final sugar crystals is strictly decided by it. For this, a controlled amount of milk of lime is mixed with it to bring pH value to the desired level. For the design of this control system, a mathematical model of the considered process is required. A neurofuzzy system is an amalgamation of fuzzy logic and neural network. An attempt has been made to obtain a Neuro-Fuzzy model of this process in the present paper using the ANFIS technique of MATLAB.
+ER  - 
+
+TY  - CONF
+TI  - Connoisseur applications in the food industry
+T2  - IEE Colloquium on Automation and Control in Food Processing
+SP  - 8/1
+EP  - 8/4
+AU  - P. P. Aslin
+PY  - 1992
+KW  - Food industry
+KW  - Process control
+KW  - SCADA systems
+KW  - Software packages
+DO  - 
+JO  - IEE Colloquium on Automation and Control in Food Processing
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - IEE Colloquium on Automation and Control in Food Processing
+Y1  - 3-3 April 1992
+AB  - Connoisseur is an advanced process control package. It makes possible tight control of the process using existing interfaces to the plant instrumentation and in addition it provides the functionality of a full feature SCADA system. Two particular applications of Connoisseur in the food industry, the dried milk powder production and the pH control in a sugar industry, are presented.<>
+ER  - 
+
+

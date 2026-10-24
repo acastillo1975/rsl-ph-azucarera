@@ -1,0 +1,255 @@
+\documentclass[12pt,a4paper]{article}
+
+% ── Idioma y codificación ─────────────────────────────────────────────────────
+% "english" se carga como idioma secundario para el abstract en inglés
+% (obligatorio segun la guia de Scientia Agropecuaria); "spanish" al final
+% queda como idioma principal/por defecto del documento.
+\usepackage[english,spanish,es-noshorthands]{babel}
+\AtBeginDocument{\spanishplainpercent}
+\usepackage[T1]{fontenc}
+\addto\captionsspanish{\renewcommand*{\tablename}{Tabla}}
+\AtBeginDocument{\renewcommand{\appendixname}{Appendix}}
+
+% Etiqueta segun el idioma activo de babel: "Keywords" dentro del bloque
+% \begin{otherlanguage}{english}...\end{otherlanguage} del abstract en
+% ingles, "Palabras clave" en el resto del documento (espanol).
+\providecommand{\keywords}[1]{\noindent\textbf{%
+    \iflanguage{english}{Keywords}{Palabras clave}: } #1}
+
+% ── ORCID ─────────────────────────────────────────────────────────────────────
+\usepackage{orcidlink}
+
+% ── Interlineado a doble espacio (Scientia Agropecuaria exige doble espacio) ──
+\usepackage[doublespacing]{setspace}
+\usepackage{microtype}
+
+% ── Numeración de líneas: DESACTIVADA ────────────────────────────────────────
+% Se conservan \linenumbers / \nolinenumbers como órdenes vacías para no tocar
+% los archivos 03/04/05/06. Para reactivarla: \usepackage{lineno} y borrar las
+% dos líneas siguientes.
+\newcommand{\linenumbers}{}
+\newcommand{\nolinenumbers}{}
+
+% ── Diseño de página ──────────────────────────────────────────────────────────
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{emptypage}
+\usepackage{csquotes}
+\usepackage{geometry}
+
+\geometry{
+    a4paper,
+    margin    = 25mm,
+    top       = 25mm,
+    right     = 25mm,
+    left      = 25mm,
+    bottom    = 25mm,
+    columnsep = 1cm,
+}
+
+% ── Manuscrito a 1 columna (Scientia Agropecuaria: formato de envío) ─────────
+% El cuerpo (04_body.tex) usa \begin{multicols}{2}...\end{multicols} para
+% intercalar tablas/figuras en modo landscape entre bloques de texto a dos
+% columnas. En vez de reescribir cada aparición, se redefine el entorno
+% "multicols" para que se comporte como una columna simple (equivalente a
+% \begin{multicols}{1}): el maquetado final a 2 columnas, si la revista lo
+% aplica, lo hace la editorial tras la aceptación.
+\let\multicols\relax
+\let\endmulticols\relax
+\newenvironment{multicols}[1]{}{}
+
+% ── Tolerancias de composición ────────────────────────────────────────────────
+\setlength{\emergencystretch}{3em}
+\hbadness=10000
+\vbadness=10000
+\tolerance=2000
+\overfullrule=0pt
+\hfuzz=18pt
+
+% ── Interacciones lineno con otros entornos ───────────────────────────────────
+\AtBeginEnvironment{longtblr}{\nolinenumbers\hfuzz=18pt}
+\AtBeginEnvironment{tblr}{\nolinenumbers}
+\AtEndEnvironment{tblr}{\linenumbers}
+\AtBeginEnvironment{multicols}{\nolinenumbers}
+\AtEndEnvironment{multicols}{\linenumbers}
+\AddToHook{env/landscape/begin}[lineno-fix]{\nolinenumbers}
+\AddToHook{env/landscape/end}[lineno-fix]{\linenumbers}
+\DeclareHookRule{env/landscape/begin}{lineno-fix}{before}{pdflscape}
+
+% ── Gráficos y figuras ────────────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularray}
+\graphicspath{{figures/}{./figures/}}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+% ── Diagramas esquemáticos propios (TikZ) ─────────────────────────────────────
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,shapes.geometric}
+
+% ── Tablas ────────────────────────────────────────────────────────────────────
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{rotating}
+
+\UseTblrLibrary{booktabs}
+\UseTblrLibrary{siunitx}
+
+% ── Estilo de leyendas ────────────────────────────────────────────────────────
+\captionsetup[table]{
+    skip=6pt,
+    font={small,sf,stretch=1.5},
+    labelfont={bf},
+    textfont={it},
+    labelsep=newline,
+    justification=raggedright,
+    singlelinecheck=false,
+}
+\captionsetup[figure]{
+    skip=6pt,
+    font={small,sf,stretch=1.5},
+    labelfont={bf},
+    textfont={it},
+    labelsep=newline,
+    justification=justified,
+    singlelinecheck=false,
+}
+
+% ── Entorno Nota (pie de tabla/figura) ────────────────────────────────────────
+\NewDocumentEnvironment{Nota}{O{Nota} m b}{%
+    \nolinenumbers
+    \par\vspace{10pt plus2pt minus2pt}%
+    \begin{minipage}{#2}%
+        \nolinenumbers
+        \onehalfspacing\sffamily\small\textit{\textbf{#1}.}\ #3%
+    \end{minipage}%
+}{}
+
+% ── Secciones (formato Elsevier) ──────────────────────────────────────────────
+\usepackage{titlesec}
+\titleformat{\section}{\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\itshape}{\thesubsubsection}{1em}{}
+\titleformat{\paragraph}[runin]{\normalsize\bfseries}{}{0pt}{}[.]
+
+% ── Miscelánea ────────────────────────────────────────────────────────────────
+\usepackage{pdflscape}
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage[Export]{adjustbox}
+\usepackage{url}
+\usepackage{doi}
+\usepackage{chngcntr}
+\usepackage{soul}
+\usepackage{xcolor}
+
+% ── Matemáticas ───────────────────────────────────────────────────────────────
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+
+% ── Tipografía: Times New Roman (Scientia Agropecuaria exige Times 12pt) ──────
+% Debe cargarse DESPUES de amsmath/amsfonts/mathtools/amssymb (orden exigido
+% por la documentacion de newtx) para evitar conflictos de simbolos
+% duplicados (p. ej. "\Bbbk already defined").
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
+\usepackage{siunitx}
+\sisetup{
+    separate-uncertainty = true,
+    multi-part-units     = repeat,
+}
+\NewDocumentCommand\Laplace{}{\mathscr{L}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+% ── Código fuente ─────────────────────────────────────────────────────────────
+\usepackage{listings}
+\definecolor{codegray}{rgb}{0.95,0.95,0.95}
+\definecolor{codeblue}{rgb}{0.15,0.30,0.65}
+\definecolor{codered}{rgb}{0.65,0.10,0.10}
+\definecolor{codegreen}{rgb}{0.10,0.50,0.20}
+\lstset{
+    language={},
+    keywordstyle=\color{codeblue}\bfseries,
+    stringstyle=\color{codered},
+    commentstyle=\color{codegreen}\itshape,
+    basicstyle=\ttfamily\footnotesize,
+    showstringspaces=false,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    breaklines=true,
+    breakatwhitespace=false,
+    postbreak=\mbox{\textcolor{gray}{$\hookrightarrow$}\space},
+    frame=single,
+    backgroundcolor=\color{codegray},
+    captionpos=b,
+    xleftmargin=1.5em,
+    columns=flexible,
+    tabsize=2,
+}
+
+% ── Comando para título del manuscrito ────────────────────────────────────────
+\newcommand{\tituloprincipal}[2]{%
+    \begin{center}
+        {\fontsize{14}{17}\selectfont\textbf{#1}\\[0.5em]}
+        {\fontsize{11}{14}\selectfont #2}
+    \end{center}
+}
+
+% ── Comando para métricas inline ──────────────────────────────────────────────
+\newcommand{\metric}[3]{$#1 = \SI{#2}{#3}$}
+
+% ── Hyperref ──────────────────────────────────────────────────────────────────
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks   = true,
+	citecolor    = blue!75!black,
+	linkcolor    = blue!60!black,
+	urlcolor     = blue!75!black,
+	filecolor    = blue!75!black,
+	pdftitle     = {Aprendizaje automatico y control avanzado para la
+		regulacion del pH en la industria azucarera: una revision de
+		alcance y analisis bibliometrico},
+	pdfauthor    = {Abraham Castillo},
+	pdfsubject   = {Revision de alcance PRISMA-ScR y analisis bibliometrico
+		sobre aprendizaje automatico y control avanzado del pH en la
+		industria azucarera},
+	pdfkeywords  = {control de pH; industria azucarera; aprendizaje automatico;
+		control predictivo; revision de alcance; analisis bibliometrico;
+		brecha de investigacion},
+	pdfstartview = {FitH},
+}
+
+% ── Biblatex / APA (Scientia Agropecuaria exige APA 6.a ed. o posterior) ──────
+\usepackage[
+backend    = biber,
+style      = apa,
+sorting    = nyt,
+hyperref   = auto,
+]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+\addbibresource{bibliography/pHazucar.bib}
+
+
+\let\origparencite\parencite
+\RenewDocumentCommand{\parencite}{O{} O{} m}{\textcolor{blue!75!black}{\origparencite[#1][#2]{#3}}}
+\let\origtextcite\textcite
+\RenewDocumentCommand{\textcite}{O{} O{} m}{\textcolor{blue!75!black}{\origtextcite[#1][#2]{#3}}}
+
+
+% ── Profundidad de numeración ─────────────────────────────────────────────────
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+% ── Datos pendientes (se rellenan en un único archivo) ───────────────────────
+\input{00_datos_pendientes}
+
+\endinput

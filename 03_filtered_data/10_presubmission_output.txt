@@ -1,0 +1,202 @@
+======================================================================
+  PRE-SUBMISSION CHECK — RSL ML PARA pH EN INDUSTRIA AZUCARERA
+  2026-08-13 23:44
+  Raiz del proyecto: D:\1003 UNI - DOCTORADO EN ENERGETICA\00 PAPERS\2025 PAPER SISTEMATIC REVIEW CONTROL DE PH FINAL
+======================================================================
+
+  ────────────────────────────────────────────────────────────
+  A. Estructura LaTeX
+  ────────────────────────────────────────────────────────────
+  [ERR]  [LaTeX     ] FALTA — Archivo principal LaTeX (pH_azucar_main.tex): pH_azucar_main.tex
+  [ERR]  [LaTeX     ] FALTA — Configuracion de paquetes: pH_azucar_00_config.tex
+  [ERR]  [LaTeX     ] FALTA — Titulo, autores, filiaciones: pH_azucar_01_titulo.tex
+  [ERR]  [LaTeX     ] FALTA — Abstract / Resumen: pH_azucar_02_abstract.tex
+  [ERR]  [LaTeX     ] FALTA — Introduccion y preguntas de investigacion: pH_azucar_03_introduccion.tex
+  [ERR]  [LaTeX     ] FALTA — Metodologia PRISMA: pH_azucar_04_metodologia.tex
+  [ERR]  [LaTeX     ] FALTA — Resultados: pH_azucar_05_resultados.tex
+  [ERR]  [LaTeX     ] FALTA — Discusion y brechas: pH_azucar_06_discusion.tex
+  [ERR]  [LaTeX     ] FALTA — Conclusiones: pH_azucar_07_conclusiones.tex
+  [ERR]  [LaTeX     ] FALTA — pH_azucar.bib: pH_azucar.bib
+
+  ────────────────────────────────────────────────────────────
+  B. Figuras
+  ────────────────────────────────────────────────────────────
+  [WARN] [Figuras   ] No se encontraron archivos pH_azucar_*.tex en 08_latex_output/
+
+  ────────────────────────────────────────────────────────────
+  C. Bibliografia
+  ────────────────────────────────────────────────────────────
+  [ERR]  [Bib       ] FALTA: D:\1003 UNI - DOCTORADO EN ENERGETICA\00 PAPERS\2025 PAPER SISTEMATIC REVIEW CONTROL DE PH FINAL\08_latex_output\bibliography\pH_azucar.bib  (ejecutar 10_exportar_latex.py)
+
+  ────────────────────────────────────────────────────────────
+  D. Pipeline datos
+  ────────────────────────────────────────────────────────────
+  [OK]   [Pipeline  ] 00  scopus_export_1.ris (v3)  (37.8 KB)
+  [OK]   [Pipeline  ] 00  scopus_export_2.ris (v3)  (93.8 KB)
+  [OK]   [Pipeline  ] 00  scopus_export_3.ris (v3)  (852.2 KB)
+  [OK]   [Pipeline  ] 00  wos_export_1.ris (v3)  (10.8 KB)
+  [OK]   [Pipeline  ] 00  wos_export_2.ris (v3)  (51.2 KB)
+  [OK]   [Pipeline  ] 00  wos_export_3.ris (v3)  (510.9 KB)
+  [OK]   [Pipeline  ] 00  ieee_export_1.ris (v3)  (6.0 KB)
+  [OK]   [Pipeline  ] 00  ieee_export_2.ris (v3)  (17.8 KB)
+  [OK]   [Pipeline  ] 00  ieee_export_3.ris (v3)  (53.6 KB)
+  [OK]   [Pipeline  ] 00  fusion_export_all.ris (62 reg.)  (1661.2 KB)
+  [OK]   [Pipeline  ] 00  fusion_export.ris (43 unicos)  (1107.9 KB)
+  [OK]   [Pipeline  ] 01  1_prefiltrado.ris (20 reg.)  (669.7 KB)
+  [ERR]  [Pipeline  ] FALTA — 02  2_fusionado_con_cuartiles.ris
+  [OK]   [Pipeline  ] 03  3_filtrado_quartiles.ris (15 Q1-Q4)  (614.9 KB)
+  [OK]   [Pipeline  ] 04  4.filtrado_ollama.xlsx  (234.5 KB)
+  [OK]   [Pipeline  ] 04  4.filtrado_ollama.ris  (6.5 KB)
+  [WARN] [Pipeline  ] Opcional no generado — 04  4.filtrado_ollama.log
+  [OK]   [Pipeline  ] 06  6.corpus_notebooklm.txt  (3.7 KB)
+  [OK]   [Pipeline  ] 06  6.tabla4_estructura.xlsx  (7.2 KB)
+  [OK]   [Pipeline  ] 07  7.clusters_tematicos.xlsx  (77.9 KB)
+  [OK]   [Pipeline  ] 07  7.coocurrencia_keywords.png  (5715.2 KB)
+  [OK]   [Pipeline  ] 08  8.diagrama_prisma_2020.png  (978.7 KB)
+  [ERR]  [Pipeline  ] FALTA — 09  sugar_ph_clarification_dcs_synthetic.csv
+  [ERR]  [Pipeline  ] FALTA — 09  sugar_ph_clarification_dcs_synthetic.xlsx
+  [ERR]  [Pipeline  ] FALTA — 09  dataset_metadata.json
+  [ERR]  [Pipeline  ] FALTA — 09  README.md (Zenodo)
+  [ERR]  [Pipeline  ] FALTA — 10  figures/REPORTE_PRISMA.png
+  [ERR]  [Pipeline  ] FALTA — 10  figures/vos_pH_q1.png
+
+  ────────────────────────────────────────────────────────────
+  E. PRISMA
+  ────────────────────────────────────────────────────────────
+  [OK]   [PRISMA    ] Bruto = Scopus + WoS + IEEE: 62 = 62
+  [OK]   [PRISMA    ] Unicos = Bruto - Duplicados: 43 = 43
+  [OK]   [PRISMA    ] Prefiltrado = Unicos - Excl_tipo_anio: 20 = 20
+  [OK]   [PRISMA    ] Q1Q4 = Prefiltrado - Excl_cuartil: 15 = 15
+  [OK]   [PRISMA    ] Eval_LLM = Q1Q4 - Excl_local: 0 = 0
+  [OK]   [PRISMA    ] Eval_LLM = Incl_LLM + Excl_LLM: 0 = 0
+  [WARN] [PRISMA    ] Corpus final = 0 — pendiente re-busqueda con queries v3
+  Verificacion desde archivos RIS:
+  [ERR]  [PRISMA    ]   fusion_export_all.ris: 541 entradas, esperadas 62
+  [ERR]  [PRISMA    ]   fusion_export.ris: 353 entradas, esperadas 43
+  [ERR]  [PRISMA    ]   1_prefiltrado.ris: 214 entradas, esperadas 20
+  [ERR]  [PRISMA    ]   3_filtrado_quartiles.ris: 205 entradas, esperadas 15
+  [ERR]  [PRISMA    ]   4.filtrado_ollama.ris: 3 entradas, esperadas 0
+
+  ────────────────────────────────────────────────────────────
+  F. Metricas cribado
+  ────────────────────────────────────────────────────────────
+  Estado: pendiente_re_busqueda_v3
+  Evaluados por LLM: 0  (VP=0, VN=0, FP=0, FN=0)
+  [WARN] [Metricas  ] Sensibilidad: pendiente — re-ejecutar 04_filtrado_ollama.py con queries v3
+  [WARN] [Metricas  ] Precision: pendiente — re-ejecutar 04_filtrado_ollama.py
+  [WARN] [Metricas  ] F1: pendiente
+  [WARN] [Metricas  ] Reduccion carga manual: pendiente
+  [OK]   [Metricas  ] DOI Whitelist: 3 papers pre-validados
+  [OK]   [Metricas  ]   -> 10.3390/pr9122283
+  [OK]   [Metricas  ]   -> 10.1016/j.cjche.2015.01.009
+  [OK]   [Metricas  ]   -> 10.3390/en18051232
+  [OK]   [Metricas  ] Modelo LLM (Excel): llama3:latest
+  [WARN] [Metricas  ] Total procesados Excel: 205 (esperado 15)
+  [WARN] [Metricas  ] INCLUIR en Excel: 3 (esperado 0)
+  [WARN] [Metricas  ] Kappa de Cohen: pendiente — requiere corpus completo
+    -> Protocolo: six-shot + filtro L1 relajado + umbral >= 75%
+
+  ────────────────────────────────────────────────────────────
+  G. Corpus final
+  ────────────────────────────────────────────────────────────
+  Corpus final: 1 estudios confirmados | Pipeline total (decision_manual): 0
+  [WARN] [Corpus    ] Corpus = 0 — pendiente re-busqueda con queries v3
+  Queries v3 incluyen: alkalinization, ANFIS, NMPC, sugar juice pH, pattern search, self-tuning
+    [1] Palacio-Morales et al. (2021) — NMPC + Takagi-Sugeno Fuzzy + Pattern Search
+         Processes (Q2) | TRL 4-5 | Colombia
+         DOI: 10.3390/pr9122283
+  [WARN] [Corpus    ]        Nota: Candidato confirmado manualmente. Corpus pendiente de re-busqueda v3.
+  [OK]   [Corpus    ] Tabla 4 (Tabla4_Extraccion): 1 filas
+  [OK]   [Corpus    ] Tabla 4: columnas completadas
+
+  ────────────────────────────────────────────────────────────
+  H. Longitud paper
+  ────────────────────────────────────────────────────────────
+  [WARN] [Longitud  ] Archivo no encontrado: pH_azucar_02_abstract.tex
+  [WARN] [Longitud  ] Archivo no encontrado: pH_azucar_03_introduccion.tex
+  [WARN] [Longitud  ] Archivo no encontrado: pH_azucar_04_metodologia.tex
+  [WARN] [Longitud  ] Archivo no encontrado: pH_azucar_05_resultados.tex
+  [WARN] [Longitud  ] Archivo no encontrado: pH_azucar_06_discusion.tex
+  [WARN] [Longitud  ] Archivo no encontrado: pH_azucar_07_conclusiones.tex
+  [ERR]  [Longitud  ] Palabras totales estimadas (cuerpo): ~0
+  [WARN] [Longitud  ] Tablas en el paper: 0
+  [WARN] [Longitud  ] Figuras en el paper: 0
+  Comparacion con limites de journals objetivo:
+  [OK]   [Longitud  ]   Journal of Process Control (Q1): limite 9,000 — OK
+  [OK]   [Longitud  ]   ISA Transactions (Q1): limite 9,000 — OK
+  [OK]   [Longitud  ]   Computers and Chemical Engineering (Q1): limite 9,000 — OK
+  [OK]   [Longitud  ]   Control Engineering Practice (Q1): limite 8,000 — OK
+  [OK]   [Longitud  ]   Processes (Q2): limite 8,000 — OK
+  [OK]   [Longitud  ]   Sugar Tech (Q2): limite 6,000 — OK
+
+  ────────────────────────────────────────────────────────────
+  I. Dataset Zenodo
+  ────────────────────────────────────────────────────────────
+  [ERR]  [Zenodo    ] FALTA — sugar_ph_clarification_dcs_synthetic.csv  (ejecutar 09_dataset_sintetico_zenodo.py)
+  [ERR]  [Zenodo    ] FALTA — sugar_ph_clarification_dcs_synthetic.xlsx  (ejecutar 09_dataset_sintetico_zenodo.py)
+  [ERR]  [Zenodo    ] FALTA — dataset_metadata.json  (ejecutar 09_dataset_sintetico_zenodo.py)
+  [ERR]  [Zenodo    ] FALTA — README.md  (ejecutar 09_dataset_sintetico_zenodo.py)
+  [WARN] [Zenodo    ] Opcional no encontrado — ZENODO_UPLOAD_CHECKLIST.txt
+  [WARN] [Zenodo    ] Verificar: subir zenodo_package/ a https://zenodo.org/deposit/new
+
+  ────────────────────────────────────────────────────────────
+  J. Journals objetivo
+  ────────────────────────────────────────────────────────────
+  Journals objetivo para RSL de ML + control de pH en industria azucarera:
+    Journal of Process Control (Q1)  — limite: 9,000 palabras, 12 figs, 8 tabs
+      Foco en control avanzado de procesos incluyendo pH. Publica MPC, fuzzy, RL y revisiones sistematicas.
+      URL: https://www.journals.elsevier.com/journal-of-process-control
+    ISA Transactions (Q1)  — limite: 9,000 palabras, 12 figs, 8 tabs
+      Publica control adaptativo de pH (Chen 2019, corpus). Alta relevancia para instrumentacion y control industrial de pH.
+      URL: https://www.journals.elsevier.com/isa-transactions
+    Computers and Chemical Engineering (Q1)  — limite: 9,000 palabras, 12 figs, 8 tabs
+      Publica Bardeeniz 2025 (corpus). RSL y ML para control de pH en procesos quimicos e industriales.
+      URL: https://www.journals.elsevier.com/computers-and-chemical-engineering
+    Control Engineering Practice (Q1)  — limite: 8,000 palabras, 10 figs, 6 tabs
+      Alta relevancia para implementacion de MPC, RL y fuzzy en control de pH a escala industrial.
+      URL: https://www.journals.elsevier.com/control-engineering-practice
+    Processes (Q2)  — limite: 8,000 palabras, 12 figs, 8 tabs
+      Publica Palacio-Morales 2021 (corpus principal). Acceso abierto. Acepta RSL y menos competencia que Q1.
+      URL: https://www.mdpi.com/journal/processes
+    Sugar Tech (Q2)  — limite: 6,000 palabras, 8 figs, 6 tabs
+      Especializado en industria azucarera. Alta relevancia tematica. Menor competencia. Ideal como primer envio.
+      URL: https://link.springer.com/journal/12355
+  [WARN] [Journals  ] Revisar scope, author guidelines y cover letter antes de someter
+  [WARN] [Journals  ] Justificar corpus pequeno en introduccion: tema muy nicho, literatura escasa -> valida la necesidad de la RSL
+  [WARN] [Journals  ] Verificar que las queries v3 esten documentadas en Supplementary Material
+
+======================================================================
+  RESUMEN FINAL — RSL ML PARA pH EN INDUSTRIA AZUCARERA
+  2026-08-13 23:44
+======================================================================
+  [OK]   : 39
+  [WARN] : 25
+  [ERR]  : 28
+
+  NUMEROS PRISMA VERIFICADOS (2026-04-02):
+    Bruto  : 62  (Scopus=33 | WoS=16 | IEEE=13)
+    Unicos : 43  Prefiltrado: 20  Q1-Q4: 15
+    Excl L0/L1/L2: 15  Eval LLM: 0  Corpus actual: 0
+
+  ESTADO DEL CORPUS:
+    Candidato confirmado: Palacio-Morales et al. (2021)
+    DOI: 10.3390/pr9122283
+    Re-busqueda con queries v3 PENDIENTE
+
+  Resolver todos los errores [ERR] antes de compilar.
+
+  PROXIMOS PASOS:
+  1. Re-ejecutar busquedas con queries v3 (alkalinization, ANFIS, NMPC).
+  2. Re-ejecutar: python 04_filtrado_ollama.py
+  3. Agregar papers a decision_manual en 4.filtrado_ollama.xlsx.
+  4. Ejecutar scripts 05 al 10 con corpus actualizado.
+  5. Resolver errores [ERR] listados arriba.
+  6. Compilar el paper:
+     cd 08_latex_output
+     latexmk -pdf -biber pH_azucar_main.tex
+  7. Revisar pH_azucar_main.pdf generado.
+  8. Publicar dataset en Zenodo y actualizar DOI.
+  9. Preparar cover letter y someter al journal.
+======================================================================
+
+  Reporte guardado: D:\1003 UNI - DOCTORADO EN ENERGETICA\00 PAPERS\2025 PAPER SISTEMATIC REVIEW CONTROL DE PH FINAL\11.presubmission_report.txt

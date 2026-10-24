@@ -1,0 +1,97 @@
+CORPUS FINAL RSL: CONTROL DE pH EN LA INDUSTRIA AZUCARERA MEDIANTE IA
+Total articulos incluidos: 2 (seleccion: decision_manual)
+Fuente: Excel 'Clasificacion' -> columna 'decision_manual'
+
+INSTRUCCION PARA NotebookLM:
+  Usa las PREGUNTAS GUIA [RQ1]-[GEO] al final de cada articulo.
+  Responde con el numero de articulo para facilitar la organizacion.
+  Copia las respuestas en el archivo 6.tabla4_estructura.xlsx.
+
+========================================================================
+ARTICULO 1: Optimization based on pattern search algorithm applied to ph non-linear control: Application to alkalinization process of sugar juice
+========================================================================
+
+REFERENCIA COMPLETA:
+  Autores  : Palacio-Morales, J.; Tobón, A.; Herrera, J.
+  Anio     : 2021
+  Revista  : Processes
+  Volumen  : 9  Numero: 12
+  DOI      : 10.3390/pr9122283
+  Base dat.: Scopus
+  Cuartil  : Q2
+
+CLASIFICACION DEL PIPELINE:
+  decision_ollama : INCLUIR
+  decision_manual : INCLUIR
+  Confianza Ollama: 95%  |  Nivel: AUTO
+  Justificacion   : Aplica NMPC + logica difusa directamente al control de pH en la alcalinizacion del jugo de azucar (etapa de clarificacion). Cumple A, B y C.
+
+ABSTRACT:
+In this paper, an approach for the tuning of a model-based non-linear predictive control (NMPC) is presented. The proposed control uses the pattern search optimization algorithm (PSM), which is applied to the pH non-linear control in the alkalinization process of sugar juice. First, the model identification is made using the Takagi Sugeno T-S fuzzy inference systems with multidimen-sional fuzzy sets; the next step is the controller parameters tuning. The PSM algorithm is used in both cases. The proposed approach allows the minimization of model uncertainty and decreases, in the response, the error in a steady state when compared with other authors who perform the same procedure but apply other optimization algorithms. The results show an improvement in the steady-state error in the plant response. © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+
+PALABRAS CLAVE:
+Alkalization; Non-linear control; Optimization
+
+--------------------------------------------------
+PREGUNTAS GUIA PARA NotebookLM (RSL pH Industria Azucarera con IA)
+--------------------------------------------------
+[RQ1] Que tecnica especifica de IA aplica este estudio al proceso de extraccion/molienda? (ELM, KELM, DDPG, CNN, PINN, MPC, soft sensor, etc.)
+[RQ2-var] Cuales son las variables de entrada del modelo? (velocidad de molino, presion hidraulica, imbibicion, humedad del bagazo, corriente, etc.)
+[RQ2-out] Cuales son las variables de salida / indicadores predichos? (eficiencia de extraccion, %pol, calidad del jugo, consumo energetico, etc.)
+[RQ2-met] Que metricas de rendimiento reporta el estudio? (R2, RMSE, MAE, MAPE, etc.)
+[RQ3] Como se compara el modelo propuesto con la linea base convencional? (PID, control manual, regresion lineal, modelos estadisticos)
+[RQ4] Que limitaciones o brechas senalan los autores para la implementacion en lazo cerrado durante una campana completa de zafra?
+[TRL] En que nivel TRL (1-9) clasificarias este estudio y por que? (TRL4=laboratorio, TRL5=planta piloto, TRL6=entorno relevante, TRL7=demostracion)
+[GEO] En que pais y que tipo de fabrica/instalacion fue validado el estudio?
+[DATOS] De donde provienen los datos usados para entrenar/validar el modelo? (DCS industrial, SCADA, laboratorio, simulacion, datos historicos)
+
+--------------------------------------------------
+TEXTO COMPLETO DEL PDF (para analisis profundo en NotebookLM):
+--------------------------------------------------
+[Sin PDF - coloca el archivo en ../04_corpus_final/pdfs]
+
+
+========================================================================
+ARTICULO 2: Computer-Aided Controller Design for a Nonlinear Process Using a Lagrangian-Based State Transition Algorithm
+========================================================================
+
+REFERENCIA COMPLETA:
+  Autores  : Murugesan, R; Solaimalai, J; Chandran, K
+  Anio     : 2020
+  Revista  : CIRCUITS SYSTEMS AND SIGNAL PROCESSING
+  Volumen  : 39  Numero: 2  Paginas: 977.0-996.0
+  DOI      : 10.1007/s00034-019-01139-5
+  Base dat.: 
+  Cuartil  : Q3
+
+CLASIFICACION DEL PIPELINE:
+  decision_ollama : INCLUIR
+  decision_manual : INCLUIR
+  Confianza Ollama: 98%  |  Nivel: AUTO
+  Justificacion   : Aplica LSTA para controlar y identificar parámetros del proceso de clarificación, lo que cumple con los criterios A (ML/IA) y B (control del pH). La justificación es que el proceso objetivo principal es la clarificación en la industria azucarera.
+
+ABSTRACT:
+Model parameter estimation and controller tuning of the nonlinear clarification process are primary issues in the sugar industry. This paper proposes a Lagrangian-based state transition algorithm (LSTA) for controlling the clarification process and identifying the model parameters. First, the standard system identification procedure is used to estimate the model parameters for the clarifier. Then, the LSTA is used to enhance the accuracy of the identified system parameters. Once a suitable model is obtained, the proposed LSTA is used to fine-tune the optimal controller parameters off-line. We choose two types of evolutionary algorithms for comparison to show the efficacy of the proposed design. The results of the simulations indicate that the proposed controller achieves optimum transient and tracking performance in all cases. For fast convergence and the ability to provide the global optimum when estimating the modeling and controller parameters, the LSTA performance was found to be superior to that of the other algorithms.
+
+PALABRAS CLAVE:
+pH neutralization; Lagrangian-based state transition algorithm; Nonlinear system identification; Controller tuning; Clarifier process; Sugar industry; SYSTEM IDENTIFICATION; PARTICLE SWARM; CLASSIFICATION; CONVERGENCE
+
+--------------------------------------------------
+PREGUNTAS GUIA PARA NotebookLM (RSL pH Industria Azucarera con IA)
+--------------------------------------------------
+[RQ1] Que tecnica especifica de IA aplica este estudio al proceso de extraccion/molienda? (ELM, KELM, DDPG, CNN, PINN, MPC, soft sensor, etc.)
+[RQ2-var] Cuales son las variables de entrada del modelo? (velocidad de molino, presion hidraulica, imbibicion, humedad del bagazo, corriente, etc.)
+[RQ2-out] Cuales son las variables de salida / indicadores predichos? (eficiencia de extraccion, %pol, calidad del jugo, consumo energetico, etc.)
+[RQ2-met] Que metricas de rendimiento reporta el estudio? (R2, RMSE, MAE, MAPE, etc.)
+[RQ3] Como se compara el modelo propuesto con la linea base convencional? (PID, control manual, regresion lineal, modelos estadisticos)
+[RQ4] Que limitaciones o brechas senalan los autores para la implementacion en lazo cerrado durante una campana completa de zafra?
+[TRL] En que nivel TRL (1-9) clasificarias este estudio y por que? (TRL4=laboratorio, TRL5=planta piloto, TRL6=entorno relevante, TRL7=demostracion)
+[GEO] En que pais y que tipo de fabrica/instalacion fue validado el estudio?
+[DATOS] De donde provienen los datos usados para entrenar/validar el modelo? (DCS industrial, SCADA, laboratorio, simulacion, datos historicos)
+
+--------------------------------------------------
+TEXTO COMPLETO DEL PDF (para analisis profundo en NotebookLM):
+--------------------------------------------------
+[Sin PDF - coloca el archivo en ../04_corpus_final/pdfs]
+
+

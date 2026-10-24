@@ -1,0 +1,70 @@
+% diagrama_causal.tex — Esquema causal propio (Observación 5, revisión externa)
+% No linealidad fisicoquímica del encalado -> limitaciones del PID ->
+% mecanismos de mejora mediante AA/control avanzado.
+% Se incluye vía \input{} dentro de un entorno figure en 03_introduction.tex.
+% Layout por coordenadas absolutas (x,y) en cm, no posicionamiento relativo
+% encadenado, para evitar colisiones entre columnas de distinta altura.
+\begin{tikzpicture}[
+  font=\sffamily\scriptsize,
+  box/.style = {draw, rounded corners=2pt, align=center, text width=3.0cm,
+                minimum height=1.6cm, inner sep=3pt, line width=0.6pt},
+  causa/.style   = {box, fill=blue!6},
+  efecto/.style  = {box, fill=red!6},
+  mejora/.style  = {box, fill=green!6},
+  flecha/.style  = {-{Stealth[length=2mm]}, line width=0.6pt},
+  etiqueta/.style = {font=\sffamily\bfseries\scriptsize, text=black!65},
+]
+
+% ── Encabezados de columna ─────────────────────────────────────────────────────
+\node[etiqueta, align=center, text width=2.6cm] at (1.6, 9.5)
+  {No linealidad\\fisicoquímica\\del encalado};
+\node[etiqueta, align=center, text width=3.0cm] at (6.7, 9.5)
+  {Limitación del\\control PID};
+\node[etiqueta, align=center, text width=2.8cm] at (11.8, 9.5)
+  {Mecanismos de\\AA / control\\avanzado};
+
+% ── Columna 1: causa raíz fisicoquímica (y = 7.5, 4.6, 1.5) ───────────────────
+\node[causa] (sigmoidal) at (1.6, 7.5)   {Curva de titulación\\\textit{sigmoidal}:
+  ganancia variable en\\varios órdenes de\\magnitud cerca de\\pH~$\approx$~7.0--7.2};
+\node[causa] (variabilidad) at (1.6, 4.6) {Variabilidad del\\jugo crudo\\
+  (variedad, madurez,\\campaña)};
+\node[causa] (fouling) at (1.6, 1.5)   {\textit{Fouling} de\\electrodos y
+  \\asimetría DCS~vs.\\laboratorio};
+
+% ── Columna 2: nodo central PID (y=4.6) y sus dos consecuencias (y=1.1) ───────
+\node[efecto] (pid)   at (6.7, 4.6) {PID sintonizado en\\un punto de
+  operación\\pierde desempeño\\al alejarse de él};
+\node[efecto, text width=3.2cm] (oscil) at (4.8, 1.0) {Oscilaciones\\sostenidas y
+  \\sobredosificación\\de cal};
+\node[efecto, text width=3.2cm] (costo) at (8.6, 1.0) {Costo económico\\doble:
+  pH~$<$~6.8~$\to$\\inversión de sacarosa;\\pH~$>$~7.4~$\to$\\sacaratos de calcio};
+
+% ── Columna 3: mecanismos de mejora (y = 7.5, 4.6, 1.5) ───────────────────────
+\node[mejora] (fuzzy) at (11.8, 7.5)   {Control neuro-difuso\\orientado a la zona
+  \\de máxima sensibilidad\\(punto de equivalencia)};
+\node[mejora] (nmpc)  at (11.8, 4.6) {NMPC / caja gris con\\identificación de
+  \\sistema explícita de\\la no linealidad};
+\node[mejora] (soft)  at (11.8, 1.5) {Sensores virtuales /\\\textit{data-driven}
+  \\robustos a \textit{fouling}\\y a baja frecuencia\\de muestreo};
+
+% ── Flechas causales (columna 1 -> columna 2) ─────────────────────────────────
+\draw[flecha] (sigmoidal) -- (pid);
+\draw[flecha] (variabilidad) -- (pid);
+\draw[flecha] (fouling) -- (pid);
+\draw[flecha] (pid) -- (oscil);
+\draw[flecha] (pid) -- (costo);
+
+% ── Flechas causales (columna 1 -> columna 3) ─────────────────────────────────
+\draw[flecha] (sigmoidal) -- (fuzzy);
+\draw[flecha] (variabilidad) -- (nmpc);
+\draw[flecha] (fouling) -- (soft);
+
+% ── Flechas de mitigación (columna 3 -> columna 2, discontinuas) ──────────────
+\draw[flecha, dashed, blue!60!black] (fuzzy) -- (pid.north east)
+  node[midway, above, sloped, etiqueta, text=blue!60!black] {\scriptsize mitiga};
+\draw[flecha, dashed, blue!60!black] (nmpc) -- (pid.east)
+  node[midway, above, sloped, etiqueta, text=blue!60!black] {\scriptsize mitiga};
+\draw[flecha, dashed, blue!60!black] (soft) -- (pid.south east)
+  node[midway, below, sloped, etiqueta, text=blue!60!black] {\scriptsize mitiga};
+
+\end{tikzpicture}

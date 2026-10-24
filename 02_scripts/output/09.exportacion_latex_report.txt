@@ -1,0 +1,45 @@
+=================================================================
+REPORTE LaTeX — RSL pH EN INDUSTRIA AZUCARERA
+2026-09-20 12:21
+=================================================================
+
+Pipeline: 23/23 artefactos presentes
+Figuras copiadas: 5/5
+pHazucar.bib: 0 entrada(s) metodologica(s) anadida(s); 0 candidato(s) de corpus nuevo en staging
+\includegraphics faltantes: 0
+Claves citadas no resueltas: 0
+Snippets IMRD: 4 fragmentos
+
+PROBLEMAS TOTALES: 0
+
+✓ Listo para compilar.
+
+COMPILAR (recomendado):
+  cd 07_latex_output
+  latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" SRL_pH.tex
+
+COMPILAR (manual):
+  cd 07_latex_output
+  pdflatex SRL_pH.tex
+  biber SRL_pH
+  pdflatex SRL_pH.tex
+  pdflatex SRL_pH.tex
+
+USO DE LOS SNIPPETS EN EL .tex DEL PAPER (IMRD):
+  En el preamble:
+    \input{snippets/imrd_prisma_numbers.tex}
+
+  En la seccion Metodologia (M de IMRD):
+    \input{snippets/imrd_methods_paragraph.tex}
+
+  En Resultados, usar las macros directamente:
+    La busqueda identifico \NBruto{} registros, de los cuales \NCorpus{}
+    fueron incluidos en el corpus final.
+
+  Tablas listas (en Resultados):
+    \begin{table}\centering
+      \input{snippets/imrd_top_revistas.tex}
+      \caption{Top 10 revistas del corpus.}
+    \end{table}
+
+=================================================================

@@ -1,0 +1,49 @@
+% hoja_ruta.tex — Hoja de ruta por horizontes TRL (figura propia, TikZ).
+% Se incluye vía \input{} en 04_body.tex (§ Agenda de investigación).
+\begin{tikzpicture}[
+  font=\sffamily\scriptsize,
+  hz/.style = {draw, rounded corners=3pt, align=left, text width=4.3cm,
+               inner sep=5pt, line width=0.6pt, minimum height=3.6cm,
+               anchor=north},
+  corto/.style = {hz, fill=green!7},
+  medio/.style = {hz, fill=blue!7},
+  largo/.style = {hz, fill=orange!9},
+  cab/.style = {font=\sffamily\bfseries\scriptsize, align=center},
+  base/.style = {draw, rounded corners=3pt, fill=black!5, align=center,
+                 text width=14.6cm, inner sep=5pt, line width=0.6pt},
+  flecha/.style = {-{Stealth[length=2.2mm]}, line width=0.9pt, black!60},
+]
+
+% ── Cabeceras ──────────────────────────────────────────────────────────────
+\node[cab] at (2.4, 5.0)  {Corto plazo\\TRL 4--5};
+\node[cab] at (7.6, 5.0)  {Mediano plazo\\TRL 5--6};
+\node[cab] at (12.8, 5.0) {Largo plazo\\TRL 7--8};
+
+% ── Horizontes ─────────────────────────────────────────────────────────────
+\node[corto] (c) at (2.4, 4.4) {%
+  \textbf{Control neuro-difuso}\\ réplica en banco con jugo real;\\[2pt]
+  \textbf{Sensores virtuales de pH}\\ entrenados con variables DCS de bajo
+  costo, robustos al \textit{fouling}};
+\node[medio] (m) at (7.6, 4.4) {%
+  \textbf{NMPC de caja gris}\\ invariantes de reacción + identificación en
+  línea;\\[2pt]
+  \textbf{Gemelo digital}\\ del encalado para probar controladores sin
+  riesgo operacional};
+\node[largo] (l) at (12.8, 4.4) {%
+  \textbf{Aprendizaje por refuerzo}\\ con transferencia desde dominios de
+  neutralización;\\[2pt]
+  \textbf{Demostración en zafra}\\ lazo cerrado $\geq 90$~días, error de pH,
+  consumo de cal y pérdidas de sacarosa};
+
+\draw[flecha] (c.east) -- (m.west);
+\draw[flecha] (m.east) -- (l.west);
+
+% ── Base transversal ───────────────────────────────────────────────────────
+\node[base] (b) at (7.6, 0.0) {\textbf{Condición previa y habilitantes
+  transversales:} línea base del PID en planta (error de pH, consumo de cal,
+  pérdidas de sacarosa) $\cdot$ conjuntos de datos abiertos de al menos dos
+  campañas $\cdot$ protocolos de validación comparables};
+\draw[flecha] (b.north -| c.south) -- (c.south);
+\draw[flecha] (b.north -| m.south) -- (m.south);
+\draw[flecha] (b.north -| l.south) -- (l.south);
+\end{tikzpicture}

@@ -1,0 +1,356 @@
+TY  - CONF
+TI  - Neuro-fuzzy Controller Design for pH Control in Sugar Refineries
+T2  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+SP  - 197
+EP  - 202
+AU  - S. K. Sunori
+AU  - P. Bhakuni Negi
+AU  - S. Arora
+AU  - F. Khan
+AU  - S. Maurya
+AU  - P. Juneja
+AU  - M. Manu
+AU  - K. Ghai
+PY  - 2022
+KW  - PI control
+KW  - Crystallizers
+KW  - Filtration
+KW  - Computational modeling
+KW  - Process control
+KW  - Crystals
+KW  - Sugar industry
+KW  - Sugar factory
+KW  - pH
+KW  - ANFIS
+KW  - Control performance
+KW  - peak overshoot
+KW  - Disturbance rejection
+DO  - 10.1109/ICACCS54159.2022.9785146
+JO  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+IS  - 
+SN  - 2575-7288
+VO  - 1
+VL  - 1
+JA  - 2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS)
+Y1  - 25-26 March 2022
+AB  - The input for a sugar industry is sugarcane beat, and output is sweet and white sugar crystals. However, this process is not simple as it looks like. There are various individual sub-processes which run altogether to yield the final product. Broadly, it starts with the preparation of thin fibers out of the sugarcane. Then, it is forwarded to a series of crushing rollers to extract the juice. This raw juice is then passed on to the pH neutralization and filtration process. The refined juice is then evaporated to yield thick syrup. Finally, the syrup is forwarded to crystallizers to yield crystals of sugar. The sub-process that is chosen, in this paper, to proceed with the research, is the pH control process. For considered model of this process, automatic control systems are designed using MATLAB. The classical PI and soft computing based ANFIS controllers have been developed, and their control responses have been compared.
+ER  - 
+
+TY  - CONF
+TI  - Sensor Technology and Regulation method for Sustaining the pH value in Sugar Mechanized Process
+T2  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+SP  - 1
+EP  - 5
+AU  - K. D. T
+AU  - M. R
+AU  - U. D. S
+AU  - S. P
+AU  - P. V
+AU  - S. A
+AU  - V. P
+PY  - 2021
+KW  - Powders
+KW  - Valves
+KW  - Sugar industry
+KW  - Hardware
+KW  - Regulation
+KW  - Mathematical models
+KW  - Time-domain analysis
+KW  - sugar
+KW  - pH
+KW  - sulphitation
+KW  - clarification
+KW  - PID controllers
+KW  - Load cell
+KW  - IMC
+KW  - MATLAB
+DO  - 10.1109/ICECCT52121.2021.9616891
+JO  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)
+Y1  - 15-17 Sept. 2021
+AB  - Sugar is an important ingredient for the food we make at home and also for the manufactured foods. The quality of the sugar products can be maintained only if their pH value is controlled. This pH value plays an important role in liming, sulphitation process and clarification. Thus preserving the pH rate in the sugar content is emphasized with the hardware components and the addition of lime content in order to stabilize the pH is done through a PID controller. The parameters considered in the tuning of PID controllers are the time domain, integral absolute errors along with its associated factors. Hardware model is developed with Load cell and pH sensor which is interfaced with the PC for tuning the PID controller values. The tuning is carried out by the Internal Mode Controller (IMC) based PID. The simulation of the work is done in MATLAB. Results indicate the error is minimum in the order of 1.94X10-4 which has settling time by 70ms.
+ER  - 
+
+TY  - CONF
+TI  - Design and Analysis of Prediction based Control System for pH Neutralization Process of Sugar Mill
+T2  - 2021 2nd Global Conference for Advancement in Technology (GCAT)
+SP  - 1
+EP  - 6
+AU  - G. S. Jethi
+AU  - S. K. Sunori
+AU  - M. Tewari
+AU  - P. Goyal
+AU  - S. Maurya
+AU  - S. Arora
+PY  - 2021
+KW  - Digital control
+KW  - Photonic crystals
+KW  - Crystallization
+KW  - Magnetic materials
+KW  - Sugar
+KW  - Matlab
+KW  - Predictive control
+KW  - Sugar mill
+KW  - pH control
+KW  - PID
+KW  - MPC
+KW  - Control horizon
+KW  - Prediction horizon
+KW  - Setpoint tracking
+KW  - Disturbance rejection
+KW  - Settling time
+DO  - 10.1109/GCAT52182.2021.9587748
+JO  - 2021 2nd Global Conference for Advancement in Technology (GCAT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2021 2nd Global Conference for Advancement in Technology (GCAT)
+Y1  - 1-3 Oct. 2021
+AB  - In sugar mill, the primary juice, acquired by crushing of raw sugarcane, is extremely impure. So, before sending it to undergo crystallization, it is clarified and filtered. In this process, its pH value is neutralized. The theme of this research paper is the pH control of the crushed sugarcane juice. The technique adopted for control is a prediction based modern digital control technique named Model Predictive Control (MPC). The MPC control system is designed in MATLAB for the pH neutralization process, and its control performance is compared with PID controller. Further, the impact of variation in the prediction horizon and the control horizon parameters of MPC, on reference tracking and disturbance rejection, are examined.
+ER  - 
+
+TY  - CONF
+TI  - Intelligent based modelling, control and fault detection of chemical process
+T2  - 2010 INTERNATIONAL CONFERENCE ON COMMUNICATION CONTROL AND COMPUTING TECHNOLOGIES
+SP  - 327
+EP  - 332
+AU  - C. Karthik
+AU  - M. Senthilkumar
+PY  - 2010
+KW  - Sugar industry
+KW  - Artificial neural networks
+KW  - Mathematical model
+KW  - Process control
+KW  - Sugar
+KW  - System identification
+KW  - Training
+KW  - clarifying process of sugar Cane juice
+KW  - Neural Network
+KW  - system Identification
+KW  - neutralized pH value
+KW  - diagnosis
+KW  - Laview
+DO  - 10.1109/ICCCCT.2010.5670574
+JO  - 2010 INTERNATIONAL CONFERENCE ON COMMUNICATION CONTROL AND COMPUTING TECHNOLOGIES
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2010 INTERNATIONAL CONFERENCE ON COMMUNICATION CONTROL AND COMPUTING TECHNOLOGIES
+Y1  - 7-9 Oct. 2010
+AB  - Neutralizing pH value of sugar cane juice is the important craft in the control process in the clarifying process of sugar cane juice, which is the important factor to influence output and the quality of white sugar. On the one hand, it is an important content to control the neutralized pH value within a required range, which has the vital significance for acquiring high quality purified juice, reducing energy consumption and raising sucrose recovery. On the other hand, it is a complicated physical-chemistry process, which has the characteristics of strong non linearity, time-varying, large time-delay, and multiinput. Therefore, there has not a very good solution to control the neutralized pH value. Firstly, in this paper, neural network model for the clarifying process of sugar juice is established based on gathering 1200 groups of realtime sample data in a sugar factory.
+ER  - 
+
+TY  - CONF
+TI  - An improved method of DHP for optimal control in the clarifying process of sugar cane juice
+T2  - 2009 International Joint Conference on Neural Networks
+SP  - 1814
+EP  - 1819
+AU  - X. Lin
+AU  - J. Yang
+AU  - H. Liu
+AU  - S. Song
+AU  - C. Song
+PY  - 2009
+KW  - Optimal control
+KW  - Sugar industry
+KW  - Dynamic programming
+KW  - Neural networks
+KW  - Nonlinear dynamical systems
+KW  - Nonlinear systems
+KW  - Production facilities
+KW  - Predictive models
+KW  - Delay systems
+KW  - Delay effects
+KW  - approximate dynamic programming (ADP)
+KW  - dual heuristic programming (DHP)
+KW  - Elman neural network time-delay
+DO  - 10.1109/IJCNN.2009.5178787
+JO  - 2009 International Joint Conference on Neural Networks
+IS  - 
+SN  - 2161-4407
+VO  - 
+VL  - 
+JA  - 2009 International Joint Conference on Neural Networks
+Y1  - 14-19 June 2009
+AB  - Clarifying process of sugar cane juice is a dynamic nonlinear system which has the characteristics of strong non-linearity, multi-constraint, large time-delay, multi-input and other characteristics of complex nonlinear systems. In this paper, Elman neural network is applied to the model of the clarifying process of sugar cane juice. An improved method of dual heuristic programming (DHP) affiliated to the approximate dynamic programming (ADP) family is employed to the optional control of neutralized pH value and purified juice pH value in clarifying process of sugar cane juice. The main advantage of this method is to add an ldquoapproximaterdquo neural network, which takes use of the states and actions during delay-time of the system to calculate partial derivative of state with respect to action, consequently it overcomes the difficulty of using the system model to calculate the partial derivative of state with respect to action because of the large lagging time. As a result the DHP algorithm is more suitable for real-time process control and online application. Finally, the results of the simulation indicate that the improved DHP method has good control effect.
+ER  - 
+
+TY  - CONF
+TI  - Neuro-Fuzzy Modeling of PH Neutralization Process in Sugar Mill
+T2  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+SP  - 95
+EP  - 98
+AU  - S. K. Sunori
+AU  - G. S. Jethi
+AU  - A. S. Bhakuni
+AU  - P. K. Juneja
+PY  - 2020
+KW  - Mathematical model
+KW  - Training
+KW  - Sugar
+KW  - Testing
+KW  - Process control
+KW  - Computational modeling
+KW  - Firing
+KW  - pH value
+KW  - ANFIS
+KW  - step response
+KW  - membership functions
+KW  - fuzzy
+DO  - 10.1109/ICACCM50413.2020.9213034
+JO  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+IS  - 
+SN  - 2642-7354
+VO  - 
+VL  - 
+JA  - 2020 International Conference on Advances in Computing, Communication & Materials (ICACCM)
+Y1  - 21-22 Aug. 2020
+AB  - In sugar factory, the primary juice that is produced from extraction mill is highly impure with a low pH value. The control of pH value of sucrose solution is a crucial task as the purity and colour of final sugar crystals is strictly decided by it. For this, a controlled amount of milk of lime is mixed with it to bring pH value to the desired level. For the design of this control system, a mathematical model of the considered process is required. A neurofuzzy system is an amalgamation of fuzzy logic and neural network. An attempt has been made to obtain a Neuro-Fuzzy model of this process in the present paper using the ANFIS technique of MATLAB.
+ER  - 
+
+TY  - CONF
+TI  - Design and Analysis of an Intelligent PID Controller for Sugar Industry Process
+T2  - 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)
+SP  - 784
+EP  - 789
+AU  - V. Saravana
+AU  - R. B. Kumar
+PY  - 2019
+KW  - Neural networks
+KW  - Process control
+KW  - Sugar industry
+KW  - Mathematical model
+KW  - Data models
+KW  - Training
+KW  - Tuning
+KW  - Modeling and control
+KW  - Neural network
+KW  - PID
+KW  - Fuzzy
+KW  - Genetic algorithm
+KW  - Stability
+KW  - Industrial process
+DO  - 10.1109/ICCIKE47802.2019.9004285
+JO  - 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2019 International Conference on Computational Intelligence and Knowledge Economy (ICCIKE)
+Y1  - 11-12 Dec. 2019
+AB  - The proposed paper focuses on the identification of system model with different investigation on real time data obtained from industrial process using neural networks along with design of PID controller using intelligent controllers. The real time process in sugar industry has been taken as reference for modeling and controller design for controlling the process parameters such as level, temperature, flow, pressure, pH etc that associate with the process. The real time process constitutes multi input and output with external disturbance which makes the conventional mathematical modeling is complex when compared to algorithm based design. The process model representation in terms of mathematical model, transfer function, state space model holds the process characteristics and order of the system reflects the input and output to the system. The initial process in sugar industry is juice extraction from sugar cane called crushing unit which requires continuous monitoring and control for maximum juice extraction. The author clearly explains the model identification for cane crushing process with the aid of neural network for data fitness, estimation and validation, model identification. The classical PID controller plays the vital role in process control industries which controls the major closed loop process. The influence of external disturbance during run time in any process or change in set point leads to non-linearity. In order to improve the control action, intelligent controller like fuzzy logic controller and genetic algorithm has been designed for tuning of PID controller. The response of proposed controllers are compared with classical controller and discussed briefly in conclusion.
+ER  - 
+
+TY  - CONF
+TI  - Design of Digital and Robust Control Systems for Sugar Refinery
+T2  - 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT)
+SP  - 527
+EP  - 532
+AU  - S. K. Sunori
+AU  - K. A. Joshi
+AU  - P. B. Negi
+AU  - A. Mittal
+AU  - P. Garia
+AU  - S. Maurya
+AU  - P. Juneja
+PY  - 2022
+KW  - Robust control
+KW  - Transient response
+KW  - Transfer functions
+KW  - Photonic crystals
+KW  - H infinity control
+KW  - Control systems
+KW  - Sugar industry
+KW  - Digital control
+KW  - pH control
+KW  - Robust control
+KW  - MPC
+KW  - H-infinity
+KW  - pH value
+KW  - Setpoint tracking
+KW  - Settling time
+KW  - Peak overshoot
+DO  - 10.1109/ICSSIT53264.2022.9716315
+JO  - 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT)
+Y1  - 20-22 Jan. 2022
+AB  - In an industrial sugar making process, the extracted raw juice out of the sugarcane is first clarified in the sugar refineries. and then its crystallization is carried out in vacuum pans. In the sugar refineries, the pH control is performed in three steps viz. liming, carbonation” and sulphitation. The pH control unit for the sugar mill is the area of research chosen to write this research paper. In this work, for a considered transfer function model of the pH control system, the controller is designed in MATLAB using two different approaches viz. the robust control based on the H infinity loop shaping technique and the digital control using MPC (model predictive control) technique. The set-point response of both control systems have been analyzed and compared.
+ER  - 
+
+TY  - CONF
+TI  - An Application Of Hybrid Firefly And Pso With Support Vector Regression For Modeling A Clarifier Process In Sugar Industry
+T2  - 2018 National Power Engineering Conference (NPEC)
+SP  - 1
+EP  - 10
+AU  - M. Rajalakshmi
+AU  - S. Jeyadevi
+AU  - C. Karthik
+PY  - 2018
+KW  - Sugar industry
+KW  - Mathematical model
+KW  - Convergence
+KW  - Power engineering
+KW  - Support vector machines
+KW  - Training
+KW  - Genetic algorithms
+KW  - Support Vector Regression
+KW  - Firefly
+KW  - PSO
+KW  - clarifier process
+KW  - Sugar Industry
+KW  - Model Identification
+DO  - 10.1109/NPEC.2018.8476695
+JO  - 2018 National Power Engineering Conference (NPEC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 National Power Engineering Conference (NPEC)
+Y1  - 9-10 March 2018
+AB  - In this paper, Support Vector Regression (SVR) with the Particle Swarm Optimization algorithm (PSO) and SVR with Firefly algorithm (FFA) is used to model the clarifier process of sugar industry. Generally, SVR model is involved in mapping the nonlinear structure for nonlinear regression. Hybrid structure of SVR with PSO-FFA is involved in the modeling of nonlinear process. The proposed method is has improved its efficient characteristics in the process of maintaining the neutralized value of pH. The performances of proposed methods are compared and the result were obtained which shows the effectiveness of the proposed hybrid algorithm. The results proves to be effective for using in the real-time complex industrial problems.
+ER  - 
+
+TY  - CONF
+TI  - Model Order Reduction of a Higher Order Model of pH Neutralizer of Sugar Mill
+T2  - 2016 8th International Conference on Computational Intelligence and Communication Networks (CICN)
+SP  - 653
+EP  - 656
+AU  - S. K. Sunori
+AU  - P. K. Juneja
+AU  - M. Chaturvedi
+AU  - P. Saini
+PY  - 2016
+KW  - Mathematical model
+KW  - Sugar industry
+KW  - Transfer functions
+KW  - Genetic algorithms
+KW  - Analytical models
+KW  - Computational modeling
+KW  - Numerical models
+KW  - model order reduction
+KW  - dead time
+KW  - Padé approximation
+KW  - setpoint tracking
+KW  - singular values
+DO  - 10.1109/CICN.2016.134
+JO  - 2016 8th International Conference on Computational Intelligence and Communication Networks (CICN)
+IS  - 
+SN  - 2472-7555
+VO  - 
+VL  - 
+JA  - 2016 8th International Conference on Computational Intelligence and Communication Networks (CICN)
+Y1  - 23-25 Dec. 2016
+AB  - Several industrial chemical processes are found tobe FOPDT (first order plus dead time). The presence of deadtime makes the transfer function to be irrational and makesthe simulation and controller design very complex. In thepresent work an FOPDT model of the pH neutralizationprocess which is found in sugar mills is considered as a subjectof study and analysis. Having obtained its Padéapproximation, its order has been reduced using Square RootBalance Truncation Method and then for this reduced ordermodel, Ziegler-Nichols(ZN), Internal model control (IMC)and optimized IMC using Genetic Algorithm(GA-IMC)based controllers are designed and their performance is compared.
+ER  - 
+
+

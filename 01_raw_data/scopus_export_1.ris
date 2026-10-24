@@ -1,0 +1,851 @@
+TY  - JOUR
+AU  - A Gehring, T.
+AU  - A Cavalcante, W.
+AU  - S Colares, A.
+AU  - Angenent, L.T.
+AU  - T Santaella, S.
+AU  - Lübken, M.
+AU  - C Leitão, R.
+TI  - Optimal pH set point for simultaneous production and pertraction of n-caproic acid: an experimental and simulation study
+PY  - 2020
+T2  - Journal of Chemical Technology and Biotechnology
+VL  - 95
+IS  - 12
+SP  - 3105
+EP  - 3116
+DO  - 10.1002/jctb.6486
+UR  - https://www.scopus.com/pages/publications/85086097689?origin=resultslist
+AD  - Institute of Urban Water Management and Environmental Engineering, Department of Civil and Environmental Engineering, Ruhr-Universität Bochum, Universitätsstr. 150, Bochum, 44801, Germany
+AD  - Embrapa Agroindústria Tropical. Rua Dra. Sara Mesquita, Rua Dra Sara Mesquita, 2270, Fortaleza, 60511-110, Ceara, Brazil
+AD  - Department of Hydraulic and Sanitation, São Carlos School of Engineering, University of São Paulo, Av. Trabalhador são-carlense, 400, São Carlos, 13566-590, São Paulo, Brazil
+AD  - Centrum for Applied GeoSciences, University of Tübingen, Hölderlinstr. 12, Tübingen, 72074, Germany
+AD  - Institute of Marine Science, Federal University of Ceará. Avenida da Abolição, Av. da Abolição, 3207, Fortaleza, 60165-081, Ceara, Brazil
+AB  - BACKGROUND: The high rate production of n-caproic acid (C6) through chain elongation can be achieved with the use of pertraction systems for the continuous and selective extraction of C6. However, although the biological conversion processes are enhanced at a neutral pH, high extraction efficiency depends on acidic conditions. Understanding of these divergent pH effects is fundamental for a reliable operation and scale-up of these C6-producing systems. RESULTS: A bench-scale anaerobic filter (12.8 L) fed with fermented sugarcane at organic loading rates of ≈7.2 g of chemical oxygen demand (COD) L−1 day−1 achieved C6 production rates of 2.1 and 3.8 gCOD L−1 day−1, without and with in-line extraction, respectively. Compared to previous studies, a high average extraction rate of 24.7 gCOD m−2 day−1 was observed due to a high reactor volume-to-membrane-area ratio. The novel model described here with biological and pertraction processes for continuously operated systems indicates that an optimal operative pH can simultaneously maximize C6 production and extraction. The hydraulic retention time was another key parameter for balancing inhibition by undissociated C6 and losses due to nonextracted C6. CONCLUSIONS: Sugarcane biorefineries can produce C6, which has a market value that is >10-fold higher than ethanol. Simulations of chain elongation processes require the implementation of hydrogenotrophic methanogens to allow for a comprehensive description of ethanol consumption together with the C6 formation, in-line C6 extraction processes, and formation of gaseous by-products. Although these simulations were possible using parameter sets from the literature, further studies are needed for parameter identification, especially under inhibition at low pH. © 2020 Society of Chemical Industry. © 2020 Society of Chemical Industry
+KW  - anaerobic digestion model
+KW  - carboxylic acid platform
+KW  - chain elongation
+KW  - extraction
+KW  - pH optimization
+KW  - Chemical industry
+KW  - Ethanol
+KW  - Extraction
+KW  - pH effects
+KW  - Saturated fatty acids
+KW  - hexanoic acid
+KW  - Biological conversion
+KW  - Ethanol consumption
+KW  - Extraction efficiencies
+KW  - Hydraulic retention time
+KW  - Hydrogenotrophic methanogens
+KW  - Organic loading rates
+KW  - Reliable operation
+KW  - Selective extraction
+KW  - anaerobic digestion
+KW  - Article
+KW  - biomass
+KW  - chemical oxygen demand
+KW  - hydraulic retention time
+KW  - methanogen
+KW  - pH
+KW  - scale up
+KW  - steady state
+KW  - sugarcane
+KW  - sugarcane juice
+KW  - theoretical study
+KW  - Chemical oxygen demand
+PB  - John Wiley and Sons Ltd
+SN  - 02682575 (ISSN)
+LA  - English
+J2  - J. Chem. Technol. Biotechnol.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 15; Correspondence Address: R. C Leitão; Embrapa Agroindústria Tropical. Rua Dra. Sara Mesquita, Fortaleza, Rua Dra Sara Mesquita, 2270, 60511-110, Brazil; email: renato.leitao@embrapa.br; CODEN: JCTBD
+ER  -
+
+TY  - CONF
+AU  - Sunori, S.K.
+AU  - Jethi, G.S.
+AU  - Bhakuni, A.S.
+AU  - Juneja, P.K.
+TI  - Neuro-Fuzzy Modeling of PH Neutralization Process in Sugar Mill
+PY  - 2020
+T2  - Proceedings - 2020 International Conference on Advances in Computing, Communication and Materials, ICACCM 2020
+C7  - 9213034
+SP  - 95
+EP  - 98
+DO  - 10.1109/ICACCM50413.2020.9213034
+UR  - https://www.scopus.com/pages/publications/85097528167?origin=resultslist
+AD  - Gehu, Bhimtal Campus, India
+AD  - Geu, Dehradun, India
+AB  - In sugar factory, the primary juice that is produced from extraction mill is highly impure with a low pH value. The control of pH value of sucrose solution is a crucial task as the purity and colour of final sugar crystals is strictly decided by it. For this, a controlled amount of milk of lime is mixed with it to bring pH value to the desired level. For the design of this control system, a mathematical model of the considered process is required. A neurofuzzy system is an amalgamation of fuzzy logic and neural network. An attempt has been made to obtain a Neuro-Fuzzy model of this process in the present paper using the ANFIS technique of MATLAB. © 2020 IEEE.
+KW  - ANFIS
+KW  - fuzzy
+KW  - membership functions
+KW  - pH value
+KW  - step response
+KW  - Fuzzy inference
+KW  - Fuzzy logic
+KW  - Hydrated lime
+KW  - Lime
+KW  - MATLAB
+KW  - Metals
+KW  - pH
+KW  - Sugar factories
+KW  - Sugar industry
+KW  - Neuro-Fuzzy model
+KW  - Neurofuzzy system
+KW  - PH neutralization process
+KW  - pH value
+KW  - Sucrose solution
+KW  - Sugar crystals
+KW  - Sugar mills
+KW  - Fuzzy neural networks
+A2  - Semwal S.
+A2  - Dhuliya P.
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 978-172819785-2 (ISBN)
+LA  - English
+J2  - Proc. - Int. Conf. Adv. Comput., Commun. Mater., ICACCM
+M3  - Conference paper
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 8; Correspondence Address: S.K. Sunori; Gehu, Bhimtal Campus, India; email: sandeepsunori@gmail.com; Conference name: 2020 International Conference on Advances in Computing, Communication and Materials, ICACCM 2020; Conference date: 21 August 2020 through 22 August 2020; Conference code: 164892
+ER  -
+
+TY  - JOUR
+AU  - Sharma, P.
+AU  - Chaturvedi, P.
+AU  - Chandra, R.
+AU  - Kumar, S.
+TI  - Identification of heavy metals tolerant Brevundimonas sp. from rhizospheric zone of Saccharum munja L. and their efficacy in in-situ phytoremediation
+PY  - 2022
+T2  - Chemosphere
+VL  - 295
+C7  - 133823
+DO  - 10.1016/j.chemosphere.2022.133823
+UR  - https://www.scopus.com/pages/publications/85124227279?origin=resultslist
+AD  - Department of Environmental Microbiology, School for Environmental Sciences, Babasaheb Bhimrao Ambedkar (A Central) University, Vidya Vihar, Raebareli Road, Uttar Pradesh, Lucknow, 226 025, India
+AD  - CSIR-National Environmental Engineering Research Institute (CSIR-NEERI), Nehru Marg, Maharashtra, Nagpur, 440 020, India
+AD  - Aquatic Toxicology Laboratory, Environmental Toxicology Group, Council of Scientific and Industrial Research-Indian Institute of Toxicology Research (CSIR-IITR), Vishvigyan Bhawan, 31, M.G. Marg, Uttar Pradesh, Lucknow, 226 001, India
+AB  - Heavy metals phytoremediation from pulp and paper industry (PPI) sludge was conducted by employing root-associated Brevundimonas sp (PS-4 MN238722.1) in rhizospheric zone of Saccharum munja L. for its detoxification. The study was aimed to investigate the efficiency of Saccharum munja L. for the removal of heavy metals along with physico-chemical parameters through bacterial interactions. Physico-chemical examination of PPI sludge showed biochemical oxygen demand (8357 ± 94 mg kg−1), electrical conductivity (2264 ± 49 μmhoscm−1), total phenol (521 ± 24 mg kg−1), total dissolve solid (1547 ± 23 mg kg−1), total nitrogen (264 ± 2.13 mg kg−1), pH (8.2 ± 0.11), chemical oxygen demand (34756 ± 214 mg kg−1), color (2434 ± 45 Co–Pt), total suspended solid (76 ± 0.67 mg kg−1), sulphate (2462 ± 13 mg kg−1), chlorolignin (597 ± 13.01 mg kg−1), K+ (21.04 ± 0.26 mg kg−1), total solid (1740 ± 54 mg kg−1), phosphorous, Cl−, and Na+. Heavy metals, such as Fe followed by Zn, Mn, Cd, Cu, Ni, Pb, As, Cr and Hg were above the permissible limit. Root and shoot of Saccharum munja L. revealed highest concentrations of Cd followed by Mn, Ni, Fe, Zn, Cu, As, Cr, Hg, and Pb. Tested metals (Fe, Mn, Pb, Cd, Cr, Cu, Zn, Ni, As, and Hg) bioaccumulation and translocation factors were also revealed to be < 1 and >1, respectively, demonstrating that these plants have considerable absorption and translocation abilities. Plant growth-promoting activity, such as ligninolytic enzymes, hydrolytic enzymes, indole acetic acid, and siderophore production activity of Brevundimonas sp. (PS-4 MN238722.1) were also noted to be higher. These findings support the use of Brevundimonas sp (PS-4 MN238722.1) in combination with Saccharum munja L. plant as interdisciplinary management of industrial sludge at polluted areas for the prevention of soils near the industrial site. © 2022 Elsevier Ltd
+KW  - Bacterial efficiency
+KW  - Environmental protection
+KW  - Phytoaccumulation
+KW  - Sludge treatment
+KW  - Toxic elements
+KW  - Bacteria
+KW  - Biochemistry
+KW  - Bod
+KW  - Efficiency
+KW  - Enzymes
+KW  - Oxygen
+KW  - Biodegradation, Environmental
+KW  - Environmental Monitoring
+KW  - Metals, Heavy
+KW  - Saccharum
+KW  - Soil
+KW  - Soil Pollutants
+KW  - Bioremediation
+KW  - Chemical oxygen demand
+KW  - Detoxification
+KW  - Enzymes
+KW  - Heavy metals
+KW  - Oxygen
+KW  - Sulfur compounds
+KW  - amylase
+KW  - bacterial enzyme
+KW  - bicarbonate
+KW  - cadmium
+KW  - calcium hydroxide
+KW  - carbonic acid
+KW  - chlorophenol
+KW  - heavy metal
+KW  - hydrolase
+KW  - indoleacetic acid
+KW  - laccase
+KW  - lignin peroxidase
+KW  - magnesium ion
+KW  - manganese
+KW  - manganese peroxidase
+KW  - nitrogen
+KW  - phenol
+KW  - phosphorus
+KW  - RNA 16S
+KW  - siderophore
+KW  - sodium ion
+KW  - zinc
+KW  - heavy metal
+KW  - Bacterial efficiency
+KW  - Bacterial interactions
+KW  - Brevundimonas sp
+KW  - Physico - chemical parameters
+KW  - Phytoaccumulation
+KW  - Phytoremediation
+KW  - Pulp and paper industry
+KW  - Saccharum munja
+KW  - Sludge treatment
+KW  - Toxic elements
+KW  - absorption
+KW  - bioaccumulation
+KW  - biochemical oxygen demand
+KW  - heavy metal
+KW  - phytoremediation
+KW  - pulp and paper industry
+KW  - sludge
+KW  - Article
+KW  - atomic absorption spectrometry
+KW  - Bacillus
+KW  - bacterium colony
+KW  - bioaccumulation
+KW  - bioavailability
+KW  - biomass
+KW  - bioremediation
+KW  - biotransformation
+KW  - Brevundimonas
+KW  - cell division
+KW  - chemical oxygen demand
+KW  - detoxification
+KW  - electric conductivity
+KW  - environmental stress
+KW  - germination
+KW  - industrial sludge
+KW  - iron absorption
+KW  - kidney disease
+KW  - microbial interaction
+KW  - microplankton
+KW  - neurologic disease
+KW  - oxidation
+KW  - pH
+KW  - photosynthesis
+KW  - phylogenetic tree
+KW  - physical chemistry
+KW  - phytoextraction
+KW  - phytoremediation
+KW  - plant apical dominance
+KW  - plant growth
+KW  - pollutant
+KW  - Pseudomonas
+KW  - pulp and paper industry
+KW  - rhizosphere
+KW  - sludge treatment
+KW  - soil
+KW  - soil pollution
+KW  - tropism
+KW  - vascularization
+KW  - waste water management
+KW  - wetland
+KW  - environmental monitoring
+KW  - soil pollutant
+KW  - sugarcane
+KW  - Efficiency
+PB  - Elsevier Ltd
+SN  - 00456535 (ISSN)
+C2  - 35114263
+LA  - English
+J2  - Chemosphere
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 63; Correspondence Address: S. Kumar; CSIR-National Environmental Engineering Research Institute (CSIR-NEERI), Nagpur, Nehru Marg, Maharashtra, 440 020, India; email: s_kumar@neeri.res.in; P. Sharma; Department of Environmental Microbiology, School for Environmental Sciences, Babasaheb Bhimrao Ambedkar (A Central) University, Lucknow, Vidya Vihar, Raebareli Road, Uttar Pradesh, 226 025, India; email: sharmaspspooja@gmail.com; R. Chandra; Department of Environmental Microbiology, School for Environmental Sciences, Babasaheb Bhimrao Ambedkar (A Central) University, Lucknow, Vidya Vihar, Raebareli Road, Uttar Pradesh, 226 025, India; email: Prof.chandrabbau@gmail.com; CODEN: CMSHA
+ER  -
+
+TY  - JOUR
+TI  - International Conference on Expert Clouds and Applications, ICOECA 2021
+PY  - 2022
+T2  - Lecture Notes in Networks and Systems
+VL  - 209
+UR  - https://www.scopus.com/pages/publications/85113400875?origin=resultslist
+AB  - The proceedings contain 55 papers. The special focus in this conference is on Expert Clouds and Applications. The topics include: IoT-Based Control of Dosa-Making Robot; Classification of Idiomatic Sentences Using AWD-LSTM; developing an IoT-Based Data Analytics System for Predicting Soil Nutrient Degradation Level; a Survey on Cloud Resources Allocation Using Multi-agent System; ioT-Based Smart Helmet for Riders; collision Avoidance in Vehicles Using Ultrasonic Sensor; privacy Challenges and Enhanced Protection in Blockchain Using Erasable Ledger Mechanism; Data Privacy and Security Issues in HR Analytics: Challenges and the Road Ahead; narrow Band Internet of Things as Future Short Range Communication Tool; lightweight Logic Obfuscation in Combinational Circuits for Improved Security—An Analysis; sensitivity Context Aware Privacy Preserving Disease Prediction; analysis of Machine Learning Data Security in the Internet of Things (IoT) Circumstance; convergence of Artificial Intelligence in IoT Network for the Smart City—Waste Management System; energy Aware Load Balancing Algorithm for Upgraded Effectiveness in Green Cloud Computing; review on Health and Productivity Analysis in Soil Moisture Parameters; soft Computing-Based Optimization of pH Control System of Sugar Mill; a Comparative Analysis of Various Data Mining Techniques to Predict Heart Disease; Performance Comparison of Various Controllers in Different SDN Topologies; preprocessing of Datasets Using Sequential and Parallel Approach: A Comparison; blockchain Technology and Academic Certificate Authenticity—A Review; Word Significance Analysis in Documents for Information Retrieval by LSA and TF-IDF using Kubeflow; designing a Smart Speaking System for Voiceless Community; a Detailed Survey on Deep Learning Techniques for Real-Time Image Classification, Recognition and Analysis; NOMA-Based LPWA Networks.
+A2  - Jeena Jacob I.
+A2  - Gonzalez-Longatt F.M.
+A2  - Kolandapalayam Shanmugam S.
+A2  - Izonin I.
+PB  - Springer Science and Business Media Deutschland GmbH
+SN  - 23673370 (ISSN); 978-981162125-3 (ISBN)
+LA  - English
+J2  - Lect. Notes Networks Syst.
+M3  - Conference review
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 0; Conference name: International Conference on Expert Clouds and Applications, ICOECA 2021; Conference date: 18 February 2021 through 19 February 2021; Conference code: 262869
+ER  -
+
+TY  - JOUR
+AU  - Mushimiyimana, I.
+AU  - Tallapragada, P.
+TI  - Optimization of process parameters for biosynthesis of cellulase by Cladosporium Cladosporioides using agro wastes
+PY  - 2013
+T2  - International Journal of Pharma and Bio Sciences
+VL  - 4
+IS  - 4
+SP  - B1129
+EP  - B1138
+UR  - https://www.scopus.com/pages/publications/84889015624?origin=resultslist
+AD  - Department of Microbiology, Centre of PG Studies, Jain University, Bangalore, 18/3, 9th Main, Jayanagar 3rd Block, India
+AB  - Cellulases play an important role in biomass utilization. Many fungi produce cellulases with high activities. The aim of this study is to describe the optimization of process parameters for the production of extracellular carboxymethyl cellulase (CMCase) by Cladosporium cladosporioides. Cellulase production was carried out using different agro wastes as substrates like potato peel, onion peel, carrot peel and sugar beet peel. The enzyme produced and its activity was determined under different process parameters like incubation period, pH, temperature and effect of carbon and nitrogen sources. A submerged type of fermentation was carried out for the enzyme production with the substrate concentration of 5.8 % (w/v) along with ammonium nitrate of 0.8% w/v as nitrogen source. The highest cellulase activity was observed with potato peel on 6th day and for onion peel, carrot peel and sugar beet peel was on 7th day of incubation. The highest cellulase activity was observed with sugar beet at the pH of 5.5 (1.56 U/ml) and at temperature 30°C (1.65U/ml). With different carbon and nitrogen sources, the highest enzyme activity was observed with maltose and sugar beet as substrate (2.24U/ml) and with urea and onion peel as substrate (2.45U/ml).
+KW  - Agro wastes
+KW  - Cellulase
+KW  - Cladosporium cladosporioides
+KW  - Optimization
+KW  - carbon
+KW  - cellulase
+KW  - maltose
+KW  - nitrogen
+KW  - article
+KW  - carbon source
+KW  - carrot
+KW  - Cladosporium cladosporioides
+KW  - controlled study
+KW  - enzyme activity
+KW  - enzyme assay
+KW  - enzyme substrate
+KW  - enzyme synthesis
+KW  - fermentation technique
+KW  - fungus identification
+KW  - fungus isolation
+KW  - incubation time
+KW  - nonhuman
+KW  - onion
+KW  - pH measurement
+KW  - plant product
+KW  - potato
+KW  - process optimization
+KW  - screening test
+KW  - species difference
+KW  - sugar beet
+KW  - temperature sensitivity
+SN  - 09756299 (ISSN)
+LA  - English
+J2  - Intl. J. Pharma Bio Sci.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 5
+ER  -
+
+TY  - JOUR
+AU  - Bazoti, S.F.
+AU  - Golunski, S.
+AU  - Pereira Siqueira, D.
+AU  - Scapini, T.
+AU  - Barrilli, É.T.
+AU  - Alex Mayer, D.
+AU  - Barros, K.O.
+AU  - Rosa, C.A.
+AU  - Stambuk, B.U.
+AU  - Alves, S.L.
+AU  - Valério, A.
+AU  - de Oliveira, D.
+AU  - Treichel, H.
+TI  - Second-generation ethanol from non-detoxified sugarcane hydrolysate by a rotting wood isolated yeast strain
+PY  - 2017
+T2  - Bioresource Technology
+VL  - 244
+SP  - 582
+EP  - 587
+DO  - 10.1016/j.biortech.2017.08.007
+UR  - https://www.scopus.com/pages/publications/85026909211?origin=resultslist
+AD  - Federal University of Santa Catarina, Department of Chemical and Food Engineering, Brazil
+AD  - Federal University of Fronteira Sul – Campus Erechim – RS, Laboratory of Microbiology and Bioprocesses, Brazil
+AD  - Federal University of Fronteira Sul – Campus Chapecó – SC, Research Group of Enzymatic and Microbiological Processes, Brazil
+AD  - Federal University of Minas Gerais, Department of Microbiology, Brazil
+AD  - Federal University of Santa Catarina, Department of Biochemistry, Brazil
+AB  - This work aims to evaluate the production of second-generation ethanol from sugarcane bagasse hydrolysate without acetic acid (inhibitor) detoxification. Three isolated yeast strains from lignocellulosic materials were evaluated, and one strain (UFFS-CE-3.1.2), identified using large subunit rDNA sequences as Wickerhamomyces sp., showed satisfactory results in terms of ethanol production without acetic acid removal. A Plackett-Burman design was used to evaluate the influence of hydrolysate composition and nutrients supplementation in the fermentation medium for the second-generation ethanol production. Two fermentation kinetics were performed, with controlled pH at 5.5, or keeping the initial pH at 4.88. The fermentation conducted without pH adjustment and supplementation of nutrients reported the best result in terms of second-generation ethanol production. Wickerhamomyces sp., isolated as UFFS-CE-3.1.2, was considered promising in the production of second-generation ethanol by using crude (non-detoxified) sugarcane hydrolysate. © 2017 Elsevier Ltd
+KW  - Acetic acid
+KW  - Fermentation
+KW  - Second-generation ethanol
+KW  - Sugarcane bagasse hydrolysate
+KW  - Cellulose
+KW  - Ethanol
+KW  - Fermentation
+KW  - Hydrolysis
+KW  - Saccharum
+KW  - Wood
+KW  - Acetic acid
+KW  - Bagasse
+KW  - Detoxification
+KW  - Fermentation
+KW  - Nutrients
+KW  - pH
+KW  - Strain
+KW  - Yeast
+KW  - acetic acid
+KW  - alcohol
+KW  - arabinose
+KW  - bagasse
+KW  - cellobiose
+KW  - glucose
+KW  - lignocellulose
+KW  - polysaccharide
+KW  - ribosome DNA
+KW  - ribosome RNA
+KW  - sugarcane hydrolysate
+KW  - unclassified drug
+KW  - xylose
+KW  - cellulose
+KW  - Ethanol production
+KW  - Fermentation kinetics
+KW  - Fermentation medium
+KW  - Lignocellulosic material
+KW  - Plackett-Burman designs
+KW  - rDNA sequence
+KW  - Second generation
+KW  - Sugarcane bagasse hydrolysate
+KW  - acetic acid
+KW  - DNA
+KW  - ethanol
+KW  - fermentation
+KW  - hydrolysis
+KW  - reaction kinetics
+KW  - ringwoodite
+KW  - sugar cane
+KW  - yeast
+KW  - alcohol production
+KW  - Article
+KW  - detoxification
+KW  - DNA sequence
+KW  - fermentation medium
+KW  - fungus growth
+KW  - fungus identification
+KW  - fungus isolation
+KW  - glucose intake
+KW  - growth inhibition
+KW  - high performance liquid chromatography
+KW  - nonhuman
+KW  - pH
+KW  - priority journal
+KW  - Scheffersomyces stipitis
+KW  - sugarcane
+KW  - Wickerhamomyces
+KW  - wood
+KW  - fermentation
+KW  - hydrolysis
+KW  - wood
+KW  - Ethanol
+PB  - Elsevier Ltd
+SN  - 09608524 (ISSN)
+C2  - 28803109
+LA  - English
+J2  - Bioresour. Technol.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 57; Correspondence Address: H. Treichel; Federal University of Fronteira Sul – Campus Erechim – RS, Laboratory of Microbiology and Bioprocesses, Brazil; email: helentreichel@gmail.com; CODEN: BIRTE
+ER  -
+
+TY  - JOUR
+AU  - Hassanpour, M.
+AU  - Cai, G.
+AU  - Gebbie, L.K.
+AU  - Speight, R.E.
+AU  - Junior Te'o, V.S.
+AU  - O'Hara, I.M.
+AU  - Zhang, Z.
+TI  - Co-utilization of acidified glycerol pretreated-sugarcane bagasse for microbial oil production by a novel Rhodosporidium strain
+PY  - 2019
+T2  - Engineering in Life Sciences
+VL  - 19
+IS  - 3
+SP  - 217
+EP  - 228
+DO  - 10.1002/elsc.201800127
+UR  - https://www.scopus.com/pages/publications/85061057182?origin=resultslist
+AD  - Centre for Tropical Crops and Biocommodities, Queensland University of Technology, Brisbane, QLD, Australia
+AD  - School of Chemistry, Physics and Mechanical Engineering, Queensland University of Technology, Brisbane, QLD, Australia
+AD  - School of Earth, Environmental and Biological Sciences, Queensland University of Technology, Brisbane, QLD, Australia
+AB  - Acidified glycerol pretreatment is very effective to deconstruct lignocellulosics for producing glucose. Co-utilization of pretreated biomass and residual glycerol to bioproducts could reduce the costs associated with biomass wash and solvent recovery. In this study, a novel strain Rhodosporidium toruloides RP 15, isolated from sugarcane bagasse, was selected and tested for coconversion of pretreated biomass and residual glycerol to microbial oils. In the screening trails, Rh. toruloides RP 15 demonstrated the highest oil production capacity on glucose, xylose, and glycerol among the 10 strains. At the optimal C:N molar ratio of 140:1, this strain accumulated 56.7, 38.3, and 54.7% microbial oils based on dry cell biomass with 30 g/L glucose, xylose, and glycerol, respectively. Furthermore, sugarcane bagasse medium containing 32.6 g/L glucose from glycerol-pretreated bagasse and 23.4 g/L glycerol from pretreatment hydrolysate were used to produce microbial oils by Rh. toruloides RP 15. Under the preliminary conditions without pH control, this strain produced 7.7 g/L oil with an oil content of 59.8%, which was comparable or better than those achieved with a synthetic medium. In addition, this strain also produced 3.5 mg/L carotenoid as a by-product. It is expected that microbial oil production can be significantly improved through process optimization. © 2019 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+KW  - glycerol
+KW  - lignocellulose
+KW  - microbial oils
+KW  - pretreatment
+KW  - yeast
+KW  - Rhodosporidium
+KW  - Rhodosporidium toruloides
+KW  - Bagasse
+KW  - Biomass
+KW  - Glucose
+KW  - Molar ratio
+KW  - Optimization
+KW  - Strain
+KW  - Yeast
+KW  - bagasse
+KW  - carotenoid
+KW  - glucose
+KW  - glycerol
+KW  - oil
+KW  - xylose
+KW  - Ligno-cellulosics
+KW  - lignocellulose
+KW  - Microbial oil
+KW  - Oil production capacity
+KW  - Pre-Treatment
+KW  - Preliminary conditions
+KW  - Rhodosporidium toruloides
+KW  - Sugar-cane bagasse
+KW  - biomass
+KW  - carotenoid
+KW  - cell component
+KW  - cellulose
+KW  - chemical compound
+KW  - concentration (composition)
+KW  - crop residue
+KW  - glucose
+KW  - oil production
+KW  - solvent
+KW  - yeast
+KW  - acidification
+KW  - Article
+KW  - biofuel production
+KW  - biomass
+KW  - controlled study
+KW  - fungal strain
+KW  - fungus identification
+KW  - fungus isolation
+KW  - nonhuman
+KW  - pH
+KW  - process optimization
+KW  - Rhodotorula
+KW  - Rhodotorula dairenensis
+KW  - Rhodotorula toruloides
+KW  - sugarcane
+KW  - Glycerol
+PB  - Wiley-VCH Verlag
+SN  - 16180240 (ISSN)
+LA  - English
+J2  - Eng. Life Sci.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 26; Correspondence Address: Z. Zhang; Centre for Tropical Crops and Biocommodities, Queensland University of Technology, Brisbane, Australia; email: jan.zhang@qut.edu.au; CODEN: ELSNA
+ER  -
+
+TY  - JOUR
+AU  - de Lima, C.J.B.
+AU  - Coelho, L.F.
+AU  - Da Silva, G.P.
+AU  - Alvarez, G.L.M.
+AU  - Contiero, J.
+TI  - L(+) Lactic acid production by new Lactobacillus rhamnosus B 103
+PY  - 2010
+T2  - Journal of Microbial and Biochemical Technology
+VL  - 2
+IS  - 3
+SP  - 64
+EP  - 69
+DO  - 10.4172/1948-5948.1000025
+UR  - https://www.scopus.com/pages/publications/79952577280?origin=resultslist
+AD  - Biological Sciences Institute, Unesp - University Estadual Paulista, Campus de Rio Claro Department of Biochemistry and Microbiology, Lab. of Industrial Microbiology, 13506-900, Rio Claro, SP, Av. 24-A, 1515 Bela Vista, Brazil
+AD  - Instituto Cubano de Investigaciones de los Derivados de la Caña de Azúcar (ICIDCA), 4026, La Habana, Vía Blanca 804, C.P. 11 000, Apdo, Cuba
+AB  - L(+) Lactic acid fermentation was studied by Lactobacillus rhamnosus sp. under the effects of pH control and a lowcost nutritional medium (sugarcane juice and corn steep liquor-CSL). Central composite design (CCD) was employed to determine maximum lactic acid production at optimum values for process variables and a satisfactory fit model was realized. Statistical analysis of the results showed that the linear and quadratic terms of two variables (sugarcane juice and pH) had significant effects. The interactions between the three variables were found to contribute to the response at a significant level. A second-order polynomial regression model estimated that the maximum lactic acid production of 86.36 g/L was obtained when the optimum values of sucrose, CSL and pH were 112.65 g/L, 29.88 g/L and 6.2, respectively. Verification of the optimization showed that L(+) lactic acid production was of 85.06 g/L. Under these conditions, YP/S and QP values of 0.85 g/g and 1.77 g/Lh, respectively, were obtained after 48 h fermentation, with a maximal productivity of 2.2 g/L h at 30 h of process. © 2010 de Lima CJB, et al.
+KW  - Corn steep liquor
+KW  - L(+) Lactic acid
+KW  - Lactobacillus rhamnosus
+KW  - Response surface methodology
+KW  - Sugarcane
+KW  - Lactobacillus rhamnosus
+KW  - Zea mays
+KW  - lactic acid
+KW  - sucrose
+KW  - acidification
+KW  - agricultural waste
+KW  - article
+KW  - batch fermentation
+KW  - biotechnological production
+KW  - carbon source
+KW  - central composite design
+KW  - concentration response
+KW  - controlled study
+KW  - corn steep liquor
+KW  - fermentation optimization
+KW  - growth inhibition
+KW  - Lactobacillus rhamnosus
+KW  - mathematical analysis
+KW  - nonhuman
+KW  - pH
+KW  - response surface method
+SN  - 19485948 (ISSN)
+LA  - English
+J2  - J. Microb. Biochem. Technol.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 11; Correspondence Address: J. Contiero; Department of Biochemistry and Microbiology, São Paulo State University, UNESP, 13506 - 900 Rio Claro - SP, Av. 24-A, 1515 Bela Vista, Brazil; email: jconti@rc.unesp.br
+ER  -
+
+TY  - JOUR
+AU  - Heck, J.X.
+AU  - Flôres, S.H.
+AU  - Hertz, P.F.
+AU  - Ayub, M.A.Z.
+TI  - Statistical optimization of thermo-tolerant xylanase activity from Amazon isolated Bacillus circulans on solid-state cultivation
+PY  - 2006
+T2  - Bioresource Technology
+VL  - 97
+IS  - 15
+SP  - 1902
+EP  - 1906
+DO  - 10.1016/j.biortech.2005.08.013
+UR  - https://www.scopus.com/pages/publications/33745213542?origin=resultslist
+AD  - Food Science and Technology Institute, Federal University of Rio Grande do Sul State, ZC 91501-970 Porto Alegre, RS, Av. Bento Gonçalves, 9500, Brazil
+AB  - A 22 factorial design was performed to find the best conditions of pH and temperature for xylanolytic activity of Bacillus circulans BL53 isolated from the Amazon environment. Solid-state cultivation was carried out on an inexpensive, abundant agro-industrial soybean residue. The central composite design (CCD) used for the analysis of treatment combinations showed that a second-order polynomial regression model was in good agreement with experimental results, with R2 = 0.9369 (P < 0.05). The maximum activity was obtained at a high temperature (80 °C) and over a large pH range (4.0-7.0). Enzymatic activity was maintained in heated extracts up to 50 °C, suggesting that the xylanases of B. circulans BL53 are thermo-tolerant biocatalysts, being of interest for industrial processes. The crude enzyme extract hydrolyzed rice straw, sugar cane bagasse and soybean fiber and its activity was stimulated by Co2+, Fe3+, and β-mercaptoethanol but inhibited by Mn2+, Cu2+, Ca2+, Zn2+, Ba2+, Mg2+ and by EDTA. © 2005 Elsevier Ltd. All rights reserved.
+KW  - Bioconversion
+KW  - Biodiversity
+KW  - Bioprocess design
+KW  - Enzyme technology
+KW  - Optimization
+KW  - Solid-state cultivation
+KW  - Xylanase
+KW  - Bacteria
+KW  - Bacteriology
+KW  - Cultivation
+KW  - Enzymes
+KW  - Optimization
+KW  - Ph
+KW  - Statistical Methods
+KW  - Xylanase
+KW  - Bacillus
+KW  - Bacteriological Techniques
+KW  - Brazil
+KW  - Endo-1,4-beta Xylanases
+KW  - Enzyme Stability
+KW  - Hydrogen-Ion Concentration
+KW  - Industrial Microbiology
+KW  - Soybeans
+KW  - Statistics
+KW  - Temperature
+KW  - Amazonia
+KW  - South America
+KW  - Bacteria
+KW  - Bacteriology
+KW  - Bioconversion
+KW  - Biodiversity
+KW  - Cultivation
+KW  - Enzymes
+KW  - Optimization
+KW  - pH effects
+KW  - Statistical methods
+KW  - Bacillus circulans
+KW  - Glycine max
+KW  - Saccharum
+KW  - Bacteria
+KW  - Bioconversion
+KW  - Biodiversity
+KW  - Cultivation
+KW  - Enzymes
+KW  - Optimization
+KW  - pH effects
+KW  - Statistical methods
+KW  - bagasse
+KW  - barium ion
+KW  - calcium ion
+KW  - cobalt
+KW  - copper ion
+KW  - edetic acid
+KW  - iron
+KW  - magnesium ion
+KW  - manganese
+KW  - mercaptoethanol
+KW  - xylan endo 1,3 beta xylosidase
+KW  - zinc ion
+KW  - bacterium
+KW  - composite
+KW  - crop residue
+KW  - enzyme activity
+KW  - isolated population
+KW  - optimization
+KW  - pH
+KW  - regression analysis
+KW  - rice
+KW  - soybean
+KW  - straw
+KW  - temperature tolerance
+KW  - article
+KW  - Bacillus circulans
+KW  - bacterium isolation
+KW  - catalyst
+KW  - environment
+KW  - enzyme activity
+KW  - factorial design
+KW  - heating
+KW  - hydrolysis
+KW  - nonhuman
+KW  - pH measurement
+KW  - priority journal
+KW  - regression analysis
+KW  - rice
+KW  - solid state
+KW  - soybean
+KW  - statistical analysis
+KW  - sugarcane
+KW  - temperature measurement
+KW  - Bioprocess design
+KW  - Enzyme technology
+KW  - Solid-state cultivation
+KW  - Bacteriology
+SN  - 09608524 (ISSN)
+C2  - 16216495
+LA  - English
+J2  - Bioresour. Technol.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 46; Correspondence Address: M.A.Z. Ayub; Food Science and Technology Institute, Federal University of Rio Grande do Sul State, ZC 91501-970 Porto Alegre, RS, Av. Bento Gonçalves, 9500, Brazil; email: mazayub@ufrgs.br; CODEN: BIRTE
+ER  -
+
+TY  - JOUR
+AU  - Mouafi, F.E.
+AU  - Karam, E.A.
+AU  - Hassan, H.M.
+TI  - Production of dextranase from agro-industrial wastes by Aspergillus awamori F-234 under solid state fermentation
+PY  - 2016
+T2  - Research Journal of Pharmaceutical, Biological and Chemical Sciences
+VL  - 7
+IS  - 6
+SP  - 1451
+EP  - 1459
+UR  - https://www.scopus.com/pages/publications/84996560201?origin=resultslist
+AD  - Department of Microbial Biotechnology, Genetic Engineering and Biotechnology Division, National Research Centre, 33Bohouth st., Dokki, Giza, 60014618, Egypt
+AD  - Department of Microbial Chemistry, Genetic Engineering and Biotechnology Division, National Research Centre, 33Bohouth st., Dokki, Giza, 60014618, Egypt
+AB  - Dextranase (α-1, 6-D-glucan, 6-glucanohydrolase; E.C.3.2.1.11) is an enzyme which hydrolizes the a-1,6 glucosidic linkages in dextran, found in plants, mammalian tissues, and microorganisms. Five fungal strains (A. niger F-93, A. fumigatus F-993, P. funculosum NRC289, T. koningii F-25 and A. awamoriF-234) were screened for their capacity for dextranase enzyme production using four agro-mechanical wastes (sugar beet pulp, olive mill solid waste, jojoba mill solid waste and sugar cane bagasse) under solid state fermentation. Among all tested fungi Aspergillus awamori F-234 was selected as the best dextranase producer. The optimization of dextranase production was investigated under various influencing factors, including incubation time; temperature; pH, also additional nitrogen sources were optimized .The highest dextranase acquired after 3 days incubation time. The optimum pH and temperature for dextranase production were at pH 6 and 35oC when ammonium nitrate was supplemented as a nitrogen source. Owing to addition of dextranase ethanol yield was increased during sugar cane molasses fermentation by Saccharomyces cerevisiae.
+KW  - Agro-industrial wastes
+KW  - Aspergillus awamori
+KW  - Dextranase
+KW  - SSF
+KW  - ammonium nitrate
+KW  - dextranase
+KW  - nitrogen
+KW  - Article
+KW  - Aspergillus awamori
+KW  - Aspergillus fumigatus
+KW  - controlled study
+KW  - enzyme assay
+KW  - enzyme synthesis
+KW  - fungal strain
+KW  - fungus identification
+KW  - incubation time
+KW  - industrial waste
+KW  - jojoba mill solid waste
+KW  - nonhuman
+KW  - olive mill solid waste
+KW  - Penicillium
+KW  - Penicillium funculosum
+KW  - pH measurement
+KW  - process optimization
+KW  - solid state fermentation
+KW  - sugar beet
+KW  - sugar beet pulp waste
+KW  - sugar cane bagasse
+KW  - temperature dependence
+KW  - Trichoderma
+KW  - Trichoderma koningii
+KW  - waste
+PB  - Research Journal of Pharmaceutical, Biological and Chemical Sciences
+SN  - 09758585 (ISSN)
+LA  - English
+J2  - Res. J. Pharm., Biol. Chem. Sci.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 5
+ER  -
+
+TY  - JOUR
+AU  - Lai, Y.C.
+AU  - Kao, C.M.
+AU  - Surampalli, R.Y.
+AU  - Lin, C.E.
+AU  - Wu, C.Y.
+TI  - Developing nonpoint-source suspended solids control strategies using multimedia watershed management modeling
+PY  - 2010
+T2  - Water Environment Research
+VL  - 82
+IS  - 11
+SP  - 2205
+EP  - 2218
+DO  - 10.2175/106143010X12681059116455
+UR  - https://www.scopus.com/pages/publications/79952108702?origin=resultslist
+AD  - Institute of Environmental Engineering, National Sun Yat-Sen University, Kaohsiung 80424, No. 70, Lienhai Rd., Taiwan
+AD  - U.S. Environmental Protection Agency, Kansas City, KS, United States
+AB  - Kaoping River Basin is the largest and most intensively used river basin in Taiwan. In this study, 14 types of land-use patterns in the basin are classified with the aid of the Erdas Imagine process (Erdas, Inc., Atlanta, Georgia) and ArcView geographic information system (GIS) (ESRI, Redlands, California). Results from GIS identification and field verification indicate that orchard gardens, rice paddies, and sugarcane fields dominate the farmland areas in the basin. Investigation results indicate that nonpoint-source (NPS) pollution has significant contributions to the suspended solids load to the Kaoping River during the wet season. The average suspended solids concentrations increased from below 64 mg/ L in dry seasons to more than 1700 mg/L in wet seasons. The Integrated Watershed Management Model (Systech Engineering, Inc., San Ramon, California) was applied to simulate the water quality and evaluate the NPS suspended solids load to the river. Modeling results show that forestation and land-use management are feasible best management practices for NPS suspended solids reduction. © 2010 Publishing Technology.
+KW  - Best management practice
+KW  - Nonpoint-source pollution
+KW  - Suspended solids
+KW  - Watershed management
+KW  - Environmental Monitoring
+KW  - Models, Theoretical
+KW  - Rain
+KW  - Rivers
+KW  - Sanitary Engineering
+KW  - Soil
+KW  - Taiwan
+KW  - Time Factors
+KW  - Water Pollutants
+KW  - Water Pollution
+KW  - Kaoping Basin
+KW  - Taiwan
+KW  - Farms
+KW  - Geographic information systems
+KW  - Land use
+KW  - Pollution
+KW  - Quality control
+KW  - Rivers
+KW  - Soil conservation
+KW  - Water conservation
+KW  - Water management
+KW  - Water pollution
+KW  - Water quality
+KW  - Watersheds
+KW  - rain
+KW  - Best management practices
+KW  - Control strategies
+KW  - Field verifications
+KW  - Integrated watershed management
+KW  - Land-use management
+KW  - Non-point source pollution
+KW  - Suspended solids
+KW  - Watershed management
+KW  - agricultural land
+KW  - best management practice
+KW  - concentration (composition)
+KW  - dominance
+KW  - GIS
+KW  - identification method
+KW  - integrated approach
+KW  - land use change
+KW  - nonpoint source pollution
+KW  - numerical model
+KW  - paddy field
+KW  - pollution control
+KW  - seasonal variation
+KW  - sugar cane
+KW  - suspended load
+KW  - water management
+KW  - water quality
+KW  - watershed
+KW  - article
+KW  - geographic information system
+KW  - land use
+KW  - nonhuman
+KW  - nonpoint source pollution
+KW  - orchard
+KW  - pH measurement
+KW  - priority journal
+KW  - seasonal variation
+KW  - soil analysis
+KW  - sugarcane
+KW  - suspended particulate matter
+KW  - turbidity
+KW  - water analysis
+KW  - water quality
+KW  - watershed management
+KW  - environmental monitoring
+KW  - river
+KW  - sanitation
+KW  - soil
+KW  - Taiwan
+KW  - theoretical model
+KW  - time
+KW  - water pollutant
+KW  - water pollution
+KW  - River pollution
+PB  - Water Environment Federation
+SN  - 10614303 (ISSN)
+C2  - 21141382
+LA  - English
+J2  - Water Environ. Res.
+M3  - Article
+DB  - Scopus
+N1  - Export Date: 23 June 2026; Cited By: 4; Correspondence Address: C. M. Kao; Institute of Environmental Engineering, National Sun Yat-Sen University, Kaohsiung 80424, No. 70, Lienhai Rd., Taiwan; email: jkao@mail.nsysu.edu.tw; CODEN: WAERE
+ER  -
+

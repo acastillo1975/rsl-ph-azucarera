@@ -1,0 +1,19 @@
+{
+  "queries": [
+    {
+      "numero": 1,
+      "descripcion_tematica": "RQ1 - Modelado y caracterizacion dinamica del pH en clarificacion azucarera [Q1]",
+      "query": "TITLE-ABS-KEY(\n  (\"pH control\" OR \"pH monitoring\" OR \"pH prediction\" OR \"pH optimization\"\n   OR \"pH regulation\" OR \"pH measurement\" OR \"pH adjustment\" OR \"pH correction\"\n   OR \"acidity control\" OR \"alkalinity control\" OR \"juice acidity\"\n   OR \"lime dosage\" OR \"lime addition\" OR \"calcium hydroxide\" OR \"milk of lime\")\n  AND\n  (\"sugar mill\" OR \"sugarcane\" OR \"cane juice\" OR \"sugar juice\" OR \"sugar industry\"   # <--- AÑADIDO \"sugar juice\"\n   OR \"juice clarification\" OR \"liming process\" OR \"defecation\" OR \"sulfitation\"\n   OR \"sugar beet\" OR \"beet sugar\" OR \"sugar factory\" OR \"saccharum\")\n  AND\n  (\"soft sensor\" OR \"virtual sensor\" OR \"inferential sensor\"\n   OR \"identification\" OR \"data-driven model\" OR \"data-driven\"\n   OR \"online estimation\" OR \"real-time estimation\"\n   OR \"neural network\" OR \"LSTM\" OR \"predictive model\" OR \"regression model\")\n)\nAND NOT TITLE-ABS-KEY(\n  \"wastewater\" OR \"water treatment\" OR \"soil pH\" OR \"blood pH\"\n  OR \"fermentation broth\" OR \"bioethanol\" OR \"pharmaceutical\"\n  OR \"bioreactor\" OR \"wine\" OR \"beer\" OR \"dairy\" OR \"groundwater\"\n)\nAND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014"
+    },
+    {
+      "numero": 2,
+      "descripcion_tematica": "RQ2 - Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID [Q1]",
+      "query": "TITLE-ABS-KEY(\n  (\"model predictive control\" OR \"NMPC\" OR \"nonlinear MPC\"\n   OR \"fuzzy logic\" OR \"takagi-sugeno\" OR \"neuro-fuzzy\"\n   OR \"adaptive control\" OR \"intelligent control\"\n   OR \"PID tuning\" OR \"optimal control\"\n   OR \"pattern search\" OR \"particle swarm\" OR \"genetic algorithm\"\n   OR \"differential evolution\" OR \"bayesian optimization\")\n  AND \"pH\"\n  AND (\"sugar mill\" OR \"sugarcane\" OR \"cane juice\" OR \"sugar juice\" OR \"juice clarification\"   # <--- AÑADIDO \"sugar juice\"\n       OR \"liming process\" OR \"defecation\" OR \"sulfitation\"\n       OR \"sugar industry\" OR \"sugar beet\" OR \"sugar factory\")\n)\nAND NOT TITLE-ABS-KEY(\n  \"wastewater\" OR \"bioethanol\" OR \"fermentation broth\" OR \"pharmaceutical\"\n  OR \"soil\" OR \"blood\" OR \"wine\" OR \"dairy\"\n  OR \"desalination\" OR \"anaerobic digestion\" OR \"bioreactor\"\n)\nAND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014"
+    },
+    {
+      "numero": 3,
+      "descripcion_tematica": "RQ3 - ML/RL/hibridos y barreras de adopcion para pH en industria azucarera [Q1]",
+      "query": "TITLE-ABS-KEY(\n  (\"machine learning\" OR \"deep learning\" OR \"neural network\"\n   OR \"artificial intelligence\" OR \"random forest\" OR \"gradient boosting\"\n   OR \"XGBoost\" OR \"lightGBM\" OR \"support vector\"\n   OR \"reinforcement learning\" OR \"deep reinforcement learning\"\n   OR \"DDPG\" OR \"PPO\" OR \"Q-learning\"\n   OR \"hybrid model\" OR \"grey-box model\" OR \"physics-informed\"\n   OR \"digital twin\" OR \"transfer learning\")\n  AND \"pH\"\n  AND (\"sugar\" OR \"sugarcane\" OR \"cane juice\" OR \"sugar juice\" OR \"clarification\"   # <--- AÑADIDO \"sugar juice\"\n       OR \"liming\" OR \"sugar mill\" OR \"sugar industry\" OR \"sugar beet\"\n       OR \"juice purification\" OR \"sugar factory\" OR \"defecation\")\n)\nAND NOT TITLE-ABS-KEY(\n  \"wastewater\" OR \"bioethanol\" OR \"pharmaceutical\" OR \"soil\"\n  OR \"blood\" OR \"bioreactor\" OR \"desalination\"\n  OR \"wine\" OR \"beer\" OR \"fermentation broth\"\n)\nAND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014"
+    }
+  ]
+}

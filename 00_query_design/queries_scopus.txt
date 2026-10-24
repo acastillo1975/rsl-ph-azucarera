@@ -1,0 +1,195 @@
+========================================================================
+QUERIES PARA: Scopus (Elsevier)  [v2 -- Q1 journals]
+RSL  : Una Revision Sistematica de las Aplicaciones de Aprendizaje Automatico y Control Avanzado para el Modelado y Optimizacion del Control de pH en la Industria del Azucar: Tendencias, Brechas y Direcciones Futuras
+Modelo: Ollama / llama3:latest (RESPALDO-v2)  |  Periodo: 2015-2025
+Generado: 2026-06-22 19:55
+Precision objetivo: > 85% | Foco: Clarificacion de jugo de cana/remolacha | Q1 journals
+========================================================================
+
+*** FILTRO Q1 -- PUBLICACIONES DE PRIMER CUARTIL ***
+PASO Q1 -- Scopus (post-busqueda):
+  1. La query ya incluye SRCTYPE(j) + DOCTYPE(ar OR re) + PUBYEAR > 2014.
+  2. Resultados -> 'Analyze search results' -> 'Source' -> revistas de interes.
+  3. Para Q1 exacto: cruzar fuentes con Scimago (sjr.scimagojr.com)
+     filtrando Quartile = Q1 en 'Chemical Engineering' o 'Food Science'.
+  4. Opcional: re-ejecutar con EXACTSRCTITLE() listando revistas Q1 confirmadas.
+
+Revistas Q1 sugeridas:
+  - Computers and Chemical Engineering
+  - Journal of Food Engineering
+  - Control Engineering Practice
+  - Journal of Process Control
+  - Biosystems Engineering
+  - Food and Bioproducts Processing
+  - Industrial and Engineering Chemistry Research
+  - Applied Soft Computing
+  - Expert Systems with Applications
+  - Engineering Applications of Artificial Intelligence
+  - ISA Transactions
+  - Measurement
+  - Sensors
+  - IEEE Transactions on Industrial Electronics
+  - IEEE Transactions on Control Systems Technology
+  - IEEE Transactions on Industrial Informatics
+
+========================================================================
+
+MAPEO 1-a-1 QUERY <-> RQ:
+  Q1 -> RQ1: Modelado y caracterizacion dinamica del pH
+  Q2 -> RQ2: Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID
+  Q3 -> RQ3: ML/RL/hibridos y barreras de adopcion
+
+URL de busqueda: https://www.scopus.com/search/form.uri#advanced
+Operador de campo: TITLE-ABS-KEY + SRCTYPE(j) + DOCTYPE(ar OR re) + PUBYEAR
+
+NOTAS DE SINTAXIS:
+  - TITLE-ABS-KEY busca en titulo, abstract y keywords simultaneamente.
+  - Frases multipalabra DEBEN ir entre comillas dobles.
+  - ESTRUCTURA PLANA obligatoria: NO anidar AND dentro de parentesis OR.
+  -   CORRECTO: AND "pH" AND ("sugar mill" OR "sugarcane" OR ...)
+  -   INCORRECTO: AND ("pH" AND ("sugar mill" OR "sugarcane" OR ...))
+  - SRCTYPE(j)         -> solo revistas (excluye conferencias, libros).
+  - DOCTYPE(ar OR re)  -> solo articulos y revisiones.
+  - PUBYEAR > 2014     -> publicaciones 2015 en adelante.
+  - Filtro Q1 post-busqueda: Analyze Results > Source > cruzar con SJR.
+  - Limite: 2,000 registros por exportacion.
+
+EJEMPLO DE FORMATO:
+  TITLE-ABS-KEY(
+  ("pH control" OR "acidity control" OR "lime dosage")
+  AND ("sugar mill" OR "sugarcane" OR "sugar beet")
+  AND ("machine learning" OR "neural network")
+)
+AND NOT TITLE-ABS-KEY("wastewater" OR "fermentation broth")
+AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014
+
+INSTRUCCIONES PARA EXPORTAR A RIS:
+Scopus -> Advanced Search -> pegar query -> Search
+-> FILTRO Q1: Analyze Results > Source > cruzar fuentes con Scimago Q1
+-> Seleccionar todos -> Export -> RIS -> incluir todos los campos
+-> Guardar como scopus_export_N.ris en 01_raw_data/
+
+========================================================================
+
+--- QUERY 1: RQ1 - Modelado y caracterizacion dinamica del pH en clarificacion azucarera [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: VALIDA (Q1 v2)
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+TITLE-ABS-KEY(
+  ("pH control" OR "pH monitoring" OR "pH prediction" OR "pH optimization"
+   OR "pH regulation" OR "pH measurement" OR "pH adjustment" OR "pH correction"
+   OR "acidity control" OR "alkalinity control" OR "juice acidity"
+   OR "lime dosage" OR "lime addition" OR "calcium hydroxide" OR "milk of lime")
+  AND
+  ("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "sugar industry" 
+   OR "juice clarification" OR "liming process" OR "defecation" OR "sulfitation"
+   OR "sugar beet" OR "beet sugar" OR "sugar factory" OR "saccharum")
+  AND
+  ("soft sensor" OR "virtual sensor" OR "inferential sensor"
+   OR "identification" OR "data-driven model" OR "data-driven"
+   OR "online estimation" OR "real-time estimation"
+   OR "neural network" OR "LSTM" OR "predictive model" OR "regression model")
+)
+AND NOT TITLE-ABS-KEY(
+  "wastewater" OR "water treatment" OR "soil pH" OR "blood pH"
+  OR "fermentation broth" OR "bioethanol" OR "pharmaceutical"
+  OR "bioreactor" OR "wine" OR "beer" OR "dairy" OR "groundwater"
+)
+AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014
+----------------------------------------
+
+========================================================================
+
+--- QUERY 2: RQ2 - Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: VALIDA (Q1 v2)
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+TITLE-ABS-KEY(
+  ("model predictive control" OR "NMPC" OR "nonlinear MPC"
+   OR "fuzzy logic" OR "takagi-sugeno" OR "neuro-fuzzy"
+   OR "adaptive control" OR "intelligent control"
+   OR "PID tuning" OR "optimal control"
+   OR "pattern search" OR "particle swarm" OR "genetic algorithm"
+   OR "differential evolution" OR "bayesian optimization")
+  AND "pH"
+  AND ("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "juice clarification" 
+       OR "liming process" OR "defecation" OR "sulfitation"
+       OR "sugar industry" OR "sugar beet" OR "sugar factory")
+)
+AND NOT TITLE-ABS-KEY(
+  "wastewater" OR "bioethanol" OR "fermentation broth" OR "pharmaceutical"
+  OR "soil" OR "blood" OR "wine" OR "dairy"
+  OR "desalination" OR "anaerobic digestion" OR "bioreactor"
+)
+AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014
+----------------------------------------
+
+========================================================================
+
+--- QUERY 3: RQ3 - ML/RL/hibridos y barreras de adopcion para pH en industria azucarera [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: VALIDA (Q1 v2)
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+TITLE-ABS-KEY(
+  ("machine learning" OR "deep learning" OR "neural network"
+   OR "artificial intelligence" OR "random forest" OR "gradient boosting"
+   OR "XGBoost" OR "lightGBM" OR "support vector"
+   OR "reinforcement learning" OR "deep reinforcement learning"
+   OR "DDPG" OR "PPO" OR "Q-learning"
+   OR "hybrid model" OR "grey-box model" OR "physics-informed"
+   OR "digital twin" OR "transfer learning")
+  AND "pH"
+  AND ("sugar" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "clarification" 
+       OR "liming" OR "sugar mill" OR "sugar industry" OR "sugar beet"
+       OR "juice purification" OR "sugar factory" OR "defecation")
+)
+AND NOT TITLE-ABS-KEY(
+  "wastewater" OR "bioethanol" OR "pharmaceutical" OR "soil"
+  OR "blood" OR "bioreactor" OR "desalination"
+  OR "wine" OR "beer" OR "fermentation broth"
+)
+AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014
+----------------------------------------
+
+========================================================================
+
+ESTRATEGIA GLOBAL:
+Mapeo 1-a-1 con las 3 RQs. Q1 cubre RQ1 (modelado/soft sensors), Q2 cubre RQ2 (control avanzado vs PID), Q3 cubre RQ3 (ML/RL/hibridos). Ancla azucarera obligatoria + estructura plana sin AND anidado. Filtros Q1 embebidos: SRCTYPE+DOCTYPE+PUBYEAR (Scopus), DT+PY (WoS), interfaz (IEEE).
+
+ADVERTENCIAS / POSIBLES RUIDOS:
+  - AND anidado corregido en Q2/Q3 -- ya no causa 0 resultados
+  - sugar beet incluido -- cubre ~40% de produccion mundial de azucar
+  - acidity/alkalinity como sinonimos de pH -- captura papers sin 'pH' explicito
+  - Pocos resultados (~50-150 totales) es ESPERADO para este tema nicho
+  - Filtro Q1 final se confirma post-busqueda en Scimago (Scopus) o JCR (WoS)
+  - Se ha añadido 'sugar juice' al ancla de dominio para capturar el paper de Palacio-Morales et al. (Processes 2021)
+
+PRECISION ESTIMADA (Q1 journals):
+  Scopus : 83-87% (Q1)
+  WoS    : 81-85% (Q1)
+  IEEE   : 86-91% (Q1)
+  Justif.: Triple AND plano + sinonimos ampliados + filtros Q1 embebidos
+
+RESULTADOS ESPERADOS (tema nicho -- normal y esperado):
+  Q1: 15-50 resultados por base
+  Q2: 5-20  resultados por base
+  Q3: 5-20  resultados por base
+  Total 3 bases: ~50-150 registros (manejable para cribado manual)
+  NOTA: Pocos resultados = hallazgo que valida la necesidad de esta RSL
+
+SIGUIENTE PASO:
+  1. Ejecutar en: https://www.scopus.com/search/form.uri#advanced
+  2. Aplicar filtro Q1 segun instrucciones
+  3. Exportar .ris -> 01_raw_data/ -> scopus_export_N.ris

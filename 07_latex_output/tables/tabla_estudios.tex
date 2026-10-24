@@ -1,0 +1,73 @@
+% Tabla de caracterización de los dos estudios incluidos (apaisada).
+% Datos extraídos del TEXTO COMPLETO (04_corpus_final/pdfs/), no del resumen.
+\newgeometry{margin=2cm}
+\begin{landscape}
+\sloppy
+\hfuzz=500pt
+\emergencystretch=3em
+\begin{longtblr}[
+caption={\textit{Caracterización de los dos estudios incluidos, extraída del
+texto completo. Las cifras corresponden a la comparación intra-estudio
+reportada por los autores; no constituyen una síntesis entre estudios.}},
+label={tab:studies},
+]{colspec={X[1.2]X[1.7]X[3.0]X[3.0]X[3.6]X[3.3]},width=1.0\linewidth,
+  hline{1,2,Z}={0.6pt},row{1}={font=\bfseries}}
+Estudio & Objetivo & Estrategia de modelado y control &
+Datos y variables & Resultados clave (intra-estudio) &
+Validación y limitaciones \\
+\cite{palaciomorales2021optimiza}
+& Sintonizar un NMPC para regular el pH en la alcalinización del jugo de
+  caña (\textit{setpoint} 7.34) tras identificar su modelo interno
+& Modelo interno Takagi--Sugeno de entrada--salida con conjuntos difusos
+  multidimensionales (consecuentes lineales); identificación y sintonía del
+  NMPC (horizontes y pesos) mediante búsqueda de patrón generalizada, sin
+  gradiente
+& Planta \textbf{simulada} con un modelo de invariantes de reacción
+  (HNO$_3$ + NaHCO$_3$) tomado de una tesis doctoral, no datos de planta.
+  Manipulada: caudal de lechada de cal $F_2$ (10--70~GPM).
+  Perturbaciones: caudal de jugo sulfitado $F_1$ (500--2100~GPM) y pH del
+  jugo sulfitado y de la lechada. Salida: pH del jugo alcalinizado
+  (5.7--8.7)
+& Índice ICET(pH) $=553$ frente a $2.41$--$3.95\times10^{3}$ de otras cinco
+  sintonías de NMPC publicadas (menor es mejor). Sobreimpulso
+  $M_p=30.3\,\%$ frente a $29.8$--$31.1\,\%$ (sin mejora). Esfuerzo de
+  control $79.2$ frente a $28.0$--$83.4$ (mayor que el de cuatro de las
+  cinco). \textbf{No se compara con un PID/PI}
+& Solo \textbf{simulación} (TRL~$\approx 3$--$4$, escala NASA
+  NPR~7123.1B); sin planta piloto ni industrial. Los autores reportan
+  rizado residual en la respuesta; el modelo de planta es un
+  \textit{benchmark} genérico, no un clarificador medido \\
+\cite{murugesan2020computeraided}
+& Estimar los parámetros del modelo del clarificador y sintonizar fuera
+  de línea un controlador PID para la neutralización del pH
+& Identificación estándar (modelo de segundo orden) refinada con un
+  \textit{state transition algorithm} con restricciones lagrangianas
+  (LSTA); sintonía de $K_p$, $T_i$, $T_d$ minimizando el MSE; comparación
+  con GA y PSO
+& \textbf{Datos reales de planta} (M/S Sakthi Sugars Ltd.): 3000 muestras en
+  dos turnos, 70\,\% entrenamiento y 30\,\% prueba. Entrada: caudal de
+  lechada de cal. Salida: pH final del jugo
+& MSE $1.2\times10^{-3}$ (LSTA) frente a $3.3\times10^{-2}$ (GA) y
+  $6.6\times10^{-1}$ (PSO); tiempo de asentamiento $46.1$~s frente a $52.2$ y
+  $94.8$~s; tiempo de subida $33.4$~s (LSTA) frente a $28.3$ (GA) y $37.4$~s
+  (PSO), sin ventaja de LSTA en este índice
+& Identificación \textbf{fuera de línea con datos de planta}; el
+  controlador solo se evalúa en \textbf{simulación} (respuesta a escalón),
+  sin implementación en lazo cerrado (TRL~$\approx 4$). Modelo lineal de
+  segundo orden para un proceso no lineal; el controlador es PID
+  sintonizado por metaheurística \\
+\end{longtblr}
+\nolinenumbers
+\begin{Nota}[Nota]{\linewidth}{Elaboración propia a partir del texto
+completo de \cite{palaciomorales2021optimiza} (DOI: 10.3390/pr9122283) y
+\cite{murugesan2020computeraided} (DOI: 10.1007/s00034-019-01139-5).
+Abreviaturas: NMPC $=$ \textit{nonlinear model predictive control};
+ICET $=$ integral del error cuadrático ponderado por el tiempo; GA
+$=$ algoritmo genético; PSO $=$ optimización por enjambre de partículas;
+TRL $=$ \textit{technology readiness level}
+\parencite{nasa2016trl}. Las cifras se citan tal como las reportan los
+autores originales.}
+\end{Nota}
+\nolinenumbers
+\end{landscape}
+\restoregeometry

@@ -1,0 +1,84 @@
+% Tabla de consultas booleanas (apaisada). Extraida de 04_body.tex
+\newgeometry{margin=2cm}
+\begin{landscape}
+\sloppy
+\hfuzz=500pt
+\emergencystretch=3em
+\begin{longtblr}[
+caption={\textit{Consultas booleanas empleadas en la búsqueda sistemática
+en Scopus, Web of Science e IEEE~Xplore. Correspondencia 1 a 1 con las
+preguntas de investigación: $Q_1\!\rightarrow$\,RQ1 (modelado/sensores
+virtuales); $Q_2\!\rightarrow$\,RQ2 (control avanzado vs.\ PID);
+$Q_3\!\rightarrow$\,RQ3 (ML/RL/híbridos y barreras). Se muestra el formato
+Scopus TITLE-ABS-KEY; los equivalentes semánticos por base, incluidas las
+cadenas específicas para SciELO y LILACS, se documentan en el
+Apéndice~\ref{apx:queries_multibase}.}},
+label={tab:busqueda},
+]{colspec={X[1.2,c]X[3.4,l]X[14.5,l]X[0.9,c]},width=\linewidth,
+  rowsep=3pt,
+  hline{1,2,Z}={0.6pt},row{1}={font=\bfseries}}
+$Q_i$ & Foco temático (RQ) &
+Cadena booleana (Scopus TITLE-ABS-KEY) & $N$ \\
+$Q_1$ & Modelado y sensores virtuales de pH (RQ1) &
+{\raggedright\scriptsize\ttfamily TITLE-ABS-KEY(("pH control" OR "pH monitoring" OR
+"pH prediction" OR "pH regulation" OR "pH measurement" OR "acidity control"
+OR "alkalinity control" OR "juice acidity" OR "lime dosage" OR
+"calcium hydroxide" OR "milk of lime") AND ("sugar mill" OR "sugarcane" OR
+"cane juice" OR "sugar juice" OR "sugar industry" OR "juice clarification"
+OR "liming process" OR "defecation" OR "sulfitation" OR "sugar beet" OR
+"sugar factory" OR "saccharum") AND ("soft sensor" OR "virtual sensor" OR
+"inferential sensor" OR "identification" OR "data-driven model" OR
+"neural network" OR "LSTM" OR "predictive model" OR "regression model"))
+AND NOT TITLE-ABS-KEY("wastewater" OR "soil pH" OR "fermentation broth" OR
+"bioethanol" OR "pharmaceutical" OR "bioreactor" OR "wine" OR "beer" OR
+"dairy")}
+& 18 \\
+$Q_2$ & Control avanzado (MPC/NMPC, difuso, metaheurísticas) vs.\ PID (RQ2) &
+{\raggedright\scriptsize\ttfamily TITLE-ABS-KEY(("model predictive control" OR "NMPC"
+OR "nonlinear MPC" OR "fuzzy logic" OR "takagi-sugeno" OR "neuro-fuzzy"
+OR "adaptive control" OR "intelligent control" OR "PID tuning" OR
+"optimal control" OR "pattern search" OR "particle swarm" OR
+"genetic algorithm" OR "differential evolution" OR "bayesian optimization")
+AND "pH" AND ("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice"
+OR "juice clarification" OR "liming process" OR "defecation" OR
+"sulfitation" OR "sugar industry" OR "sugar beet" OR "sugar factory"))
+AND NOT TITLE-ABS-KEY("wastewater" OR "bioethanol" OR "fermentation broth"
+OR "pharmaceutical" OR "soil" OR "blood" OR "wine" OR "dairy" OR
+"desalination" OR "anaerobic digestion" OR "bioreactor")}
+& 60 \\
+$Q_3$ & ML/RL/híbridos y barreras de adopción (RQ3) &
+{\raggedright\scriptsize\ttfamily TITLE-ABS-KEY(("machine learning" OR "deep learning"
+OR "neural network" OR "artificial intelligence" OR "random forest" OR
+"gradient boosting" OR "XGBoost" OR "lightGBM" OR "support vector" OR
+"reinforcement learning" OR "deep reinforcement learning" OR "DDPG" OR
+"PPO" OR "Q-learning" OR "hybrid model" OR "grey-box model" OR
+"physics-informed" OR "digital twin" OR "transfer learning") AND "pH" AND
+("sugar" OR "sugarcane" OR "cane juice" OR "sugar juice" OR
+"clarification" OR "liming" OR "sugar mill" OR "sugar industry" OR
+"sugar beet" OR "juice purification" OR "sugar factory" OR "defecation"))
+AND NOT TITLE-ABS-KEY("wastewater" OR "bioethanol" OR "pharmaceutical" OR
+"soil" OR "blood" OR "bioreactor" OR "desalination" OR "wine" OR "beer"
+OR "fermentation broth")}
+& 463 \\
+\SetCell{c=3}\mbox{\textbf{Total bruto (nueve consultas, tres bases,
+con duplicados intra e inter-fuente)}} & & & \textbf{541} \\
+\SetCell{c=3}\mbox{\textbf{+ Adicionales SciELO y LILACS (ver Apéndice~\ref{apx:queries_multibase})}}
+& & & \textbf{\NSciELOLILACS} \\
+\end{longtblr}
+\nolinenumbers
+\begin{Nota}[Nota]{\linewidth}{Elaboración propia. Los valores de $N$
+corresponden a las ejecuciones del \FechaBusqueda y fueron
+verificados desde los archivos RIS exportados. Desglose por base original:
+Scopus $=312$ ($Q_1{=}11$, $Q_2{=}32$, $Q_3{=}269$);
+WoS $=188$ ($Q_1{=}3$, $Q_2{=}18$, $Q_3{=}167$);
+IEEE~Xplore $=41$ ($Q_1{=}4$, $Q_2{=}10$, $Q_3{=}27$).
+SciELO y LILACS se ejecutaron con consulta Q4 adaptada a DeCS/MeSH; los
+recuentos exactos se reportan en la Tabla~\ref{tab:queries_multibase}
+(Apéndice~\ref{apx:queries_multibase}). Sintaxis WoS: sustituir
+\texttt{TITLE-ABS-KEY} por \texttt{TS=} y \texttt{AND~NOT} por
+\texttt{NOT~TS=}. Sintaxis IEEE~Xplore: operadores directos sobre
+\textit{All~Metadata} sin prefijo de campo.}
+\end{Nota}
+\nolinenumbers
+\end{landscape}
+\restoregeometry

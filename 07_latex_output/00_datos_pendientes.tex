@@ -1,0 +1,60 @@
+% 00_datos_pendientes.tex — ÚNICO lugar donde se completan los datos que aún no
+% están en el repositorio. Mientras una macro conserve su definición por
+% defecto, se imprime en ROJO entre corchetes (visible en el PDF).
+% Para completarla basta redefinirla, p. ej.:
+%     \renewcommand{\KappaInter}{0.85}
+% y el valor se propaga al resumen, a los resultados, a las tablas y a los
+% apéndices. NO escribir cifras directamente en 02/04/06.
+%
+% Dependencias entre cifras (comprobar al rellenar):
+%   * SciELO y LILACS: 0 resultados (confirmado por el autor); el embudo
+%     541→353→239→230 y la Figura PRISMA no cambian.
+%   * El Revisor 2 cribó los 230 registros (no una muestra): \NPositivosMuestra=2.
+%     Fuente: 03_filtered_data/4.filtrado_ollama.xlsx (decision_revisor1/2),
+%     script 05_kappa_cohen.py. Wilson 95 %: 2/2 -> [34.2, 100]; 230/230 -> [98.4, 100].
+
+\newcommand{\DatoPendiente}[1]{\textbf{\textcolor{red}{[#1]}}}
+
+% ── Búsqueda en SciELO y LILACS (Tabla A1) ───────────────────────────────────
+\newcommand{\NSciELO}{0}
+\newcommand{\NLILACS}{0}
+\newcommand{\NSciELOLILACS}{0}
+\newcommand{\NTotalAmpliado}{541}
+\newcommand{\NUnicosAmpliado}{353}
+
+% ── Concordancia inter-humano (métrica primaria; 230 registros) ──────────────
+\newcommand{\KappaInter}{1.000}
+\newcommand{\PzeroInter}{100\,\%}
+\newcommand{\PABAKInter}{1.000}
+\newcommand{\SensInter}{100\,\%}
+\newcommand{\PrecInter}{100\,\%}
+\newcommand{\FUnoInter}{1.000}
+\newcommand{\ICInter}{[34.2; 100]\,\% para la sensibilidad y la precisión (2/2) y [98.4; 100]\,\% para $P_0$ (230/230)}
+\newcommand{\PrevInter}{0.87\,\%}
+\newcommand{\NPositivosMuestra}{2}
+% Matriz de confusión inter-humano
+\newcommand{\VPInter}{2}
+\newcommand{\FNInter}{0}
+\newcommand{\FPInter}{0}
+\newcommand{\VNInter}{228}
+\newcommand{\TotUnoI}{2}
+\newcommand{\TotUnoE}{228}
+\newcommand{\TotDosI}{2}
+\newcommand{\TotDosE}{228}
+
+% ── Enlaces de datos y protocolo ─────────────────────────────────────────────
+\newcommand{\URLOSF}{https://osf.io/PENDIENTE}
+% Repositorio confirmado por el autor (HTTP 200 el 24-oct-2026).
+\newcommand{\URLGitHub}{https://github.com/acastillo1975/rsl-ph-azucarera}
+\newcommand{\OSFTexto}{\DatoPendiente{osf.io/…}}
+\newcommand{\GitHubTexto}{github.com/acastillo1975/rsl-ph-azucarera}
+
+% ── Fecha de ejecución de la búsqueda ────────────────────────────────────────
+% Confirmada por el autor: 22-jun-2026 (los RIS de Scopus llevan «Export Date:
+% 23 June 2026», un día después de ejecutar la búsqueda).
+\newcommand{\FechaBusqueda}{22~de junio de 2026}
+
+% ── Co-revisor ───────────────────────────────────────────────────────────────
+\newcommand{\NombreCoRevisor}{D.~Barreto}
+
+\endinput

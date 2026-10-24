@@ -1,0 +1,187 @@
+% 03_introduction.tex — Introducción (Sección 1), estructura IMRAD:
+%   1.1 Contexto → 1.2 Problema de control → 1.3 Estado del arte en dominios
+%   vecinos → 1.4 Brecha y justificación → 1.5 Objetivo y preguntas.
+% La defensa del diseño (revisión de alcance vs. narrativa/agnóstica) se movió
+% a §2.1 (Métodos), donde corresponde en IMRAD.
+\setcounter{section}{0}
+\renewcommand{\thesection}{\arabic{section}}
+\setlength{\parindent}{15pt}
+
+\section{Introducción}
+
+\subsection{Contexto industrial: el pH en la clarificación azucarera}
+
+La caña de azúcar aporta la mayor parte de la sacarosa comercializada en
+el mundo \parencite{rein2007cane}. Dentro de la cadena de fabricación
+---preparación de caña, extracción, \emph{clarificación y encalado},
+evaporación, cristalización, centrifugación y secado---, la clarificación
+es la primera operación de purificación del jugo crudo y la más sensible
+al control de pH. La adición controlada de lechada de cal
+(\textit{liming}) eleva el pH desde su valor natural ácido
+($\approx 4.8$--$5.8$) hasta el rango objetivo de alcalinización
+($\approx 7.0$--$7.2$), lo que precipita coloides, ceras, materia
+colorante y sales inorgánicas y protege la sacarosa de la hidrólisis ácida
+\parencite{rein2007cane}.
+
+Las desviaciones del \textit{setpoint} tienen consecuencias económicas en
+ambos sentidos. Si el pH desciende por debajo de $\approx 6.8$, la acidez
+residual cataliza la inversión de sacarosa en glucosa y fructosa y reduce
+el rendimiento azucarero; si excede $\approx 7.4$, el exceso de cal
+favorece la formación de sacaratos de calcio y compuestos coloreados que
+afectan la calidad del azúcar y la eficiencia de los evaporadores
+\parencite{shinskey1996process,rein2007cane}. Por ello el encalado se
+reconoce como una operación cuya regulación tiene retorno directo sobre
+la rentabilidad del ingenio.
+
+\subsection{El problema de control del pH: ganancia variable y no linealidad}
+
+El encalado es una instancia del problema clásico de neutralización
+ácido--base: la curva de titulación es fuertemente sigmoidal, con una
+ganancia estática que varía en varios órdenes de magnitud alrededor del
+punto de equivalencia \parencite{shinskey1996process}, comportamiento que
+se formaliza con los invariantes de reacción de
+\textcite{gustafsson1983dynamic}. Un controlador PID sintonizado en un
+punto de operación pierde desempeño al alejarse de él, con oscilaciones
+y sobredosificación de reactivo. A esa no linealidad se superponen tres
+dificultades atribuidas en la literatura tecnológica al jugo de caña
+\parencite{rein2007cane,garcia1989model}: (i)~\textbf{variabilidad
+temporal} del jugo crudo, cuya composición ácida depende de la variedad,
+la madurez y la campaña; (ii)~\textbf{asimetría de instrumentación}, con
+mediciones DCS a resolución de minutos y análisis de laboratorio cada
+1--2~horas; y (iii)~\textbf{ensuciamiento} (\textit{fouling}) de los
+electrodos por depósitos de cal, que introduce derivas y exige
+recalibración frecuente. La Figura~\ref{fig:causal} resume esta cadena
+causal, de la no linealidad fisicoquímica a las limitaciones del PID, y los
+mecanismos mediante los cuales el aprendizaje automático (AA) y el control
+avanzado, discutidos en \ref{sub:otros_dominios} y
+\ref{sub:transferibilidad}, podrían mitigarlas.
+
+Conviene precisar el alcance de esta premisa: que el PID se degrada en el
+encalado es una consecuencia prevista por la teoría de control de pH y
+reportada de forma cualitativa por los propios estudios del dominio
+\parencite{murugesan2020computeraided}; no se localizó, en las fuentes
+revisadas, un estudio que cuantifique el desempeño de lazos PID en
+clarificadores industriales (error de pH, consumo de cal, pérdidas de
+sacarosa). Esa ausencia de línea base empírica es, en sí misma, parte del
+problema que esta revisión documenta.
+
+\nolinenumbers
+\begin{figure}[H]
+\centering
+\captionsetup{width=0.92\textwidth}
+\caption{Esquema causal propio: de la no linealidad fisicoquímica del
+encalado a las limitaciones del control PID, y mecanismos por los cuales
+el aprendizaje automático y el control avanzado podrían mitigarlas.}
+\label{fig:causal}
+\resizebox{\textwidth}{!}{\input{figures/diagrama_causal.tex}}
+\begin{Nota}[Nota]{0.92\textwidth}{Elaboración propia. Las flechas sólidas
+representan relaciones causales introducidas en los párrafos anteriores y
+desarrolladas con su respaldo bibliográfico en \ref{sub:otros_dominios};
+las flechas discontinuas señalan el mecanismo de mitigación propuesto por
+cada familia de métodos, desarrollado en \ref{sub:transferibilidad} y en
+la agenda de investigación (\ref{sub:agenda}). El esquema es conceptual y
+no representa un diagrama de bloques de control formal.}
+\end{Nota}
+\end{figure}
+\linenumbers
+
+\subsection{Avances en AA y control avanzado en otros dominios}
+\label{sub:otros_dominios}
+
+Fuera de la industria azucarera, la dificultad del control de pH ha
+motivado cuatro décadas de desarrollo metodológico. Los trabajos
+fundacionales formularon el control adaptativo no lineal basado en
+invariantes de reacción \parencite{henson1994adaptive}, el control
+predictivo con identificación no lineal en tiempo real
+\parencite{proll1994modelpredictive} y las redes neuronales para capturar
+la relación entrada--pH sin un modelo mecanístico explícito
+\parencite{palancar1998phcontrol}; en paralelo se propusieron esquemas
+proporcional-integrales avanzados con inyección dual para mitigar la
+ganancia variable \parencite{hurowitz2000control}.
+
+Sobre esa base se ha consolidado un repertorio diverso. El control
+predictivo lineal y no lineal se ha aplicado a la regulación de pH en
+bioprocesos y fotobiorreactores
+\parencite{berenguel2004model,otalora2026enhancing} y, más
+recientemente, se ha combinado con identificación por aprendizaje
+profundo para sintetizar controladores del proceso de neutralización
+\parencite{durairaj2023deep}. Los enfoques difusos y neuro-difusos han
+resultado adecuados para operar cerca del punto de equivalencia, donde la
+sensibilidad del proceso es máxima
+\parencite{herediamolinero2014feedback,suguna2026advanced}. En la frontera
+actual, el aprendizaje por refuerzo ha permitido diseñar políticas
+autónomas para la neutralización de efluentes de galvanoplastia y para
+procesos multivariables de pH
+\parencite{alvesgoulart2020autonomous,panjapornpon2022reinforcement}, y
+los enfoques \textit{data-driven} y de sensores virtuales han abordado la
+predicción de pH y la dosificación de reactivos cuando la
+instrumentación física es limitada o poco fiable
+\parencite{son2021deep,xu2022datadriven,bardeeniz2025artificial}.
+
+Este cuerpo de conocimiento abarca el tratamiento de aguas residuales, los
+fotobiorreactores, la desalación y la galvanoplastia, y su madurez se
+apoya sobre todo en formulación y validación en simulación, con
+implementaciones experimentales en algunos casos. Cabe preguntarse en
+qué medida estos avances han llegado al proceso de clarificación del
+jugo de caña, cuya dinámica de pH es análoga pero presenta
+particularidades ---composición coloidal, multiplicidad de ácidos débiles,
+estacionalidad y \textit{fouling}--- que podrían condicionar la
+transferencia.
+
+\subsection{Brecha de investigación y justificación del enfoque}
+\label{sub:brecha}
+
+Una búsqueda exploratoria sobre Scopus, Web of Science e IEEE~Xplore
+sugería que la evidencia \textit{intra-dominio} (\textit{in-domain}) sobre
+AA y control avanzado aplicados específicamente al pH del proceso
+azucarero era escasa y no existía un mapeo sistemático de su extensión y
+naturaleza. Ese contexto ---tema acotado, evidencia dispersa en tipos de
+documento heterogéneos y objetivo de cartografiar más que de sintetizar
+efectos--- corresponde a una \textbf{revisión de alcance}
+\parencite{arksey2005scoping,levac2010scoping,peters2020scoping}. Se
+adoptó un protocolo sistemático, y no una revisión narrativa, porque solo
+una estrategia de búsqueda reproducible y un embudo de decisiones
+auditable permiten distinguir entre ``no hay evidencia'' y ``no se buscó
+exhaustivamente'', distinción central cuando el corpus elegible es
+pequeño \parencite{lang2007empty,yaffe2012empty}. La justificación
+completa del diseño se presenta en \ref{sub:diseno}; la síntesis
+narrativa de la evidencia transferible, en \ref{sub:transferibilidad}.
+
+\subsection{Objetivo y preguntas de investigación}
+\label{sub:rqs}
+
+El \textbf{objetivo} es cartografiar la extensión, la naturaleza y el
+nivel de madurez de la evidencia sobre AA, control avanzado y sensores
+virtuales aplicados a la regulación del pH en la clarificación y el
+encalado del jugo azucarero, e identificar vacíos que orienten una agenda
+de investigación. Bajo un marco PICOC adaptado
+(\textit{Population}: procesos de clarificación y encalado de jugo de caña
+o remolacha; \textit{Intervention}: técnicas de AA, control avanzado o
+sensores virtuales; \textit{Comparison}: PID, dosificación manual o lazo
+abierto; \textit{Outcomes}: desempeño del control de pH y evidencia de
+modelado; \textit{Context}: revistas indexadas en SJR, cualquier cuartil,
+2015--2026) se formulan tres preguntas con correspondencia biunívoca con
+las consultas de búsqueda:
+
+\begin{description}[style=nextline,leftmargin=2cm,labelindent=0cm]
+\item[\textbf{RQ1}] ¿Cómo se ha modelado y estimado la dinámica del pH
+en la clarificación azucarera mediante sensores virtuales, identificación
+de sistemas y modelos \textit{data-driven}?
+\item[\textbf{RQ2}] ¿Qué estrategias de control avanzado (MPC/NMPC,
+lógica difusa, metaheurísticas) se han aplicado al lazo de pH y cómo se
+comparan con el control PID convencional?
+\item[\textbf{RQ3}] ¿Qué técnicas de aprendizaje automático, aprendizaje
+por refuerzo y modelos híbridos se han empleado, y qué barreras limitan
+su adopción industrial?
+\end{description}
+
+\noindent\textbf{Contribución.} Hasta donde alcanza el conocimiento de los
+autores, este es el primer mapeo sistemático, reportado bajo PRISMA-ScR,
+de la intersección \{AA/control avanzado\,$\times$\,pH\,$\times$\,industria
+azucarera\}. Aporta: \emph{(i)}~un corpus auditado registro a registro,
+con fiabilidad de cribado cuantificada y análisis de sensibilidad de los
+criterios de elegibilidad; \emph{(ii)}~la caracterización del campo
+adyacente mediante bibliometría y una verificación léxica independiente;
+y \emph{(iii)}~una agenda priorizada por transferibilidad técnica y nivel
+de madurez, orientada a cerrar la distancia entre simulación y validación
+en planta.

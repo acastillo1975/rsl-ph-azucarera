@@ -1,0 +1,29 @@
+# Dependencias Python — RSL Extracción de Sacarosa con IA
+# Instalar con: pip install -r requirements.txt
+
+# Procesamiento de datos
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# LLM local (Ollama)
+ollama>=0.1.7
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+networkx>=3.1
+
+# Análisis bibliométrico
+scikit-learn>=1.3.0
+
+# Utilidades
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Opcional — para el análisis SHAP (post-pipeline)
+# shap>=0.42.0
+# xgboost>=1.7.0
+# lightgbm>=3.3.0

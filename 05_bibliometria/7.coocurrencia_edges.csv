@@ -1,0 +1,2404 @@
+Termino_1,Termino_2,Coocurrencias,Cluster_T1,Cluster_T2,Mismo_cluster
+artificial neural network,neural network,21,0,0,True
+response surface methodology,artificial neural network,14,0,0,True
+neural network,genetic algorithm,13,0,0,True
+artificial neural network,genetic algorithm,13,0,0,True
+optimization,artificial neural network,10,0,0,True
+neural network,sugar,9,0,2,False
+artificial neural network,adsorption,9,0,0,True
+artificial neural network,response-surface methodology,9,0,0,True
+optimization,neural network,9,0,0,True
+neural network,response-surface methodology,8,0,0,True
+food storage,fruits,8,1,1,True
+response surface methodology,response-surface methodology,8,0,0,True
+sugar-cane bagasse,bagasse,8,0,0,True
+optimisations,neural network,8,0,0,True
+prediction,neural network,8,2,0,False
+artificial neural network,sugar,7,0,2,False
+fermentation,genetic algorithm,7,2,0,False
+prediction,sugar,7,2,2,True
+response surface methodology,response surface method,7,0,0,True
+response surface methodology,genetic algorithm,7,0,0,True
+response surface methodology,neural network,7,0,0,True
+neural-networks,neural network,7,0,0,True
+neural network,adsorption,7,0,0,True
+fermentation,metabolism,7,2,2,True
+neural-networks,artificial neural network,7,0,0,True
+response surface method,neural network,7,0,0,True
+surface properties,neural network,7,0,0,True
+bagasse,sugarcane,7,0,0,True
+response-surface methodology,genetic algorithm,7,0,0,True
+artificial neural network,response surface method,7,0,0,True
+prediction,machine learning,7,2,3,False
+fermentation,neural network,6,2,0,False
+neural-networks,response-surface methodology,6,0,0,True
+optimization,optimisations,6,0,0,True
+neural-networks,response surface methodology,6,0,0,True
+process optimization,artificial neural network,6,0,0,True
+artificial neural network,bagasse,6,0,0,True
+metabolism,hydrogen-ion concentration,6,2,2,True
+surface properties,artificial neural network,6,0,0,True
+sugarcane bagasse,adsorption,6,0,0,True
+response surface method,response-surface methodology,6,0,0,True
+sugarcane,saccharum,6,0,0,True
+optimization,adsorption,6,0,0,True
+artificial neural network,sugarcane,6,0,0,True
+artificial neural network,prediction,6,0,2,False
+lactic acid,fermentation,6,2,2,True
+fermentation,artificial neural network,6,2,0,False
+optimization,genetic algorithm,6,0,0,True
+scanning electron microscopy,neural network,6,0,0,True
+machine learning,sugar content,5,3,1,False
+food products,honey,5,3,3,True
+adsorption,response-surface methodology,5,0,0,True
+antioxidant activity,antioxidants,5,1,1,True
+cellulose,neural network,5,0,0,True
+bagasse,adsorption,5,0,0,True
+"water pollutants, chemical",water pollutant,5,0,0,True
+aqueous-solution,adsorption,5,0,0,True
+machine learning,metabolism,5,3,2,False
+machine learning,procedures,5,3,3,True
+optimisations,genetic algorithm,5,0,0,True
+cellulose,artificial neural network,5,0,0,True
+sugar cane juices,fruit juices,5,1,1,True
+scanning electron microscopy,artificial neural network,5,0,0,True
+near infrared spectroscopy,infrared devices,5,3,3,True
+response surface methodology,optimization,5,0,0,True
+kinetics,adsorption,5,2,0,False
+fruits,antioxidants,5,1,1,True
+fruits,polyphenol oxidase,5,1,1,True
+kinetics,neural network,5,2,0,False
+kinetics,hydrogen-ion concentration,5,2,2,True
+concentration (composition),optimization,5,0,0,True
+metabolism,sugar,5,2,2,True
+artificial intelligence,neural network,5,3,0,False
+machine learning,sugar,5,3,2,False
+peroxidase,polyphenol oxidase,5,1,1,True
+metabolism,genetics,5,2,2,True
+response surface methodology,adsorption,5,0,0,True
+surface properties,response-surface methodology,5,0,0,True
+juice quality,fruit juices,5,1,1,True
+optimisations,artificial neural network,5,0,0,True
+forecasting,machine learning,5,3,3,True
+nitrogen,sugar,5,2,2,True
+fermentation,machine learning,5,2,3,False
+neural-networks,genetic algorithm,5,0,0,True
+process optimization,bagasse,5,0,0,True
+sugar cane juices,juice quality,5,1,1,True
+bagasse,genetic algorithm,4,0,0,True
+surface properties,response surface methodology,4,0,0,True
+surface properties,response surface method,4,0,0,True
+sugar,response-surface methodology,4,2,0,False
+"water pollutants, chemical",adsorption,4,0,0,True
+machine learning,quality control,4,3,3,True
+machine learning,neural network,4,3,0,False
+machine learning,antioxidant activity,4,3,1,False
+response surface method,genetic algorithm,4,0,0,True
+artificial neural network,water pollutant,4,0,0,True
+response surface method,sugar,4,0,2,False
+response surface method,adsorption,4,0,0,True
+artificial neural network,"water pollutants, chemical",4,0,0,True
+kinetics,polyphenol oxidase,4,2,1,False
+fruits,fruit juices,4,1,1,True
+"neural networks, computer",neural network,4,0,0,True
+sensitivity analysis,neural network,4,2,0,False
+sensitivity analysis,prediction,4,2,2,True
+enzyme kinetics,kinetics,4,2,2,True
+fourier transform infrared spectroscopy,bagasse,4,0,0,True
+artificial neural network,sugarcane bagasse,4,0,0,True
+artificial neural network,biomass,4,0,0,True
+sugar-cane bagasse,adsorption,4,0,0,True
+neural network,sugars,4,0,2,False
+lactic acid,machine learning,4,2,3,False
+lactic acid,metabolism,4,2,2,True
+fermentation,optimization,4,2,0,False
+neural network,biomass,4,0,0,True
+support vector machines,least squares approximations,4,3,3,True
+"neural networks, computer",artificial neural network,4,0,0,True
+food storage,fruit juices,4,1,1,True
+food storage,antioxidants,4,1,1,True
+antioxidant,antioxidants,4,1,1,True
+fermentation,hydrogen-ion concentration,4,2,2,True
+neural network,enzymatic hydrolysis,4,0,0,True
+fermentation,substrates,4,2,0,False
+neural network,bagasse,4,0,0,True
+process optimization,fourier transform infrared spectroscopy,4,0,0,True
+process optimization,neural network,4,0,0,True
+water pollutant,adsorption,4,0,0,True
+optimization,machine learning,4,0,3,False
+optimization,sugar,4,0,2,False
+optimization,prediction,4,0,2,False
+sucrose,sugar (sucrose),4,3,3,True
+antioxidant,physicochemical property,4,1,1,True
+physicochemical properties,fruit juices,4,1,1,True
+neural-networks,optimisations,4,0,0,True
+food storage,shelf life,4,1,1,True
+cellulose,lignin,4,0,0,True
+neural-networks,surface properties,4,0,0,True
+color,fruit juices,4,1,1,True
+cellulose,bagasse,4,0,0,True
+cellulose,sugarcane,4,0,0,True
+genetic algorithm,enzymatic hydrolysis,4,0,0,True
+polyphenol oxidase,fruit juices,4,1,1,True
+aqueous-solution,sugarcane bagasse,4,0,0,True
+unclassified drug,high performance liquid chromatography,3,0,1,False
+unclassified drug,priority journal,3,0,0,True
+food waste,nitrogen,3,2,2,True
+food waste,sugar,3,2,2,True
+food waste,artificial neural network,3,2,0,False
+aqueous-solution,optimization,3,0,0,True
+aqueous-solution,removal,3,0,0,True
+aqueous-solution,response-surface methodology,3,0,0,True
+cost effectiveness,fruits,3,3,1,False
+sugarcane,genetic algorithm,3,0,0,True
+unclassified drug,artificial neural network,3,0,0,True
+unclassified drug,neural network,3,0,0,True
+cost effectiveness,machine learning,3,3,3,True
+machine learning,humans,3,3,3,True
+machine learning,viscosity,3,3,1,False
+response-surface methodology,enzymatic hydrolysis,3,0,0,True
+enzymes,genetic algorithm,3,2,0,False
+enzymes,polyphenol oxidase,3,2,1,False
+enzymes,fruit juices,3,2,1,False
+unclassified drug,sugar,3,0,2,False
+sugar,enzymatic hydrolysis,3,2,0,False
+forecasting,sugarcane,3,3,0,False
+forecasting,infrared devices,3,3,3,True
+artificial intelligence,humans,3,3,3,True
+physicochemical properties,antioxidant activity,3,1,1,True
+nitrogen,biomass,3,2,0,False
+nitrogen,neural network,3,2,0,False
+neural-networks,fermentation,3,0,2,False
+cellulose,saccharum,3,0,0,True
+ethanol,fermentation,3,0,2,False
+optimization,sugarcane bagasse,3,0,0,True
+artificial intelligence,artificial neural network,3,3,0,False
+artificial intelligence,bagasse,3,3,0,False
+forecasting,random forest,3,3,3,True
+forecasting,neural network,3,3,0,False
+antioxidant activity,sugar,3,1,2,False
+antioxidant activity,color,3,1,1,True
+antioxidant activity,neural network,3,1,0,False
+antioxidant activity,fruit juices,3,1,1,True
+neural-networks,response surface method,3,0,0,True
+artificial intelligence,prediction,3,3,2,False
+artificial intelligence,machine learning,3,3,3,True
+cellulose,x ray diffraction,3,0,0,True
+cellulose,sugar,3,0,2,False
+phenol derivative,color,3,1,1,True
+ethanol,sugarcane,3,0,0,True
+juice quality,sugarcane,3,1,0,False
+optimisations,bagasse,3,0,0,True
+optimisations,process optimization,3,0,0,True
+optimisations,biomass,3,0,0,True
+optimisations,machine learning,3,0,3,False
+optimization,process optimization,3,0,0,True
+physical chemistry,antioxidant activity,3,1,1,True
+antioxidants,color,3,1,1,True
+antioxidants,neural network,3,1,0,False
+antioxidants,fruit juices,3,1,1,True
+optimization,removal,3,0,0,True
+optimization,response-surface methodology,3,0,0,True
+infrared devices,machine learning,3,3,3,True
+infrared devices,nondestructive examination,3,3,3,True
+substrates,genetic algorithm,3,0,0,True
+extraction,genetic algorithm,3,0,0,True
+water pollutant,neural network,3,0,0,True
+food storage,color,3,1,1,True
+food storage,storage,3,1,1,True
+process optimization,biomass,3,0,0,True
+process optimization,lignocellulose,3,0,0,True
+antioxidant,sugar,3,1,2,False
+antioxidant,artificial neural network,3,1,0,False
+process optimization,sugar-cane bagasse,3,0,0,True
+removal,adsorption,3,0,0,True
+process optimization,sugarcane,3,0,0,True
+process optimization,genetic algorithm,3,0,0,True
+process optimization,adsorption,3,0,0,True
+"neural networks, computer",response surface method,3,0,0,True
+"neural networks, computer",response surface methodology,3,0,0,True
+"neural networks, computer",sugar,3,0,2,False
+process optimization,response surface method,3,0,0,True
+physical chemistry,machine learning,3,1,3,False
+fermentation,sugar,3,2,2,True
+neural network,sugarcane bagasse,3,0,0,True
+neural network,lignin,3,0,0,True
+neural network,enzyme,3,0,0,True
+optimization,biomass,3,0,0,True
+optimization,cellulose,3,0,0,True
+fermentation,optimisations,3,2,0,False
+neural network,color,3,0,1,False
+neural network,fruit juices,3,0,1,False
+lactic acid,hydrogen-ion concentration,3,2,2,True
+neural network,artificial neural network modeling,3,0,0,True
+fruits,shelf life,3,1,1,True
+fruits,enzymes,3,1,2,False
+fruits,color,3,1,1,True
+"neural networks, computer",nitrogen,3,0,2,False
+high performance liquid chromatography,machine learning,3,1,3,False
+fourier transform infrared spectroscopy,artificial neural network,3,0,0,True
+fourier transform infrared spectroscopy,neural network,3,0,0,True
+fourier transform infrared spectroscopy,adsorption,3,0,0,True
+fourier transform infrared spectroscopy,response surface method,3,0,0,True
+storage,fruits,3,1,1,True
+x ray diffraction,artificial neural network,3,0,0,True
+sensitivity analysis,artificial neural network,3,2,0,False
+procedures,metabolism,3,3,2,False
+procedures,chemometrics,3,3,3,True
+plants (botany),antioxidant activity,3,1,1,True
+plants (botany),antioxidants,3,1,1,True
+plants (botany),machine learning,3,1,3,False
+water treatment,artificial neural network,3,0,0,True
+water treatment,neural network,3,0,0,True
+artificial neural network,priority journal,3,0,0,True
+response surface methodology,fermentation,3,0,2,False
+concentration (composition),process optimization,3,0,0,True
+concentration (composition),artificial neural network,3,0,0,True
+modeling,artificial neural network,3,0,0,True
+fermentation,bagasse,3,2,0,False
+neural network,sugar (sucrose),3,0,3,False
+neural network,honey,3,0,3,False
+metabolism,sugars,3,2,2,True
+metabolism,enzymes,3,2,2,True
+lactic acid,optimization,3,2,0,False
+fermentation,sugarcane,3,2,0,False
+artificial neural network,enzyme,3,0,0,True
+scanning electron microscopy,sugars,3,0,2,False
+artificial neural network,sugar-cane bagasse,3,0,0,True
+artificial neural network,machine learning,3,0,3,False
+artificial neural network,artificial neural network modeling,3,0,0,True
+sugar-cane bagasse,sugarcane,3,0,0,True
+sugar-cane bagasse,response-surface methodology,3,0,0,True
+sugar-cane bagasse,sugarcane bagasse,3,0,0,True
+sugar-cane bagasse,neural network,3,0,0,True
+cellulase,genetic algorithm,3,0,0,True
+kinetics,sugarcane,3,2,0,False
+artificial neural network,hydrogen-ion concentration,3,0,2,False
+artificial neural network,kinetics,3,0,2,False
+artificial neural network,antioxidants,3,0,1,False
+artificial neural network,metabolism,3,0,2,False
+response surface methodology,sugar,3,0,2,False
+partial least squares regression,support vector,3,3,3,True
+partial least squares regression,honey,3,3,3,True
+partial least squares regression,least squares approximations,3,3,3,True
+partial least squares regression,support vector machines,3,3,3,True
+response surface methodology,antioxidants,3,0,1,False
+sugarcane bagasse,genetic algorithm,3,0,0,True
+sugarcane bagasse,bagasse,3,0,0,True
+sugarcane bagasse,response-surface methodology,3,0,0,True
+lignocellulose,bagasse,3,0,0,True
+lignocellulose,sugarcane,3,0,0,True
+lignocellulose,biomass,3,0,0,True
+scanning electron microscopy,sugar,3,0,2,False
+artificial neural network,sugars,3,0,2,False
+artificial neural network,removal,3,0,0,True
+scanning electron microscopy,fourier transform infrared spectroscopy,3,0,0,True
+sensory evaluation,neural network,3,1,0,False
+central composite designs,response surface methodology,3,0,0,True
+regression,machine learning,3,3,3,True
+regression,neural network,3,3,0,False
+kinetics,metabolism,3,2,2,True
+kinetics,sugar,3,2,2,True
+surface properties,optimisations,3,0,0,True
+surface properties,enzymatic hydrolysis,3,0,0,True
+surface properties,adsorption,3,0,0,True
+surface properties,kinetics,3,0,2,False
+honey,sugar,3,3,2,False
+fruit,sugar,3,1,2,False
+fruit,artificial neural network,3,1,0,False
+hydrogen-ion concentration,sugar,3,2,2,True
+response surface method,water pollutant,3,0,0,True
+response surface method,"water pollutants, chemical",3,0,0,True
+near infrared spectroscopy,least squares approximations,3,3,3,True
+near infrared spectroscopy,nondestructive examination,3,3,3,True
+near infrared spectroscopy,machine learning,3,3,3,True
+prediction,hydrogen-ion concentration,3,2,2,True
+prediction,kinetics,3,2,2,True
+prediction,nitrogen,3,2,2,True
+prediction,genetic algorithm,3,2,0,False
+near infrared spectroscopy,forecasting,3,3,3,True
+substrate concentration,artificial neural network,3,2,0,False
+substrate concentration,fermentation,3,2,2,True
+substrate concentration,metabolism,3,2,2,True
+bagasse,saccharum,3,0,0,True
+fruit,fruits,3,1,1,True
+bagasse,response-surface methodology,3,0,0,True
+sugarcane,biomass,3,0,0,True
+hydrolysis,fermentation,3,0,2,False
+algorithm,prediction,3,3,2,False
+machine learning,antioxidants,3,3,1,False
+machine learning,molasses,3,3,1,False
+"water pollutants, chemical",neural network,3,0,0,True
+total soluble solids,fruit juices,3,1,1,True
+total soluble solids,physicochemical properties,3,1,1,True
+machine learning,random forest,3,3,3,True
+catechol oxidase,peroxidase,3,1,1,True
+catechol oxidase,polyphenol oxidase,3,1,1,True
+machine learning,sucrose,3,3,3,True
+machine learning,hydrogen-ion concentration,3,3,2,False
+sugar,genetic algorithm,3,2,0,False
+unclassified drug,cellulose,3,0,0,True
+sugar,biomass,3,2,0,False
+unclassified drug,bagasse,2,0,0,True
+sugar,color,2,2,1,False
+unclassified drug,prediction,2,0,2,False
+unclassified drug,sugar (sucrose),2,0,3,False
+genetics,fruit juices,2,2,1,False
+polyphenol oxidase,sugars,2,1,2,False
+adsorption,genetic algorithm,2,0,0,True
+adsorption,artificial neural network modeling,2,0,0,True
+adsorption,saccharum,2,0,0,True
+physicochemical property,sugar,2,1,2,False
+physicochemical property,fruit juices,2,1,1,True
+physicochemical property,polyphenol oxidase,2,1,1,True
+physicochemical property,color,2,1,1,True
+artificial neural network modeling,biomass,2,0,0,True
+artificial neural network modeling,response-surface methodology,2,0,0,True
+enzymes,biomass,2,2,0,False
+cost effectiveness,infrared devices,2,3,3,True
+food products,procedures,2,3,3,True
+food products,quality control,2,3,3,True
+food products,artificial neural network,2,3,0,False
+food products,neural network,2,3,0,False
+efficiency,biomass,2,0,0,True
+machine learning,sugarcane,2,3,0,False
+catechol oxidase,sugar,2,1,2,False
+catechol oxidase,hydrogen-ion concentration,2,1,2,False
+catechol oxidase,sugars,2,1,2,False
+catechol oxidase,carbohydrate,2,1,3,False
+catechol oxidase,sugarcane,2,1,0,False
+machine learning,bagasse,2,3,0,False
+machine learning,sugar-cane bagasse,2,3,0,False
+machine learning,adsorption,2,3,0,False
+machine learning,electric conductivity,2,3,3,True
+machine learning,response-surface methodology,2,3,0,False
+machine learning,kinetics,2,3,2,False
+machine learning,nitrogen,2,3,2,False
+machine learning,honey,2,3,3,True
+catechol oxidase,juice quality,2,1,1,True
+catechol oxidase,phenol derivative,2,1,1,True
+algorithm,neural network,2,3,0,False
+machine learning,color,2,3,1,False
+machine learning,fruits,2,3,1,False
+machine learning,quality,2,3,1,False
+machine learning,enzymes,2,3,2,False
+machine learning,fruit juices,2,3,1,False
+machine learning,support vector,2,3,3,True
+machine learning,chemometrics,2,3,3,True
+"water pollutants, chemical",hydrogen-ion concentration,2,0,2,False
+"water pollutants, chemical",kinetics,2,0,2,False
+"water pollutants, chemical",procedures,2,0,3,False
+"water pollutants, chemical",bagasse,2,0,0,True
+"water pollutants, chemical",saccharum,2,0,0,True
+"water pollutants, chemical",sugarcane,2,0,0,True
+machine learning,shelf life,2,3,1,False
+machine learning,biomass,2,3,0,False
+prediction,adsorption,2,2,0,False
+prediction,artificial neural network modeling,2,2,0,False
+prediction,biomass,2,2,0,False
+prediction,response-surface methodology,2,2,0,False
+prediction,water pollutant,2,2,0,False
+prediction,"water pollutants, chemical",2,2,0,False
+prediction,metabolism,2,2,2,True
+prediction,humans,2,2,3,False
+near infrared spectroscopy,partial least squares regression,2,3,3,True
+near infrared spectroscopy,prediction,2,3,2,False
+prediction,antioxidant activity,2,2,1,False
+prediction,sugar content,2,2,1,False
+prediction,honey,2,2,3,False
+algorithm,machine learning,2,3,3,True
+algorithm,near infrared spectroscopy,2,3,3,True
+algorithm,procedures,2,3,3,True
+priority journal,genetic algorithm,2,0,0,True
+priority journal,sugar,2,0,2,False
+priority journal,biomass,2,0,0,True
+priority journal,enzyme,2,0,0,True
+priority journal,neural network,2,0,0,True
+oxidation,peroxidase,2,1,1,True
+oxidation,polyphenol oxidase,2,1,1,True
+oxidation,sugar,2,1,2,False
+oxidation,metabolism,2,1,2,False
+oxidation,sugars,2,1,2,False
+oxidation,sucrose,2,1,3,False
+oxidation,neural network,2,1,0,False
+microorganisms,polyphenol oxidase,2,3,1,False
+regression,forecasting,2,3,3,True
+regression,infrared devices,2,3,3,True
+near infrared spectroscopy,quality control,2,3,3,True
+sensory evaluation,response-surface methodology,2,1,0,False
+sensory evaluation,sugar,2,1,2,False
+sensory evaluation,antioxidant activity,2,1,1,True
+sensory evaluation,antioxidants,2,1,1,True
+sensory evaluation,fruit juices,2,1,1,True
+central composite designs,artificial neural network,2,0,0,True
+central composite designs,fermentation,2,0,2,False
+central composite designs,genetic algorithm,2,0,0,True
+response surface method,nitrogen,2,0,2,False
+response surface method,bagasse,2,0,0,True
+response surface method,machine learning,2,0,3,False
+prediction,quality,2,2,1,False
+prediction,support vector,2,2,3,False
+near infrared spectroscopy,chemometrics,2,3,3,True
+near infrared spectroscopy,support vector machines,2,3,3,True
+priority journal,lignocellulose,2,0,0,True
+central composite designs,optimization,2,0,0,True
+artificial neural network,nitrogen,2,0,2,False
+artificial neural network,sugar (sucrose),2,0,3,False
+artificial neural network,honey,2,0,3,False
+scanning electron microscopy,biomass,2,0,0,True
+scanning electron microscopy,fruits,2,0,1,False
+artificial neural network,saccharum,2,0,0,True
+response surface method,biomass,2,0,0,True
+response surface method,enzymatic hydrolysis,2,0,0,True
+scanning electron microscopy,artificial intelligence,2,0,3,False
+scanning electron microscopy,bagasse,2,0,0,True
+scanning electron microscopy,genetic algorithm,2,0,0,True
+scanning electron microscopy,process optimization,2,0,0,True
+scanning electron microscopy,adsorption,2,0,0,True
+response surface method,sensory evaluation,2,0,1,False
+sensory evaluation,genetic algorithm,2,1,0,False
+cellulase,fermentation,2,0,2,False
+cellulase,neural network,2,0,0,True
+cellulase,optimisations,2,0,0,True
+peroxidase,antioxidant activity,2,1,1,True
+peroxidase,sugar,2,1,2,False
+kinetics,artificial neural network modeling,2,2,0,False
+kinetics,nitrogen,2,2,2,True
+kinetics,water pollutant,2,2,0,False
+kinetics,fruit juices,2,2,1,False
+kinetics,peroxidase,2,2,1,False
+kinetics,physicochemical properties,2,2,1,False
+kinetics,physicochemical property,2,2,1,False
+kinetics,sugarcane bagasse,2,2,0,False
+classification,random forest,2,3,3,True
+classification,support vector,2,3,3,True
+central composite designs,optimisations,2,0,0,True
+carbohydrate,sugarcane,2,3,0,False
+carbohydrate,classification,2,3,3,True
+carbohydrate,fermentation,2,3,2,False
+carbohydrate,hydrogen-ion concentration,2,3,2,False
+carbohydrate,metabolism,2,3,2,False
+carbohydrate,food waste,2,3,2,False
+carbohydrate,machine learning,2,3,3,True
+carbohydrate,nitrogen,2,3,2,False
+artificial neural network,lignin,2,0,0,True
+artificial neural network,lignocellulose,2,0,0,True
+scanning electron microscopy,concentration (composition),2,0,0,True
+scanning electron microscopy,x ray diffraction,2,0,0,True
+artificial neural network,procedures,2,0,3,False
+sugar-cane bagasse,biomass,2,0,0,True
+sugar-cane bagasse,genetic algorithm,2,0,0,True
+cellulase,artificial neural network,2,0,0,True
+procedures,quality control,2,3,3,True
+gene expression,neural network,2,0,0,True
+sensitivity analysis,sugar,2,2,2,True
+sensitivity analysis,genetic algorithm,2,2,0,False
+plants (botany),color,2,1,1,True
+plants (botany),molasses,2,1,1,True
+plants (botany),neural network,2,1,0,False
+plants (botany),fruit juices,2,1,1,True
+carbohydrate,prediction,2,3,2,False
+carbohydrate,sugar,2,3,2,False
+carbohydrate,color,2,3,1,False
+carbohydrate,phenol derivative,2,3,1,False
+water treatment,adsorption,2,0,0,True
+water treatment,bagasse,2,0,0,True
+water treatment,sugar-cane bagasse,2,0,0,True
+water treatment,prediction,2,0,2,False
+carbohydrate,sucrose,2,3,3,True
+sugar beets,artificial neural network,2,0,0,True
+sugar beets,neural network,2,0,0,True
+sensitivity analysis,nitrogen,2,2,2,True
+peroxidase,fruits,2,1,1,True
+peroxidase,fruit juices,2,1,1,True
+peroxidase,physicochemical property,2,1,1,True
+peroxidase,color,2,1,1,True
+peroxidase,nitrogen,2,1,2,False
+procedures,adsorption,2,3,0,False
+procedures,deep learning,2,3,3,True
+procedures,enzymes,2,3,2,False
+procedures,genetics,2,3,2,False
+procedures,random forest,2,3,3,True
+procedures,water pollutant,2,3,0,False
+procedures,honey,2,3,3,True
+high performance liquid chromatography,antioxidant activity,2,1,1,True
+high performance liquid chromatography,antioxidants,2,1,1,True
+high performance liquid chromatography,physicochemical properties,2,1,1,True
+high performance liquid chromatography,sugar,2,1,2,False
+fourier transform infrared spectroscopy,genetic algorithm,2,0,0,True
+fourier transform infrared spectroscopy,sugarcane,2,0,0,True
+fourier transform infrared spectroscopy,sugar-cane bagasse,2,0,0,True
+fourier transform infrared spectroscopy,x ray diffraction,2,0,0,True
+sugar beets,optimization,2,0,0,True
+storage,shelf life,2,1,1,True
+enzyme kinetics,metabolism,2,2,2,True
+enzyme kinetics,juice quality,2,2,1,False
+enzyme kinetics,sugarcane,2,2,0,False
+enzyme kinetics,sugars,2,2,2,True
+x ray diffraction,neural network,2,0,0,True
+sensitivity analysis,sugar (sucrose),2,2,3,False
+support vector machines,support vector,2,3,3,True
+high performance liquid chromatography,sugarcane,2,1,0,False
+high performance liquid chromatography,artificial neural network,2,1,0,False
+high performance liquid chromatography,deep learning,2,1,3,False
+"neural networks, computer",adsorption,2,0,0,True
+"neural networks, computer",hydrogen-ion concentration,2,0,2,False
+fruits,viscosity,2,1,1,True
+fruits,nondestructive examination,2,1,3,False
+fruits,neural network,2,1,0,False
+fruits,quality,2,1,1,True
+fruits,physicochemical property,2,1,1,True
+fruits,quality control,2,1,3,False
+fruits,sugar content,2,1,1,True
+fruits,sugars,2,1,2,False
+gene expression,acetic acid,2,0,0,True
+gene expression,sugarcane,2,0,0,True
+biosynthesis,metabolism,2,2,2,True
+biosynthesis,sugar,2,2,2,True
+gene expression,hydrogen-ion concentration,2,0,2,False
+process optimization,priority journal,2,0,0,True
+process optimization,enzyme,2,0,0,True
+process optimization,machine learning,2,0,3,False
+"neural networks, computer",prediction,2,0,2,False
+"neural networks, computer",response-surface methodology,2,0,0,True
+"neural networks, computer",water pollutant,2,0,0,True
+"neural networks, computer","water pollutants, chemical",2,0,0,True
+"neural networks, computer",genetic algorithm,2,0,0,True
+process optimization,water pollutant,2,0,0,True
+process optimization,"water pollutants, chemical",2,0,0,True
+process optimization,x ray diffraction,2,0,0,True
+support vector machines,honey,2,3,3,True
+support vector machines,chemometrics,2,3,3,True
+acetic acid,genetic algorithm,2,0,0,True
+acetic acid,sucrose,2,0,3,False
+acetic acid,nitrogen,2,0,2,False
+antioxidant,genetic algorithm,2,1,0,False
+antioxidant,response surface methodology,2,1,0,False
+sucrose,honey,2,3,3,True
+sucrose,support vector,2,3,3,True
+sucrose,color,2,3,1,False
+sucrose,fruit juices,2,3,1,False
+sucrose,sugarcane,2,3,0,False
+viscosity,humans,2,1,3,False
+molasses,antioxidants,2,1,1,True
+molasses,neural network,2,1,0,False
+molasses,fruit juices,2,1,1,True
+molasses,sugarcane,2,1,0,False
+biosynthesis,sugar (sucrose),2,2,3,False
+antioxidant,antioxidant activity,2,1,1,True
+antioxidant,neural network,2,1,0,False
+antioxidant,sensory evaluation,2,1,1,True
+removal,response-surface methodology,2,0,0,True
+removal,sugarcane bagasse,2,0,0,True
+random forest,metabolism,2,3,2,False
+random forest,support vector,2,3,3,True
+water pollutant,hydrogen-ion concentration,2,0,2,False
+water pollutant,bagasse,2,0,0,True
+water pollutant,saccharum,2,0,0,True
+water pollutant,sugarcane,2,0,0,True
+food storage,quality,2,1,1,True
+food storage,polyphenol oxidase,2,1,1,True
+acetic acid,high performance liquid chromatography,2,0,1,False
+acetic acid,sugarcane,2,0,0,True
+acetic acid,artificial neural network,2,0,0,True
+optimisations,sugar (sucrose),2,0,3,False
+optimisations,sugar-cane bagasse,2,0,0,True
+antioxidant,prediction,2,1,2,False
+antioxidant,honey,2,1,3,False
+antioxidant,sugarcane,2,1,0,False
+sugar cane juices,polyphenol oxidase,2,1,1,True
+optimisations,response-surface methodology,2,0,0,True
+infrared devices,fruits,2,3,1,False
+infrared devices,chemometrics,2,3,3,True
+infrared devices,least squares approximations,2,3,3,True
+infrared devices,support vector machines,2,3,3,True
+infrared devices,quality control,2,3,3,True
+substrates,neural network,2,0,0,True
+substrates,artificial neural network,2,0,0,True
+extraction,neural network,2,0,0,True
+extraction,fourier transform infrared spectroscopy,2,0,0,True
+phenol derivative,support vector,2,1,3,False
+ethanol,extraction,2,0,0,True
+optimisations,lignin,2,0,0,True
+food storage,physicochemical properties,2,1,1,True
+juice quality,antioxidant activity,2,1,1,True
+juice quality,polyphenol oxidase,2,1,1,True
+food storage,food safety,2,1,3,False
+food storage,genetic algorithm,2,1,0,False
+food storage,phenol derivative,2,1,1,True
+food storage,physical chemistry,2,1,1,True
+food storage,process optimization,2,1,0,False
+food storage,cost effectiveness,2,1,3,False
+food storage,machine learning,2,1,3,False
+physicochemical properties,physicochemical property,2,1,1,True
+optimisations,fourier transform infrared spectroscopy,2,0,0,True
+optimisations,lignocellulose,2,0,0,True
+artificial intelligence,procedures,2,3,3,True
+artificial intelligence,viscosity,2,3,1,False
+artificial intelligence,honey,2,3,3,True
+cellulose,lignocellulose,2,0,0,True
+cellulose,priority journal,2,0,0,True
+cellulose,biomass,2,0,0,True
+cellulose,process optimization,2,0,0,True
+cellulose,sugar-cane bagasse,2,0,0,True
+cellulose,genetic algorithm,2,0,0,True
+ethanol,high performance liquid chromatography,2,0,1,False
+cellulose,optimisations,2,0,0,True
+cellulose,response surface method,2,0,0,True
+cellulose,adsorption,2,0,0,True
+cellulose,water pollutant,2,0,0,True
+cellulose,"water pollutants, chemical",2,0,0,True
+phenol derivative,principal component analysis,2,1,3,False
+forecasting,artificial neural network,2,3,0,False
+forecasting,artificial intelligence,2,3,3,True
+forecasting,cost effectiveness,2,3,3,True
+forecasting,nondestructive examination,2,3,3,True
+forecasting,least squares approximations,2,3,3,True
+physicochemical properties,polyphenol oxidase,2,1,1,True
+physicochemical properties,antioxidants,2,1,1,True
+physicochemical properties,support vector,2,1,3,False
+nitrogen,electric conductivity,2,2,3,False
+nitrogen,sugarcane,2,2,0,False
+nitrogen,hydrogen-ion concentration,2,2,2,True
+nitrogen,response-surface methodology,2,2,0,False
+nitrogen,genetic algorithm,2,2,0,False
+least squares approximations,nondestructive examination,2,3,3,True
+least squares approximations,honey,2,3,3,True
+least squares approximations,chemometrics,2,3,3,True
+forecasting,sugar (sucrose),2,3,3,True
+forecasting,prediction,2,3,2,False
+forecasting,support vector machines,2,3,3,True
+neural-networks,fruit juices,2,0,1,False
+chemometrics,honey,2,3,3,True
+chemometrics,principal component analysis,2,3,3,True
+chemometrics,support vector,2,3,3,True
+antioxidant activity,polyphenol oxidase,2,1,1,True
+deep learning,enzymes,2,3,2,False
+deep learning,genetics,2,3,2,False
+neural-networks,kinetics,2,0,2,False
+artificial intelligence,sugar-cane bagasse,2,3,0,False
+artificial intelligence,food safety,2,3,3,True
+artificial intelligence,deep learning,2,3,3,True
+artificial intelligence,microorganisms,2,3,3,True
+artificial intelligence,sugarcane bagasse,2,3,0,False
+neural-networks,plants (botany),2,0,1,False
+neural-networks,adsorption,2,0,0,True
+optimization,lignin,2,0,0,True
+optimization,sugar (sucrose),2,0,3,False
+optimization,sensitivity analysis,2,0,2,False
+forecasting,support vector,2,3,3,True
+physical chemistry,electric conductivity,2,1,3,False
+optimization,response surface method,2,0,0,True
+optimization,water treatment,2,0,0,True
+optimization,enzymes,2,0,2,False
+optimization,metabolism,2,0,2,False
+optimization,juice quality,2,0,1,False
+artificial intelligence,fourier transform infrared spectroscopy,2,3,0,False
+artificial intelligence,genetic algorithm,2,3,0,False
+artificial intelligence,sugarcane,2,3,0,False
+artificial intelligence,adsorption,2,3,0,False
+optimization,lignocellulose,2,0,0,True
+optimization,sugar-cane bagasse,2,0,0,True
+physical chemistry,oxidation,2,1,1,True
+physical chemistry,phenol derivative,2,1,1,True
+physical chemistry,process optimization,2,1,0,False
+physical chemistry,sugar,2,1,2,False
+neural-networks,process optimization,2,0,0,True
+deep learning,metabolism,2,3,2,False
+deep learning,food safety,2,3,3,True
+antioxidants,quality control,2,1,3,False
+antioxidants,physicochemical property,2,1,1,True
+antioxidants,genetic algorithm,2,1,0,False
+neural-networks,antioxidant activity,2,0,1,False
+neural-networks,antioxidants,2,0,1,False
+neural-networks,machine learning,2,0,3,False
+neural-networks,molasses,2,0,1,False
+fermentation,random forest,2,2,3,False
+fermentation,enzymes,2,2,2,True
+fermentation,kinetics,2,2,2,True
+fermentation,sensory evaluation,2,2,1,False
+neural-networks,biomass,2,0,0,True
+quality control,color,2,3,1,False
+quality control,honey,2,3,3,True
+neural-networks,bagasse,2,0,0,True
+neural-networks,sugar-cane bagasse,2,0,0,True
+neural network,lignocellulose,2,0,0,True
+neural network,sugarcane,2,0,0,True
+fermentation,antioxidant activity,2,2,1,False
+fermentation,antioxidants,2,2,1,False
+fermentation,fruit juices,2,2,1,False
+fermentation,response-surface methodology,2,2,0,False
+optimization,bagasse,2,0,0,True
+physical chemistry,physicochemical properties,2,1,1,True
+fermentation,artificial intelligence,2,2,3,False
+fermentation,enzyme,2,2,0,False
+fermentation,process optimization,2,2,0,False
+fermentation,enzymatic hydrolysis,2,2,0,False
+lactic acid,enzymes,2,2,2,True
+lactic acid,hydrolysis,2,2,0,False
+lactic acid,sugar,2,2,2,True
+lactic acid,kinetics,2,2,2,True
+neural network,hydrogen-ion concentration,2,0,2,False
+fermentation,sugars,2,2,2,True
+fermentation,genetics,2,2,2,True
+physical chemistry,fourier transform infrared spectroscopy,2,1,0,False
+physical chemistry,response surface method,2,1,0,False
+physical chemistry,response surface methodology,2,1,0,False
+physical chemistry,viscosity,2,1,1,True
+modeling,optimization,2,0,0,True
+modeling,neural network,2,0,0,True
+modeling,genetic algorithm,2,0,0,True
+neural network,enzymes,2,0,2,False
+neural network,metabolism,2,0,2,False
+humans,metabolism,2,3,2,False
+lignin,genetic algorithm,2,0,0,True
+lignin,sugar,2,0,2,False
+fruit,quality,2,1,1,True
+lactic acid,genetic algorithm,2,2,0,False
+lactic acid,neural network,2,2,0,False
+fermentation,high performance liquid chromatography,2,2,1,False
+fermentation,lignocellulose,2,2,0,False
+fermentation,priority journal,2,2,0,False
+physical chemistry,antioxidants,2,1,1,True
+physical chemistry,high performance liquid chromatography,2,1,1,True
+response surface methodology,fruit juices,2,0,1,False
+response surface methodology,molasses,2,0,1,False
+lactic acid,carbohydrate,2,2,3,False
+metabolism,fruit juices,2,2,1,False
+sugarcane bagasse,sugarcane,2,0,0,True
+fruit,neural network,2,1,0,False
+lignocellulose,enzyme,2,0,0,True
+honey,electric conductivity,2,3,3,True
+honey,support vector,2,3,3,True
+response surface methodology,machine learning,2,0,3,False
+response surface methodology,optimisations,2,0,0,True
+response surface methodology,process optimization,2,0,0,True
+concentration (composition),biomass,2,0,0,True
+concentration (composition),adsorption,2,0,0,True
+concentration (composition),neural network,2,0,0,True
+modeling,biosynthesis,2,0,2,False
+shelf life,food safety,2,1,3,False
+principal component analysis,support vector,2,3,3,True
+hydrogen-ion concentration,polyphenol oxidase,2,2,1,False
+hydrogen-ion concentration,sugars,2,2,2,True
+hydrogen-ion concentration,adsorption,2,2,0,False
+fruit,machine learning,2,1,3,False
+fruit,antioxidant,2,1,1,True
+hydrogen-ion concentration,genetics,2,2,2,True
+hydrogen-ion concentration,sugarcane,2,2,0,False
+response surface methodology,nitrogen,2,0,2,False
+response surface methodology,water pollutant,2,0,0,True
+response surface methodology,"water pollutants, chemical",2,0,0,True
+modeling,nitrogen,2,0,2,False
+modeling,sugar,2,0,2,False
+partial least squares regression,sucrose,2,3,3,True
+partial least squares regression,chemometrics,2,3,3,True
+hydrolysis,priority journal,2,0,0,True
+hydrolysis,neural network,2,0,0,True
+hydrolysis,optimization,2,0,0,True
+hydrolysis,sugar,2,0,2,False
+surface properties,sugar,2,0,2,False
+surface properties,optimization,2,0,0,True
+response surface methodology,bagasse,2,0,0,True
+response surface methodology,sugar-cane bagasse,2,0,0,True
+response surface methodology,sugarcane bagasse,2,0,0,True
+response surface methodology,fourier transform infrared spectroscopy,2,0,0,True
+surface properties,bagasse,2,0,0,True
+surface properties,sugar-cane bagasse,2,0,0,True
+response surface methodology,concentration (composition),2,0,0,True
+honey,principal component analysis,2,3,3,True
+honey,color,2,3,1,False
+quality,fruit juices,2,1,1,True
+efficiency,nitrogen,2,0,2,False
+efficiency,neural network,2,0,0,True
+substrate concentration,enzyme kinetics,2,2,2,True
+substrate concentration,kinetics,2,2,2,True
+substrate concentration,sugar,2,2,2,True
+surface properties,genetic algorithm,2,0,0,True
+hydrogen-ion concentration,enzymes,2,2,2,True
+bagasse,biomass,2,0,0,True
+unclassified drug,process optimization,2,0,0,True
+unclassified drug,scanning electron microscopy,2,0,0,True
+unclassified drug,x ray diffraction,2,0,0,True
+fruit,response surface method,2,1,0,False
+fruit,response surface methodology,2,1,0,False
+sugarcane,enzymes,2,0,2,False
+substrate concentration,hydrogen-ion concentration,2,2,2,True
+hydrolysis,lignocellulose,2,0,0,True
+electric conductivity,biomass,2,3,0,False
+enzyme,genetic algorithm,2,0,0,True
+food safety,nondestructive examination,2,3,3,True
+unclassified drug,hydrolysis,2,0,0,True
+unclassified drug,lignocellulose,2,0,0,True
+sugar,sugars,2,2,2,True
+unclassified drug,saccharum,2,0,0,True
+food waste,neural network,2,2,0,False
+food waste,genetic algorithm,2,2,0,False
+food waste,response surface methodology,2,2,0,False
+food waste,response-surface methodology,2,2,0,False
+food products,artificial intelligence,2,3,3,True
+food products,machine learning,2,3,3,True
+aqueous-solution,artificial neural network,2,0,0,True
+sugarcane,polyphenol oxidase,2,0,1,False
+sugarcane,adsorption,2,0,0,True
+catechol oxidase,physical chemistry,2,1,1,True
+catechol oxidase,oxidation,2,1,1,True
+machine learning,physicochemical properties,2,3,1,False
+unclassified drug,sugarcane,2,0,0,True
+unclassified drug,biosynthesis,2,0,2,False
+unclassified drug,kinetics,2,0,2,False
+unclassified drug,metabolism,2,0,2,False
+color,support vector,2,1,3,False
+support vector,fruit juices,2,3,1,False
+genetic algorithm,biomass,2,0,0,True
+food waste,fermentation,2,2,2,True
+cost effectiveness,shelf life,2,3,1,False
+cost effectiveness,chemometrics,2,3,3,True
+cost effectiveness,honey,2,3,3,True
+food waste,machine learning,2,2,3,False
+enzymes,genetics,2,2,2,True
+sugars,biomass,1,2,0,False
+unclassified drug,acetic acid,1,0,0,True
+unclassified drug,ethanol,1,0,0,True
+unclassified drug,fermentation,1,0,2,False
+unclassified drug,enzyme kinetics,1,0,2,False
+unclassified drug,substrate concentration,1,0,2,False
+response-surface methodology,biomass,1,0,0,True
+response-surface methodology,fruit juices,1,0,1,False
+color,sugar (sucrose),1,1,3,False
+unclassified drug,humans,1,0,3,False
+unclassified drug,antioxidants,1,0,1,False
+unclassified drug,antioxidant activity,1,0,1,False
+unclassified drug,antioxidant,1,0,1,False
+unclassified drug,procedures,1,0,3,False
+unclassified drug,genetics,1,0,2,False
+unclassified drug,enzymes,1,0,2,False
+unclassified drug,deep learning,1,0,3,False
+genetics,sugar (sucrose),1,2,3,False
+polyphenol oxidase,color,1,1,1,True
+polyphenol oxidase,sugar (sucrose),1,1,3,False
+polyphenol oxidase,sugar,1,1,2,False
+electric conductivity,sugar,1,3,2,False
+electric conductivity,color,1,3,1,False
+electric conductivity,response-surface methodology,1,3,0,False
+electric conductivity,support vector,1,3,3,True
+cost effectiveness,support vector machines,1,3,3,True
+cost effectiveness,support vector,1,3,3,True
+cost effectiveness,sucrose,1,3,3,True
+cost effectiveness,principal component analysis,1,3,3,True
+cost effectiveness,phenol derivative,1,3,1,False
+cost effectiveness,least squares approximations,1,3,3,True
+cost effectiveness,color,1,3,1,False
+cost effectiveness,classification,1,3,3,True
+cost effectiveness,sugar (sucrose),1,3,3,True
+cost effectiveness,neural network,1,3,0,False
+cost effectiveness,storage,1,3,1,False
+cost effectiveness,antioxidants,1,3,1,False
+food waste,kinetics,1,2,2,True
+food waste,hydrolysis,1,2,0,False
+food waste,hydrogen-ion concentration,1,2,2,True
+food waste,food safety,1,2,3,False
+food waste,sugars,1,2,2,True
+food waste,honey,1,2,3,False
+food waste,food products,1,2,3,False
+food waste,priority journal,1,2,0,False
+food waste,phenol derivative,1,2,1,False
+food waste,peroxidase,1,2,1,False
+food waste,lignin,1,2,0,False
+food waste,electric conductivity,1,2,3,False
+food waste,color,1,2,1,False
+food waste,cellulose,1,2,0,False
+food waste,biomass,1,2,0,False
+food waste,sensitivity analysis,1,2,2,True
+food waste,prediction,1,2,2,True
+food waste,optimization,1,2,0,False
+food waste,metabolism,1,2,2,True
+cost effectiveness,sugar content,1,3,1,False
+food products,sugar,1,3,2,False
+food products,microorganisms,1,3,3,True
+cost effectiveness,nondestructive examination,1,3,3,True
+cost effectiveness,food safety,1,3,3,True
+cost effectiveness,artificial intelligence,1,3,3,True
+aqueous-solution,artificial neural network modeling,1,0,0,True
+aqueous-solution,kinetics,1,0,2,False
+aqueous-solution,response surface methodology,1,0,0,True
+aqueous-solution,neural network,1,0,0,True
+aqueous-solution,genetic algorithm,1,0,0,True
+food products,support vector machines,1,3,3,True
+food products,least squares approximations,1,3,3,True
+food waste,optimisations,1,2,0,False
+food waste,response surface method,1,2,0,False
+food waste,high performance liquid chromatography,1,2,1,False
+food waste,acetic acid,1,2,0,False
+efficiency,artificial neural network,1,0,0,True
+efficiency,adsorption,1,0,0,True
+efficiency,sugarcane bagasse,1,0,0,True
+efficiency,substrates,1,0,0,True
+efficiency,genetic algorithm,1,0,0,True
+efficiency,fermentation,1,0,2,False
+efficiency,sugarcane,1,0,0,True
+efficiency,saccharum,1,0,0,True
+efficiency,oxidation,1,0,1,False
+efficiency,enzymes,1,0,2,False
+efficiency,electric conductivity,1,0,3,False
+food products,infrared devices,1,3,3,True
+food products,electric conductivity,1,3,3,True
+food products,chemometrics,1,3,3,True
+food products,principal component analysis,1,3,3,True
+food products,sugars,1,3,2,False
+substrate concentration,acetic acid,1,2,0,False
+substrate concentration,priority journal,1,2,0,False
+substrate concentration,biosynthesis,1,2,2,True
+substrate concentration,sugarcane,1,2,0,False
+substrate concentration,high performance liquid chromatography,1,2,1,False
+substrate concentration,deep learning,1,2,3,False
+efficiency,"water pollutants, chemical",1,0,0,True
+efficiency,water pollutant,1,0,0,True
+efficiency,sugar,1,0,2,False
+efficiency,response-surface methodology,1,0,0,True
+efficiency,response surface methodology,1,0,0,True
+efficiency,response surface method,1,0,0,True
+efficiency,prediction,1,0,2,False
+efficiency,kinetics,1,0,2,False
+efficiency,hydrogen-ion concentration,1,0,2,False
+efficiency,artificial neural network modeling,1,0,0,True
+substrate concentration,biomass,1,2,0,False
+surface properties,physicochemical property,1,0,1,False
+surface properties,enzyme kinetics,1,0,2,False
+surface properties,sensory evaluation,1,0,1,False
+surface properties,plants (botany),1,0,1,False
+surface properties,metabolism,1,0,2,False
+surface properties,genetics,1,0,2,False
+surface properties,fruit juices,1,0,1,False
+surface properties,fermentation,1,0,2,False
+surface properties,antioxidants,1,0,1,False
+surface properties,antioxidant activity,1,0,1,False
+surface properties,water treatment,1,0,0,True
+surface properties,process optimization,1,0,0,True
+surface properties,molasses,1,0,1,False
+surface properties,machine learning,1,0,3,False
+substrate concentration,artificial neural network modeling,1,2,0,False
+hydrolysis,enzymatic hydrolysis,1,0,0,True
+hydrolysis,sugarcane,1,0,0,True
+hydrolysis,saccharum,1,0,0,True
+hydrolysis,high performance liquid chromatography,1,0,1,False
+hydrolysis,cellulose,1,0,0,True
+hydrolysis,bagasse,1,0,0,True
+hydrolysis,acetic acid,1,0,0,True
+substrate concentration,sugars,1,2,2,True
+substrate concentration,machine learning,1,2,3,False
+substrate concentration,enzymes,1,2,2,True
+substrate concentration,substrates,1,2,0,False
+substrate concentration,sugar (sucrose),1,2,3,False
+substrate concentration,sucrose,1,2,3,False
+substrate concentration,sensitivity analysis,1,2,2,True
+substrate concentration,prediction,1,2,2,True
+substrate concentration,genetic algorithm,1,2,0,False
+surface properties,lignin,1,0,0,True
+surface properties,cellulose,1,0,0,True
+surface properties,sugar (sucrose),1,0,3,False
+surface properties,sensitivity analysis,1,0,2,False
+surface properties,"water pollutants, chemical",1,0,0,True
+surface properties,water pollutant,1,0,0,True
+surface properties,prediction,1,0,2,False
+surface properties,nitrogen,1,0,2,False
+hydrolysis,prediction,1,0,2,False
+hydrolysis,nitrogen,1,0,2,False
+hydrolysis,metabolism,1,0,2,False
+hydrolysis,machine learning,1,0,3,False
+hydrolysis,kinetics,1,0,2,False
+hydrolysis,hydrogen-ion concentration,1,0,2,False
+hydrolysis,genetic algorithm,1,0,0,True
+hydrolysis,enzymes,1,0,2,False
+surface properties,artificial neural network modeling,1,0,0,True
+partial least squares regression,principal component analysis,1,3,3,True
+partial least squares regression,phenol derivative,1,3,1,False
+partial least squares regression,cost effectiveness,1,3,3,True
+partial least squares regression,color,1,3,1,False
+partial least squares regression,classification,1,3,3,True
+response surface methodology,fruits,1,0,1,False
+response surface methodology,extraction,1,0,0,True
+response surface methodology,sugarcane,1,0,0,True
+hydrolysis,process optimization,1,0,0,True
+hydrolysis,enzyme,1,0,0,True
+hydrolysis,biomass,1,0,0,True
+hydrolysis,artificial neural network,1,0,0,True
+hydrolysis,sensitivity analysis,1,0,2,False
+surface properties,fourier transform infrared spectroscopy,1,0,0,True
+surface properties,electric conductivity,1,0,3,False
+partial least squares regression,prediction,1,3,2,False
+modeling,prediction,1,0,2,False
+modeling,response-surface methodology,1,0,0,True
+modeling,response surface methodology,1,0,0,True
+modeling,response surface method,1,0,0,True
+response surface methodology,prediction,1,0,2,False
+response surface methodology,kinetics,1,0,2,False
+response surface methodology,hydrogen-ion concentration,1,0,2,False
+response surface methodology,biomass,1,0,0,True
+response surface methodology,artificial neural network modeling,1,0,0,True
+response surface methodology,procedures,1,0,3,False
+response surface methodology,color,1,0,1,False
+response surface methodology,viscosity,1,0,1,False
+surface properties,hydrogen-ion concentration,1,0,2,False
+surface properties,efficiency,1,0,0,True
+surface properties,biomass,1,0,0,True
+response surface methodology,substrates,1,0,0,True
+response surface methodology,priority journal,1,0,0,True
+response surface methodology,enzyme,1,0,0,True
+response surface methodology,sensory evaluation,1,0,1,False
+response surface methodology,plants (botany),1,0,1,False
+response surface methodology,metabolism,1,0,2,False
+response surface methodology,genetics,1,0,2,False
+response surface methodology,antioxidant activity,1,0,1,False
+response surface methodology,water treatment,1,0,0,True
+response surface methodology,electric conductivity,1,0,3,False
+response surface methodology,lignin,1,0,0,True
+response surface methodology,enzymatic hydrolysis,1,0,0,True
+response surface methodology,cellulose,1,0,0,True
+partial least squares regression,infrared devices,1,3,3,True
+partial least squares regression,food products,1,3,3,True
+partial least squares regression,electric conductivity,1,3,3,True
+concentration (composition),storage,1,0,1,False
+concentration (composition),enzyme,1,0,0,True
+concentration (composition),acetic acid,1,0,0,True
+concentration (composition),water treatment,1,0,0,True
+concentration (composition),prediction,1,0,2,False
+concentration (composition),juice quality,1,0,1,False
+concentration (composition),procedures,1,0,3,False
+concentration (composition),color,1,0,1,False
+concentration (composition),sugarcane,1,0,0,True
+concentration (composition),sugar-cane bagasse,1,0,0,True
+concentration (composition),lignocellulose,1,0,0,True
+concentration (composition),cellulose,1,0,0,True
+concentration (composition),bagasse,1,0,0,True
+response surface methodology,removal,1,0,0,True
+response surface methodology,high performance liquid chromatography,1,0,1,False
+response surface methodology,acetic acid,1,0,0,True
+modeling,high performance liquid chromatography,1,0,1,False
+modeling,food waste,1,0,2,False
+modeling,acetic acid,1,0,0,True
+modeling,water treatment,1,0,0,True
+modeling,artificial neural network modeling,1,0,0,True
+modeling,sugar (sucrose),1,0,3,False
+modeling,optimisations,1,0,0,True
+modeling,fermentation,1,0,2,False
+physical chemistry,support vector,1,1,3,False
+physical chemistry,plants (botany),1,1,1,True
+concentration (composition),sugar (sucrose),1,0,3,False
+concentration (composition),sucrose,1,0,3,False
+concentration (composition),fourier transform infrared spectroscopy,1,0,0,True
+concentration (composition),sugars,1,0,2,False
+concentration (composition),sugar,1,0,2,False
+concentration (composition),fruits,1,0,1,False
+physical chemistry,water treatment,1,1,0,False
+physical chemistry,surface properties,1,1,0,False
+physical chemistry,sugar-cane bagasse,1,1,0,False
+physical chemistry,response-surface methodology,1,1,0,False
+physical chemistry,optimization,1,1,0,False
+physical chemistry,optimisations,1,1,0,False
+physical chemistry,neural network,1,1,0,False
+fermentation,sugarcane bagasse,1,2,0,False
+fermentation,saccharum,1,2,0,False
+fermentation,cellulose,1,2,0,False
+fermentation,acetic acid,1,2,0,False
+concentration (composition),"water pollutants, chemical",1,0,0,True
+concentration (composition),water pollutant,1,0,0,True
+concentration (composition),response surface method,1,0,0,True
+concentration (composition),x ray diffraction,1,0,0,True
+modeling,machine learning,1,0,3,False
+physical chemistry,genetics,1,1,2,False
+physical chemistry,fermentation,1,1,2,False
+physical chemistry,classification,1,1,3,False
+physical chemistry,fruits,1,1,1,True
+fermentation,classification,1,2,3,False
+fermentation,sugar (sucrose),1,2,3,False
+fermentation,biosynthesis,1,2,2,True
+fermentation,deep learning,1,2,3,False
+fermentation,extraction,1,2,0,False
+fermentation,fourier transform infrared spectroscopy,1,2,0,False
+physical chemistry,fruit juices,1,1,1,True
+physical chemistry,color,1,1,1,True
+physical chemistry,sensory evaluation,1,1,1,True
+physical chemistry,prediction,1,1,2,False
+physical chemistry,physicochemical property,1,1,1,True
+physical chemistry,humans,1,1,3,False
+fermentation,chemometrics,1,2,3,False
+fermentation,enzyme kinetics,1,2,2,True
+fermentation,humans,1,2,3,False
+fermentation,fruits,1,2,1,False
+fermentation,response surface method,1,2,0,False
+fermentation,plants (botany),1,2,1,False
+fermentation,sensitivity analysis,1,2,2,True
+fermentation,prediction,1,2,2,True
+fermentation,nitrogen,1,2,2,True
+physical chemistry,molasses,1,1,1,True
+physical chemistry,bagasse,1,1,0,False
+physical chemistry,artificial neural network,1,1,0,False
+physical chemistry,adsorption,1,1,0,False
+physical chemistry,random forest,1,1,3,False
+physical chemistry,metabolism,1,1,2,False
+physical chemistry,hydrogen-ion concentration,1,1,2,False
+physical chemistry,extraction,1,1,0,False
+physical chemistry,polyphenol oxidase,1,1,1,True
+physical chemistry,peroxidase,1,1,1,True
+physical chemistry,shelf life,1,1,1,True
+physical chemistry,principal component analysis,1,1,3,False
+physical chemistry,juice quality,1,1,1,True
+physical chemistry,genetic algorithm,1,1,0,False
+physical chemistry,food safety,1,1,3,False
+physical chemistry,sugarcane,1,1,0,False
+physical chemistry,saccharum,1,1,0,False
+physical chemistry,nitrogen,1,1,2,False
+optimization,extraction,1,0,0,True
+optimization,sugarcane,1,0,0,True
+fermentation,support vector,1,2,3,False
+fermentation,procedures,1,2,3,False
+fermentation,principal component analysis,1,2,3,False
+forecasting,water treatment,1,3,0,False
+forecasting,"water pollutants, chemical",1,3,0,False
+forecasting,water pollutant,1,3,0,False
+forecasting,sugarcane bagasse,1,3,0,False
+forecasting,sugar-cane bagasse,1,3,0,False
+forecasting,saccharum,1,3,0,False
+forecasting,kinetics,1,3,2,False
+forecasting,hydrogen-ion concentration,1,3,2,False
+forecasting,cellulose,1,3,0,False
+optimization,molasses,1,0,1,False
+optimization,fourier transform infrared spectroscopy,1,0,0,True
+optimization,electric conductivity,1,0,3,False
+optimization,procedures,1,0,3,False
+optimization,color,1,0,1,False
+optimization,biosynthesis,1,0,2,False
+optimization,x ray diffraction,1,0,0,True
+optimization,"water pollutants, chemical",1,0,0,True
+optimization,water pollutant,1,0,0,True
+optimization,sugars,1,0,2,False
+optimization,fruits,1,0,1,False
+optimization,substrates,1,0,0,True
+optimization,priority journal,1,0,0,True
+optimization,enzyme,1,0,0,True
+optimization,nitrogen,1,0,2,False
+optimization,kinetics,1,0,2,False
+optimization,hydrogen-ion concentration,1,0,2,False
+optimization,enzymatic hydrolysis,1,0,0,True
+physical chemistry,enzymes,1,1,2,False
+physical chemistry,efficiency,1,1,0,False
+physical chemistry,biomass,1,1,0,False
+forecasting,physicochemical properties,1,3,1,False
+forecasting,fruit juices,1,3,1,False
+forecasting,bagasse,1,3,0,False
+forecasting,adsorption,1,3,0,False
+forecasting,quality control,1,3,3,True
+forecasting,quality,1,3,1,False
+forecasting,partial least squares regression,1,3,3,True
+forecasting,chemometrics,1,3,3,True
+forecasting,sensitivity analysis,1,3,2,False
+forecasting,nitrogen,1,3,2,False
+forecasting,genetic algorithm,1,3,0,False
+forecasting,sucrose,1,3,3,True
+forecasting,plants (botany),1,3,1,False
+artificial intelligence,process optimization,1,3,0,False
+artificial intelligence,optimisations,1,3,0,False
+artificial intelligence,lignocellulose,1,3,0,False
+artificial intelligence,enzyme,1,3,0,False
+optimization,sugar content,1,0,1,False
+forecasting,shelf life,1,3,1,False
+forecasting,fruits,1,3,1,False
+forecasting,food safety,1,3,3,True
+forecasting,substrate concentration,1,3,2,False
+forecasting,high performance liquid chromatography,1,3,1,False
+forecasting,fermentation,1,3,2,False
+forecasting,deep learning,1,3,3,True
+artificial intelligence,classification,1,3,3,True
+artificial intelligence,sensory evaluation,1,3,1,False
+artificial intelligence,molasses,1,3,1,False
+artificial intelligence,biomass,1,3,0,False
+artificial intelligence,shelf life,1,3,1,False
+artificial intelligence,nondestructive examination,1,3,3,True
+artificial intelligence,infrared devices,1,3,3,True
+artificial intelligence,fruits,1,3,1,False
+artificial intelligence,extraction,1,3,0,False
+cellulose,high performance liquid chromatography,1,0,1,False
+cellulose,acetic acid,1,0,0,True
+artificial intelligence,water treatment,1,3,0,False
+artificial intelligence,"water pollutants, chemical",1,3,0,False
+artificial intelligence,water pollutant,1,3,0,False
+artificial intelligence,support vector machines,1,3,3,True
+artificial intelligence,support vector,1,3,3,True
+artificial intelligence,saccharum,1,3,0,False
+artificial intelligence,kinetics,1,3,2,False
+artificial intelligence,hydrogen-ion concentration,1,3,2,False
+artificial intelligence,cellulose,1,3,0,False
+artificial intelligence,principal component analysis,1,3,3,True
+artificial intelligence,sucrose,1,3,3,True
+artificial intelligence,sugar,1,3,2,False
+artificial intelligence,quality control,1,3,3,True
+forecasting,molasses,1,3,1,False
+cellulose,enzymatic hydrolysis,1,0,0,True
+ethanol,substrate concentration,1,0,2,False
+ethanol,forecasting,1,0,3,False
+ethanol,deep learning,1,0,3,False
+ethanol,artificial neural network,1,0,0,True
+ethanol,sugars,1,0,2,False
+ethanol,substrates,1,0,0,True
+ethanol,genetic algorithm,1,0,0,True
+ethanol,enzymatic hydrolysis,1,0,0,True
+ethanol,saccharum,1,0,0,True
+ethanol,priority journal,1,0,0,True
+ethanol,lignocellulose,1,0,0,True
+ethanol,hydrolysis,1,0,0,True
+ethanol,cellulose,1,0,0,True
+ethanol,bagasse,1,0,0,True
+cellulose,extraction,1,0,0,True
+cellulose,fourier transform infrared spectroscopy,1,0,0,True
+cellulose,chemometrics,1,0,3,False
+cellulose,water treatment,1,0,0,True
+cellulose,support vector machines,1,0,3,False
+cellulose,support vector,1,0,3,False
+cellulose,sugarcane bagasse,1,0,0,True
+cellulose,prediction,1,0,2,False
+cellulose,kinetics,1,0,2,False
+cellulose,hydrogen-ion concentration,1,0,2,False
+cellulose,enzymes,1,0,2,False
+cellulose,phenol derivative,1,0,1,False
+cellulose,peroxidase,1,0,1,False
+cellulose,nitrogen,1,0,2,False
+cellulose,electric conductivity,1,0,3,False
+cellulose,color,1,0,1,False
+cellulose,response-surface methodology,1,0,0,True
+phenol derivative,honey,1,1,3,False
+phenol derivative,classification,1,1,3,False
+phenol derivative,chemometrics,1,1,3,False
+phenol derivative,sugar,1,1,2,False
+phenol derivative,priority journal,1,1,0,False
+phenol derivative,peroxidase,1,1,1,True
+phenol derivative,nitrogen,1,1,2,False
+phenol derivative,lignin,1,1,0,False
+phenol derivative,electric conductivity,1,1,3,False
+phenol derivative,biomass,1,1,0,False
+phenol derivative,shelf life,1,1,1,True
+phenol derivative,process optimization,1,1,0,False
+phenol derivative,juice quality,1,1,1,True
+phenol derivative,genetic algorithm,1,1,0,False
+phenol derivative,food safety,1,1,3,False
+cellulose,procedures,1,0,3,False
+sugar cane juices,sugarcane,1,1,0,False
+sugar cane juices,molasses,1,1,1,True
+sugar cane juices,kinetics,1,1,2,False
+sugar cane juices,enzyme kinetics,1,1,2,False
+sugar cane juices,enzymes,1,1,2,False
+sugar cane juices,sensory evaluation,1,1,1,True
+sugar cane juices,sugar (sucrose),1,1,3,False
+sugar cane juices,sucrose,1,1,3,False
+sugar cane juices,oxidation,1,1,1,True
+sugar cane juices,neural network,1,1,0,False
+sugar cane juices,color,1,1,1,True
+phenol derivative,antioxidants,1,1,1,True
+phenol derivative,antioxidant activity,1,1,1,True
+phenol derivative,support vector machines,1,1,3,False
+phenol derivative,sucrose,1,1,3,False
+phenol derivative,least squares approximations,1,1,3,False
+optimisations,fruits,1,0,1,False
+optimisations,fruit juices,1,0,1,False
+optimisations,removal,1,0,0,True
+optimisations,sugarcane,1,0,0,True
+optimisations,enzyme,1,0,0,True
+optimisations,x ray diffraction,1,0,0,True
+optimisations,extraction,1,0,0,True
+phenol derivative,viscosity,1,1,1,True
+phenol derivative,plants (botany),1,1,1,True
+phenol derivative,physicochemical properties,1,1,1,True
+phenol derivative,machine learning,1,1,3,False
+phenol derivative,high performance liquid chromatography,1,1,1,True
+phenol derivative,fruit juices,1,1,1,True
+ethanol,acetic acid,1,0,0,True
+ethanol,juice quality,1,0,1,False
+ethanol,biomass,1,0,0,True
+sugar cane juices,antioxidant activity,1,1,1,True
+antioxidant,sensitivity analysis,1,1,2,False
+antioxidant,quality,1,1,1,True
+antioxidant,saccharum,1,1,0,False
+antioxidant,sucrose,1,1,3,False
+antioxidant,biosynthesis,1,1,2,False
+antioxidant,sugars,1,1,2,False
+antioxidant,food waste,1,1,2,False
+antioxidant,food products,1,1,3,False
+optimisations,electric conductivity,1,0,3,False
+optimisations,adsorption,1,0,0,True
+optimisations,sensitivity analysis,1,0,2,False
+optimisations,biosynthesis,1,0,2,False
+optimisations,shelf life,1,0,1,False
+optimisations,quality,1,0,1,False
+optimisations,prediction,1,0,2,False
+substrates,sugarcane bagasse,1,0,0,True
+infrared devices,procedures,1,3,3,True
+infrared devices,honey,1,3,3,True
+infrared devices,electric conductivity,1,3,3,True
+infrared devices,quality,1,3,1,False
+infrared devices,sugars,1,3,2,False
+infrared devices,neural network,1,3,0,False
+infrared devices,shelf life,1,3,1,False
+infrared devices,food safety,1,3,3,True
+optimisations,kinetics,1,0,2,False
+optimisations,enzymatic hydrolysis,1,0,0,True
+optimisations,enzymes,1,0,2,False
+optimisations,water treatment,1,0,0,True
+optimisations,response surface method,1,0,0,True
+optimisations,molasses,1,0,1,False
+sugar cane juices,microorganisms,1,1,3,False
+extraction,bagasse,1,0,0,True
+extraction,adsorption,1,0,0,True
+extraction,x ray diffraction,1,0,0,True
+extraction,lignin,1,0,0,True
+extraction,artificial neural network,1,0,0,True
+extraction,sugarcane,1,0,0,True
+extraction,juice quality,1,0,1,False
+extraction,biomass,1,0,0,True
+substrates,sugar,1,0,2,False
+substrates,metabolism,1,0,2,False
+substrates,hydrogen-ion concentration,1,0,2,False
+substrates,priority journal,1,0,0,True
+substrates,enzyme,1,0,0,True
+substrates,sugars,1,0,2,False
+substrates,extraction,1,0,0,True
+substrates,enzymatic hydrolysis,1,0,0,True
+antioxidant,physicochemical properties,1,1,1,True
+antioxidant,physical chemistry,1,1,1,True
+antioxidant,machine learning,1,1,3,False
+antioxidant,humans,1,1,3,False
+antioxidant,high performance liquid chromatography,1,1,1,True
+antioxidant,surface properties,1,1,0,False
+antioxidant,response-surface methodology,1,1,0,False
+antioxidant,response surface method,1,1,0,False
+antioxidant,plants (botany),1,1,1,True
+antioxidant,metabolism,1,1,2,False
+antioxidant,genetics,1,1,2,False
+antioxidant,fruit juices,1,1,1,True
+antioxidant,fermentation,1,1,2,False
+extraction,sugars,1,0,2,False
+extraction,enzymatic hydrolysis,1,0,0,True
+extraction,sugar-cane bagasse,1,0,0,True
+acetic acid,peroxidase,1,0,1,False
+acetic acid,antioxidant activity,1,0,1,False
+acetic acid,storage,1,0,1,False
+acetic acid,enzyme,1,0,0,True
+acetic acid,sugar (sucrose),1,0,3,False
+acetic acid,sensitivity analysis,1,0,2,False
+acetic acid,prediction,1,0,2,False
+acetic acid,biomass,1,0,0,True
+acetic acid,artificial neural network modeling,1,0,0,True
+acetic acid,saccharum,1,0,0,True
+acetic acid,priority journal,1,0,0,True
+acetic acid,lignocellulose,1,0,0,True
+acetic acid,bagasse,1,0,0,True
+extraction,viscosity,1,0,1,False
+extraction,response surface method,1,0,0,True
+extraction,fruits,1,0,1,False
+antioxidant,fruits,1,1,1,True
+antioxidant,color,1,1,1,True
+"neural networks, computer",modeling,1,0,0,True
+"neural networks, computer",machine learning,1,0,3,False
+"neural networks, computer",high performance liquid chromatography,1,0,1,False
+"neural networks, computer",food waste,1,0,2,False
+"neural networks, computer",acetic acid,1,0,0,True
+"neural networks, computer",process optimization,1,0,0,True
+"neural networks, computer",optimization,1,0,0,True
+acetic acid,sugar,1,0,2,False
+acetic acid,response-surface methodology,1,0,0,True
+acetic acid,response surface method,1,0,0,True
+acetic acid,neural network,1,0,0,True
+acetic acid,machine learning,1,0,3,False
+acetic acid,sugars,1,0,2,False
+acetic acid,plants (botany),1,0,1,False
+process optimization,response-surface methodology,1,0,0,True
+"neural networks, computer",concentration (composition),1,0,0,True
+"neural networks, computer",substrates,1,0,0,True
+"neural networks, computer",substrate concentration,1,0,2,False
+"neural networks, computer",metabolism,1,0,2,False
+"neural networks, computer",fermentation,1,0,2,False
+"neural networks, computer",sensitivity analysis,1,0,2,False
+"neural networks, computer",forecasting,1,0,3,False
+"neural networks, computer",surface properties,1,0,0,True
+process optimization,molasses,1,0,1,False
+process optimization,electric conductivity,1,0,3,False
+process optimization,shelf life,1,0,1,False
+process optimization,principal component analysis,1,0,3,False
+process optimization,juice quality,1,0,1,False
+process optimization,food safety,1,0,3,False
+antioxidant,quality control,1,1,3,False
+support vector machines,sugar-cane bagasse,1,3,0,False
+support vector machines,saccharum,1,3,0,False
+support vector machines,prediction,1,3,2,False
+support vector machines,neural network,1,3,0,False
+support vector machines,kinetics,1,3,2,False
+support vector machines,hydrogen-ion concentration,1,3,2,False
+support vector machines,bagasse,1,3,0,False
+support vector machines,artificial neural network,1,3,0,False
+support vector machines,adsorption,1,3,0,False
+process optimization,fruit juices,1,0,1,False
+process optimization,sugar (sucrose),1,0,3,False
+process optimization,sucrose,1,0,3,False
+process optimization,saccharum,1,0,0,True
+process optimization,procedures,1,0,3,False
+process optimization,chemometrics,1,0,3,False
+process optimization,water treatment,1,0,0,True
+high performance liquid chromatography,biosynthesis,1,1,2,False
+high performance liquid chromatography,saccharum,1,1,0,False
+high performance liquid chromatography,priority journal,1,1,0,False
+high performance liquid chromatography,lignocellulose,1,1,0,False
+high performance liquid chromatography,bagasse,1,1,0,False
+support vector machines,nondestructive examination,1,3,3,True
+support vector machines,fruits,1,3,1,False
+support vector machines,sucrose,1,3,3,True
+support vector machines,principal component analysis,1,3,3,True
+support vector machines,color,1,3,1,False
+support vector machines,classification,1,3,3,True
+support vector machines,water treatment,1,3,0,False
+support vector machines,"water pollutants, chemical",1,3,0,False
+support vector machines,water pollutant,1,3,0,False
+support vector machines,sugarcane bagasse,1,3,0,False
+support vector machines,sugarcane,1,3,0,False
+high performance liquid chromatography,sugar (sucrose),1,1,3,False
+"neural networks, computer",kinetics,1,0,2,False
+"neural networks, computer",efficiency,1,0,0,True
+"neural networks, computer",biomass,1,0,0,True
+"neural networks, computer",artificial neural network modeling,1,0,0,True
+sugar beets,"water pollutants, chemical",1,0,0,True
+sugar beets,water pollutant,1,0,0,True
+sugar beets,response surface methodology,1,0,0,True
+sugar beets,response surface method,1,0,0,True
+sugar beets,process optimization,1,0,0,True
+sugar beets,"neural networks, computer",1,0,0,True
+sugar beets,concentration (composition),1,0,0,True
+high performance liquid chromatography,procedures,1,1,3,False
+high performance liquid chromatography,metabolism,1,1,2,False
+high performance liquid chromatography,genetics,1,1,2,False
+high performance liquid chromatography,enzymes,1,1,2,False
+fourier transform infrared spectroscopy,lignocellulose,1,0,0,True
+fourier transform infrared spectroscopy,enzyme,1,0,0,True
+high performance liquid chromatography,response-surface methodology,1,1,0,False
+high performance liquid chromatography,response surface method,1,1,0,False
+high performance liquid chromatography,nitrogen,1,1,2,False
+high performance liquid chromatography,neural network,1,1,0,False
+high performance liquid chromatography,genetic algorithm,1,1,0,False
+high performance liquid chromatography,viscosity,1,1,1,True
+high performance liquid chromatography,support vector,1,1,3,False
+high performance liquid chromatography,plants (botany),1,1,1,True
+high performance liquid chromatography,fruit juices,1,1,1,True
+high performance liquid chromatography,color,1,1,1,True
+high performance liquid chromatography,sensory evaluation,1,1,1,True
+high performance liquid chromatography,prediction,1,1,2,False
+high performance liquid chromatography,physicochemical property,1,1,1,True
+high performance liquid chromatography,humans,1,1,3,False
+storage,enzymes,1,1,2,False
+storage,color,1,1,1,True
+fourier transform infrared spectroscopy,sugar (sucrose),1,0,3,False
+fourier transform infrared spectroscopy,sucrose,1,0,3,False
+fourier transform infrared spectroscopy,"water pollutants, chemical",1,0,0,True
+fourier transform infrared spectroscopy,water pollutant,1,0,0,True
+fourier transform infrared spectroscopy,saccharum,1,0,0,True
+fourier transform infrared spectroscopy,procedures,1,0,3,False
+fourier transform infrared spectroscopy,chemometrics,1,0,3,False
+fourier transform infrared spectroscopy,water treatment,1,0,0,True
+fourier transform infrared spectroscopy,response-surface methodology,1,0,0,True
+fourier transform infrared spectroscopy,molasses,1,0,1,False
+fourier transform infrared spectroscopy,machine learning,1,0,3,False
+fourier transform infrared spectroscopy,electric conductivity,1,0,3,False
+fourier transform infrared spectroscopy,viscosity,1,0,1,False
+fourier transform infrared spectroscopy,fruits,1,0,1,False
+sugar beets,adsorption,1,0,0,True
+sugar beets,viscosity,1,0,1,False
+sugar beets,support vector,1,0,3,False
+sugar beets,plants (botany),1,0,1,False
+sugar beets,physicochemical properties,1,0,1,False
+sugar beets,physical chemistry,1,0,1,False
+sugar beets,phenol derivative,1,0,1,False
+sugar beets,machine learning,1,0,3,False
+sugar beets,high performance liquid chromatography,1,0,1,False
+sugar beets,fruit juices,1,0,1,False
+sugar beets,color,1,0,1,False
+sugar beets,antioxidants,1,0,1,False
+sugar beets,antioxidant activity,1,0,1,False
+sugar beets,x ray diffraction,1,0,0,True
+sugar beets,optimisations,1,0,0,True
+storage,fruit juices,1,1,1,True
+enzyme kinetics,physicochemical property,1,2,1,False
+enzyme kinetics,neural network,1,2,0,False
+enzyme kinetics,artificial neural network,1,2,0,False
+enzyme kinetics,adsorption,1,2,0,False
+enzyme kinetics,saccharum,1,2,0,False
+enzyme kinetics,sugar,1,2,2,True
+enzyme kinetics,priority journal,1,2,0,False
+enzyme kinetics,biosynthesis,1,2,2,True
+storage,sugar,1,1,2,False
+storage,enzyme,1,1,0,False
+storage,antioxidants,1,1,1,True
+storage,sugars,1,1,2,False
+storage,sugar content,1,1,1,True
+storage,polyphenol oxidase,1,1,1,True
+storage,machine learning,1,1,3,False
+storage,quality,1,1,1,True
+x ray diffraction,"water pollutants, chemical",1,0,0,True
+x ray diffraction,water pollutant,1,0,0,True
+x ray diffraction,sugarcane,1,0,0,True
+x ray diffraction,saccharum,1,0,0,True
+x ray diffraction,response surface method,1,0,0,True
+x ray diffraction,procedures,1,0,3,False
+x ray diffraction,chemometrics,1,0,3,False
+x ray diffraction,bagasse,1,0,0,True
+x ray diffraction,adsorption,1,0,0,True
+x ray diffraction,lignin,1,0,0,True
+x ray diffraction,genetic algorithm,1,0,0,True
+enzyme kinetics,molasses,1,2,1,False
+enzyme kinetics,fruit juices,1,2,1,False
+enzyme kinetics,machine learning,1,2,3,False
+enzyme kinetics,hydrogen-ion concentration,1,2,2,True
+enzyme kinetics,enzymes,1,2,2,True
+sugar beets,genetic algorithm,1,0,0,True
+sugar beets,extraction,1,0,0,True
+sugar beets,cellulose,1,0,0,True
+carbohydrate,biosynthesis,1,3,2,False
+carbohydrate,antioxidant,1,3,1,False
+carbohydrate,support vector machines,1,3,3,True
+carbohydrate,support vector,1,3,3,True
+carbohydrate,principal component analysis,1,3,3,True
+carbohydrate,partial least squares regression,1,3,3,True
+carbohydrate,least squares approximations,1,3,3,True
+carbohydrate,honey,1,3,3,True
+carbohydrate,cost effectiveness,1,3,3,True
+sensitivity analysis,antioxidants,1,2,1,False
+x ray diffraction,sugar,1,0,2,False
+x ray diffraction,sugar (sucrose),1,0,3,False
+x ray diffraction,sucrose,1,0,3,False
+plants (botany),genetics,1,1,2,False
+plants (botany),genetic algorithm,1,1,0,False
+plants (botany),artificial neural network,1,1,0,False
+plants (botany),sugarcane,1,1,0,False
+plants (botany),random forest,1,1,3,False
+plants (botany),quality control,1,1,3,False
+sensitivity analysis,quality,1,2,1,False
+sensitivity analysis,honey,1,2,3,False
+sensitivity analysis,sucrose,1,2,3,False
+sensitivity analysis,biomass,1,2,0,False
+sensitivity analysis,artificial neural network modeling,1,2,0,False
+sensitivity analysis,metabolism,1,2,2,True
+sensitivity analysis,machine learning,1,2,3,False
+sensitivity analysis,kinetics,1,2,2,True
+sensitivity analysis,hydrogen-ion concentration,1,2,2,True
+sugar beets,lignin,1,0,0,True
+carbohydrate,procedures,1,3,3,True
+carbohydrate,humans,1,3,3,True
+carbohydrate,artificial intelligence,1,3,3,True
+carbohydrate,priority journal,1,3,0,False
+carbohydrate,peroxidase,1,3,1,False
+carbohydrate,lignin,1,3,0,False
+carbohydrate,electric conductivity,1,3,3,True
+carbohydrate,cellulose,1,3,0,False
+carbohydrate,biomass,1,3,0,False
+carbohydrate,sensitivity analysis,1,3,2,False
+plants (botany),physicochemical properties,1,1,1,True
+plants (botany),quality,1,1,1,True
+plants (botany),sensory evaluation,1,1,1,True
+plants (botany),response-surface methodology,1,1,0,False
+plants (botany),response surface method,1,1,0,False
+plants (botany),metabolism,1,1,2,False
+carbohydrate,physical chemistry,1,3,1,False
+carbohydrate,genetics,1,3,2,False
+carbohydrate,sugars,1,3,2,False
+carbohydrate,saccharum,1,3,0,False
+water treatment,juice quality,1,0,1,False
+water treatment,response-surface methodology,1,0,0,True
+water treatment,response surface method,1,0,0,True
+water treatment,molasses,1,0,1,False
+water treatment,machine learning,1,0,3,False
+water treatment,electric conductivity,1,0,3,False
+water treatment,polyphenol oxidase,1,0,1,False
+plants (botany),sugars,1,1,2,False
+plants (botany),viscosity,1,1,1,True
+plants (botany),support vector,1,1,3,False
+carbohydrate,chemometrics,1,3,3,True
+carbohydrate,viscosity,1,3,1,False
+scanning electron microscopy,sugar content,1,0,1,False
+scanning electron microscopy,storage,1,0,1,False
+scanning electron microscopy,polyphenol oxidase,1,0,1,False
+water treatment,"water pollutants, chemical",1,0,0,True
+water treatment,water pollutant,1,0,0,True
+water treatment,support vector,1,0,3,False
+water treatment,sugarcane bagasse,1,0,0,True
+water treatment,sugarcane,1,0,0,True
+water treatment,saccharum,1,0,0,True
+water treatment,kinetics,1,0,2,False
+water treatment,hydrogen-ion concentration,1,0,2,False
+water treatment,artificial neural network modeling,1,0,0,True
+carbohydrate,optimization,1,3,0,False
+carbohydrate,kinetics,1,3,2,False
+carbohydrate,hydrolysis,1,3,0,False
+carbohydrate,random forest,1,3,3,True
+artificial neural network,sucrose,1,0,3,False
+artificial neural network,molasses,1,0,1,False
+artificial neural network,electric conductivity,1,0,3,False
+artificial neural network,enzymatic hydrolysis,1,0,0,True
+artificial neural network,color,1,0,1,False
+artificial neural network,deep learning,1,0,3,False
+carbohydrate,juice quality,1,3,1,False
+carbohydrate,enzyme kinetics,1,3,2,False
+scanning electron microscopy,cellulose,1,0,0,True
+scanning electron microscopy,sugar (sucrose),1,0,3,False
+scanning electron microscopy,sucrose,1,0,3,False
+scanning electron microscopy,optimization,1,0,0,True
+scanning electron microscopy,honey,1,0,3,False
+scanning electron microscopy,food waste,1,0,2,False
+scanning electron microscopy,food products,1,0,3,False
+scanning electron microscopy,antioxidant,1,0,1,False
+scanning electron microscopy,surface properties,1,0,0,True
+scanning electron microscopy,response-surface methodology,1,0,0,True
+scanning electron microscopy,response surface methodology,1,0,0,True
+scanning electron microscopy,response surface method,1,0,0,True
+scanning electron microscopy,prediction,1,0,2,False
+scanning electron microscopy,nitrogen,1,0,2,False
+scanning electron microscopy,"neural networks, computer",1,0,0,True
+scanning electron microscopy,kinetics,1,0,2,False
+scanning electron microscopy,hydrogen-ion concentration,1,0,2,False
+scanning electron microscopy,efficiency,1,0,0,True
+scanning electron microscopy,artificial neural network modeling,1,0,0,True
+artificial neural network,physicochemical property,1,0,1,False
+artificial neural network,sensory evaluation,1,0,1,False
+artificial neural network,genetics,1,0,2,False
+artificial neural network,fruit juices,1,0,1,False
+artificial neural network,antioxidant activity,1,0,1,False
+scanning electron microscopy,sugarcane,1,0,0,True
+scanning electron microscopy,optimisations,1,0,0,True
+scanning electron microscopy,lignocellulose,1,0,0,True
+scanning electron microscopy,fermentation,1,0,2,False
+scanning electron microscopy,enzyme,1,0,0,True
+near infrared spectroscopy,sugar content,1,3,1,False
+response surface method,viscosity,1,0,1,False
+response surface method,fruits,1,0,1,False
+response surface method,enzymes,1,0,2,False
+artificial neural network,chemometrics,1,0,3,False
+artificial neural network,fruits,1,0,1,False
+artificial neural network,support vector,1,0,3,False
+artificial neural network,principal component analysis,1,0,3,False
+artificial neural network,oxidation,1,0,1,False
+scanning electron microscopy,"water pollutants, chemical",1,0,0,True
+scanning electron microscopy,water pollutant,1,0,0,True
+response surface method,chemometrics,1,0,3,False
+response surface method,metabolism,1,0,2,False
+response surface method,genetics,1,0,2,False
+response surface method,fruit juices,1,0,1,False
+response surface method,antioxidants,1,0,1,False
+response surface method,antioxidant activity,1,0,1,False
+response surface method,sugar-cane bagasse,1,0,0,True
+response surface method,molasses,1,0,1,False
+response surface method,electric conductivity,1,0,3,False
+response surface method,lignin,1,0,0,True
+response surface method,prediction,1,0,2,False
+response surface method,kinetics,1,0,2,False
+response surface method,hydrogen-ion concentration,1,0,2,False
+response surface method,artificial neural network modeling,1,0,0,True
+scanning electron microscopy,sugar-cane bagasse,1,0,0,True
+scanning electron microscopy,extraction,1,0,0,True
+prediction,juice quality,1,2,1,False
+near infrared spectroscopy,fruits,1,3,1,False
+near infrared spectroscopy,procedures,1,3,3,True
+near infrared spectroscopy,honey,1,3,3,True
+near infrared spectroscopy,food products,1,3,3,True
+near infrared spectroscopy,electric conductivity,1,3,3,True
+near infrared spectroscopy,cost effectiveness,1,3,3,True
+near infrared spectroscopy,quality,1,3,1,False
+near infrared spectroscopy,sugars,1,3,2,False
+near infrared spectroscopy,neural network,1,3,0,False
+prediction,shelf life,1,2,1,False
+prediction,fruits,1,2,1,False
+prediction,fruit juices,1,2,1,False
+response surface method,sugarcane,1,0,0,True
+response surface method,saccharum,1,0,0,True
+response surface method,procedures,1,0,3,False
+prediction,sucrose,1,2,3,False
+near infrared spectroscopy,support vector,1,3,3,True
+near infrared spectroscopy,extraction,1,3,0,False
+algorithm,response-surface methodology,1,3,0,False
+algorithm,quality control,1,3,3,True
+algorithm,infrared devices,1,3,3,True
+algorithm,honey,1,3,3,True
+algorithm,food products,1,3,3,True
+algorithm,electric conductivity,1,3,3,True
+algorithm,cost effectiveness,1,3,3,True
+algorithm,chemometrics,1,3,3,True
+algorithm,sensitivity analysis,1,3,2,False
+algorithm,nitrogen,1,3,2,False
+algorithm,"neural networks, computer",1,3,0,False
+prediction,viscosity,1,2,1,False
+prediction,procedures,1,2,3,False
+algorithm,partial least squares regression,1,3,3,True
+catechol oxidase,priority journal,1,1,0,False
+catechol oxidase,nitrogen,1,1,2,False
+catechol oxidase,lignin,1,1,0,False
+prediction,sugarcane bagasse,1,2,0,False
+prediction,sugarcane,1,2,0,False
+prediction,sugar-cane bagasse,1,2,0,False
+prediction,saccharum,1,2,0,False
+prediction,bagasse,1,2,0,False
+prediction,sugars,1,2,2,True
+prediction,oxidation,1,2,1,False
+prediction,sensory evaluation,1,2,1,False
+prediction,physicochemical property,1,2,1,False
+prediction,physicochemical properties,1,2,1,False
+prediction,antioxidants,1,2,1,False
+prediction,sugar (sucrose),1,2,3,False
+catechol oxidase,kinetics,1,1,2,False
+catechol oxidase,saccharum,1,1,0,False
+catechol oxidase,enzyme kinetics,1,1,2,False
+catechol oxidase,metabolism,1,1,2,False
+machine learning,removal,1,3,0,False
+machine learning,lignocellulose,1,3,0,False
+machine learning,nondestructive examination,1,3,3,True
+machine learning,food safety,1,3,3,True
+prediction,color,1,2,1,False
+algorithm,genetic algorithm,1,3,0,False
+algorithm,forecasting,1,3,3,True
+algorithm,"water pollutants, chemical",1,3,0,False
+algorithm,water pollutant,1,3,0,False
+algorithm,random forest,1,3,3,True
+algorithm,classification,1,3,3,True
+algorithm,support vector,1,3,3,True
+catechol oxidase,process optimization,1,1,0,False
+catechol oxidase,principal component analysis,1,1,3,False
+catechol oxidase,genetic algorithm,1,1,0,False
+catechol oxidase,food safety,1,1,3,False
+total soluble solids,support vector,1,1,3,False
+total soluble solids,random forest,1,1,3,False
+total soluble solids,forecasting,1,1,3,False
+total soluble solids,sugar content,1,1,1,True
+total soluble solids,machine learning,1,1,3,False
+total soluble solids,fruits,1,1,1,True
+machine learning,sugar (sucrose),1,3,3,True
+catechol oxidase,food waste,1,1,2,False
+catechol oxidase,electric conductivity,1,1,3,False
+catechol oxidase,color,1,1,1,True
+catechol oxidase,cellulose,1,1,0,False
+catechol oxidase,biomass,1,1,0,False
+"water pollutants, chemical",classification,1,0,3,False
+"water pollutants, chemical",sugar,1,0,2,False
+"water pollutants, chemical",response-surface methodology,1,0,0,True
+"water pollutants, chemical",nitrogen,1,0,2,False
+"water pollutants, chemical",biomass,1,0,0,True
+"water pollutants, chemical",artificial neural network modeling,1,0,0,True
+machine learning,principal component analysis,1,3,3,True
+machine learning,genetic algorithm,1,3,0,False
+machine learning,genetics,1,3,2,False
+machine learning,deep learning,1,3,3,True
+machine learning,sugars,1,3,2,False
+machine learning,sensory evaluation,1,3,1,False
+machine learning,physicochemical property,1,3,1,False
+machine learning,microorganisms,1,3,3,True
+catechol oxidase,antioxidant activity,1,1,1,True
+catechol oxidase,shelf life,1,1,1,True
+total soluble solids,polyphenol oxidase,1,1,1,True
+total soluble solids,physicochemical property,1,1,1,True
+total soluble solids,peroxidase,1,1,1,True
+total soluble solids,kinetics,1,1,2,False
+total soluble solids,sugar (sucrose),1,1,3,False
+total soluble solids,principal component analysis,1,1,3,False
+total soluble solids,antioxidants,1,1,1,True
+regression,response-surface methodology,1,3,0,False
+regression,prediction,1,3,2,False
+regression,algorithm,1,3,3,True
+regression,total soluble solids,1,3,1,False
+regression,sugar content,1,3,1,False
+regression,support vector machines,1,3,3,True
+regression,partial least squares regression,1,3,3,True
+"water pollutants, chemical",sugar-cane bagasse,1,0,0,True
+"water pollutants, chemical",random forest,1,0,3,False
+oxidation,electric conductivity,1,1,3,False
+oxidation,biomass,1,1,0,False
+priority journal,peroxidase,1,0,1,False
+priority journal,nitrogen,1,0,2,False
+priority journal,lignin,1,0,0,True
+priority journal,electric conductivity,1,0,3,False
+priority journal,color,1,0,1,False
+priority journal,metabolism,1,0,2,False
+priority journal,kinetics,1,0,2,False
+priority journal,biosynthesis,1,0,2,False
+priority journal,sugarcane,1,0,0,True
+priority journal,saccharum,1,0,0,True
+priority journal,bagasse,1,0,0,True
+"water pollutants, chemical",chemometrics,1,0,3,False
+"water pollutants, chemical",support vector,1,0,3,False
+"water pollutants, chemical",sugarcane bagasse,1,0,0,True
+microorganisms,biomass,1,3,0,False
+microorganisms,juice quality,1,3,1,False
+microorganisms,fruit juices,1,3,1,False
+microorganisms,antioxidant activity,1,3,1,False
+microorganisms,sugar (sucrose),1,3,3,True
+oxidation,sugar (sucrose),1,1,3,False
+oxidation,juice quality,1,1,1,True
+oxidation,fruit juices,1,1,1,True
+oxidation,color,1,1,1,True
+oxidation,kinetics,1,1,2,False
+oxidation,hydrogen-ion concentration,1,1,2,False
+oxidation,antioxidant activity,1,1,1,True
+oxidation,sugarcane,1,1,0,False
+oxidation,saccharum,1,1,0,False
+oxidation,nitrogen,1,1,2,False
+oxidation,enzymes,1,1,2,False
+regression,near infrared spectroscopy,1,3,3,True
+regression,least squares approximations,1,3,3,True
+regression,chemometrics,1,3,3,True
+regression,microorganisms,1,3,3,True
+regression,kinetics,1,3,2,False
+regression,artificial neural network modeling,1,3,0,False
+regression,shelf life,1,3,1,False
+regression,nondestructive examination,1,3,3,True
+regression,fruits,1,3,1,False
+regression,food safety,1,3,3,True
+regression,cost effectiveness,1,3,3,True
+regression,artificial intelligence,1,3,3,True
+regression,quality control,1,3,3,True
+regression,plants (botany),1,3,1,False
+microorganisms,artificial neural network modeling,1,3,0,False
+microorganisms,molasses,1,3,1,False
+regression,antioxidant activity,1,3,1,False
+central composite designs,response-surface methodology,1,0,0,True
+central composite designs,food waste,1,0,2,False
+central composite designs,substrates,1,0,0,True
+central composite designs,priority journal,1,0,0,True
+central composite designs,neural network,1,0,0,True
+central composite designs,enzyme,1,0,0,True
+sensory evaluation,metabolism,1,1,2,False
+sensory evaluation,genetics,1,1,2,False
+sensory evaluation,enzymatic hydrolysis,1,1,0,False
+microorganisms,sugar,1,3,2,False
+microorganisms,quality control,1,3,3,True
+microorganisms,procedures,1,3,3,True
+microorganisms,honey,1,3,3,True
+microorganisms,neural network,1,3,0,False
+microorganisms,kinetics,1,3,2,False
+kinetics,sugar-cane bagasse,1,2,0,False
+kinetics,saccharum,1,2,0,False
+kinetics,bagasse,1,2,0,False
+kinetics,genetic algorithm,1,2,0,False
+kinetics,enzymatic hydrolysis,1,2,0,False
+kinetics,sucrose,1,2,3,False
+kinetics,response-surface methodology,1,2,0,False
+kinetics,biomass,1,2,0,False
+kinetics,biosynthesis,1,2,2,True
+sensory evaluation,physicochemical property,1,1,1,True
+sensory evaluation,physicochemical properties,1,1,1,True
+sensory evaluation,humans,1,1,3,False
+sensory evaluation,juice quality,1,1,1,True
+regression,molasses,1,3,1,False
+regression,color,1,3,1,False
+regression,antioxidants,1,3,1,False
+classification,least squares approximations,1,3,3,True
+classification,honey,1,3,3,True
+classification,color,1,3,1,False
+classification,chemometrics,1,3,3,True
+classification,humans,1,3,3,True
+classification,deep learning,1,3,3,True
+classification,water pollutant,1,3,0,False
+classification,procedures,1,3,3,True
+classification,metabolism,1,3,2,False
+classification,hydrogen-ion concentration,1,3,2,False
+classification,genetics,1,3,2,False
+kinetics,molasses,1,2,1,False
+kinetics,juice quality,1,2,1,False
+kinetics,sugars,1,2,2,True
+kinetics,enzymes,1,2,2,True
+kinetics,support vector,1,2,3,False
+central composite designs,molasses,1,0,1,False
+central composite designs,fruit juices,1,0,1,False
+central composite designs,antioxidants,1,0,1,False
+central composite designs,removal,1,0,0,True
+central composite designs,machine learning,1,0,3,False
+central composite designs,lignocellulose,1,0,0,True
+central composite designs,biomass,1,0,0,True
+central composite designs,forecasting,1,0,3,False
+cellulase,response surface methodology,1,0,0,True
+cellulase,optimization,1,0,0,True
+cellulase,lignin,1,0,0,True
+cellulase,enzymes,1,0,2,False
+cellulase,cellulose,1,0,0,True
+cellulase,sugars,1,0,2,False
+classification,sucrose,1,3,3,True
+classification,principal component analysis,1,3,3,True
+cellulase,enzymatic hydrolysis,1,0,0,True
+cellulase,sugarcane,1,0,0,True
+cellulase,scanning electron microscopy,1,0,0,True
+cellulase,process optimization,1,0,0,True
+cellulase,lignocellulose,1,0,0,True
+cellulase,fourier transform infrared spectroscopy,1,0,0,True
+cellulase,enzyme,1,0,0,True
+cellulase,bagasse,1,0,0,True
+sugar-cane bagasse,saccharum,1,0,0,True
+sugar-cane bagasse,hydrogen-ion concentration,1,0,2,False
+sugar-cane bagasse,molasses,1,0,1,False
+sugar-cane bagasse,electric conductivity,1,0,3,False
+sugar-cane bagasse,physicochemical properties,1,0,1,False
+sugar-cane bagasse,enzymatic hydrolysis,1,0,0,True
+sugar-cane bagasse,lignocellulose,1,0,0,True
+classification,sugar,1,3,2,False
+peroxidase,sugarcane,1,1,0,False
+peroxidase,sucrose,1,1,3,False
+peroxidase,lignin,1,1,0,False
+peroxidase,electric conductivity,1,1,3,False
+peroxidase,biomass,1,1,0,False
+peroxidase,physicochemical properties,1,1,1,True
+peroxidase,viscosity,1,1,1,True
+peroxidase,enzymes,1,1,2,False
+peroxidase,sugars,1,1,2,False
+peroxidase,metabolism,1,1,2,False
+peroxidase,hydrogen-ion concentration,1,1,2,False
+sugar-cane bagasse,water pollutant,1,0,0,True
+sugar-cane bagasse,support vector,1,0,3,False
+cellulase,substrates,1,0,0,True
+cellulase,extraction,1,0,0,True
+cellulase,ethanol,1,0,0,True
+procedures,principal component analysis,1,3,3,True
+procedures,electric conductivity,1,3,3,True
+procedures,sucrose,1,3,3,True
+procedures,hydrogen-ion concentration,1,3,2,False
+procedures,fruit juices,1,3,1,False
+procedures,sugarcane,1,3,0,False
+procedures,saccharum,1,3,0,False
+procedures,bagasse,1,3,0,False
+procedures,sugar,1,3,2,False
+procedures,viscosity,1,3,1,False
+procedures,humans,1,3,3,True
+procedures,sugar (sucrose),1,3,3,True
+procedures,biosynthesis,1,3,2,False
+procedures,color,1,3,1,False
+peroxidase,quality,1,1,1,True
+peroxidase,biosynthesis,1,1,2,False
+cellulase,artificial intelligence,1,0,3,False
+gene expression,optimisations,1,0,0,True
+gene expression,biomass,1,0,0,True
+gene expression,water treatment,1,0,0,True
+gene expression,"water pollutants, chemical",1,0,0,True
+gene expression,water pollutant,1,0,0,True
+gene expression,support vector machines,1,0,3,False
+gene expression,support vector,1,0,3,False
+gene expression,sugarcane bagasse,1,0,0,True
+gene expression,sugar-cane bagasse,1,0,0,True
+gene expression,saccharum,1,0,0,True
+gene expression,prediction,1,0,2,False
+gene expression,kinetics,1,0,2,False
+gene expression,forecasting,1,0,3,False
+gene expression,cellulose,1,0,0,True
+procedures,support vector,1,3,3,True
+gene expression,bagasse,1,0,0,True
+gene expression,artificial neural network,1,0,0,True
+gene expression,artificial intelligence,1,0,3,False
+gene expression,adsorption,1,0,0,True
+gene expression,sucrose,1,0,3,False
+gene expression,peroxidase,1,0,1,False
+gene expression,nitrogen,1,0,2,False
+gene expression,antioxidant activity,1,0,1,False
+gene expression,storage,1,0,1,False
+gene expression,enzyme,1,0,0,True
+gene expression,concentration (composition),1,0,0,True
+gene expression,random forest,1,0,3,False
+gene expression,physical chemistry,1,0,1,False
+gene expression,metabolism,1,0,2,False
+fruits,physicochemical properties,1,1,1,True
+fruits,food safety,1,1,3,False
+sucrose,nitrogen,1,3,2,False
+sucrose,antioxidant activity,1,3,1,False
+sucrose,viscosity,1,3,1,False
+sucrose,humans,1,3,3,True
+sucrose,genetic algorithm,1,3,0,False
+sucrose,biomass,1,3,0,False
+sucrose,artificial neural network modeling,1,3,0,False
+sucrose,neural network,1,3,0,False
+sucrose,juice quality,1,3,1,False
+sucrose,random forest,1,3,3,True
+sucrose,electric conductivity,1,3,3,True
+fruits,least squares approximations,1,1,3,False
+fruits,sugar,1,1,2,False
+fruits,biomass,1,1,0,False
+fruits,sugarcane,1,1,0,False
+fruits,antioxidant activity,1,1,1,True
+viscosity,physicochemical properties,1,1,1,True
+viscosity,fruit juices,1,1,1,True
+viscosity,color,1,1,1,True
+viscosity,antioxidants,1,1,1,True
+viscosity,antioxidant activity,1,1,1,True
+viscosity,polyphenol oxidase,1,1,1,True
+viscosity,enzymes,1,1,2,False
+sucrose,biosynthesis,1,3,2,False
+sucrose,metabolism,1,3,2,False
+sucrose,hydrogen-ion concentration,1,3,2,False
+sucrose,genetics,1,3,2,False
+sucrose,enzymes,1,3,2,False
+sucrose,deep learning,1,3,3,True
+sucrose,principal component analysis,1,3,3,True
+sucrose,least squares approximations,1,3,3,True
+sucrose,chemometrics,1,3,3,True
+biosynthesis,quality,1,2,1,False
+biosynthesis,sugarcane,1,2,0,False
+biosynthesis,genetics,1,2,2,True
+biosynthesis,enzymes,1,2,2,True
+biosynthesis,deep learning,1,2,3,False
+molasses,juice quality,1,1,1,True
+molasses,response-surface methodology,1,1,0,False
+molasses,electric conductivity,1,1,3,False
+molasses,bagasse,1,1,0,False
+molasses,adsorption,1,1,0,False
+molasses,biomass,1,1,0,False
+molasses,random forest,1,1,3,False
+molasses,quality control,1,1,3,False
+molasses,color,1,1,1,True
+molasses,antioxidant activity,1,1,1,True
+viscosity,support vector,1,1,3,False
+gene expression,fermentation,1,0,2,False
+gene expression,classification,1,0,3,False
+gene expression,carbohydrate,1,0,3,False
+food storage,viscosity,1,1,1,True
+food storage,support vector,1,1,3,False
+food storage,sugar beets,1,1,0,False
+food storage,plants (botany),1,1,1,True
+food storage,high performance liquid chromatography,1,1,1,True
+food storage,antioxidant activity,1,1,1,True
+food storage,fermentation,1,1,2,False
+food storage,sugars,1,1,2,False
+food storage,sugar content,1,1,1,True
+food storage,scanning electron microscopy,1,1,0,False
+food storage,total soluble solids,1,1,1,True
+removal,biomass,1,0,0,True
+biosynthesis,nitrogen,1,2,2,True
+water pollutant,nitrogen,1,0,2,False
+water pollutant,biomass,1,0,0,True
+water pollutant,artificial neural network modeling,1,0,0,True
+random forest,principal component analysis,1,3,3,True
+random forest,chemometrics,1,3,3,True
+random forest,physicochemical properties,1,3,1,False
+random forest,fruit juices,1,3,1,False
+random forest,sugar (sucrose),1,3,3,True
+random forest,water pollutant,1,3,0,False
+random forest,sugarcane,1,3,0,False
+random forest,hydrogen-ion concentration,1,3,2,False
+random forest,genetics,1,3,2,False
+removal,artificial neural network modeling,1,0,0,True
+removal,neural network,1,0,0,True
+removal,lignocellulose,1,0,0,True
+gene expression,genetics,1,0,2,False
+juice quality,food safety,1,1,3,False
+food storage,quality control,1,1,3,False
+food storage,physicochemical property,1,1,1,True
+food storage,antioxidant,1,1,1,True
+food storage,enzymes,1,1,2,False
+food storage,prediction,1,1,2,False
+food storage,optimisations,1,1,0,False
+food storage,neural network,1,1,0,False
+food storage,regression,1,1,3,False
+food storage,nondestructive examination,1,1,3,False
+juice quality,biomass,1,1,0,False
+water pollutant,chemometrics,1,0,3,False
+water pollutant,support vector,1,0,3,False
+water pollutant,sugarcane bagasse,1,0,0,True
+water pollutant,sugar,1,0,2,False
+water pollutant,response-surface methodology,1,0,0,True
+food storage,artificial intelligence,1,1,3,False
+food storage,priority journal,1,1,0,False
+food storage,artificial neural network,1,1,0,False
+food storage,principal component analysis,1,1,3,False
+food storage,juice quality,1,1,1,True
+physicochemical properties,adsorption,1,1,0,False
+juice quality,physicochemical properties,1,1,1,True
+juice quality,enzymes,1,1,2,False
+juice quality,sugar (sucrose),1,1,3,False
+juice quality,neural network,1,1,0,False
+juice quality,color,1,1,1,True
+juice quality,sugars,1,1,2,False
+juice quality,saccharum,1,1,0,False
+juice quality,shelf life,1,1,1,True
+juice quality,principal component analysis,1,1,3,False
+juice quality,genetic algorithm,1,1,0,False
+nitrogen,antioxidant activity,1,2,1,False
+nitrogen,lignin,1,2,0,False
+nitrogen,color,1,2,1,False
+nitrogen,metabolism,1,2,2,True
+nitrogen,artificial neural network modeling,1,2,0,False
+nitrogen,adsorption,1,2,0,False
+nitrogen,saccharum,1,2,0,False
+nitrogen,enzymes,1,2,2,True
+physicochemical properties,color,1,1,1,True
+physicochemical properties,sugar,1,1,2,False
+physicochemical properties,humans,1,1,3,False
+physicochemical properties,neural network,1,1,0,False
+physicochemical properties,sugarcane bagasse,1,1,0,False
+physicochemical properties,bagasse,1,1,0,False
+food storage,infrared devices,1,1,3,False
+food storage,forecasting,1,1,3,False
+least squares approximations,principal component analysis,1,3,3,True
+food storage,catechol oxidase,1,1,1,True
+neural-networks,food waste,1,0,2,False
+neural-networks,central composite designs,1,0,0,True
+neural-networks,gene expression,1,0,0,True
+neural-networks,principal component analysis,1,0,3,False
+neural-networks,honey,1,0,3,False
+neural-networks,food products,1,0,3,False
+neural-networks,artificial intelligence,1,0,3,False
+neural-networks,enzymatic hydrolysis,1,0,0,True
+neural-networks,sensory evaluation,1,0,1,False
+neural-networks,metabolism,1,0,2,False
+neural-networks,genetics,1,0,2,False
+neural-networks,antioxidant,1,0,1,False
+neural-networks,water treatment,1,0,0,True
+least squares approximations,color,1,3,1,False
+antioxidant activity,physicochemical property,1,1,1,True
+antioxidant activity,humans,1,1,3,False
+antioxidant activity,response-surface methodology,1,1,0,False
+antioxidant activity,metabolism,1,1,2,False
+antioxidant activity,genetics,1,1,2,False
+antioxidant activity,genetic algorithm,1,1,0,False
+antioxidant activity,quality control,1,1,3,False
+chemometrics,metabolism,1,3,2,False
+chemometrics,quality control,1,3,3,True
+chemometrics,electric conductivity,1,3,3,True
+chemometrics,sugarcane,1,3,0,False
+chemometrics,saccharum,1,3,0,False
+chemometrics,bagasse,1,3,0,False
+chemometrics,adsorption,1,3,0,False
+chemometrics,color,1,3,1,False
+least squares approximations,support vector,1,3,3,True
+deep learning,sugar (sucrose),1,3,3,True
+neural-networks,physical chemistry,1,0,1,False
+neural-networks,optimization,1,0,0,True
+neural-networks,fourier transform infrared spectroscopy,1,0,0,True
+neural-networks,electric conductivity,1,0,3,False
+neural-networks,"water pollutants, chemical",1,0,0,True
+neural-networks,water pollutant,1,0,0,True
+neural-networks,sugar,1,0,2,False
+neural-networks,scanning electron microscopy,1,0,0,True
+neural-networks,prediction,1,0,2,False
+neural-networks,nitrogen,1,0,2,False
+neural-networks,"neural networks, computer",1,0,0,True
+deep learning,sugarcane,1,3,0,False
+antioxidant activity,honey,1,1,3,False
+antioxidant activity,support vector,1,1,3,False
+antioxidant activity,sugarcane,1,1,0,False
+antioxidants,genetics,1,1,2,False
+neural-networks,hydrogen-ion concentration,1,0,2,False
+neural-networks,efficiency,1,0,0,True
+neural-networks,artificial neural network modeling,1,0,0,True
+neural-networks,regression,1,0,3,False
+neural-networks,quality control,1,0,3,False
+neural-networks,color,1,0,1,False
+neural-networks,near infrared spectroscopy,1,0,3,False
+neural-networks,extraction,1,0,0,True
+antioxidants,polyphenol oxidase,1,1,1,True
+antioxidants,sugar (sucrose),1,1,3,False
+antioxidants,principal component analysis,1,1,3,False
+deep learning,hydrogen-ion concentration,1,3,2,False
+deep learning,fruit juices,1,3,1,False
+deep learning,humans,1,3,3,True
+deep learning,nondestructive examination,1,3,3,True
+lactic acid,fruits,1,2,1,False
+lactic acid,food storage,1,2,1,False
+lactic acid,antioxidants,1,2,1,False
+quality control,quality,1,3,1,False
+quality control,sugarcane,1,3,0,False
+quality control,polyphenol oxidase,1,3,1,False
+quality control,enzymes,1,3,2,False
+quality control,sugar,1,3,2,False
+quality control,physicochemical property,1,3,1,False
+quality control,neural network,1,3,0,False
+antioxidants,support vector,1,1,3,False
+antioxidants,sugar,1,1,2,False
+antioxidants,humans,1,1,3,False
+antioxidants,shelf life,1,1,1,True
+antioxidants,response-surface methodology,1,1,0,False
+antioxidants,metabolism,1,1,2,False
+lactic acid,food waste,1,2,2,True
+lactic acid,enzymatic hydrolysis,1,2,0,False
+lactic acid,random forest,1,2,3,False
+lactic acid,physical chemistry,1,2,1,False
+lactic acid,genetics,1,2,2,True
+lactic acid,gene expression,1,2,0,False
+neural network,shelf life,1,0,1,False
+neural network,quality,1,0,1,False
+quality control,electric conductivity,1,3,3,True
+neural-networks,sugarcane bagasse,1,0,0,True
+neural-networks,sugarcane,1,0,0,True
+lactic acid,forecasting,1,2,3,False
+lactic acid,sugars,1,2,2,True
+lactic acid,substrate concentration,1,2,2,True
+lactic acid,enzyme kinetics,1,2,2,True
+lactic acid,humans,1,2,3,False
+lignin,biomass,1,0,0,True
+lignin,response-surface methodology,1,0,0,True
+lignin,enzymatic hydrolysis,1,0,0,True
+humans,sugar,1,3,2,False
+humans,physicochemical property,1,3,1,False
+humans,genetics,1,3,2,False
+neural network,support vector,1,0,3,False
+neural network,saccharum,1,0,0,True
+neural network,principal component analysis,1,0,3,False
+neural network,physicochemical property,1,0,1,False
+neural network,genetics,1,0,2,False
+neural network,nondestructive examination,1,0,3,False
+neural network,electric conductivity,1,0,3,False
+lactic acid,sensitivity analysis,1,2,2,True
+lactic acid,prediction,1,2,2,True
+lactic acid,nitrogen,1,2,2,True
+metabolism,genetic algorithm,1,2,0,False
+metabolism,sugar (sucrose),1,2,3,False
+lactic acid,classification,1,2,3,False
+lactic acid,x ray diffraction,1,2,0,False
+lactic acid,sugar beets,1,2,0,False
+lactic acid,optimisations,1,2,0,False
+lactic acid,lignin,1,2,0,False
+lactic acid,extraction,1,2,0,False
+lactic acid,cellulose,1,2,0,False
+lactic acid,artificial neural network,1,2,0,False
+fruit,sugar content,1,1,1,True
+fruit,peroxidase,1,1,1,True
+metabolism,polyphenol oxidase,1,2,1,False
+lignin,enzymes,1,0,2,False
+lignin,electric conductivity,1,0,3,False
+lignin,color,1,0,1,False
+fruit,optimization,1,1,0,False
+fruit,concentration (composition),1,1,0,False
+fruit,biomass,1,1,0,False
+fruit,surface properties,1,1,0,False
+fruit,sensory evaluation,1,1,1,True
+fruit,response-surface methodology,1,1,0,False
+fruit,plants (botany),1,1,1,True
+fruit,neural-networks,1,1,0,False
+fruit,metabolism,1,1,2,False
+fruit,genetics,1,1,2,False
+sugarcane bagasse,support vector,1,0,3,False
+sugarcane bagasse,saccharum,1,0,0,True
+sugarcane bagasse,hydrogen-ion concentration,1,0,2,False
+metabolism,support vector,1,2,3,False
+metabolism,principal component analysis,1,2,3,False
+metabolism,response-surface methodology,1,2,0,False
+shelf life,principal component analysis,1,1,3,False
+shelf life,genetic algorithm,1,1,0,False
+quality,sugar content,1,1,1,True
+quality,sugar,1,1,2,False
+quality,enzymes,1,1,2,False
+quality,color,1,1,1,True
+quality,shelf life,1,1,1,True
+honey,quality,1,3,1,False
+honey,sugars,1,3,2,False
+lignocellulose,genetic algorithm,1,0,0,True
+lignocellulose,saccharum,1,0,0,True
+fruit,biosynthesis,1,1,2,False
+fruit,support vector,1,1,3,False
+fruit,classification,1,1,3,False
+fruit,sugars,1,1,2,False
+fruit,scanning electron microscopy,1,1,0,False
+fruit,antioxidants,1,1,1,True
+fruit,antioxidant activity,1,1,1,True
+fruit,physicochemical property,1,1,1,True
+fruit,shelf life,1,1,1,True
+fruit,regression,1,1,3,False
+fruit,nondestructive examination,1,1,3,False
+fruit,infrared devices,1,1,3,False
+fruit,forecasting,1,1,3,False
+fruit,food storage,1,1,1,True
+hydrogen-ion concentration,artificial neural network modeling,1,2,0,False
+principal component analysis,color,1,3,1,False
+principal component analysis,sugar (sucrose),1,3,3,True
+principal component analysis,genetic algorithm,1,3,0,False
+principal component analysis,food safety,1,3,3,True
+shelf life,fruit juices,1,1,1,True
+shelf life,nondestructive examination,1,1,3,False
+fruit,fourier transform infrared spectroscopy,1,1,0,False
+fruit,extraction,1,1,0,False
+unclassified drug,sucrose,1,0,3,False
+unclassified drug,fourier transform infrared spectroscopy,1,0,0,True
+unclassified drug,concentration (composition),1,0,0,True
+bagasse,enzymatic hydrolysis,1,0,0,True
+bagasse,enzyme,1,0,0,True
+hydrogen-ion concentration,fruit juices,1,2,1,False
+hydrogen-ion concentration,support vector,1,2,3,False
+hydrogen-ion concentration,saccharum,1,2,0,False
+hydrogen-ion concentration,bagasse,1,2,0,False
+hydrogen-ion concentration,response-surface methodology,1,2,0,False
+hydrogen-ion concentration,biomass,1,2,0,False
+fruit,genetic algorithm,1,1,0,False
+fruit,fruit juices,1,1,1,True
+fruit,fermentation,1,1,2,False
+sugar content,sugars,1,1,2,False
+sugar content,polyphenol oxidase,1,1,1,True
+sugarcane,fruit juices,1,0,1,False
+sugarcane,physicochemical property,1,0,1,False
+sugarcane,support vector,1,0,3,False
+sugarcane,sugars,1,0,2,False
+sugarcane,response-surface methodology,1,0,0,True
+sugarcane,enzyme,1,0,0,True
+sugarcane,electric conductivity,1,0,3,False
+bagasse,support vector,1,0,3,False
+bagasse,electric conductivity,1,0,3,False
+fruit,food safety,1,1,3,False
+fruit,cost effectiveness,1,1,3,False
+fruit,artificial intelligence,1,1,3,False
+fruit,viscosity,1,1,1,True
+fruit,physical chemistry,1,1,1,True
+unclassified drug,water pollutant,1,0,0,True
+unclassified drug,support vector machines,1,0,3,False
+unclassified drug,support vector,1,0,3,False
+unclassified drug,sugarcane bagasse,1,0,0,True
+unclassified drug,sugar-cane bagasse,1,0,0,True
+unclassified drug,hydrogen-ion concentration,1,0,2,False
+unclassified drug,gene expression,1,0,0,True
+unclassified drug,forecasting,1,0,3,False
+unclassified drug,artificial intelligence,1,0,3,False
+unclassified drug,adsorption,1,0,0,True
+adsorption,support vector,1,0,3,False
+adsorption,physicochemical property,1,0,1,False
+adsorption,electric conductivity,1,0,3,False
+adsorption,sugar,1,0,2,False
+adsorption,biomass,1,0,0,True
+adsorption,color,1,0,1,False
+electric conductivity,saccharum,1,3,0,False
+enzymes,sugars,1,2,2,True
+enzymes,sugar,1,2,2,True
+enzymes,enzymatic hydrolysis,1,2,0,False
+enzymes,sugar (sucrose),1,2,3,False
+enzymes,color,1,2,1,False
+enzymes,saccharum,1,2,0,False
+enzymes,electric conductivity,1,2,3,False
+artificial neural network modeling,sugar (sucrose),1,0,3,False
+artificial neural network modeling,genetic algorithm,1,0,0,True
+artificial neural network modeling,sugar,1,0,2,False
+physicochemical property,saccharum,1,1,0,False
+unclassified drug,enzyme,1,0,0,True
+unclassified drug,biomass,1,0,0,True
+unclassified drug,water treatment,1,0,0,True
+unclassified drug,"water pollutants, chemical",1,0,0,True
+color,biomass,1,1,0,False
+sugars,nondestructive examination,1,2,3,False
+sugars,enzymatic hydrolysis,1,2,0,False
+enzyme,biomass,1,0,0,True
+food safety,genetic algorithm,1,3,0,False
+saccharum,support vector,1,0,3,False
+saccharum,sugars,1,0,2,False
+saccharum,biomass,1,0,0,True
+sugar,support vector,1,2,3,False
+genetics,response-surface methodology,1,2,0,False
+genetics,genetic algorithm,1,2,0,False
+unclassified drug,sensory evaluation,1,0,1,False
+unclassified drug,physicochemical property,1,0,1,False
+unclassified drug,physicochemical properties,1,0,1,False
+unclassified drug,physical chemistry,1,0,1,False
+unclassified drug,machine learning,1,0,3,False
+food waste,deep learning,1,2,3,False
+food waste,artificial intelligence,1,2,3,False
+food waste,sugarcane bagasse,1,2,0,False
+food waste,sugar-cane bagasse,1,2,0,False
+food waste,physicochemical properties,1,2,1,False
+food waste,bagasse,1,2,0,False
+food waste,adsorption,1,2,0,False
+cost effectiveness,quality control,1,3,3,True
+cost effectiveness,procedures,1,3,3,True
+cost effectiveness,food products,1,3,3,True
+cost effectiveness,electric conductivity,1,3,3,True
+sugar (sucrose),biomass,1,3,0,False
+sugar (sucrose),fruit juices,1,3,1,False
+genetic algorithm,fruit juices,1,0,1,False
+genetic algorithm,sugar (sucrose),1,0,3,False
+genetic algorithm,sugars,1,0,2,False

@@ -1,0 +1,158 @@
+========================================================================
+QUERIES PARA: IEEE Xplore Digital Library  [v2 -- Q1 journals]
+RSL  : Una Revision Sistematica de las Aplicaciones de Aprendizaje Automatico y Control Avanzado para el Modelado y Optimizacion del Control de pH en la Industria del Azucar: Tendencias, Brechas y Direcciones Futuras
+Modelo: Ollama / llama3:latest (RESPALDO-v2)  |  Periodo: 2015-2025
+Generado: 2026-06-22 19:55
+Precision objetivo: > 85% | Foco: Clarificacion de jugo de cana/remolacha | Q1 journals
+========================================================================
+
+*** FILTRO Q1 -- PUBLICACIONES DE PRIMER CUARTIL ***
+PASO Q1 -- IEEE Xplore (post-busqueda):
+  1. Resultados -> 'Refine Results' -> 'Publication Type' -> 'Journals'.
+  2. Revistas IEEE relevantes Q1: IEEE Trans. Industrial Electronics,
+     IEEE Trans. Control Systems Technology, IEEE Trans. Industrial Informatics.
+  3. Tras exportar: cruzar ISSNs con JCR/Scimago para confirmar Q1 por anio.
+
+========================================================================
+
+MAPEO 1-a-1 QUERY <-> RQ:
+  Q1 -> RQ1: Modelado y caracterizacion dinamica del pH
+  Q2 -> RQ2: Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID
+  Q3 -> RQ3: ML/RL/hibridos y barreras de adopcion
+
+URL de busqueda: https://ieeexplore.ieee.org/search/advanced
+Operador de campo: (sin operador de campo) + filtro Publication Type en interfaz
+
+NOTAS DE SINTAXIS:
+  - IEEE usa busqueda en All Metadata (titulo + abstract + keywords).
+  - NO usa TITLE-ABS-KEY ni TS= -- operadores van directamente.
+  - Wildcards * NO funcionan en IEEE -- usar OR explicito.
+  - FILTRO Q1: Refine Results > Publication Type > Journals.
+  - Revistas IEEE Q1 relevantes: IEEE Trans. Industrial Electronics,
+  -   IEEE Trans. Control Systems Technology, IEEE Trans. Industrial Informatics.
+  - Tras exportar: cruzar ISSNs con JCR/Scimago para confirmar Q1 por anio.
+  - Limite: 2,000 registros.
+
+EJEMPLO DE FORMATO:
+  ("pH control" OR "acidity control" OR "lime dosage")
+AND ("sugar mill" OR "sugarcane" OR "sugar beet")
+AND ("machine learning" OR "neural network")
+NOT ("wastewater" OR "fermentation broth")
+-- FILTRO Q1: Refine Results > Publication Type > Journals
+
+INSTRUCCIONES PARA EXPORTAR A RIS:
+IEEE Xplore -> Advanced Search -> pegar query -> Search
+-> FILTRO Q1: Refine Results > Publication Type > Journals
+-> Select All -> Export -> RIS (EndNote) -> incluir Abstract
+-> Guardar como ieee_export_N.ris en 01_raw_data/
+
+========================================================================
+
+--- QUERY 1: RQ1 - Modelado y caracterizacion dinamica del pH en clarificacion azucarera [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: REVISAR: Sin clausula NOT -- precision < 80%
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+("pH control" OR "pH monitoring" OR "pH prediction" OR "pH optimization"
+ OR "pH regulation" OR "acidity control" OR "alkalinity control"
+ OR "lime dosage" OR "lime addition" OR "milk of lime")
+AND
+("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "sugar industry" 
+ OR "juice clarification" OR "liming process" OR "sugar beet"
+ OR "sugar factory" OR "defecation" OR "sulfitation")
+AND
+("soft sensor" OR "virtual sensor" OR "identification"
+ OR "data-driven" OR "online estimation" OR "real-time estimation"
+ OR "neural network" OR "LSTM" OR "predictive model")
+NOT
+("wastewater" OR "water treatment" OR "soil pH" OR "blood pH"
+ OR "bioethanol" OR "pharmaceutical" OR "bioreactor" OR "wine" OR "beer")
+-- FILTRO Q1: Refine Results > Publication Type > Journals
+----------------------------------------
+
+========================================================================
+
+--- QUERY 2: RQ2 - Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: REVISAR: Sin clausula NOT -- precision < 80%
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+("model predictive control" OR "NMPC" OR "nonlinear MPC"
+ OR "fuzzy logic" OR "takagi-sugeno" OR "neuro-fuzzy"
+ OR "adaptive control" OR "intelligent control"
+ OR "PID tuning" OR "optimal control"
+ OR "pattern search" OR "particle swarm" OR "genetic algorithm")
+AND "pH"
+AND
+("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "juice clarification" 
+ OR "liming process" OR "defecation" OR "sugar industry"
+ OR "sugar beet" OR "sugar factory")
+NOT
+("wastewater" OR "bioethanol" OR "fermentation" OR "pharmaceutical"
+ OR "soil" OR "blood" OR "wine" OR "dairy" OR "desalination")
+-- FILTRO Q1: Refine Results > Publication Type > Journals
+----------------------------------------
+
+========================================================================
+
+--- QUERY 3: RQ3 - ML/RL/hibridos y barreras de adopcion para pH en industria azucarera [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: REVISAR: Sin clausula NOT -- precision < 80%
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+("machine learning" OR "deep learning" OR "neural network"
+ OR "artificial intelligence" OR "random forest" OR "gradient boosting"
+ OR "XGBoost" OR "support vector"
+ OR "reinforcement learning" OR "deep reinforcement learning"
+ OR "DDPG" OR "Q-learning"
+ OR "hybrid model" OR "digital twin" OR "transfer learning")
+AND "pH"
+AND
+("sugar" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "clarification"   
+ OR "liming" OR "sugar mill" OR "sugar industry" OR "sugar beet"
+ OR "defecation" OR "sugar factory")
+NOT
+("wastewater" OR "bioethanol" OR "pharmaceutical" OR "soil"
+ OR "blood" OR "desalination" OR "wine" OR "beer")
+-- FILTRO Q1: Refine Results > Publication Type > Journals
+----------------------------------------
+
+========================================================================
+
+ESTRATEGIA GLOBAL:
+Mapeo 1-a-1 con las 3 RQs. Q1 cubre RQ1 (modelado/soft sensors), Q2 cubre RQ2 (control avanzado vs PID), Q3 cubre RQ3 (ML/RL/hibridos). Ancla azucarera obligatoria + estructura plana sin AND anidado. Filtros Q1 embebidos: SRCTYPE+DOCTYPE+PUBYEAR (Scopus), DT+PY (WoS), interfaz (IEEE).
+
+ADVERTENCIAS / POSIBLES RUIDOS:
+  - AND anidado corregido en Q2/Q3 -- ya no causa 0 resultados
+  - sugar beet incluido -- cubre ~40% de produccion mundial de azucar
+  - acidity/alkalinity como sinonimos de pH -- captura papers sin 'pH' explicito
+  - Pocos resultados (~50-150 totales) es ESPERADO para este tema nicho
+  - Filtro Q1 final se confirma post-busqueda en Scimago (Scopus) o JCR (WoS)
+  - Se ha añadido 'sugar juice' al ancla de dominio para capturar el paper de Palacio-Morales et al. (Processes 2021)
+
+PRECISION ESTIMADA (Q1 journals):
+  Scopus : 83-87% (Q1)
+  WoS    : 81-85% (Q1)
+  IEEE   : 86-91% (Q1)
+  Justif.: Triple AND plano + sinonimos ampliados + filtros Q1 embebidos
+
+RESULTADOS ESPERADOS (tema nicho -- normal y esperado):
+  Q1: 15-50 resultados por base
+  Q2: 5-20  resultados por base
+  Q3: 5-20  resultados por base
+  Total 3 bases: ~50-150 registros (manejable para cribado manual)
+  NOTA: Pocos resultados = hallazgo que valida la necesidad de esta RSL
+
+SIGUIENTE PASO:
+  1. Ejecutar en: https://ieeexplore.ieee.org/search/advanced
+  2. Aplicar filtro Q1 segun instrucciones
+  3. Exportar .ris -> 01_raw_data/ -> ieee_export_N.ris

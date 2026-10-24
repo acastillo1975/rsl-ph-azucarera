@@ -1,0 +1,63 @@
+========================================================================
+RESUMEN COMPARATIVO v2 -- QUERIES Q1 PARA SCOPUS + WOS + IEEE
+RSL    : Una Revision Sistematica de las Aplicaciones de Aprendizaje Automatico y Control Avanzado para el Modelado y Optimizacion del Control de pH en la Industria del Azucar: Tendencias, Brechas y Direcciones Futuras
+Generado: 2026-06-22 19:55
+Modelo : Ollama / llama3:latest (respaldo-v2)
+Filtro : Solo publicaciones Q1 | Periodo: 2015-2025
+========================================================================
+
+MAPEO 1-a-1 QUERY <-> RQ:
+  Q1 -> RQ1: Modelado y caracterizacion dinamica del pH
+  Q2 -> RQ2: Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID
+  Q3 -> RQ3: ML/RL/hibridos y barreras de adopcion
+
+FILTROS Q1:
+  Scopus -> AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014
+           + post-busqueda: Analyze Results > Source > Scimago Q1
+  WoS    -> AND DT=(Article OR Review) AND PY=(2015-2025)
+           + post-busqueda: Refine Results > JIF Quartile > Q1
+  IEEE   -> Refine Results > Publication Type > Journals
+
+ANGULOS TEMATICOS:
+
+ESTRATEGIA GLOBAL:
+  
+
+ADVERTENCIAS:
+
+REVISTAS Q1 SUGERIDAS:
+  - Computers and Chemical Engineering
+  - Journal of Food Engineering
+  - Control Engineering Practice
+  - Journal of Process Control
+  - Biosystems Engineering
+  - Food and Bioproducts Processing
+  - Industrial and Engineering Chemistry Research
+  - Applied Soft Computing
+  - Expert Systems with Applications
+  - Engineering Applications of Artificial Intelligence
+  - ISA Transactions
+  - Measurement
+  - Sensors
+  - IEEE Transactions on Industrial Electronics
+  - IEEE Transactions on Control Systems Technology
+  - IEEE Transactions on Industrial Informatics
+
+========================================================================
+QUERIES LADO A LADO
+========================================================================
+
+========================================================================
+ARCHIVOS:
+  OK(Q1)  Scopus   -> ..\00_query_design\queries_scopus.txt
+  REVISAR  WoS      -> ..\00_query_design\queries_wos.txt
+  REVISAR  IEEE     -> ..\00_query_design\queries_ieee.txt
+
+========================================================================
+SIGUIENTE PASO:
+
+1. Revisar queries en: queries_scopus.txt, queries_wos.txt, queries_ieee.txt
+2. Ejecutar en cada base de datos
+3. APLICAR FILTRO Q1 segun instrucciones de cada archivo
+4. Exportar .ris -> 01_raw_data/ -> ejecutar 00_fusion_base_datos.py
+5. Verificar precision > 80% en muestra aleatoria de 50 registros

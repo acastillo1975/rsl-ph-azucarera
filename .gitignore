@@ -1,0 +1,35 @@
+# Material de terceros / confidencial / de envío (no se redistribuye)
+04_corpus_final/pdfs/
+OBSERVACIONES.docx
+INFORME_Plagiarism Checker.pdf
+Declarations-SA-en.*
+Directrices para autores.docx
+01_raw_data/scimagojr_2024.xlsx
+REPORTE PRISMA.eddx
+
+# Notas de trabajo internas y archivos de una revisión anterior (otro tema)
+docs/
+Makefile
+10.exportacion_latex_report.txt
+11.presubmission_report.txt
+07_latex_output/Markdwon ph/
+07_latex_output/PLAN_actualizacion_paper_2026-09.md
+07_latex_output/Recomendaciones_SRL_pH.md
+07_latex_output/ENVIO_*.md
+07_latex_output/figures/*.docx
+
+# Entorno y compilación
+.claude/
+desktop.ini
+__pycache__/
+*.pyc
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+~$*

@@ -1,0 +1,192 @@
+========================================================================
+QUERIES PARA: Web of Science (Clarivate)  [v2 -- Q1 journals]
+RSL  : Una Revision Sistematica de las Aplicaciones de Aprendizaje Automatico y Control Avanzado para el Modelado y Optimizacion del Control de pH en la Industria del Azucar: Tendencias, Brechas y Direcciones Futuras
+Modelo: Ollama / llama3:latest (RESPALDO-v2)  |  Periodo: 2015-2025
+Generado: 2026-06-22 19:55
+Precision objetivo: > 85% | Foco: Clarificacion de jugo de cana/remolacha | Q1 journals
+========================================================================
+
+*** FILTRO Q1 -- PUBLICACIONES DE PRIMER CUARTIL ***
+PASO Q1 -- Web of Science (post-busqueda):
+  1. La query ya incluye DT=(Article OR Review) + PY=(2015-2025).
+  2. Resultados -> panel 'Refine Results' -> 'Journal Impact Factor Quartile' -> Q1.
+  3. Opcional: agregar SO=(lista de revistas Q1) directamente a la query.
+
+Revistas Q1 sugeridas:
+  - Computers and Chemical Engineering
+  - Journal of Food Engineering
+  - Control Engineering Practice
+  - Journal of Process Control
+  - Biosystems Engineering
+  - Food and Bioproducts Processing
+  - Industrial and Engineering Chemistry Research
+  - Applied Soft Computing
+  - Expert Systems with Applications
+  - Engineering Applications of Artificial Intelligence
+  - ISA Transactions
+  - Measurement
+  - Sensors
+  - IEEE Transactions on Industrial Electronics
+  - IEEE Transactions on Control Systems Technology
+  - IEEE Transactions on Industrial Informatics
+
+========================================================================
+
+MAPEO 1-a-1 QUERY <-> RQ:
+  Q1 -> RQ1: Modelado y caracterizacion dinamica del pH
+  Q2 -> RQ2: Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID
+  Q3 -> RQ3: ML/RL/hibridos y barreras de adopcion
+
+URL de busqueda: https://www.webofscience.com/wos/woscc/advanced-search
+Operador de campo: TS= + DT=(Article OR Review) + PY=(2015-2025)
+
+NOTAS DE SINTAXIS:
+  - TS= busca en Topic (titulo + abstract + keywords + keywords plus).
+  - NO usar TITLE-ABS-KEY (sintaxis de Scopus).
+  - ESTRUCTURA PLANA: "pH" como termino independiente, no anidado.
+  - DT=(Article OR Review) -> articulos de revista y revisiones solamente.
+  - PY=(2015-2025)         -> rango de anos.
+  - Filtro Q1 post-busqueda: Refine Results > JIF Quartile > Q1.
+  - Wildcards: sugar* cubre sugarcane, sugar mill, sugar beet, sugar factory.
+  - Limite: 1,000 registros por descarga directa.
+
+EJEMPLO DE FORMATO:
+  TS=(
+  ("pH control" OR "acidity control" OR "lime dosage")
+  AND ("sugar mill" OR "sugarcane" OR "sugar beet")
+  AND ("machine learning" OR "neural network")
+)
+NOT TS=("wastewater" OR "fermentation broth")
+AND DT=(Article OR Review) AND PY=(2015-2025)
+
+INSTRUCCIONES PARA EXPORTAR A RIS:
+WoS -> Advanced Search -> pegar query -> Search
+-> FILTRO Q1: Refine Results > Journal Impact Factor Quartile > Q1
+-> Export -> BibTeX -> All Records (lotes de 1000)
+-> Abrir en Zotero -> Export Collection -> RIS
+-> Guardar como wos_export_N.ris en 01_raw_data/
+
+========================================================================
+
+--- QUERY 1: RQ1 - Modelado y caracterizacion dinamica del pH en clarificacion azucarera [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: REVISAR: Sin clausula NOT -- precision < 80%
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+TS=(
+  ("pH control" OR "pH monitoring" OR "pH prediction" OR "pH optimization"
+   OR "pH regulation" OR "pH measurement" OR "pH adjustment" OR "pH correction"
+   OR "acidity control" OR "alkalinity control" OR "juice acidity"
+   OR "lime dosage" OR "lime addition" OR "calcium hydroxide" OR "milk of lime")
+  AND
+  ("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "sugar industry"
+   OR "juice clarification" OR "liming process" OR "defecation" OR "sulfitation"
+   OR "sugar beet" OR "beet sugar" OR "sugar factory" OR "saccharum")
+  AND
+  ("soft sensor" OR "virtual sensor" OR "inferential sensor"
+   OR "identification" OR "data-driven model" OR "data-driven"
+   OR "online estimation" OR "real-time estimation"
+   OR "neural network" OR "LSTM" OR "predictive model" OR "regression model")
+)
+NOT TS=(
+  "wastewater" OR "water treatment" OR "soil pH" OR "blood pH"
+  OR "fermentation broth" OR "bioethanol" OR "pharmaceutical"
+  OR "bioreactor" OR "wine" OR "beer" OR "dairy" OR "groundwater"
+)
+AND DT=(Article OR Review) AND PY=(2015-2025)
+----------------------------------------
+
+========================================================================
+
+--- QUERY 2: RQ2 - Control avanzado (NMPC/Fuzzy/metaheuristicas) vs PID [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: REVISAR: Sin clausula NOT -- precision < 80%
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+TS=(
+  ("model predictive control" OR "NMPC" OR "nonlinear MPC"
+   OR "fuzzy logic" OR "takagi-sugeno" OR "neuro-fuzzy"
+   OR "adaptive control" OR "intelligent control"
+   OR "PID tuning" OR "optimal control"
+   OR "pattern search" OR "particle swarm" OR "genetic algorithm"
+   OR "differential evolution" OR "bayesian optimization")
+  AND "pH"
+  AND ("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "juice clarification" 
+       OR "liming process" OR "defecation" OR "sulfitation"
+       OR "sugar industry" OR "sugar beet" OR "sugar factory")
+)
+NOT TS=(
+  "wastewater" OR "bioethanol" OR "fermentation broth" OR "pharmaceutical"
+  OR "soil" OR "blood" OR "wine" OR "dairy"
+  OR "desalination" OR "anaerobic digestion" OR "bioreactor"
+)
+AND DT=(Article OR Review) AND PY=(2015-2025)
+----------------------------------------
+
+========================================================================
+
+--- QUERY 3: RQ3 - ML/RL/hibridos y barreras de adopcion para pH en industria azucarera [Q1] ---
+Especificidad  :  | Q1 journals
+Terminos clave : 
+Justificacion  : 
+Estado sintaxis: REVISAR: Sin clausula NOT -- precision < 80%
+
+TEXTO PARA PEGAR EN LA INTERFAZ DE BUSQUEDA:
+----------------------------------------
+TS=(
+  ("machine learning" OR "deep learning" OR "neural network"
+   OR "artificial intelligence" OR "random forest" OR "gradient boosting"
+   OR "XGBoost" OR "lightGBM" OR "support vector"
+   OR "reinforcement learning" OR "deep reinforcement learning"
+   OR "DDPG" OR "PPO" OR "Q-learning"
+   OR "hybrid model" OR "grey-box model" OR "physics-informed"
+   OR "digital twin" OR "transfer learning")
+  AND "pH"
+  AND ("sugar" OR "sugarcane" OR "cane juice" OR "sugar juice" OR "clarification" 
+       OR "liming" OR "sugar mill" OR "sugar industry" OR "sugar beet"
+       OR "juice purification" OR "sugar factory" OR "defecation")
+)
+NOT TS=(
+  "wastewater" OR "bioethanol" OR "pharmaceutical" OR "soil"
+  OR "blood" OR "bioreactor" OR "desalination"
+  OR "wine" OR "beer" OR "fermentation broth"
+)
+AND DT=(Article OR Review) AND PY=(2015-2025)
+----------------------------------------
+
+========================================================================
+
+ESTRATEGIA GLOBAL:
+Mapeo 1-a-1 con las 3 RQs. Q1 cubre RQ1 (modelado/soft sensors), Q2 cubre RQ2 (control avanzado vs PID), Q3 cubre RQ3 (ML/RL/hibridos). Ancla azucarera obligatoria + estructura plana sin AND anidado. Filtros Q1 embebidos: SRCTYPE+DOCTYPE+PUBYEAR (Scopus), DT+PY (WoS), interfaz (IEEE).
+
+ADVERTENCIAS / POSIBLES RUIDOS:
+  - AND anidado corregido en Q2/Q3 -- ya no causa 0 resultados
+  - sugar beet incluido -- cubre ~40% de produccion mundial de azucar
+  - acidity/alkalinity como sinonimos de pH -- captura papers sin 'pH' explicito
+  - Pocos resultados (~50-150 totales) es ESPERADO para este tema nicho
+  - Filtro Q1 final se confirma post-busqueda en Scimago (Scopus) o JCR (WoS)
+  - Se ha añadido 'sugar juice' al ancla de dominio para capturar el paper de Palacio-Morales et al. (Processes 2021)
+
+PRECISION ESTIMADA (Q1 journals):
+  Scopus : 83-87% (Q1)
+  WoS    : 81-85% (Q1)
+  IEEE   : 86-91% (Q1)
+  Justif.: Triple AND plano + sinonimos ampliados + filtros Q1 embebidos
+
+RESULTADOS ESPERADOS (tema nicho -- normal y esperado):
+  Q1: 15-50 resultados por base
+  Q2: 5-20  resultados por base
+  Q3: 5-20  resultados por base
+  Total 3 bases: ~50-150 registros (manejable para cribado manual)
+  NOTA: Pocos resultados = hallazgo que valida la necesidad de esta RSL
+
+SIGUIENTE PASO:
+  1. Ejecutar en: https://www.webofscience.com/wos/woscc/advanced-search
+  2. Aplicar filtro Q1 segun instrucciones
+  3. Exportar .ris -> 01_raw_data/ -> wos_export_N.ris

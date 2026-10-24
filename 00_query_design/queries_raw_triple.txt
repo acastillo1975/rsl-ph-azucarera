@@ -1,0 +1,30 @@
+Here are the three Boolean search queries for Scopus, WoS, and IEEE:
+
+**Scopus:**
+{
+  "queries": [
+    {"numero": 1, "query": "TITLE-ABS-KEY((sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (soft sensor OR virtual sensor OR identification OR neural network OR LSTM)) AND NOT TITLE-ABS-KEY(wastewater OR effluent OR cooling tower OR desulfurization OR flue gas OR bioreactor OR fermentation broth OR bioethanol OR biogas OR pharmaceutical OR blood OR soil OR groundwater OR drinking water OR wine OR beer OR dairy OR milk OR fruit juice OR olive oil OR electroplating OR pickling OR hydrometallurgy OR leaching) AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014"},
+    {"numero": 2, "query": "TITLE-ABS-KEY((sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (NMPC OR model predictive control OR fuzzy logic OR takagi-sugeno OR optimization OR pattern search OR genetic algorithm OR particle swarm)) AND NOT TITLE-ABS-KEY(exclusions) AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014"},
+    {"numero": 3, "query": "TITLE-ABS-KEY((sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (machine learning OR random forest OR XGBoost OR reinforcement learning OR deep learning OR ensemble)) AND NOT TITLE-ABS-KEY(exclusions) AND SRCTYPE(j) AND DOCTYPE(ar OR re) AND PUBYEAR > 2014"}
+  ]
+}
+
+**WoS:**
+{
+  "queries": [
+    {"numero": 1, "query": "TS=((sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (soft sensor OR virtual sensor OR identification OR neural network OR LSTM)) NOT TS=(wastewater OR effluent OR cooling tower OR desulfurization OR flue gas OR bioreactor OR fermentation broth OR bioethanol OR biogas OR pharmaceutical OR blood OR soil OR groundwater OR drinking water OR wine OR beer OR dairy OR milk OR fruit juice OR olive oil OR electroplating OR pickling OR hydrometallurgy OR leaching) AND DT=(Article OR Review) AND PY=(2015-2025)"},
+    {"numero": 2, "query": "TS=((sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (NMPC OR model predictive control OR fuzzy logic OR takagi-sugeno OR optimization OR pattern search OR genetic algorithm OR particle swarm)) NOT TS=(exclusions) AND DT=(Article OR Review) AND PY=(2015-2025)"},
+    {"numero": 3, "query": "TS=((sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (machine learning OR random forest OR XGBoost OR reinforcement learning OR deep learning OR ensemble)) NOT TS=(exclusions) AND DT=(Article OR Review) AND PY=(2015-2025)"}
+  ]
+}
+
+**IEEE:**
+{
+  "queries": [
+    {"numero": 1, "query": "(sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (soft sensor OR virtual sensor OR identification OR neural network OR LSTM)"},
+    {"numero": 2, "query": "(sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (NMPC OR model predictive control OR fuzzy logic OR takagi-sugeno OR optimization OR pattern search OR genetic algorithm OR particle swarm)"},
+    {"numero": 3, "query": "(sugarcane juice OR cane juice OR sugar juice OR juice clarification OR liming process OR alkalinization OR defecation OR milk of lime OR sugar mill OR sugar factory OR sugar beet) AND (pH terms) AND (machine learning OR random forest OR XGBoost OR reinforcement learning OR deep learning OR ensemble)"}
+  ]
+}
+
+Note that the IEEE queries do not include the SRCTYPE, DOCTYPE, and PUBYEAR filters as they are not applicable in this database.

@@ -1,0 +1,726 @@
+% 06_appendices.tex — Apéndices A–F (material suplementario)
+%   A: consultas por base  B: prompt y sensibilidad  C: riesgo de sesgo
+%   D: notas sobre κ       E: lista PRISMA-ScR      F: evidencia complementaria
+% Los datos aún no disponibles se definen en 00_datos_pendientes.tex.
+
+\clearpage
+\nolinenumbers
+\appendix
+\renewcommand*{\appendixname}{Appendix}
+\addto\captionsspanish{\renewcommand*{\appendixname}{Appendix}}
+\titleformat{\section}{\normalsize\bfseries}{\appendixname~\thesection.}{1em}{}
+\counterwithin{table}{section}
+\counterwithin{figure}{section}
+\renewcommand{\thetable}{\thesection\arabic{table}}
+\renewcommand{\thefigure}{\thesection\arabic{figure}}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Consultas booleanas por base de datos}
+\label{apx:queries_multibase}
+% ─────────────────────────────────────────────────────────────────────────────
+
+Se reproducen las tres consultas booleanas, mapeadas 1-a-1 con las tres
+preguntas de investigación (RQ1 modelado y sensores virtuales; RQ2 control
+avanzado frente a PID; RQ3 ML/RL/híbridos y barreras de adopción). Todas
+las cadenas se ejecutaron el \FechaBusqueda{} sobre las cinco bases
+de datos (Scopus, Web of Science, IEEE~Xplore, SciELO, LILACS) con ventana
+temporal 2015--2026 (incluyendo registros \textit{early access} con año
+editorial 2026). La sintaxis por base se ajustó al motor correspondiente
+conservando el mismo alcance semántico: Scopus utilizó el campo
+\texttt{TITLE-ABS-KEY(\ldots)}; Web of Science empleó
+\texttt{TS=(\ldots)}~(\textit{Topic}); IEEE~Xplore usó operadores
+directos sobre \textit{All Metadata}; SciELO empleó el campo
+\texttt{(ti,ab)} con operadores booleanos estándar; LILACS empleó
+búsqueda por DeCS (Descriptores en Ciencias de la Salud) con operadores
+booleanos y \texttt{AND NOT} sustituido por \texttt{NOT}.
+
+\begin{table}[H]
+\centering
+\caption{Recuentos verificados por base de datos y consulta ($N=541$
+en las tres bases originales; \NSciELO{} en SciELO y
+\NLILACS{} en LILACS; búsqueda del \FechaBusqueda, ventana 2015--2026).}
+\label{tab:queries_multibase}
+\singlespacing\small
+\begin{tabular}{l l p{8.2cm} r}
+\toprule
+\textbf{Base} & \textbf{Consulta} & \textbf{Foco (RQ)} & \textbf{$n$} \\
+\midrule
+\multirow{4}{*}{Scopus}
+ & Q1 & pH, sensores virtuales e identificación (RQ1) & 11 \\
+ & Q2 & Control avanzado y metaheurísticas vs.\ PID (RQ2) & 32 \\
+ & Q3 & ML/RL/híbridos y barreras (RQ3) & 269 \\
+ & & \textbf{Subtotal Scopus} & \textbf{312} \\
+\midrule
+\multirow{4}{*}{Web of Science}
+ & Q1 & pH, sensores virtuales e identificación (RQ1) & 3 \\
+ & Q2 & Control avanzado y metaheurísticas vs.\ PID (RQ2) & 18 \\
+ & Q3 & ML/RL/híbridos y barreras (RQ3) & 167 \\
+ & & \textbf{Subtotal WoS} & \textbf{188} \\
+\midrule
+\multirow{4}{*}{IEEE~Xplore}
+ & Q1 & pH, sensores virtuales e identificación (RQ1) & 4 \\
+ & Q2 & Control avanzado y metaheurísticas vs.\ PID (RQ2) & 10 \\
+ & Q3 & ML/RL/híbridos y barreras (RQ3) & 27 \\
+ & & \textbf{Subtotal IEEE} & \textbf{41} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Total bruto original (3 bases)}} & \textbf{541} \\
+\midrule
+% ════════════════════════════════════════════════════════════════════════════
+% NUEVO v2.0 — Filas para SciELO y LILACS
+% ════════════════════════════════════════════════════════════════════════════
+\multirow{2}{*}{SciELO}
+ & Q4 & Adaptación combinada de Q1+Q2+Q3 a sintaxis (ti,ab) con
+      operadores booleanos & \NSciELO \\
+ & & \textbf{Subtotal SciELO} & \textbf{\NSciELO} \\
+\midrule
+\multirow{2}{*}{LILACS}
+ & Q4 & Adaptación combinada a DeCS (Descriptores en Ciencias de la
+      Salud) con operadores booleanos & \NLILACS \\
+ & & \textbf{Subtotal LILACS} & \textbf{\NLILACS} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Total bruto ampliado (5 bases)}} & \textbf{\NTotalAmpliado} \\
+\multicolumn{3}{l}{Tras deduplicación por DOI y \textit{fuzzy match} de títulos}
+ & \textbf{\NUnicosAmpliado} \\
+\bottomrule
+\end{tabular}
+\begin{Nota}[Nota]{\linewidth}{La deduplicación combinó emparejamiento
+exacto por DOI y \textit{fuzzy match} de títulos con umbral $\geq 95\,\%$
+(\textit{rapidfuzz}), reduciendo falsos negativos por variaciones
+tipográficas entre RIS de distintas fuentes. La tasa de solapamiento
+inter-base en las tres bases originales ($34.8\,\%=188/541$) es consistente
+con una estrategia de búsqueda estable y con convergencia de un núcleo
+común de literatura entre las tres bases. Las consultas SciELO y LILACS
+se diseñaron como una única consulta combinada Q4 por base, adaptando los
+elementos semánticos comunes de Q1+Q2+Q3 a la sintaxis local (operadores
+booleanos, campos disponibles).}
+\end{Nota}
+\end{table}
+
+% ════════════════════════════════════════════════════════════════════════════
+% NUEVO v2.0 — Tabla A2 con sintaxis específica SciELO y LILACS
+% ════════════════════════════════════════════════════════════════════════════
+\newpage
+
+\begin{table}[H]
+\centering
+\caption{Cadenas específicas para SciELO y LILACS con sintaxis local
+(consulta combinada Q4; elementos semánticos comunes de Q1+Q2+Q3).}
+\label{tab:scielo_lilacs_syntax}
+\singlespacing\scriptsize
+\begin{tabular}{p{2.3cm} p{12.2cm}}
+\toprule
+\textbf{Base} & \textbf{Cadena (sintaxis local)} \\
+\midrule
+SciELO
+  & \texttt{(ti:("pH control" OR "pH monitoring" OR "pH prediction"
+     OR "pH regulation" OR "acidity control" OR "alkalinity control"
+     OR "lime dosage" OR "calcium hydroxide" OR "milk of lime") AND
+     ab:("sugar mill" OR "sugarcane" OR "cane juice" OR "sugar juice"
+     OR "sugar industry" OR "juice clarification" OR "liming process"
+     OR "defecation" OR "sulfitation" OR "sugar beet" OR "sugar factory"
+     OR "saccharum") AND (ti:("soft sensor" OR "virtual sensor" OR
+     "identification" OR "neural network" OR "LSTM" OR "predictive model"
+     OR "model predictive control" OR "NMPC" OR "fuzzy logic" OR
+     "machine learning" OR "deep learning" OR "reinforcement learning"
+     OR "digital twin") OR ab:("soft sensor" OR "virtual sensor" OR
+     "identification" OR "neural network" OR "LSTM" OR "predictive model"
+     OR "model predictive control" OR "NMPC" OR "fuzzy logic" OR
+     "machine learning" OR "deep learning" OR "reinforcement learning"
+     OR "digital twin"))) NOT (ti:("wastewater" OR "soil pH" OR
+     "fermentation broth" OR "bioethanol" OR "pharmaceutical" OR
+     "bioreactor" OR "wine" OR "beer" OR "dairy") OR ab:("wastewater"
+     OR "soil pH" OR "fermentation broth" OR "bioethanol" OR
+     "pharmaceutical" OR "bioreactor" OR "wine" OR "beer" OR "dairy"))} \\
+\midrule
+LILACS (DeCS)
+  & \texttt{("Controle de pH" OR "monitoramento de pH" OR "previsão de pH"
+     OR "regulação de pH" OR "controle de acidez" OR "dosagem de cal"
+     OR "hidróxido de cálcio" OR "leite de cal" OR "pH control" OR
+     "pH monitoring" OR "pH prediction" OR "pH regulation" OR
+     "acidity control" OR "lime dosage" OR "calcium hydroxide" OR
+     "milk of lime") AND ("usina de açúcar" OR "cana-de-açúcar" OR
+     "caldo de cana" OR "suco de cana" OR "indústria açucareira" OR
+     "clarificação de caldo" OR "calagem" OR "defecação" OR
+     "sulfitação" OR "beterraba açucareira" OR "sugar mill" OR
+     "sugarcane" OR "cane juice" OR "sugar juice" OR "sugar industry"
+     OR "juice clarification" OR "liming process" OR "defecation" OR
+     "sulfitation" OR "sugar beet" OR "sugar factory" OR "saccharum")
+     AND ("sensor virtual" OR "sensor suave" OR "identificação de
+     sistemas" OR "rede neural" OR "LSTM" OR "modelo preditivo" OR
+     "controle preditivo de modelo" OR "NMPC" OR "lógica fuzzy" OR
+     "aprendizado de máquina" OR "aprendizado profundo" OR
+     "aprendizado por reforço" OR "gêmeo digital" OR "soft sensor"
+     OR "virtual sensor" OR "identification" OR "neural network" OR
+     "model predictive control" OR "fuzzy logic" OR "machine learning"
+     OR "deep learning" OR "reinforcement learning" OR "digital twin")
+     NOT ("águas residuais" OR "pH do solo" OR "caldo de fermentação"
+     OR "bioetanol" OR "farmacêutico" OR "biorreator" OR "vinho" OR
+     "cerveja" OR "laticínios" OR "wastewater" OR "soil pH" OR
+     "fermentation broth" OR "bioethanol" OR "pharmaceutical" OR
+     "bioreactor" OR "wine" OR "beer" OR "dairy")} \\
+\bottomrule
+\end{tabular}
+\begin{Nota}[Nota]{\linewidth}{Elaboración propia. La consulta Q4
+combina los elementos semánticos comunes de Q1, Q2 y Q3 en una sola
+cadena por base, ajustándose a la sintaxis local. SciELO emplea operadores
+\texttt{(ti:)} (título) y \texttt{(ab:)} (resumen) con booleanos estándar;
+\texttt{AND NOT} se sustituye por \texttt{NOT}. LILACS emplea descriptores
+DeCS bilingües (portugués + español) para máxima sensibilidad regional;
+los términos en inglés se mantienen como refuerzo. Los recuentos se
+reportan en la Tabla~\ref{tab:queries_multibase}.}
+\end{Nota}
+\end{table}
+
+\newpage
+
+\subsection*{Q1 --- Modelado y sensores virtuales de pH (RQ1)}
+
+\begin{lstlisting}[language={},caption={Cadena Q1 (Scopus). Las cadenas
+equivalentes para WoS e IEEE~Xplore se obtienen sustituyendo el operador
+de campo (\texttt{TS=} en WoS; sin prefijo en IEEE).},label={lst:q1}]
+TITLE-ABS-KEY(
+  ("pH control" OR "pH monitoring" OR "pH prediction"
+   OR "pH optimization" OR "pH regulation" OR "pH measurement"
+   OR "pH adjustment" OR "pH correction" OR "acidity control"
+   OR "alkalinity control" OR "juice acidity"
+   OR "lime dosage" OR "lime addition"
+   OR "calcium hydroxide" OR "milk of lime")
+  AND
+  ("sugar mill" OR "sugarcane" OR "cane juice"
+   OR "sugar juice" OR "sugar industry"
+   OR "juice clarification" OR "liming process"
+   OR "defecation" OR "sulfitation"
+   OR "sugar beet" OR "beet sugar"
+   OR "sugar factory" OR "saccharum")
+  AND
+  ("soft sensor" OR "virtual sensor" OR "inferential sensor"
+   OR "identification" OR "data-driven model" OR "data-driven"
+   OR "online estimation" OR "real-time estimation"
+   OR "neural network" OR "LSTM"
+   OR "predictive model" OR "regression model")
+)
+AND NOT TITLE-ABS-KEY(
+  "wastewater" OR "water treatment" OR "soil pH" OR "blood pH"
+  OR "fermentation broth" OR "bioethanol"
+  OR "pharmaceutical" OR "bioreactor"
+  OR "wine" OR "beer" OR "dairy" OR "groundwater"
+)
+\end{lstlisting}
+
+\subsection*{Q2 --- Control avanzado (NMPC/Fuzzy/metaheurísticas) vs.\ PID (RQ2)}
+
+\begin{lstlisting}[language={},caption={Cadena Q2 (Scopus).},label={lst:q2}]
+TITLE-ABS-KEY(
+  ("model predictive control" OR "NMPC" OR "nonlinear MPC"
+   OR "fuzzy logic" OR "takagi-sugeno" OR "neuro-fuzzy"
+   OR "adaptive control" OR "intelligent control"
+   OR "PID tuning" OR "optimal control"
+   OR "pattern search" OR "particle swarm"
+   OR "genetic algorithm" OR "differential evolution"
+   OR "bayesian optimization")
+  AND "pH"
+  AND ("sugar mill" OR "sugarcane" OR "cane juice"
+       OR "sugar juice" OR "juice clarification"
+       OR "liming process" OR "defecation" OR "sulfitation"
+       OR "sugar industry" OR "sugar beet" OR "sugar factory")
+)
+AND NOT TITLE-ABS-KEY(
+  "wastewater" OR "bioethanol" OR "fermentation broth"
+  OR "pharmaceutical" OR "soil" OR "blood"
+  OR "wine" OR "dairy" OR "desalination"
+  OR "anaerobic digestion" OR "bioreactor"
+)
+\end{lstlisting}
+
+\subsection*{Q3 --- ML/RL/híbridos y barreras de adopción (RQ3)}
+
+\begin{lstlisting}[language={},caption={Cadena Q3 (Scopus).},label={lst:q3}]
+TITLE-ABS-KEY(
+  ("machine learning" OR "deep learning" OR "neural network"
+   OR "artificial intelligence" OR "random forest"
+   OR "gradient boosting" OR "XGBoost" OR "lightGBM"
+   OR "support vector"
+   OR "reinforcement learning" OR "deep reinforcement learning"
+   OR "DDPG" OR "PPO" OR "Q-learning"
+   OR "hybrid model" OR "grey-box model" OR "physics-informed"
+   OR "digital twin" OR "transfer learning")
+  AND "pH"
+  AND ("sugar" OR "sugarcane" OR "cane juice"
+       OR "sugar juice" OR "clarification"
+       OR "liming" OR "sugar mill" OR "sugar industry"
+       OR "sugar beet" OR "juice purification"
+       OR "sugar factory" OR "defecation")
+)
+AND NOT TITLE-ABS-KEY(
+  "wastewater" OR "bioethanol" OR "pharmaceutical"
+  OR "soil" OR "blood" OR "bioreactor" OR "desalination"
+  OR "wine" OR "beer" OR "fermentation broth"
+)
+\end{lstlisting}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{\textit{Prompt} del chequeo automático complementario y análisis de
+sensibilidad}
+\label{apx:prompt}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\noindent\textbf{Función y advertencias.} El \textit{prompt} que sigue se
+empleó \emph{exclusivamente} como chequeo automático complementario
+(Etapa~5, \ref{sub:seleccion}); no es una etapa de cribado ni sustituye el
+juicio humano, cuya autoridad reside en el doble cribado de la Etapa~4. Se
+reproduce tal como lo ejecuta el \textit{script} \texttt{04\_filtrado\_ollama.py}
+(modelo servido por Ollama con $T=0$; salida JSON). Conviene precisar tres
+hechos para su correcta interpretación:
+\begin{enumerate}[leftmargin=*,noitemsep]
+\item Los seis ejemplos son \textbf{sintéticos}: no corresponden a
+publicaciones reales, y sus cifras (p.~ej., ``MAE$=0.04$'') son
+ilustrativas.
+\item El \textbf{Ejemplo~3} reproduce el título, un resumen parafraseado y
+las palabras clave de uno de los estudios incluidos
+\parencite{palaciomorales2021optimiza}. Es una \textbf{fuga de información}:
+el modelo recibió como ejemplo positivo el estudio que luego clasificó
+como positivo. Su efecto se evaluó re-ejecutando el \textit{pipeline} sin
+la fuga (Tabla~\ref{tab:sens_prompt}).
+\item El criterio de cuartil SJR \textbf{no forma parte del
+\textit{prompt}}; se aplica antes (Etapa~3).
+\end{enumerate}
+
+\begin{lstlisting}[language={},
+caption={\textit{Prompt} de producción (seis ejemplos sintéticos) para
+clasificación INCLUIR/EXCLUIR. El Ejemplo~3 contiene la fuga descrita en
+el texto.},
+label={lst:prompt}]
+Actua como revisor experto en una revision sistematica
+(RSL) sobre APRENDIZAJE AUTOMATICO aplicado al CONTROL DE
+pH EN LA INDUSTRIA AZUCARERA (clarificacion, encalado,
+sulfitacion, purificacion del jugo de cana y remolacha).
+
+=== EJEMPLOS DE REFERENCIA (six-shot) ===
+
+EJEMPLO 1 - INCLUIR (sintetico: ANN para prediccion de pH)
+Titulo: "Artificial neural network for real-time pH
+         prediction in sugarcane juice clarification: lime
+         dosage optimization in a Brazilian sugar mill"
+Resumen: "A multilayer perceptron trained on 24 months of
+         DCS data predicts clarified juice pH ... MAE=0.04
+         pH units. Reduces lime overconsumption by 18%."
+Decision correcta: INCLUIR   Confianza: 97
+
+EJEMPLO 2 - INCLUIR (sintetico: LSTM + soft sensor)
+Titulo: "LSTM-based soft sensor for online pH estimation in
+         sugar cane juice purification without physical pH
+         probe"
+Resumen: "An LSTM model estimates juice pH from conductivity,
+         temperature, turbidity, Brix and lime flow ...
+         R2=0.96, RMSE=0.05 ..."
+Decision correcta: INCLUIR   Confianza: 96
+
+EJEMPLO 3 - INCLUIR (FUGA: reproduce un estudio incluido)
+Titulo: "Optimization based on pattern search algorithm
+         applied to pH non-linear control: Application to
+         alkalinization process of sugar juice"
+Resumen: "A Takagi-Sugeno fuzzy inference model combined with
+         a non-linear model predictive controller (NMPC)
+         tuned via pattern search optimization (PSM) controls
+         pH in the alkalinization of sugar juice ..."
+Keywords: pH control; alkalinization; sugar juice; NMPC;
+         fuzzy; pattern search; nonlinear
+Decision correcta: INCLUIR   Confianza: 95
+
+EJEMPLO 4 - EXCLUIR (sintetico: pH en bioetanol de cana)
+Titulo: "Machine learning control of fermentation pH for
+         bioethanol production from sugarcane bagasse"
+Decision correcta: EXCLUIR   Confianza: 96
+
+EJEMPLO 5 - EXCLUIR (sintetico: pH en cristalizacion)
+Titulo: "Neural network prediction of massecuite pH and
+         crystal size in vacuum pan"
+Decision correcta: EXCLUIR   Confianza: 91
+
+EJEMPLO 6 - EXCLUIR (sintetico: aguas residuales)
+Titulo: "Deep learning for pH prediction in sugar factory
+         wastewater treatment"
+Decision correcta: EXCLUIR   Confianza: 95
+
+=== FIN DE EJEMPLOS ===
+
+INCLUIR si el articulo cumple TODOS:
+  A) Aplica tecnica de ML/IA (machine learning, redes
+     neuronales, soft sensors, reinforcement learning, MPC,
+     LSTM, CNN, fuzzy logic, gemelos digitales, etc.).
+  B) La aplicacion es CONTROL, PREDICCION, ESTIMACION,
+     MONITOREO u OPTIMIZACION del pH (o acidez, alcalinidad,
+     dosis de cal, dosis de SO2) mediante ML/IA.
+  C) El proceso objetivo PRINCIPAL es la INDUSTRIA AZUCARERA:
+     clarificacion, encalado, defecacion, sulfitacion,
+     carbonatacion o purificacion del jugo de cana o remolacha.
+
+EXCLUIR si se cumple CUALQUIERA:
+  X1) pH en procesos NO azucareros.   X2) pH en suelo, agua
+  subterranea, rios o ambiente.   X3) Procesos azucareros
+  distintos a clarificacion/encalado/sulfitacion.   X4)
+  Contexto multi-industria alimentaria.   X5) pH solo como
+  variable de entrada.   X6) Tejidos biologicos o farmacia.
+  X7) Efluentes de la fabrica azucarera.   X8) Bioetanol o
+  biocombustibles de cana.
+
+Responde UNICAMENTE con este JSON exacto:
+{"decision": "INCLUIR" o "EXCLUIR",
+ "confianza": numero entre 0 y 100,
+ "justificacion": "texto conciso, maximo 2 oraciones"}
+
+=== ARTICULO A EVALUAR ===
+Titulo: {titulo}   Resumen: {resumen}   Palabras clave: {keywords}
+\end{lstlisting}
+
+\noindent\textbf{Parámetros de ejecución y reproducibilidad.} Modelo
+\texttt{llama3:latest} (Llama~3 de 8B parámetros, cuantización Q4\_0)
+servido localmente con Ollama; resumen SHA-256 del modelo:
+\texttt{365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1}
+(fecha de modificación local: 23 de marzo de 2026, anterior a la corrida de producción);
+versión del servidor en la re-ejecución: 0.24.0; temperatura $T=0$; no se
+fijó semilla. Umbral de derivación: confianza $<55\,\%$ (tratado como
+EXCLUIR). En la corrida de producción sobre los 230~registros, 201 se
+resolvieron por el filtro léxico local sin invocar al modelo (nivel
+\texttt{LOCAL}), 28 obtuvieron una decisión de alta confianza (nivel
+\texttt{AUTO}, $92$--$98\,\%$; 2~INCLUIR y 26~EXCLUIR) y 1 cayó bajo el
+umbral (nivel \texttt{INCIERTO}; una entrada de actas mal etiquetada).
+
+\subsection*{Análisis de sensibilidad del \textit{prompt}}
+
+Los 29~registros que llegaron al modelo se re-procesaron con el mismo
+modelo, $T=0$, con (A)~el \textit{prompt} original y (B)~un \textit{prompt}
+corregido en el que el Ejemplo~3 se sustituye por un positivo sintético de
+otra familia metodológica (control neuro-difuso con programación de
+ganancia). Las 26 decisiones EXCLUIR restantes no cambiaron. La
+Tabla~\ref{tab:sens_prompt} resume los registros con decisión relevante.
+
+\begin{table}[H]
+\centering
+\caption{Decisión del modelo por registro bajo tres ejecuciones
+(producción; re-ejecución con \textit{prompt} original A; re-ejecución con
+\textit{prompt} sin fuga B). Entre paréntesis, confianza autoinformada.}
+\label{tab:sens_prompt}
+\singlespacing\small
+\begin{tabular}{p{6.0cm} c c c c}
+\toprule
+\textbf{Registro} & \textbf{Humano} & \textbf{Producción} & \textbf{A} & \textbf{B} \\
+\midrule
+\cite{palaciomorales2021optimiza} & INCLUIR & INCLUIR (95) & INCLUIR (95) & INCLUIR (98) \\
+\cite{murugesan2020computeraided} & INCLUIR & INCLUIR (98) & INCLUIR (98) & INCLUIR (98) \\
+Clarificación de jugo con H$_2$O$_2$ y redes neuronales (2017) & EXCLUIR & EXCLUIR (92) & INCLUIR (98) & INCLUIR (98) \\
+\midrule
+Otros 26 registros & EXCLUIR & EXCLUIR & EXCLUIR & EXCLUIR \\
+\bottomrule
+\end{tabular}
+\begin{Nota}[Nota]{\linewidth}{Concordancia con la decisión humana final:
+producción 230/230; A y B 229/230. La fuga no determinó la clasificación
+del estudio de \cite{palaciomorales2021optimiza}, pero la decisión sobre el
+registro de H$_2$O$_2$ cambia entre corridas con $T=0$, de modo que el
+chequeo no es reproducible.}
+\end{Nota}
+\end{table}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Herramienta de evaluación del riesgo de sesgo}
+\label{apx:herramienta_sesgo}
+% ─────────────────────────────────────────────────────────────────────────────
+
+Se diseñó una herramienta \textit{ad~hoc} de cinco dominios, adaptada de
+los principios generales de evaluación del riesgo de sesgo en estudios
+primarios (representatividad de los datos, separación entrenamiento/
+validación, completitud de las métricas, línea base y nivel de validación)
+al contexto de AA y control avanzado en procesos industriales, para el
+cual no existe una herramienta estandarizada. Su aplicación es opcional
+en PRISMA-ScR y no se usa para ponderar resultados. La
+Tabla~\ref{tab:rob_dominios} define los dominios y la
+Tabla~\ref{tab:sesgo} los aplica a los dos estudios incluidos, a partir
+del \textbf{texto completo}.
+
+\begin{table}[H]
+\centering
+\caption{Dominios de la herramienta de evaluación del riesgo de sesgo.}
+\label{tab:rob_dominios}
+\singlespacing\small
+\begin{tabular}{p{3.6cm} p{5.0cm} p{5.0cm}}
+\toprule
+\textbf{Dominio} & \textbf{Pregunta guía} & \textbf{Escala} \\
+\midrule
+D1 --- Representatividad &
+  ¿Los datos usados para identificar/entrenar el modelo provienen del
+  proceso industrial real, de un banco de pruebas, o exclusivamente de
+  simulación? &
+  Industrial $>$ banco de pruebas $>$ simulación \\
+D2 --- Separación de datos &
+  ¿Se declara una separación explícita entre los datos usados para
+  ajustar el modelo/controlador y los usados para validarlo (p.~ej.,
+  \textit{train/test split}, validación cruzada)? &
+  Declarada y adecuada / declarada pero limitada / no declarada \\
+D3 --- Completitud de métricas &
+  ¿Se reportan métricas cuantitativas de desempeño del control de pH
+  (p.~ej., error de seguimiento, \textit{overshoot}, tiempo de
+  establecimiento) con suficiente detalle para ser reproducidas? &
+  $\geq 2$ métricas cuantitativas / 1 métrica o solo cualitativa /
+  ninguna \\
+D4 --- Comparación con línea base &
+  ¿El desempeño del método propuesto se compara cuantitativamente
+  contra un controlador o algoritmo de referencia (p.~ej., PID, PI, u
+  otra metaheurística)? &
+  Comparación cuantitativa explícita / comparación solo cualitativa /
+  sin comparación \\
+D5 --- Nivel de validación alcanzado &
+  ¿En qué entorno se validó el controlador o modelo resultante
+  (\textit{Technology Readiness Level} aproximado, escala NASA
+  NPR~7123.1B)? &
+  Planta industrial (TRL~$\geq$~7) / planta piloto (TRL~5--6) /
+  simulación (TRL~$\leq$~4) \\
+\bottomrule
+\end{tabular}
+\begin{Nota}[Nota]{\linewidth}{El riesgo global de cada estudio se
+calificó de forma cualitativa como \textit{Bajo}, \textit{Moderado} o
+\textit{Moderado--Alto} según el número de dominios en su categoría más
+favorable, sin un algoritmo de puntuación numérica formal, dado el
+tamaño reducido de la muestra de estudios evaluados ($n=2$) y el
+carácter exploratorio de esta revisión de alcance.}
+\end{Nota}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Aplicación de la herramienta de riesgo de sesgo a los dos
+estudios incluidos (texto completo).}
+\label{tab:sesgo}
+\singlespacing\small
+\begin{tabular}{p{2.6cm} p{2.4cm} p{2.4cm} p{2.4cm} p{2.4cm} p{2.4cm}}
+\toprule
+\textbf{Estudio} & \textbf{D1} & \textbf{D2} & \textbf{D3} &
+  \textbf{D4} & \textbf{D5} \\
+\midrule
+\cite{palaciomorales2021optimiza} &
+  Simulación (modelo genérico de neutralización) &
+  No declarada &
+  $\geq 2$ métricas (ICET, sobreimpulso, esfuerzo) &
+  Contra otras cinco sintonías de NMPC; sin PID/PI &
+  Simulación (TRL~$\approx 3$--$4$) \\
+\cite{murugesan2020computeraided} &
+  Datos reales de planta (3000 muestras) &
+  Declarada (70/30\,\%) &
+  $\geq 2$ métricas (MSE, tiempos de subida y asentamiento) &
+  Contra GA y PSO; sin PID de planta &
+  Controlador solo en simulación (TRL~$\approx 4$) \\
+\bottomrule
+\end{tabular}
+\begin{Nota}[Nota]{\linewidth}{\textbf{Riesgo global:}
+\cite{palaciomorales2021optimiza} --- \textit{Moderado--Alto}: D1, D2 y D5
+son desfavorables (modelo de planta simulado, sin separación de datos
+declarada, sin planta), D3 es favorable y D4 parcial; sin comparación con
+un controlador de referencia tipo PID.
+\cite{murugesan2020computeraided} --- \textit{Moderado}: D1, D2 y D3 son
+favorables y D4 parcial (comparación solo con otras metaheurísticas),
+pero D5 es desfavorable porque el controlador no se probó en planta y el
+modelo identificado es lineal de segundo orden. Ambos comparten la
+ausencia de validación en lazo cerrado en planta, coherente con la
+prioridad que encabeza la agenda (\ref{sub:agenda}). Una versión
+anterior de esta evaluación se basó en los resúmenes y se corrigió tras la
+lectura del texto completo.}
+\end{Nota}
+\end{table}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Notas metodológicas sobre la fiabilidad del cribado
+(\texorpdfstring{$\kappa$}{kappa})}
+\label{apx:kappa_notas}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection*{1. Métrica primaria: $\kappa$ inter-humano}
+
+La concordancia entre los Revisores~1 y~2 se calcula sobre los
+230~registros (Tabla~\ref{tab:confusion_inter}); ambos cribaron el corpus
+completo, por lo que no hay error de muestreo en la cobertura. Con solo
+dos casos positivos, sin embargo, un único desacuerdo habría bajado
+$\kappa$ de forma drástica (con un desacuerdo sobre un positivo,
+$\kappa\approx0.66$), y la ausencia total de desacuerdos produce
+$\kappa=1.000$ y $\text{PABAK}=1.000$ sin que ello permita estimar la
+variabilidad entre revisores. Por eso la métrica se reporta junto con
+$P_0$ y los intervalos de Wilson (sensibilidad y precisión: 2/2,
+IC 95\,\% 34.2--100\,\%; $P_0$: 230/230, IC 95\,\% 98.4--100\,\%), y se
+interpreta como estimación de la fiabilidad del proceso de exclusión,
+no del acierto sobre los positivos
+\parencite{feinstein1990high,byrt1993bias}.
+
+\subsection*{2. Métrica secundaria: concordancia con el \textit{pipeline}
+automático}
+
+\begin{table}[H]
+\centering
+\caption{Concordancia del \textit{pipeline} automático con la decisión
+humana final sobre los 230~registros Q1--Q4: corrida de producción y
+re-ejecución (\textit{prompts} A y B).}
+\label{tab:confusion_llm}
+\singlespacing\small
+\begin{tabular}{l c c c c c c}
+\toprule
+ & VP & FP & FN & VN & $P_0$ & $\kappa$ \\
+\midrule
+Producción & 2 & 0 & 0 & 228 & 1.000 & 1.000 \\
+Re-ejecución A y B & 2 & 1 & 0 & 227 & 0.996 & 0.798 \\
+\bottomrule
+\end{tabular}
+\begin{Nota}[Nota]{\linewidth}{VP: verdaderos positivos; FP: falsos
+positivos; FN: falsos negativos; VN: verdaderos negativos. Producción:
+sensibilidad 100\,\% (IC 95\,\% de Wilson $[34.2,100]$), precisión
+100\,\% ($[34.2,100]$), $F_1=100\,\%$, PABAK $=1.000$. Re-ejecución:
+sensibilidad 100\,\% ($[34.2,100]$), precisión 66.7\,\% ($[20.8,93.9]$),
+$F_1=80.0\,\%$, PABAK $=0.991$.}
+\end{Nota}
+\end{table}
+
+\subsection*{3. Fragilidad estadística y paradoja del $\kappa$}
+
+Con dos observaciones positivas, la sensibilidad y la precisión provienen
+de cocientes 2/2 o 2/3 y sus intervalos de Wilson al 95\,\% son amplios
+($[34.2\,\%,100\,\%]$ y $[20.8\,\%,93.9\,\%]$). La diferencia entre
+$\kappa=0.798$ y $\text{PABAK}=0.991$ en la re-ejecución ilustra que
+$\kappa$ cae con la prevalencia mientras PABAK no, y que ninguno
+sustituye a la inspección de la matriz de confusión. Un clasificador
+que respondiera EXCLUIR siempre alcanzaría $P_0=0.991$ y
+$\text{PABAK}=0.983$ sin detectar ningún positivo. La inestabilidad
+$1.000\to0.798$ entre corridas con $T=0$ confirma que no debe presentarse
+$\kappa=1.000$ como resultado definitivo.
+
+\subsection*{4. Requisitos para una validación robusta}
+
+(a)~Incluir un tercer revisor o estimar la concordancia en un corpus
+con más positivos, para que $\kappa$ sea informativo; (b)~fijar la versión
+y el resumen SHA-256 del modelo y una semilla, y repetir varias corridas
+para estimar la variabilidad; (c)~sustituir el Ejemplo~3 por un positivo
+sintético sin fuga; (d)~comparar varios modelos; y (e)~repetir la
+evaluación en un corpus de mayor prevalencia. La reducción teórica de
+carga manual ($228/230\approx 99.1\,\%$) es un beneficio potencial, no un
+ahorro materializado, pues la revisión humana cubrió el 100\,\% del
+corpus.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Lista de verificación PRISMA-ScR}
+\label{apx:prisma}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\singlespacing\small
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.7cm} >{\raggedright\arraybackslash}p{6.2cm} >{\raggedright\arraybackslash}p{7.6cm}}
+\caption{Lista de verificación PRISMA-ScR \parencite{tricco2018prismascr}
+y ubicación de cada ítem en el manuscrito.}\label{tab:prisma_checklist}\\
+\toprule
+\textbf{\#} & \textbf{Ítem} & \textbf{Ubicación} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{\#} & \textbf{Ítem} & \textbf{Ubicación} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+1 & Título & Portada: identifica el diseño como revisión de alcance \\
+2 & Resumen estructurado & Resumen (párrafo único con contexto, métodos, resultados y conclusión) \\
+3 & Justificación & \S\ref{sub:brecha}; \S\ref{sub:otros_dominios} \\
+4 & Objetivos & \S\ref{sub:rqs} (PICOC y RQ1--RQ3) \\
+5 & Protocolo y registro & \S\ref{sub:diseno} (OSF; desviaciones declaradas) \\
+6 & Criterios de elegibilidad & \S\ref{sub:criterios} \\
+7 & Fuentes de información & \S\ref{sub:fuentes} \\
+8 & Estrategia de búsqueda & \S\ref{sub:fuentes}; Apéndice~\ref{apx:queries_multibase} \\
+9 & Selección de las fuentes de evidencia & \S\ref{sub:seleccion}; \S\ref{sub:fiabilidad_metodos} \\
+10 & Proceso de extracción de datos & \S\ref{sub:extraccion} \\
+11 & Elementos de datos & \S\ref{sub:extraccion}; Tabla~\ref{tab:studies} \\
+12 & Evaluación crítica de las fuentes (opcional) & \S\ref{sub:extraccion}; Apéndice~\ref{apx:herramienta_sesgo} \\
+13 & Síntesis de resultados & \S\ref{sub:extraccion}; \S\ref{sub:bibliometria}; \S\ref{sub:sensibilidad} \\
+14 & Selección de las fuentes de evidencia (resultados) & \S\ref{sub:res_prisma}; Figura~\ref{fig:prisma} \\
+15 & Características de las fuentes & \S\ref{sub:res_estudio}; \S\ref{sub:res_complementaria} \\
+16 & Evaluación crítica dentro de las fuentes & Apéndice~\ref{apx:herramienta_sesgo} (Tabla~\ref{tab:sesgo}) \\
+17 & Resultados de las fuentes individuales & \S\ref{sub:res_estudio}; Tabla~\ref{tab:studies} \\
+18 & Síntesis de resultados & \S\ref{sub:res_complementaria}--\ref{sub:res_mapeo} \\
+19 & Resumen de la evidencia & \S\ref{sub:interpretacion} \\
+20 & Limitaciones & \S\ref{sub:limitaciones} \\
+21 & Conclusiones & \S\ref{sec:conclusiones} \\
+22 & Financiamiento & Portada \\
+\end{longtable}
+\doublespacing
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Evidencia complementaria y auditorías de sensibilidad}
+\label{apx:complementaria}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection*{F.1 Trabajos \textit{in-domain} excluidos por criterios formales}
+
+La Tabla~\ref{tab:complementaria} lista los 11~trabajos identificados con
+la verificación léxica de \ref{sub:bibliometria} que combinan pH,
+proceso azucarero y control avanzado o AA, y que no pasaron al cribado por
+tipo de documento (8) o por carecer de cuartil SJR (3). Se describen
+a partir de sus resúmenes y no forman parte del corpus incluido.
+
+\singlespacing\scriptsize
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}p{4.6cm} >{\raggedright\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{2.8cm} >{\raggedright\arraybackslash}p{1.9cm}}
+\caption{Evidencia \textit{in-domain} excluida por criterios formales
+(descripción según resumen).}\label{tab:complementaria}\\
+\toprule
+\textbf{Referencia} & \textbf{Proceso y método} & \textbf{Validación declarada} & \textbf{Fuente} & \textbf{Motivo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Referencia} & \textbf{Proceso y método} & \textbf{Validación declarada} & \textbf{Fuente} & \textbf{Motivo} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\cite{sunori2016ga} & Neutralización de pH del clarificador; controladores ZN, IMC y LQG optimizados con GA & Simulación & \textit{Oriental J.\ Chem.} & Sin cuartil SJR \\
+\cite{wang2017ph} & Clarificación en refinería; PID adaptativo difuso con diseño de \textit{hardware} y \textit{software} & Resultados experimentales (escala no precisada) & \textit{Acta Technica CSAV} & Sin cuartil SJR \\
+\cite{rajalakshmi2022machine} & Clarificador; identificación y sintonía con STA, GA y PSO & No especificada & \textit{Intell.\ Autom.\ Soft Comput.} & Sin cuartil SJR (``-'') \\
+\cite{sunori2017model} & Neutralizador de pH; reducción de orden de un modelo FOPDT; ZN, IMC y GA-IMC & Simulación & Acta (CICN) & Tipo documento \\
+\cite{rajalakshmi2018hybrid} & Clarificador; SVR con PSO y firefly para modelado & No especificada (``problemas industriales en tiempo real'') & Acta (NPEC) & Tipo documento \\
+\cite{sunori2020neurofuzzy} & Neutralización de pH; modelo neuro-difuso ANFIS & Simulación (MATLAB) & Acta (ICACCM) & Tipo documento \\
+\cite{jethi2021prediction} & Neutralización de pH; MPC frente a PID & Simulación (MATLAB) & Acta (GCAT) & Tipo documento \\
+\cite{kdt2021sensor} & Regulación de pH con PID-IMC; banco con celda de carga y sensor de pH & Prototipo y simulación & Acta (ICECCT) & Tipo documento \\
+\cite{sunori2022digital} & Control de pH en refinería; $H_\infty$ y MPC sobre función de transferencia & Simulación (MATLAB) & Acta (ICSSIT) & Tipo documento \\
+\cite{sunori2022neurofuzzy} & Control de pH en refinería; ANFIS frente a PI & Simulación (MATLAB) & Acta (ICACCS) & Tipo documento \\
+\cite{sunori2022soft} & Control de pH en ingenio; PI optimizado con GA y SA & Simulación (MATLAB) & Serie \textit{LNNS} & Tipo documento \\
+\end{longtable}
+\doublespacing
+
+\noindent Un registro limítrofe, \cite{vlasenko2023neural}, modela con una
+red neuronal la eficiencia de la defecosaturación de jugo de remolacha
+usando el pH como entrada; no se contabiliza por el criterio de
+exclusión~(e).
+
+\subsection*{F.2 Familias de expresiones regulares de la verificación léxica}
+
+Sobre título, resumen y palabras clave en minúsculas:
+\textit{pH} (\texttt{\textbackslash bph\textbackslash b}, neutralización,
+alcalinización, encalado, defecación, sulfitación, carbonatación);
+\textit{proceso azucarero} (\textit{sugar mill/factory/industry/process},
+\textit{juice clarification}, \textit{clarifier}, \textit{raw/mixed/cane/sugar
+juice}, \textit{sugar beet}, \textit{sugar refinery}, \textit{liming});
+sensor virtual (\textit{soft/virtual/inferential sensor}); MPC
+(\textit{model predictive control}, \textit{NMPC}, \textit{MPC});
+refuerzo (\textit{reinforcement learning}, \textit{DDPG}, \textit{Q-learning},
+\textit{actor-critic}); PID (\textit{PID}, \textit{proportional-integral});
+difuso (\textit{fuzzy}, \textit{neuro-fuzzy}, \textit{ANFIS}, \textit{Takagi});
+metaheurísticas (\textit{genetic algorithm}, \textit{particle swarm},
+\textit{differential evolution}, \textit{pattern search}, \textit{state
+transition algorithm}, \textit{metaheuristic}); adaptativo
+(\textit{adaptive control}, \textit{gain scheduling}, \textit{self-tuning});
+AA general (\textit{neural network}, \textit{machine learning}, \textit{deep
+learning}, \textit{random forest}, \textit{support vector}, \textit{LSTM});
+gemelo digital (\textit{digital twin}).
+
+\subsection*{F.3 Auditoría del filtro léxico local}
+
+De los 201~registros resueltos por el filtro L0--L2, 26 combinaban
+vocabulario de pH y de proceso azucarero según un criterio más laxo
+(sin reglas L0 ni requisito de AA), y 11 de ellos incluían además
+vocabulario de control o estimación. Su lectura por título y resumen
+mostró que tratan conservación, pardeamiento enzimático, pasteurización,
+cavitación o blanqueo de jugos y bebidas, tratamiento de melazas y
+residuos, filtración con membranas, dosificación de coagulantes en agua
+potable o temas no relacionados (salud, fruta), y \textbf{ninguno}
+aborda la regulación del pH de la clarificación o el encalado. La lista
+completa (título, año, DOI y resumen) está en
+\texttt{03\_filtered\_data/13.auditoria\_filtro\_local.csv}.

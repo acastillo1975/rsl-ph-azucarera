@@ -1,0 +1,751 @@
+﻿TY  - JOUR
+AU  - Palacio-Morales, J
+AU  - Tobón, A
+AU  - Herrera, J
+TI  - Optimization Based on Pattern Search Algorithm Applied to pH Non-Linear Control: Application to Alkalinization Process of Sugar Juice
+T2  - PROCESSES
+LA  - English
+KW  - optimization
+KW  - alkalization
+KW  - non-linear control
+KW  - STRATEGY
+KW  - SYSTEMS
+KW  - DESIGN
+AB  - In this paper, an approach for the tuning of a model-based non-linear predictive control (NMPC) is presented. The proposed control uses the pattern search optimization algorithm (PSM), which is applied to the pH non-linear control in the alkalinization process of sugar juice. First, the model identification is made using the Takagi Sugeno T-S fuzzy inference systems with multidimensional fuzzy sets; the next step is the controller parameters tuning. The PSM algorithm is used in both cases. The proposed approach allows the minimization of model uncertainty and decreases, in the response, the error in a steady state when compared with other authors who perform the same procedure but apply other optimization algorithms. The results show an improvement in the steady-state error in the plant response.
+AD  - Inst Tecnol Metropolitano ITM, Qual & Prod Dept, Medellin 050034, ColombiaAD  - Inst Tecnol Metropolitano ITM, Elect Engn & Telecommun Dept, Medellin 050034, ColombiaAD  - Univ Jorge Tadeo Lozano, Fac Ciencias Econ & Adm, Bogota 110311, ColombiaFU  - Instituto Tecnologico Metropolitano (ITM) of Medellin [P21101]; Facultad de Ciencias Economicas y Administrativas de la Universidad de Bogota Jorge Tadeo Lozano; Austrian Science Fund (FWF) [P21101] Funding Source: Austrian Science Fund (FWF)
+FX  - This work was partially supported by the Instituto Tecnologico Metropolitano (ITM) of Medellin, under project-P21101 Fortalecimiento y consolidacion del grupo Automatica, Electronicay Ciencias Computacionales para responder a las necesidades de las Industrias 4.0 and has been funded by the Facultad de Ciencias Economicas y Administrativas de la Universidad de Bogota Jorge Tadeo Lozano.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2227-9717
+J9  - PROCESSES
+JI  - Processes
+DA  - DEC
+PY  - 2021
+VL  - 9
+IS  - 12
+C7  - 2283
+DO  - 10.3390/pr9122283
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000745279700001
+N1  - Times Cited in Web of Science Core Collection:  8
+Total Times Cited:  8
+Cited Reference Count:  42
+ER  -
+
+TY  - JOUR
+AU  - Sunori, SK
+AU  - Juneja, PK
+AU  - Chaturvedi, M
+AU  - Bisht, S
+TI  - GA based Optimization of Control System Performance for Juice Clarifier of Sugar Mill
+T2  - ORIENTAL JOURNAL OF CHEMISTRY
+LA  - English
+KW  - Linear quadratic Gaussian
+KW  - pH neutralization
+KW  - setpoint tracking
+KW  - genetic algorithm
+KW  - INTERNAL-MODEL CONTROL
+AB  - In the present work, the pH neutralization system, which is a part of juice clarification process of sugar mill, is considered and control system is designed for it. Control systems based on ZN, IMC, LQG tuning are designed and their setpoint tracking performance is compared. The control system is further optimized to show an excellent performance using Genetic Algorithm (GA).
+AD  - Graph Era Hill Univ, Bhimtal Campus, Bhimtal, Uttarakhand, IndiaAD  - Graph Era Univ, Dehra Dun, Uttarakhand, IndiaC3  - Graphic Era UniversityPU  - ORIENTAL SCIENTIFIC PUBL CO
+PI  - BHOPAL
+PA  - PO BOX 35, GPO, BHOPAL, 462 001, INDIA
+SN  - 0970-020X
+SN  - 2231-5039
+J9  - ORIENT J CHEM
+JI  - Orient. J. Chem.
+PY  - 2016
+VL  - 32
+IS  - 4
+SP  - 2205
+EP  - 2208
+DO  - 10.13005/ojc/320451
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000386941400051
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  8
+ER  -
+
+TY  - JOUR
+AU  - Rajalakshmi, M
+AU  - Saravanan, 
+AU  - Arunprasad, 
+AU  - Romero, CAT
+AU  - Khalaf, O
+AU  - Karthik, C
+TI  - Machine Learning for Modeling and Control of Industrial Clarifier Process
+T2  - INTELLIGENT AUTOMATION AND SOFT COMPUTING
+LA  - English
+KW  - Sugar industry
+KW  - clarifier process
+KW  - pH neutralization
+KW  - system identification
+KW  - genetic algorithm
+KW  - particle swarm optimization
+KW  - state transition algorithm
+KW  - PREDICTIVE CONTROL
+AB  - In sugar production, model parameter estimation and controller tuning of the nonlinear clarification process are major concerns. Because the sugar industry's clarification process is difficult and nonlinear, obtaining the exact model using identification methods is critical. For regulating the clarification process and identifying the model parameters, this work presents a state transition algorithm (STA). First, the model parameters for the clarifier are estimated using the normal system identification process. The STA is then utilized to improve the accuracy of the system parameters that have been identified. Metaheuristic algorithms such as Genetic Algorithm (GA), Particle Swarm Optimization (PSO), and State Transition Algorithm are used to evaluate the most accurate model generated by the algorithms. By capturing the principal dynamic features of the process, the clarifier model produced from State Transition Algorithm (STA) acts more like the actual clarifier process. According to the findings, the controllers provided in this paper may be used to achieve greater performance than the standard controller design during the control of any nonlinear procedure, and STA is extremely helpful in modeling a nonlinear process.
+AD  - Jyothi Engn Coll, Dept Mechatron, Trichur 679531, IndiaAD  - Dambi Dollo Univ, Dept Comp Sci, Dambi Dollo 260, EthiopiaAD  - Theni Kammavar Sangam Coll Technol, Dept Mech Engn, Theni 625534, IndiaAD  - Univ Santiago Cali, COMBA ID Res Grp, Cali 760036, ColombiaAD  - Al Nahrain Univ, Al Nahrain Nano Renewable Energy Res Ctr, Baghdad 10001, IraqC3  - Al-Nahrain UniversityFU  - Direccion General de Investigaciones of Universidad Santiago de Cali [01-2021]
+FX  - This research has been funded by Direccion General de Investigaciones of Universidad Santiago de Cali under call No. 01-2021.
+PU  - TECH SCIENCE PRESS
+PI  - HENDERSON
+PA  - 871 CORONADO CENTER DR, SUTE 200, HENDERSON, NV 89052 USA
+SN  - 1079-8587
+SN  - 2326-005X
+J9  - INTELL AUTOM SOFT CO
+JI  - Intell. Autom. Soft Comput.
+PY  - 2022
+VL  - 32
+IS  - 1
+SP  - 339
+EP  - 359
+DO  - 10.32604/iasc.2022.021696
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000712033400008
+N1  - Times Cited in Web of Science Core Collection:  32
+Total Times Cited:  35
+Cited Reference Count:  20
+ER  -
+
+TY  - JOUR
+AU  - Boico, DG
+AU  - Hasan, SDM
+AU  - Pessini, JV
+AU  - Carvalho, JK
+AU  - Da Silva, EA
+AU  - Godinho, EZ
+AU  - Caneppele, FD
+TI  - Modeling of Enzymatic Hydrolysis of Sugarcane Bagasse for Fermentable Sugar Production Using Response Surface Methodology and Adaptive Neuro-fuzzy Inference System
+T2  - BIOENERGY RESEARCH
+LA  - English
+KW  - Lignocellulosic biomass
+KW  - Saccharification process
+KW  - Fuzzy logic
+KW  - ANFIS modeling
+KW  - ANFIS
+AB  - This work deals with the modeling of the enzymatic hydrolysis of pretreated sugarcane bagasse (SB) for fermentable sugars production, where the response surface methodology (RSM) and the adaptive neuro-fuzzy inference system (ANFIS) approach were evaluated. Fuzzy logic is one of the many techniques used by artificial intelligence, which seeks to create intelligent systems capable of solving complex problems and learning from available information. Enzymatic hydrolysis (pH 5.0) of pretreated SB was performed at laboratory (bottles) using commercial cellulase (Sigma, obtained from A. niger with activity of 1.47 U.mg- 1) in a shaker incubator with 120 rpm and 50 degrees C. Initially, the RSM was used for evaluating the effects of three variables of hydrolysis and subsequently, ANFIS was tested. The input variables considered in the models were hydrolysis time (t), enzyme concentration (E), and substrate concentration (S), while the yield of sugars (glucose) served as the response (output) variable. The RSM modeling showed a good fitting in this work (R2 = 0.9859). The ANFIS tool efficiently predicted the glucose yield (R2 = 0.9992). The optimal response, achieving a glucose yield of 25.0 g L- 1 occurred at process settings of t = 60 h, E = 3.3%, and S = 23.3 g L- 1. In conclusion, the ANFIS methodology represents an interesting alternative for modeling of complex chemical processes, especially in those cases where RSM falls short in achieving satisfactory results in terms of model fitting.
+AD  - Biolabore Tech Assistance Cooperat Parana, Toledo, PR, BrazilAD  - State Univ Western Parana Unioeste, Toledo, PR, BrazilAD  - State Univ Western Parana Unioeste, Chem Engn Dept, Toledo, PR, BrazilAD  - Sacred Heart Univ Ctr Unisagrado, Energy Agr, Bauru, SP, BrazilAD  - Sao Paulo Univ USP, Fac Zootech & Food Engn, Pirassununga, SP, BrazilC3  - Universidade Estadual do Oeste do ParanaC3  - Universidade Estadual do Oeste do ParanaFU  - Fundao Araucaria
+FX  - The authors thank to Fundac & atilde;o Araucaria for the financial contribution.
+PU  - SPRINGER
+PI  - NEW YORK
+PA  - ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN  - 1939-1234
+SN  - 1939-1242
+J9  - BIOENERG RES
+JI  - BioEnergy Res.
+DA  - NOV 6
+PY  - 2025
+VL  - 18
+IS  - 1
+C7  - 109
+DO  - 10.1007/s12155-025-10918-9
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001609111300001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  20
+ER  -
+
+TY  - JOUR
+AU  - Souza, PR
+AU  - Dotto, GL
+AU  - Salau, NPG
+TI  - Artificial neural network (ANN) and adaptive neuro-fuzzy interference system (ANFIS) modelling for nickel adsorption onto agro-wastes and commercial activated carbon
+T2  - JOURNAL OF ENVIRONMENTAL CHEMICAL ENGINEERING
+LA  - English
+KW  - Nickel
+KW  - Agro-wastes
+KW  - Adsorption
+KW  - Artificial neural network
+KW  - Adaptive neuro-fuzzy interference system
+KW  - RESPONSE-SURFACE METHODOLOGY
+KW  - AQUEOUS-SOLUTION
+KW  - HEAVY-METALS
+KW  - DYNAMIC ADSORPTION
+KW  - SUGARCANE BAGASSE
+KW  - ORANGE PEEL
+KW  - REMOVAL
+KW  - OPTIMIZATION
+KW  - SHELL
+KW  - ADSORBENTS
+AB  - Artificial neural network (ANN) and adaptive neuro-fuzzy interference system (ANFIS) were applied to model and analyze the adsorption of four different agro-wastes, namely sugarcane bagasse, passion fruit waste, orange peel and pineapple peel, and commercial activated carbon, for Ni2+ removal from aqueous solutions. The capacity of adsorption ranged from 14.75 to 63.50 mg g(-1), and the results of the adsorption experiments revealed that sugarcane bagasse and orange peel presented the best adsorption performance for Ni2+ removal from aqueous solutions, even better than those of commercial activated carbon. The study also revealed that the adsorption capacity is affected by pH(z)(p)(c) and surface area. ANN and ANFIS were compared with the experimental data to determine the relationship of four input parameters on Ni2+ adsorption capacities: initial adsorbent concentration, adsorption time, pH(zp)(c) and surface area. The developed ANN and ANFIS could accurately predict the experimental data with correlation coefficient of 0.9926 and 0.9943, respectively. The Pearson's Chi-square measure was found to be 0.9508 for ANN and 0.5959 for ANFIS, indicating a small advantage of ANFIS over ANN.
+AD  - Univ Fed Santa Maria, Chem Engn Dept, 1000 Roraima Ave,Cidade Univ, BR-97105900 Santa Maria, RS, BrazilC3  - Universidade Federal de Santa Maria (UFSM)FU  - Coordination for the Improvement of Higher Education Personnel (CAPES)
+FX  - The authors are grateful to Coordination for the Improvement of Higher Education Personnel (CAPES) for granting the scholarship to the first author.
+PU  - ELSEVIER SCI LTD
+PI  - OXFORD
+PA  - THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN  - 2213-3437
+J9  - J ENVIRON CHEM ENG
+JI  - J. Environ. Chem. Eng.
+DA  - DEC
+PY  - 2018
+VL  - 6
+IS  - 6
+SP  - 7152
+EP  - 7160
+DO  - 10.1016/j.jece.2018.11.013
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000452071800042
+N1  - Times Cited in Web of Science Core Collection:  92
+Total Times Cited:  101
+Cited Reference Count:  47
+ER  -
+
+TY  - JOUR
+AU  - Nikolic, V
+AU  - Milovancevic, M
+AU  - Dimitrov, L
+AU  - Tomov, P
+AU  - Dimov, A
+AU  - Spasov, KB
+TI  - Saturation magnetization parameters by adaptive neuro-fuzzy technique
+T2  - PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS
+LA  - English
+KW  - Variable selection
+KW  - Nanomagnetite
+KW  - Saturation magnetization
+KW  - VSM
+KW  - ANFIS
+KW  - MAGNETITE NANOPARTICLES
+KW  - VARIABLE SELECTION
+KW  - COPRECIPITATION METHOD
+KW  - INFERENCE SYSTEM
+KW  - CONTRAST AGENTS
+KW  - CONTROLLER
+KW  - SEPARATION
+KW  - MONODISPERSE
+KW  - SURFACE
+KW  - DESIGN
+AB  - The method of ANFIS (adaptive neuro fuzzy inference system) was applied to the data resulting from these measurements. The ANFIS process for variable selection was implemented in order to detect the predominant variables affecting the saturation magnetization prediction. This process includes several ways to discover a subset of the total set of recorded parameters, showing good predictive capability. The correlation of the involved parameters with the growth process was examined by employing the central composite design method through designating set up experiments that will determine the interaction of the variables. The vibrating sample magnetometer (VSM) was used to confirm the statistical analysis. The ANFIS network was used to perform a variable search. Then, it was used to determine how 4 parameters (pH, Temperature (degrees C), Time (min), Alkali rate of addition (mL.s(-1))) influence saturation magnetization prediction. The results indicated that pH is the most influential to sugarcane growth prediction, and the best predictor of accuracy. The response obtained by VSM suggests that the saturation magnetization of nanomagnetite particles can be controlled by restricting the effective parameters. (C) 2019 Elsevier B.V. All rights reserved.
+AD  - Univ Nis, Fac Mech Engn, Aleksandra Medvedeva 14, Nish 18000, SerbiaAD  - Tech Univ Sofia, Sofia, BulgariaAD  - St Kliment Ohridski Univ Sofia, Fac Math & Informat, Sofia, BulgariaC3  - University of NisC3  - Technical University SofiaC3  - University of SofiaPU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 0378-4371
+SN  - 1873-2119
+J9  - PHYSICA A
+JI  - Physica A
+DA  - AUG 1
+PY  - 2019
+VL  - 527
+C7  - 121170
+DO  - 10.1016/j.physa.2019.121170
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000480625700124
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  54
+ER  -
+
+TY  - JOUR
+AU  - Murugesan, R
+AU  - Solaimalai, J
+AU  - Chandran, K
+TI  - Computer-Aided Controller Design for a Nonlinear Process Using a Lagrangian-Based State Transition Algorithm
+T2  - CIRCUITS SYSTEMS AND SIGNAL PROCESSING
+LA  - English
+KW  - pH neutralization
+KW  - Lagrangian-based state transition algorithm
+KW  - Nonlinear system identification
+KW  - Controller tuning
+KW  - Clarifier process
+KW  - Sugar industry
+KW  - SYSTEM IDENTIFICATION
+KW  - PARTICLE SWARM
+KW  - CLASSIFICATION
+KW  - CONVERGENCE
+AB  - Model parameter estimation and controller tuning of the nonlinear clarification process are primary issues in the sugar industry. This paper proposes a Lagrangian-based state transition algorithm (LSTA) for controlling the clarification process and identifying the model parameters. First, the standard system identification procedure is used to estimate the model parameters for the clarifier. Then, the LSTA is used to enhance the accuracy of the identified system parameters. Once a suitable model is obtained, the proposed LSTA is used to fine-tune the optimal controller parameters off-line. We choose two types of evolutionary algorithms for comparison to show the efficacy of the proposed design. The results of the simulations indicate that the proposed controller achieves optimum transient and tracking performance in all cases. For fast convergence and the ability to provide the global optimum when estimating the modeling and controller parameters, the LSTA performance was found to be superior to that of the other algorithms.
+AD  - Dept Elect & Instrumentat, Kamaraj Coll Engn & Technol, Virudunagar, IndiaAD  - Shanghai Jiao Tong Univ, Dept Automat, Shanghai, Peoples R ChinaC3  - Kamaraj College of Engineering & TechnologyC3  - Shanghai Jiao Tong UniversityPU  - SPRINGER BIRKHAUSER
+PI  - NEW YORK
+PA  - 233 SPRING STREET, 6TH FLOOR, NEW YORK, NY 10013 USA
+SN  - 0278-081X
+SN  - 1531-5878
+J9  - CIRC SYST SIGNAL PR
+JI  - Circuits Syst. Signal Process.
+DA  - FEB
+PY  - 2020
+VL  - 39
+IS  - 2
+SP  - 977
+EP  - 996
+DO  - 10.1007/s00034-019-01139-5
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000517842100024
+N1  - Times Cited in Web of Science Core Collection:  8
+Total Times Cited:  9
+Cited Reference Count:  33
+ER  -
+
+TY  - JOUR
+AU  - Demirel, B
+AU  - Ergun, S
+AU  - Neumann, L
+AU  - Scherer, P
+TI  - Performance and behaviour of the microbial community of an anaerobic biogas digester using sugar beet silage as mono-substrate
+T2  - BIOSYSTEMS ENGINEERING
+LA  - English
+KW  - METHANE
+KW  - CONVERSION
+KW  - BIOMASS
+KW  - REACTOR
+KW  - MANURE
+AB  - The performance and the behaviour of the microbial community of an anaerobic mesophilic biogas digester fed with the sugar beet silage (SBS) were investigated in this laboratory-scale work. The biogas digester was operated using a fuzzy logic control (FLC) technique, which was developed at the Hamburg University of Applied Sciences. The SBS, which had extremely low pH of 3.3-3.4, was used as mono-input, without addition of manure. The main objective of this study was to achieve and maintain a stable and safe anaerobic conversion process, along with satisfactory process efficiency. With use of FLC, the biogas digester could be operated with hydraulic retention times (HRTs) in the range 8-25 days, and up to an organic loading rate (01,R) of 7.41 g volatile solids [VS] l(-1) d(-1). The average levels of the specific gas production (GP) rate (SGPR) and the volumetric GP rate (VGPR) were 0.55lg[VS](-1)d(-1) and 3ll(-1)d(-1), respectively, with 66% of methane (CH4) content in digester biogas. Despite the SBS having an extremely low pH, low amounts of nutrients and buffering capacity, instability problems were not encountered during the experimental period of 156 days, as indicated by the neutral range of the digester pH and the high OLR applied. A daily addition of 1 M KHCO3 to the digester also provided adequate buffering capacity. The application of the FLC also exhibited a positive effect on the methanogenic population. After starting the FLC, the methanogenic population doubled from 4.80 x 10(8) to 1.19 x 10(9) cells ml(-1) at the end of the investigation period, whereas the number of the total bacteria remained constant around 2.27-2.30 x 10(10) cells ml(-1). The FLC application appeared to have a positive effect on the number of the fluorescent methanogens. However, no significant effect on the morphology was found. (C) 2009 IAgrE. Published by Elsevier Ltd. All rights reserved.
+AD  - Bogazici Univ, Inst Environm Sci, TR-34342 Istanbul, TurkeyAD  - Hamburg Univ Appl Sci HAW Hamburg, Appl Microbiol Lab, D-21033 Hamburg, GermanyC3  - Bogazici UniversityFU  - Nils Scharfenberg; Christian Rosner; Niklas Krakat; Olaf Schmidt; Monika Unbehauen
+FX  - The authors would like to express their gratitude to Nils Scharfenberg, Christian Rosner, Niklas Krakat, Olaf Schmidt and Monika Unbehauen for their help and support during this study.
+PU  - ACADEMIC PRESS INC ELSEVIER SCIENCE
+PI  - SAN DIEGO
+PA  - 525 B ST, STE 1900, SAN DIEGO, CA 92101-4495 USA
+SN  - 1537-5110
+SN  - 1537-5129
+J9  - BIOSYST ENG
+JI  - Biosyst. Eng.
+DA  - APR
+PY  - 2009
+VL  - 102
+IS  - 4
+SP  - 444
+EP  - 452
+DO  - 10.1016/j.biosystemseng.2009.01.008
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000265569600009
+N1  - Times Cited in Web of Science Core Collection:  6
+Total Times Cited:  7
+Cited Reference Count:  35
+ER  -
+
+TY  - JOUR
+AU  - Raut, SS
+AU  - Sharma, A
+AU  - Keshariya, A
+AU  - Agarwal, V
+AU  - Kumar, R
+AU  - Mishra, A
+TI  - Artificial intelligence-driven optimization of biohydrogen production: ANN-GA, RSM, and python synergy for novel Alcaligenes ammonioxydans utilizing sugarcane bagasse
+T2  - FUEL
+LA  - English
+KW  - Biohydrogen production
+KW  - Sugarcane bagasse
+KW  - Pretreatment
+KW  - Response surface methodology (RSM)
+KW  - Artificial neural network (ANN)
+KW  - Genetic algorithm (GA)
+KW  - Alcaligenes ammonioxydans
+KW  - ACID PRETREATMENT
+KW  - BACTERIA
+AB  - Biohydrogen (bioH2) production through dark fermentation presents a promising and sustainable alternative fossil fuels, especially when utilizing lignocellulosic agricultural residues. In this study, sugarcane bagasse (SB) was selected as the feedstock due to its high carbohydrate content, abundant availability, and low cost, making an ideal substrate for microbial bioH2 production. A newly isolated and efficient bioH2-producing bacterium, Alcaligenes ammonioxydans SRAM was employed to ferment the pretreated bagasse under anaerobic conditions. To optimize bioH2 yield, four critical process parameters substrate concentration, inoculum ratio, acid pretreatment concentration, and pH were systematically investigated using a Central Composite Design (CCD). Two advanced modelling approaches, Response Surface Methodology (RSM) and Artificial Neural Networks (ANN), were used to develop predictive frameworks based on the experimental data. ANN models were developed MATLAB and Python, demonstrating superior performance over RSM by accurately capturing complex nonlinear interactions with significantly lower prediction errors. To enhance the optimization process, the ANN model was further integrated with a Genetic Algorithm (GA), resulting in a hybrid ANN-GA model implemented in Python. This hybrid approach effectively determined the optimal conditions for maximum bioH2 production, achieving a minimal prediction error of 0.02. The optimized parameter set included a substrate concentration of 48.98 g/L, an inoculum ratio of 8.21 % v/v, an acid concentration of 3.56 % v/v, and a pH of 7.02. This study clearly highlights the potential of A. ammonioxydans SRAM for high-efficiency bioH2 production and presents a robust ANN-GA-based optimization framework for enhancing bioH2 yields from SB, advancing the transition to renewable energy sources.
+AD  - Indian Inst Technol Banaras Hindu Univ IIT BHU, Sch Biochem Engn, Biomol Engn Lab, Varanasi 221005, IndiaAD  - Inst Med Sci Banaras Hindu Univ IMS BHU, Dept Pharmacol, Varanasi 221005, IndiaAD  - Indian Inst Technol Banaras Hindu Univ IIT BHU, Dept Chem Engn & Technol, Varanasi 221005, IndiaC3  - Indian Institute of Technology System (IIT System)C3  - Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi)C3  - Indian Institute of Technology System (IIT System)C3  - Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi)FU  - MHRD
+FX  - The authors gratefully acknowledge financial support provided by MHRD.
+PU  - ELSEVIER SCI LTD
+PI  - London
+PA  - 125 London Wall, London, ENGLAND
+SN  - 0016-2361
+SN  - 1873-7153
+J9  - FUEL
+JI  - Fuel
+DA  - NOV 1
+PY  - 2025
+VL  - 399
+C7  - 135647
+DO  - 10.1016/j.fuel.2025.135647
+C6  - MAY 2025
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001496052500004
+N1  - Times Cited in Web of Science Core Collection:  13
+Total Times Cited:  13
+Cited Reference Count:  39
+ER  -
+
+TY  - JOUR
+AU  - Nunes, ND
+AU  - Carneiro, LL
+AU  - de Menezes, LHS
+AU  - de Carvalho, MS
+AU  - Pimentel, AB
+AU  - Silva, TP
+AU  - Pacheco, CSV
+AU  - Tavares, IMD
+AU  - Santos, PH
+AU  - das Chagas, TP
+AU  - da Silva, EGP
+AU  - de Oliveira, JR
+AU  - Bilal, M
+AU  - Franco, M
+TI  - Simplex-Centroid Design and Artificial Neural Network-Genetic Algorithm for the Optimization of Exoglucanase Production by Penicillium Roqueforti ATCC 10110 Through Solid-State Fermentation Using a Blend of Agroindustrial Wastes
+T2  - BIOENERGY RESEARCH
+LA  - English
+KW  - Statistical tools
+KW  - Otimizacao
+KW  - Green coconut shell
+KW  - Corn cob
+KW  - Sugarcane bagasse
+KW  - L-ASPARAGINASE PRODUCTION
+KW  - ASPERGILLUS-NIGER
+KW  - ENZYME-PRODUCTION
+KW  - ENDOGLUCANASE
+KW  - PURIFICATION
+KW  - CELLULOSE
+KW  - SACCHARIFICATION
+KW  - CELLULASES
+KW  - SUBSTRATE
+KW  - SORGHUM
+AB  - Simplex-centroid design along with artificial neural network coupled with genetic algorithm (ANN-GA) was applied to maximize exoglucanase production byPenicillium roquefortiATCC 10110 under solid-state fermentation (SSF), using a blend of agroindustrial wastes as substrate. The first statistical treatment determined the ideal contents of green coconut shell, corn cob, and sugarcane bagasse in the substrate, which were 0.44, 2.06, and 2.50 g, respectively. The optimum conditions by the ANN-GA were obtained as follows: 24 h, 21 degrees C, and 8.1 and 81.0% for the time, temperature, pH, and moisture, respectively. Moreover, the predicted and the experimental values of exoglucanase activity were 267.94 and 268.58 IU/g, respectively. The optimization process increased the enzyme activity by up to 1263% compared with the preliminary analysis using individual substrates, demonstrating the high efficiency of the algorithms on predicting and optimizing enzyme production. Biochemical characterization demonstrated good thermostability, basic pH stability, halotolerance, and increased enzyme activity in the presence of metal ions (Co2+, Ca2+, Mg2+, and Fe-2), solvents (ethanol and dichloromethane), and organic compounds (EDTA, Triton-X, and lactose,). These results indicate the algorithm efficiency for enzyme production purposes.
+AD  - State Univ Santa Cruz UESC, Dept Exact Sci & Technol, Ilheus, BA, BrazilAD  - Fed Univ Bahia UFBA, Dept Analyt Chem, Salvador, BA, BrazilAD  - State Univ Southweast Bahia UESB, Dept Exact Sci & Technol, Itapetinga, BrazilAD  - Fed Univ Santa Catarina UFSC, Dept Chem & Food Engn, Florianopolis, SC, BrazilAD  - Huaiyin Inst Technol, Sch Life Sci & Food Engn, Huaian, Peoples R ChinaC3  - Universidade Estadual de Santa CruzC3  - Universidade Federal da BahiaC3  - Universidade Federal de Santa Catarina (UFSC)C3  - Huaian UniversityFU  - Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior (CAPES); National Council for Scientific and Technological Development (Bolsas de Produtividade em Pesquisa, CNPq, Brazil) [302259/2018-0]; Fundacao de Amparo a Pesquisa do Estado da Bahia (FAPESB, Brazil)
+FX  - This study received financial support from the Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior (CAPES), the National Council for Scientific and Technological Development (Bolsas de Produtividade em Pesquisa 302259/2018-0, CNPq, Brazil), and the Fundacao de Amparo a Pesquisa do Estado da Bahia (FAPESB, Brazil).
+PU  - SPRINGER
+PI  - NEW YORK
+PA  - ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN  - 1939-1234
+SN  - 1939-1242
+J9  - BIOENERG RES
+JI  - BioEnergy Res.
+DA  - DEC
+PY  - 2020
+VL  - 13
+IS  - 4
+SP  - 1130
+EP  - 1143
+DO  - 10.1007/s12155-020-10157-0
+C6  - JUN 2020
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000543187100001
+N1  - Times Cited in Web of Science Core Collection:  43
+Total Times Cited:  44
+Cited Reference Count:  58
+ER  -
+
+TY  - JOUR
+AU  - Jovic, J
+AU  - Hao, J
+AU  - Mojovic, L
+TI  - Examination and optimization of lignocellulolytic activity of Stereum gausapatum F28 on beechwood sawdust supplemented with molasses stillage
+T2  - JOURNAL OF THE SERBIAN CHEMICAL SOCIETY
+LA  - English
+KW  - response surface method
+KW  - genetic algorithm
+KW  - fungi
+KW  - biomass
+KW  - enzymes
+KW  - WHITE-ROT
+KW  - FUNGI
+AB  - This study provides a detailed analysis of the lignocellulolytic activity of a new isolate Stereum gausapatum F28, a Serbian autochthonous fungi, on beechwood sawdust supplemented with cheap waste, sugar beet molasses still age. Advanced multiple response optimization techniques were applied to improve ligninolytic and reduce hydrolytic activity as a requirement for potential biorefinery use. The applied techniques were supposed to select cultivation conditions that would give manganese peroxidase and laccase activities above 0.84 and 0.12 U g(-1) substrate, respectively, and cellulase and xylanase activities below 1.12 and 1.4 U g(-1) substrate. The optimal cultivation conditions that met the set requirements included molasses stillage concentration of 10 %, substrate moisture content of 53 %, incubation temperature of 23.5 degrees C, and pH 5.2. The research showed that the addition of molasses stillage had a positive effect on enzyme production and that the optimal stillage concentration differed depending on the enzyme type (for laccase it was <5 %, manganese peroxidase approximate to 12 %, cellulase approximate to 21 % and xylanase approximate to 16 %), which should be taken into consideration when optimizing the desired process..
+AD  - Univ Belgrade, Fac Technol & Met, Dept Biochem Engn & Biotechnol, Karnegijeva 4, Belgrade 11000, SerbiaAD  - Chinese Acad Sci, Shanghai Adv Res Inst, Lab Biorefinery, Shanghai 201210, Peoples R ChinaC3  - University of BelgradeC3  - Chinese Academy of SciencesC3  - Shanghai Advanced Research Institute, CASPU  - SERBIAN CHEMICAL SOC
+PI  - BELGRADE
+PA  - KARNEGIJEVA 4, 11 120 BELGRADE, SERBIA
+SN  - 0352-5139
+J9  - J SERB CHEM SOC
+JI  - J. Serb. Chem. Soc.
+PY  - 2022
+VL  - 87
+IS  - 4
+SP  - 437
+EP  - 450
+DO  - 10.2298/JSC200601075J
+C6  - NOV 2021
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000720102300001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  0
+ER  -
+
+TY  - JOUR
+AU  - Soleimanzadeh, H
+AU  - Bektashi, FM
+AU  - Ahari, SZ
+AU  - Salari, D
+AU  - Olad, A
+AU  - Ostadrahimi, A
+TI  - Optimization of cellulose extraction process from sugar beet pulp and preparation of its nanofibers with choline chloride-lactic acid deep eutectic solvents
+T2  - BIOMASS CONVERSION AND BIOREFINERY
+LA  - English
+KW  - Cellulose extraction
+KW  - Optimization
+KW  - Artificial neural network
+KW  - Genetic algorithm optimization
+KW  - Cellulose nanofibers
+KW  - Deep eutectic solvent (DESs)
+KW  - ARTIFICIAL NEURAL-NETWORK
+KW  - ULTRASOUND-ASSISTED EXTRACTION
+KW  - CATALYTIC-REDUCTION
+KW  - WHEAT-STRAW
+KW  - NANOCRYSTALS
+KW  - HEMICELLULOSE
+KW  - NANOCATALYSTS
+KW  - PECTIN
+KW  - HYDROLYSIS
+KW  - BAGASSE
+AB  - In this novel bench-top experimental and statistical investigation, the effects of influencing parameters on cellulose extraction have been studied and optimized. Chemically isolated cellulose was used at the optimum condition for the purpose of cellulose nanofiber preparation by deep eutectic solvent (DES) application. For this purpose, the Taguchi method was applied for experimental design. Six parameters which have more signal-to-noise ratio were selected as influencing parameters. These parameters consist of solvent ratio for dewaxing, depectinization pH and time, delignification pH and time, and pH of hemicellulose removal. The effect of these parameters on the cellulose extraction was modeled and optimized by the application of artificial neural network (ANN), coupled with genetic algorithm (GA). The ANN model, by establishing of feedforward backpropagation network with topologies 6, 13, and 1, was applied to model the relation between the extraction condition and cellulose extraction. The results confirmed that the best neural network structure has the ability of cellulose extraction yield prediction with an acceptable level of accuracy. The optimization results show the maximum cellulose extraction would be achieved at the following conditions: pectin extraction time of 1.62 h, delignification time of 2.19 h, the solvent ratio for dewaxing of 0.89 (V/V%), depectinization pH of 2.06, delignification pH of 5.48, and hemicellulose removal pH of 11.36. Under these conditions, the experimental extraction condition yield was 91.7% for cellulose extraction, which matched with the predictive extraction yield of 92.3%. Chemically extracted cellulose at the above condition was applied to prepare cellulose nanofibers. For this purpose, choline chloride-lactic acid-based DES pretreatment was used. The structure of the extracted cellulose and prepared cellulose nanofibers by the application of FTIR, XRD, Fe-SEM, and TEM methods was characterized. The XRD diffractograms alongside with FTIR analyses show that in the extraction process by impurity elimination, the crystallinity index increases. Also, as the characterization results show, by the DES application, glyosidic bonds were cleaved, enhancing the crystallinity and nanofibrilization.
+AD  - Univ Tabriz, Fac Chem, Dept Appl Chem, Tabriz, IranAD  - Tabriz Univ Med Sci, Fac Nutr & Food Sci, Nutr Res Ctr, Tabriz, IranC3  - University of TabrizC3  - Tabriz University of Medical SciencePU  - SPRINGER HEIDELBERG
+PI  - HEIDELBERG
+PA  - TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN  - 2190-6815
+SN  - 2190-6823
+J9  - BIOMASS CONVERS BIOR
+JI  - Biomass Convers. Biorefinery
+DA  - NOV
+PY  - 2023
+VL  - 13
+IS  - 16
+SP  - 14457
+EP  - 14469
+DO  - 10.1007/s13399-022-02885-4
+C6  - JUL 2022
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000826863300002
+N1  - Times Cited in Web of Science Core Collection:  24
+Total Times Cited:  26
+Cited Reference Count:  46
+ER  -
+
+TY  - JOUR
+AU  - Mayilswamy, N
+AU  - Kandasubramanian, B
+AU  - Shirin, KKS
+AU  - Shaju, A
+TI  - Experimental and artificial neural network modelling of Rhodamine B decolorization at low concentrations using pine needle and sugarcane bagasse biochars
+T2  - JOURNAL OF THE INDIAN CHEMICAL SOCIETY
+LA  - English
+KW  - Biochar
+KW  - Rhodamine B
+KW  - Genetic algorithm
+KW  - Levenberg marquardt backpropagation algorithm
+KW  - Adsorption thermodynamics
+KW  - Regeneration studies
+KW  - METHYLENE-BLUE
+KW  - DYE REMOVAL
+KW  - ADSORPTION-KINETICS
+KW  - AQUEOUS-SOLUTIONS
+KW  - CATIONIC DYE
+KW  - WASTE-WATER
+KW  - BASIC DYE
+KW  - PYROLYSIS
+KW  - EQUILIBRIUM
+KW  - GRAPHENE
+AB  - The present experimental research investigation accentuates the thermochemical conversion of pine needle, and sugarcane bagasse biomass feedstocks into biochars via facile pyrolysis for the remediation of Rhodamine B (RhB) dye contaminated effluent at lower concentrations accompanied by Artificial Neural Network (ANN) Modelling. The physicochemical properties of the as-synthesized biochars were analyzed using advanced characterization techniques. At adsorbate concentrations of 1 mg L-1, pine needle biochar (PNB) demonstrated a higher maximum adsorption capacity (qm) of 0.8370 mg/g in contrast to sugarcane bagasse biochar (SBB-qm: 0.5657 mg/g), indicating enhanced adsorptive site availability and surface functionality. RhB decolorization phenomenon using both the biomass-derived biochars could be best explicated by the Pseudo second-order kinetics, and Langmuir isotherm model, signifying chemisorption, and mono-layered adsorption respectively. The dye adsorption process modelled using the Levenberg Marquardt backpropagation Algorithm optimized via Genetic Algorithm demonstrated a strong correlation with the experimentally obtained RhB adsorption capacity values. Higher coefficient of determination (R2-PNB: 0.987, SBB: 0.9953), and correlation coefficient (R-PNB: 0.9764, SBB: 0.9899) values, along with lower mean square error (MSE-PNB: 0.0050, SBB: 0.0017) values were obtained towards RhB uptake using the biochar adsorbents, signifying favorable predictiveness towards multi-factor adsorption. The optimal parameters for RhB uptake using both the biomass-derived biochars were ascertained to be: temperature (298.15 K), biochar dose (0.02 g), contact time (360 min), pH (2), preliminary RhB concentration (1 mg L-1).
+AD  - Def Inst Adv Technol DU, Dept Met & Mat Engn, Pune 411025, Maharashtra, IndiaAD  - Cent Inst Petrochem Engn & Technol IPT, Polymer Sci, Kochi 683501, Kerala, IndiaAD  - Mahatma Gandhi Univ, Nanosci & Nanotechnol Dept, Kottayam 686560, Kerala, IndiaC3  - Defence Research & Development Organisation (DRDO)C3  - Defence Institute of Advanced Technology (DIAT)C3  - Mahatma Gandhi University, KeralaPU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 0019-4522
+J9  - J INDIAN CHEM SOC
+JI  - J. Indian Chem. Soc.
+DA  - AUG
+PY  - 2025
+VL  - 102
+IS  - 8
+C7  - 101814
+DO  - 10.1016/j.jics.2025.101814
+C6  - JUN 2025
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001508536400001
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  106
+ER  -
+
+TY  - JOUR
+AU  - de Jesus, RA
+AU  - Nascimento, VRS
+AU  - Costa, JAS
+AU  - Rahdar, A
+AU  - Bharagava, RN
+AU  - Ferreira, LFR
+TI  - Empirical modeling, experimental optimization, and artificial intelligence (ANN-GA) as a tool for the efficient dye remediation by the biosilica extracted from sugarcane bagasse ash
+T2  - BIOMASS CONVERSION AND BIOREFINERY
+LA  - English
+KW  - Adsorption
+KW  - Artificial intelligence
+KW  - Biosilica
+KW  - Methylene blue
+KW  - Sugarcane ash
+KW  - ADSORPTION
+KW  - REMOVAL
+KW  - WASTE
+AB  - In the present approach, we investigate the sustainable extraction of biosilica from sugarcane bagasse ash and its subsequent utilization as bioadsorbent in the remediation of methylene blue (MB) dye in aqueous solutions, as well as using artificial neural network (ANN) as an auxiliary tool and the experimental data were compared with the theoretical models of kinetics and equilibrium of adsorption. The biosilica extraction was carried out using sodium hydroxide as an extractor, so the biosilica was completely characterized by different characterization techniques, such as Fourier transform infrared spectroscopy (FTIR), nitrogen adsorption/desorption isotherms, diffuse reflectance spectroscopy (DRS), thermogravimetric analysis (TG), and scanning electron microscopy-energy dispersive X-ray spectroscopy (SEM-EDS). The physical-chemical characterization revealed that the extracted biosilica presents good thermal stability, porosity, and absorption bands analogous to silica gel. The effects of the initial MB concentration, pH, adsorbent dosage, and time were evaluated in the MB adsorption. Biosilica showed a maximum MB adsorption capacity of 9.95 mg g(-1) (MB concentration=50 mg L-1, biosilica mass=100 mg, pH 12, and time=10 min). The experimental data were suitable with the Freundlich isotherm and pseudo-second-order models, suggesting that the adsorptive process of the MB dye by the biosilica is favorable. Response surface methodology (RSM) and artificial neural networks hybridizing with genetic algorithm (ANN-GA) showed an excellent fit to the behavior of the experimental data. Both models obtained a correlation coefficient (R-2) above 0.99, proving that they can potentially be used in the simulation and optimization of the adsorption process of MB dye by the extracted biosilica.
+AD  - Univ Tiradentes, Grad Program Proc Engn, Av Murilo Dantas 300, BR-49032490 Aracaju, SE, BrazilAD  - Fed Univ Sergipe UFS, Dept Chem, BR-49100000 Sao Cristovao, SE, BrazilAD  - Univ Zabol, Dept Phys, Zabol 9861335856, IranAD  - Babasaheb Bhimrao Ambedkar Univ, Dept Environm Microbiol, Lab Bioremediat & Metagen Res LBMR, Raebareli Rd, Lucknow 226025, Uttar Pradesh, IndiaAD  - Inst Technol & Res ITP, Waste & Effluent Treatment Lab, BR-49032490 Aracaju, SE, BrazilC3  - Universidade TiradentesC3  - Babasaheb Bhimrao Ambedkar UniversityPU  - SPRINGER HEIDELBERG
+PI  - HEIDELBERG
+PA  - TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN  - 2190-6815
+SN  - 2190-6823
+J9  - BIOMASS CONVERS BIOR
+JI  - Biomass Convers. Biorefinery
+DA  - DEC
+PY  - 2024
+VL  - 14
+IS  - 24
+SP  - 31475
+EP  - 31489
+DO  - 10.1007/s13399-023-04825-2
+C6  - SEP 2023
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001163769700004
+N1  - Times Cited in Web of Science Core Collection:  7
+Total Times Cited:  8
+Cited Reference Count:  55
+ER  -
+
+TY  - JOUR
+AU  - Bag, BB
+AU  - Panigrahi, C
+AU  - Gupta, S
+AU  - Mishra, HN
+TI  - Efficacy of plant-based natural preservatives in extending shelf life of sugarcane juice: Formulation optimization by MOGA and correlation study by principal component analysis
+T2  - APPLIED FOOD RESEARCH
+LA  - English
+KW  - Sugarcane juice
+KW  - Natural preservatives
+KW  - Concentration optimization
+KW  - MOGA
+KW  - PCA
+KW  - ESSENTIAL OILS
+KW  - MULTIOBJECTIVE OPTIMIZATION
+KW  - ESCHERICHIA-COLI
+KW  - ANTIBACTERIAL PROPERTIES
+KW  - SALMONELLA-ENTERITIDIS
+KW  - LISTERIA-MONOCYTOGENES
+KW  - ANTIOXIDANT ACTIVITY
+KW  - POLYPHENOL OXIDASE
+KW  - PHENOLIC CONTENT
+KW  - BACILLUS-CEREUS
+AB  - Sugarcane juice spoils quickly as a result of microbial contamination and enzymatic reactions. To maintain its quality during storage, synthetic preservatives are generally employed. However, their use has been linked to potential health hazards. In this regard, some plant based natural preservatives can be utilized as safe alternatives. Lemon juice (LJ), basil leaf extract (BE), mint leaf extract (ME), and lemongrass essential oil (LGEO) were used in this study. LJ, BE and ME were varied from 2 to 8% (v/v) and LGEO was ranged between 1 and 3% (v/v). The concentrations of these natural preservatives were optimized by multi-objective genetic algorithm (MOGA) based on contrasting goals of maximizing soluble solids, phenolic content (PhC) and sensory acceptability score while minimizing pH, polyphenoloxidase (PPO) activity and bacterial count. The LGEO followed by LJ inhibited the microorganisms and oxidative enzymes at an appreciable level and ME was the least effective among all. At the same time, LJ offered more preferable sensory scores than others. The optimized concentration suggested by MOGA was 6.84% LJ and 1.05% LGEO which resulted in 10.3% rise in PhC, 49.3% PPO inactivation, 2 log cycle bacterial reduction and 3.5% sensory improvement in the raw juice. The changes in quality parameters during storage and correlations among them were effectively illustrated by principal component analysis. It was revealed from microbial safety analysis that sugarcane juice with storage stability of 26 days at 4 oC could be prepared by addition of natural preservatives.
+AD  - IIT Kharagpur, Agr & Food Engn Dept, Kharagpur 721302, W Bengal, IndiaC3  - Indian Institute of Technology System (IIT System)C3  - Indian Institute of Technology (IIT) - KharagpurFU  - Ministry of Food Processing Industries [IIT/SRIC/R/TSJ/2019]
+FX  - Acknowledgments This work is financially supported by the Ministry of Food Processing Industries, Govt. of India, with the code IIT/SRIC/R/TSJ/2019, dated 28-03-2019.
+PU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 2772-5022
+J9  - APPL FOOD RES
+JI  - Appl. Food Res.
+DA  - DEC
+PY  - 2022
+VL  - 2
+IS  - 2
+C7  - 100164
+DO  - 10.1016/j.afres.2022.100164
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001164831900014
+N1  - Times Cited in Web of Science Core Collection:  14
+Total Times Cited:  16
+Cited Reference Count:  54
+ER  -
+
+TY  - JOUR
+AU  - Meshram, M
+AU  - Kulkarni, A
+AU  - Jayaraman, VK
+AU  - Kulkarni, BD
+AU  - Lele, SS
+TI  - Optimal xylanase production using Penicilium janthinellum NCIM 1169:: A model based approach
+T2  - BIOCHEMICAL ENGINEERING JOURNAL
+LA  - English
+KW  - xylanase
+KW  - fermentation
+KW  - enzyme activity
+KW  - artificial intelligence
+KW  - modeling
+KW  - optimization
+KW  - HYPERXYLANOLYTIC MUTANT
+KW  - WILD STRAIN
+KW  - CELLULASE
+KW  - OPTIMIZATION
+KW  - ALGORITHMS
+KW  - GROWTH
+AB  - Xylanases are an industrially important class of hydrolytic enzymes that degrade xylans. Production of xylanase from a fungal culture by submerged fermentation and optimization of the operating conditions for maximum activity are the two aims of the present study. Penicillium janthinellum NCIM 1169 with Mandels-Weber medium, sugarcane bagassse (40#) as a carbon source and beef extract as a nitrogen source were used in the experiments. We did 41 experiments to see the effect of variations in carbon, nitrogen source, pH, and inoculum on xylanase activity. This data was then used to build an input/output model using multiple linear regression, back propagation neural network and lazy learning algorithm. It was found that lazy learning model correlated well in mapping input/output data. This model was then utilized as an objective function in genetic algorithm to find the optimal combination of the operating conditions to get the maximum xylanase activity. It was observed that with carbon source, 1.63%, nitrogen source, 0.16%, pH, 4.1, and inoculum, 5.5%, maximum xylanase activity of 28.98 +/- 1.73 U/ml was achieved. (C) 2008 Elsevier B.V. All rights reserved.
+AD  - Natl Chem Lab, Chem Engn & Proc Dev Div, Pune 411008, Maharashtra, IndiaAD  - Univ Inst Chem Technol, Dept Food Engn & Technol, Bombay 400019, Maharashtra, IndiaAD  - Tata Res Dev & Design Ctr, Syst Res Lab, Pune 411013, Maharashtra, IndiaC3  - Council of Scientific & Industrial Research (CSIR) - IndiaC3  - CSIR - National Chemical Laboratory (NCL)C3  - Institute of Chemical Technology - MumbaiPU  - ELSEVIER SCIENCE BV
+PI  - AMSTERDAM
+PA  - PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN  - 1369-703X
+SN  - 1873-295X
+J9  - BIOCHEM ENG J
+JI  - Biochem. Eng. J.
+DA  - JUN 1
+PY  - 2008
+VL  - 40
+IS  - 2
+SP  - 348
+EP  - 356
+DO  - 10.1016/j.bej.2008.01.003
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000257228100019
+N1  - Times Cited in Web of Science Core Collection:  12
+Total Times Cited:  16
+Cited Reference Count:  29
+ER  -
+
+TY  - JOUR
+AU  - Joshi, S
+AU  - Bajpai, S
+AU  - Jana, S
+TI  - Application of ANN and RSM on fluoride removal using chemically activated D. sissoo sawdust
+T2  - ENVIRONMENTAL SCIENCE AND POLLUTION RESEARCH
+LA  - English
+KW  - D
+KW  - sissoo sawdust
+KW  - Zeta potential
+KW  - RSM optimization
+KW  - ANN
+KW  - Regeneration
+KW  - ARTIFICIAL NEURAL-NETWORK
+KW  - RESPONSE-SURFACE METHODOLOGY
+KW  - AQUEOUS-SOLUTION
+KW  - WASTE-WATER
+KW  - COAGULATION PROCESS
+KW  - SUGARCANE BAGASSE
+KW  - GENETIC ALGORITHM
+KW  - OPTIMIZATION
+KW  - ADSORPTION
+KW  - CARBON
+AB  - Response surface methodology (RSM) and artificial neural network (ANN) were used to generate a model for the optimization of fluoride removal using chemically activated Dalbergia sissoo sawdust (CADS). The single and collective effects of process parameters, i.e., solution pH, CADS dose, initial fluoride concentration, and contact time, were studied. The point of zero charge was found to be 4.2 with zeta potential analysis. In the first phase, a single-parameter study was performed to reveal dependency of fluoride removal on a particular process parameter. Positive effects of increment in CADS dose and contact time and negative effects of solution pH and initial fluoride concentration were observed. The second phase included RSM in which analysis of variance (ANOVA) was applied to test the feasibility of the mathematical model. The F value 1.91, R-2 value 0.87, and P value 0.11 show significance of the proposed model. Results obtained from the experiment set for central composite design (CCD) were used to predict the ANN response. Reasonable acceptable values of regression for training, test, and validation (0.76, 0.93, and 0.37) represent the suitability of the model. The ANN predicted 22.1% fluoride removal, which was close to the actual value (20.1%) and was comparable with CCD prediction (25.0%). BET surface area of CADS was found to be 76.33 m(2)/g. FTIR was performed to recognize the functional groups available for fluoride binding while SEM and EDX were conducted to ensure the changes in adsorbent surface morphology. Regeneration of CADS was feasible using an alkali medium. This study shows that CADS can be used for fluoride removal from aqueous stream in an efficient way.
+AD  - Banasthali Vidyapith, Dept Chem Engn, Banasthali, Rajasthan, IndiaAD  - Dr BR Ambedkar NIT Jalandhar, Jalandhar, Punjab, IndiaC3  - Banasthali VidyapithC3  - National Institute of Technology (NIT System)C3  - Dr B R Ambedkar National Institute of Technology JalandharPU  - SPRINGER HEIDELBERG
+PI  - HEIDELBERG
+PA  - TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN  - 0944-1344
+SN  - 1614-7499
+J9  - ENVIRON SCI POLLUT R
+JI  - Environ. Sci. Pollut. Res.
+DA  - MAY
+PY  - 2020
+VL  - 27
+IS  - 15
+SP  - 17717
+EP  - 17729
+DO  - 10.1007/s11356-020-08153-0
+C6  - MAR 2020
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000519502100013
+N1  - Times Cited in Web of Science Core Collection:  28
+Total Times Cited:  34
+Cited Reference Count:  62
+ER  -
+
+TY  - JOUR
+AU  - Petroli, G
+AU  - de Leon, VB
+AU  - Di Domenico, M
+AU  - de Souza, FB
+AU  - Brusamarello, CZ
+TI  - Application of artificial neural networks and Langmuir and Freundlich isotherm models to the removal of textile dye using biosorbents: A comparative study among methodologies
+T2  - CANADIAN JOURNAL OF CHEMICAL ENGINEERING
+LA  - English
+KW  - adsorption kinetics
+KW  - Elman network
+KW  - feed-forward network
+KW  - isotherm models
+KW  - Neolan Black WA
+KW  - ALGORITHM-BASED OPTIMIZATION
+KW  - AQUEOUS-SOLUTION
+KW  - ACTIVATED CARBON
+KW  - GENETIC ALGORITHM
+KW  - METHYLENE-BLUE
+KW  - SUNSET YELLOW
+KW  - REACTIVE DYE
+KW  - ADSORPTION
+KW  - BIOSORPTION
+KW  - ORANGE
+AB  - Adsorption isotherms are valuable tools for describing the interaction between adsorbate and adsorbent since they demonstrate the equilibrium relationship. The Langmuir and Freundlich models are the most commonly used isotherm models to describe these relationships; still, they cannot consistently deliver efficient results due to the assumptions of the model not predicting more complex situations as occurs in biosorption. Artificial neural networks (ANN) are a set of algorithms modelled loosely after the human brain and are designed to recognize patterns. The ANN tool can overcome problems isotherm models have in describing the interactions mentioned and help define the best conditions for a given adsorption process. This paper reports the application of ANNs for predicting the removal efficiency of textile dye Neolan Black WA (Acid Black 52) using orange peel and sugarcane bagasse as biosorbents. The Freundlich, Langmuir, pseudo-first-order, and pseudo-second-order models were applied and compared to the ANN model. The parameters evaluated were initial dye concentration (10-600 mg/L), final dye concentration (0-83.44 mg/L), biosorbent mass (1.5 g), pH (2), and contact time of dye (0.167-24 h). Two classes of ANNs, Elman and feed-forward networks, were tested with a mean square error of 0.0212 and 0.7274 for the isotherm and kinetics, respectively. Compared to the conventional isotherm and kinetic models, the Elman network predicted the amount adsorbed by the biosorbents with higher precision, acquiring a determination coefficient of 0.9998 and a mean square error of 8.75 x 10-5.
+   ANN models displayed good potential to successfully describe the interaction between adsorbate and adsorbent and assess the efficiency of the analyzed biosorbent. image
+AD  - Univ Tecnol Fed Parana UTFPR, Dept Acad Engn DAENG, Campus Francisco Beltrao,Linha Santa Barbara S-N, BR-85601970 Francisco Beltrao, PR, BrazilAD  - Univ Tecnol Fed Parana UTFPR, Programa Posgrad Engn Ambiental Anal & Tecnol Amb, Campus Francisco Beltrao, Francisco Beltrao, BrazilC3  - Universidade Tecnologica Federal do ParanaC3  - Universidade Tecnologica Federal do ParanaFU  - UTFPR
+FX  - The authors gratefully acknowledge the financial support from UTFPR. This research was conducted using the UTFPR Francisco Beltr & atilde;o Campus facilities.
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 0008-4034
+SN  - 1939-019X
+J9  - CAN J CHEM ENG
+JI  - Can. J. Chem. Eng.
+DA  - MAR
+PY  - 2025
+VL  - 103
+IS  - 3
+SP  - 1169
+EP  - 1182
+DO  - 10.1002/cjce.25271
+C6  - APR 2024
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001201749100001
+N1  - Times Cited in Web of Science Core Collection:  9
+Total Times Cited:  10
+Cited Reference Count:  70
+ER  -
+
