@@ -4,6 +4,7 @@
 **Autores:** Abraham Castillo (ORCID 0000-0001-6033-617X); D. Barreto (ORCID 0000-0002-0134-1291). Escuela de Posgrado, Universidad Nacional de Ingeniería, Lima, Perú.
 **Tipo de estudio:** revisión de alcance (PRISMA-ScR) con componente bibliométrico.
 **Repositorio de código y datos:** https://github.com/acastillo1975/rsl-ph-azucarera
+**English version:** `PROTOCOL_OSF_en.md` (same content and figures).
 
 ## 0. Declaración de registro retrospectivo
 
